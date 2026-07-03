@@ -2,70 +2,46 @@
 
 This document defines the stable shared-memory format for `LLM Midday Brief` and `LLM Night Lite`.
 
-## Files
+## Current storage model
+
+The ledger now uses sharded small files to avoid connector output limits and unsafe full-file rewrites.
 
 | Path | Role |
 |---|---|
-| `state/llm-news-seen.jsonl` | Canonical machine-readable duplicate ledger. One JSON object per line. |
+| `topics/**/*.json` | Canonical per-topic records. One small JSON file per canonical story. |
+| `runs/**/*.jsonl` | Per-run event logs. Small append-style files created per scheduled run. |
+| `state/llm-news-ledger-manifest.json` | Storage-mode manifest and path contract. |
 | `state/llm-news-ledger.md` | Human-readable summary and policy file. |
-| `state/llm-news-ledger-template.md` | This schema and update contract. |
+| `state/llm-news-seen.jsonl` | Legacy bootstrap/import seed. Do not full-fetch or rewrite from scheduled runs. |
 | `okf/` | Open Knowledge Format companion bundle for agent editing rules and scheduled-run behavior. |
-
-## Agent orientation
-
-Before editing this repository, agents should read `AGENTS.md` and `okf/index.md`.
-
-The OKF bundle is documentation and operating context. It does not replace this JSONL schema and must not be used to rewrite `state/llm-news-seen.jsonl` into Markdown.
 
 ## Non-negotiable rules
 
-1. Preserve JSONL validity.
+1. Preserve JSON and JSONL validity.
 2. Preserve all existing records unless the user explicitly requests cleanup.
 3. Do not change field names.
 4. Do not localize JSON keys.
-5. Do not put Markdown fences inside `llm-news-seen.jsonl`.
-6. Do not convert JSONL into a Markdown table.
-7. Do not claim ledger-based duplicate checking succeeded when the ledger could not be fetched or parsed.
-8. When reusing a known topic, require a concrete `前回からの差分:` sentence.
-9. If no hard delta exists, classify the topic as `DUPLICATE` or `ONGOING_NO_NEWS`.
+5. Do not convert JSON/JSONL into Markdown tables or fenced code blocks.
+6. Do not claim ledger-based duplicate checking succeeded when required files could not be fetched or parsed.
+7. When reusing a known topic, require a concrete `前回からの差分:` sentence.
+8. If no hard delta exists, classify the topic as `DUPLICATE` or `ONGOING_NO_NEWS`.
+9. Do not rewrite `state/llm-news-seen.jsonl` from scheduled runs.
 10. If writeback fails, still produce the news report but clearly state `LEDGER_WRITE_FAILED`.
 
-## JSONL record types
+## Topic record schema
 
-### Meta record
-
-Exactly one meta record should exist near the top.
-
-```json
-{
-  "record_type": "meta",
-  "schema_version": 1,
-  "ledger_name": "LLM News Shared Ledger",
-  "created_jst": "YYYY-MM-DDTHH:mm:ss+09:00",
-  "updated_jst": "YYYY-MM-DDTHH:mm:ss+09:00",
-  "repository": "4i7/LLM-News-Memo",
-  "ledger_md_path": "state/llm-news-ledger.md",
-  "seen_jsonl_path": "state/llm-news-seen.jsonl",
-  "template_path": "state/llm-news-ledger-template.md",
-  "purpose": "Shared duplicate-control ledger for LLM Midday Brief and LLM Night Lite scheduled reports.",
-  "seed_limitations": "..."
-}
-```
-
-### Topic record
-
-Use one topic record per canonical story. A story remains the same story even if a different media outlet, X thread, Reddit post, HN discussion, benchmark screenshot, or summary article discusses it.
+Each topic file is a single JSON object.
 
 ```json
 {
   "record_type": "topic",
-  "schema_version": 1,
+  "schema_version": 2,
   "topic_key": "organization/product/event-type/YYYY-MM-DD",
   "canonical_title": "Short stable title",
   "aliases": ["alias 1", "alias 2"],
   "organizations": ["Organization"],
   "products": ["Product"],
-  "event_type": "model_release|availability_restore|pricing|benchmark|tooling_model_integration|policy_corporate|safety_security_report|outage|rumor|other",
+  "event_type": "model_release|availability_restore|pricing|benchmark|tooling_model_integration|policy_corporate|safety_security_report|science_life_sciences_follow_up|outage|rumor|other",
   "first_seen_jst": "YYYY-MM-DDTHH:mm:ss+09:00",
   "last_seen_jst": "YYYY-MM-DDTHH:mm:ss+09:00",
   "last_report": "LLM Midday Brief|LLM Night Lite",
@@ -74,8 +50,25 @@ Use one topic record per canonical story. A story remains the same story even if
   "known_facts": ["Fact already covered."],
   "reinclude_only_if": ["Hard-delta condition."],
   "sources": ["https://..."],
-  "seed_basis": "scheduled_run|available_task_history_summary|manual_user_instruction",
+  "seed_basis": "scheduled_run|available_task_history_summary|manual_recovery_from_failed_scheduled_run|manual_user_instruction",
   "confidence": 0.0,
+  "notes": ""
+}
+```
+
+## Run event schema
+
+Each run event file is JSONL. Each non-empty line is one JSON object.
+
+```json
+{
+  "record_type": "run_event",
+  "schema_version": 2,
+  "run_name": "LLM Midday Brief|LLM Night Lite",
+  "run_time_jst": "YYYY-MM-DDTHH:mm:ss+09:00",
+  "classification": "NEW|FOLLOW_UP|DUPLICATE|ONGOING_NO_NEWS|UNCONFIRMED_SIGNAL",
+  "topic_key": "organization/product/event-type/YYYY-MM-DD",
+  "topic_record_path": "topics/...json",
   "notes": ""
 }
 ```
@@ -90,19 +83,11 @@ Recommended form:
 organization/product-or-model/event-type/YYYY-MM-DD
 ```
 
-Examples:
-
-```text
-anthropic/fable-5/global-restore/2026-07-01
-github/copilot/kimi-k2.7-code-browser-tools-credit-limits/2026-07-02
-huggingface/metacognition-benchmark/2026-07-02
-```
-
 ## Candidate classification rules
 
 | Classification | Meaning | Main report eligibility |
 |---|---|---|
-| `NEW` | No matching topic or alias exists in ledger. | Eligible |
+| `NEW` | No matching topic or alias exists in sharded state. | Eligible |
 | `FOLLOW_UP` | Matching known topic exists, but there is a hard delta. | Eligible only with `続報:` and `前回からの差分:` |
 | `DUPLICATE` | Same topic, no hard delta. | Not eligible |
 | `ONGOING_NO_NEWS` | Still discussed, but no new factual development. | Not eligible except compact watch log |
@@ -130,24 +115,17 @@ Not a hard delta by itself:
 
 Before emitting the final scheduled report:
 
-1. Re-fetch `state/llm-news-seen.jsonl` immediately before writeback, so the latest blob SHA is used.
-2. Merge new or updated topic records.
-3. Preserve every existing record and field unless intentionally updating:
-   - `last_seen_jst`
-   - `last_report`
-   - `coverage_status`
-   - `known_facts`
-   - `reinclude_only_if`
-   - `sources`
-   - `notes`
-4. Update the meta record's `updated_jst`.
-5. Write the complete JSONL file back to GitHub.
-6. Update `state/llm-news-ledger.md` only as a human-readable summary.
-7. If there is a SHA conflict, re-fetch, merge again, and retry once.
+1. Search for matching topic files under `topics/**/*.json`.
+2. Fetch and update only the relevant topic file for a `FOLLOW_UP`.
+3. Create one topic file for a `NEW` story.
+4. Create one small run event JSONL file under `runs/YYYY-MM-DD/`.
+5. Optionally update `state/llm-news-ledger.md` as a compact human summary.
+6. Do not full-fetch, append to, or rewrite `state/llm-news-seen.jsonl`.
+7. If a SHA conflict occurs on a topic file, re-fetch, merge again, and retry once.
 8. If writeback still fails, state `LEDGER_WRITE_FAILED` in the final report.
 
 ## Maintenance principle
 
 This ledger is not a news archive. It is a deduplication and treatment-control layer.
 
-Keep records short, stable, and operational.
+Keep records short, stable, sharded, and operational.
