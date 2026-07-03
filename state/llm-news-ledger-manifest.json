@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "storage_mode": "sharded_topic_records",
+  "repository": "4i7/LLM-News-Memo",
+  "canonical_duplicate_state": [
+    "topics/**/*.json",
+    "runs/**/*.jsonl"
+  ],
+  "legacy_bootstrap_seed": "state/llm-news-seen.jsonl",
+  "legacy_bootstrap_policy": "Do not full-fetch or rewrite this file during scheduled runs. Use GitHub search or bounded line fetch only when needed for legacy imported topics.",
+  "topic_record_path_template": "topics/<topic_key>.json",
+  "run_event_path_template": "runs/YYYY-MM-DD/<run-name>-<slug>.jsonl",
+  "human_summary": "state/llm-news-ledger.md",
+  "schema_contract": "state/llm-news-ledger-template.md",
+  "okf_entrypoint": "okf/index.md",
+  "writeback_rule": "Scheduled runs must create or update small topic files and create a small run-event file. They must not rewrite the monolithic legacy JSONL.",
+  "forbidden_repositories": ["4i7/knowledge-distiller"],
+  "updated_jst": "2026-07-03T15:20:00+09:00"
+}
