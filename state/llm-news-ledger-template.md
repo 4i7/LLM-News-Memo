@@ -9,6 +9,13 @@ This document defines the stable shared-memory format for `LLM Midday Brief` and
 | `state/llm-news-seen.jsonl` | Canonical machine-readable duplicate ledger. One JSON object per line. |
 | `state/llm-news-ledger.md` | Human-readable summary and policy file. |
 | `state/llm-news-ledger-template.md` | This schema and update contract. |
+| `okf/` | Open Knowledge Format companion bundle for agent editing rules and scheduled-run behavior. |
+
+## Agent orientation
+
+Before editing this repository, agents should read `AGENTS.md` and `okf/index.md`.
+
+The OKF bundle is documentation and operating context. It does not replace this JSONL schema and must not be used to rewrite `state/llm-news-seen.jsonl` into Markdown.
 
 ## Non-negotiable rules
 
