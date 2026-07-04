@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-code/china-access-restrictions-alibaba-ban/2026-07-04",
+  "canonical_title": "Anthropic China access restrictions and Alibaba Claude Code ban",
+  "aliases": [
+    "Alibaba bans Claude Code",
+    "Claude Code China access restrictions",
+    "Anthropic blocks Chinese access to Claude",
+    "Claude Code Qoder Alibaba",
+    "Anthropic Alibaba distillation dispute"
+  ],
+  "organizations": ["Anthropic", "Alibaba", "Ant Financial", "ByteDance"],
+  "products": ["Claude Code", "Claude", "Qoder"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-04T12:00:00+09:00",
+  "last_seen_jst": "2026-07-04T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a geopolitical and enterprise-policy follow-up around Claude Code, access enforcement, and model-output distillation. Do not repeat unless Anthropic, Alibaba, Microsoft, or a credible outlet reports a concrete enforcement, product, legal, or availability change.",
+  "known_facts": [
+    "Reuters reported on 2026-07-03 that Alibaba will ban employees from using Claude Code over alleged backdoor or user-identification risks and direct staff toward Qoder.",
+    "The Financial Times reported on 2026-07-04 that Anthropic is tightening enforcement against Chinese companies accessing Claude through overseas subsidiaries, cloud networks, and other workaround methods.",
+    "The reports connect the issue to Anthropic's broader allegations about unauthorized Claude capability extraction or distillation involving Alibaba-linked activity."
+  ],
+  "reinclude_only_if": [
+    "Anthropic publishes an official policy, technical enforcement note, or product change related to China access or Claude Code telemetry/enforcement.",
+    "Alibaba publicly confirms, denies, modifies, or expands the Claude Code ban.",
+    "Microsoft, cloud partners, or regulators take a concrete enforcement or compliance action.",
+    "Credible reporting adds specific technical evidence about telemetry, environment checks, distillation, Qoder substitution, or enterprise security impact."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+    "https://www.ft.com/content/ad033063-60f9-4c0c-8d8a-9193a83e6f60",
+    "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.82,
+  "notes": "Selected in the 2026-07-04 LLM Midday Brief as the main new hard-delta item since the prior night run. Reuters and FT reports should be treated as credible but not equivalent to official confirmation from Alibaba or Anthropic on all details."
+}
