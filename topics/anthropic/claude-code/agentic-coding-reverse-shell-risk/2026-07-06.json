@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-code/agentic-coding-reverse-shell-risk/2026-07-06",
+  "canonical_title": "Claude Code agentic coding reverse-shell risk via indirect instructions",
+  "aliases": [
+    "Claude Code reverse shell",
+    "Mozilla 0din Claude Code exploit",
+    "agentic coding tools reverse shell",
+    "Claude Code DNS TXT malware",
+    "AI coding agent clean repository malware"
+  ],
+  "organizations": ["Anthropic", "Mozilla 0din"],
+  "products": ["Claude Code"],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-07-06T12:01:33+09:00",
+  "last_seen_jst": "2026-07-06T12:01:33+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as an agentic coding security issue around indirect prompt/tool execution risk. Do not repeat unless Anthropic, Mozilla 0din, or a credible security outlet publishes a concrete mitigation, patch, CVE-style advisory, default behavior change, or additional reproducible class of exploit. Avoid operational exploit details in user-facing reports.",
+  "known_facts": [
+    "Security reporting attributed to Mozilla's 0din team described a proof-of-concept in which an agentic coding assistant could be induced to execute harmful behavior through apparently routine project setup instructions and indirect runtime data.",
+    "The practical issue is not a conventional malicious file signature but the agent's willingness to follow troubleshooting/setup instructions across shell, package, and network boundaries.",
+    "The finding is relevant to Claude Code and comparable agentic coding tools that can read repositories, run commands, and troubleshoot errors autonomously."
+  ],
+  "reinclude_only_if": [
+    "Anthropic publishes a Claude Code mitigation, permission model change, sandbox change, or advisory.",
+    "Mozilla 0din or another credible security group publishes a new reproducible variant or broader class analysis.",
+    "Enterprise security tools, package managers, or coding-agent platforms introduce concrete detection or blocking behavior.",
+    "A credible report shows real-world exploitation rather than proof-of-concept behavior."
+  ],
+  "sources": [
+    "https://www.techradar.com/pro/security/agentic-coding-tools-have-access-to-everything-they-need-for-this-security-experts-warn-claude-code-can-be-exploited-simply-by-trying-to-be-helpful",
+    "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.74,
+  "notes": "Selected because no matching sharded topic was found and the issue is practically relevant to agentic coding workflows. The source set is secondary reporting rather than an Anthropic official advisory, so confidence remains below official-confirmed level. User-facing coverage should remain high-level and avoid step-by-step exploit replication."
+}
