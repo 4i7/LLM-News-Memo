@@ -1,0 +1,50 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "future-of-life-institute/ai-safety-index/safety-pledges-retreat/2026-07-07",
+  "canonical_title": "Future of Life Institute AI Safety Index says major AI companies weakened safety pledges",
+  "aliases": [
+    "AI Safety Index safety pledges retreat",
+    "Future of Life Institute AI Safety Index 2026",
+    "AI companies retreat from safety pledges",
+    "FLI AI Safety Index Anthropic OpenAI Google DeepMind Meta"
+  ],
+  "organizations": [
+    "Future of Life Institute",
+    "Anthropic",
+    "OpenAI",
+    "Google DeepMind",
+    "Meta",
+    "Mistral",
+    "xAI",
+    "DeepSeek"
+  ],
+  "products": [
+    "AI Safety Index"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-07-07T23:31:00+09:00",
+  "last_seen_jst": "2026-07-07T23:31:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a safety-governance report, not as a model release. Reinclude only if FLI publishes materially revised scores, a named lab issues a substantive response or policy change, regulators cite the report, or new evidence changes interpretation of voluntary safety frameworks.",
+  "known_facts": [
+    "Axios reported on 2026-07-07 that the Future of Life Institute's latest AI Safety Index says major AI companies have weakened key safety commitments even as capabilities grow.",
+    "Axios reported that Anthropic ranked first but received only C+ overall, while OpenAI and Google DeepMind received C grades.",
+    "The report says Anthropic, OpenAI, Google DeepMind and Meta weakened or eliminated earlier commitments to pause development if systems approached specified danger thresholds.",
+    "Axios noted that existential safety was the weakest category across the industry and that Mistral criticized the index as penalizing open-weight approaches."
+  ],
+  "reinclude_only_if": [
+    "FLI releases a materially revised AI Safety Index scorecard or methodology.",
+    "Anthropic, OpenAI, Google DeepMind, Meta, Mistral, xAI, DeepSeek, or another evaluated lab publishes a substantive response or policy change.",
+    "A regulator, standards body, or government proceeding cites the report as evidence for a concrete policy action.",
+    "New evidence appears about removal or restoration of pause-threshold commitments, model release gates, or existential-safety controls."
+  ],
+  "sources": [
+    "https://www.axios.com/2026/07/07/report-ai-safety-pledges",
+    "https://www.theguardian.com/technology/2026/jul/07/ai-models-doing-things-their-creators-never-intended"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.78,
+  "notes": "Added from LLM Night Lite after the 2026-07-07 midday brief. Primary source located via Axios report; official FLI page was not retrieved in this run, so confidence remains below high."
+}
