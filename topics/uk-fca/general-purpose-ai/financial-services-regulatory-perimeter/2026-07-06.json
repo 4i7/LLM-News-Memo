@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "uk-fca/general-purpose-ai/financial-services-regulatory-perimeter/2026-07-06",
+  "canonical_title": "UK FCA review urges considering regulation of general-purpose AI models in financial services",
+  "aliases": [
+    "FCA regulate ChatGPT Claude Gemini financial advice",
+    "Sheldon Mills AI financial services review",
+    "UK financial regulator general-purpose AI tools",
+    "ChatGPT Claude Gemini consumer financial decisions"
+  ],
+  "organizations": ["Financial Conduct Authority", "OpenAI", "Anthropic", "Google"],
+  "products": ["ChatGPT", "Claude", "Gemini"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-07T12:00:00+09:00",
+  "last_seen_jst": "2026-07-07T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as UK financial-services AI regulation watch. Do not repeat unless FCA, UK government, Bank of England, or another primary regulator announces concrete perimeter changes, model-testing requirements, enforcement, consultation, or binding rules for general-purpose AI tools used in financial advice or customer-facing financial services.",
+  "known_facts": [
+    "Reuters reported on 2026-07-06 that FCA executive director Sheldon Mills said Britain should review whether large language models such as ChatGPT, Claude, and Gemini should be regulated as general-purpose AI tools as they influence consumer financial decisions.",
+    "The Reuters report said the review found more than a quarter of UK consumers trust ChatGPT, Claude, and Gemini for financial advice despite limited awareness that regulated financial-services protections do not extend to those services.",
+    "The report highlighted concentration risk from financial firms relying on a small number of model, cloud, or technology providers for critical operational capabilities.",
+    "No immediate binding rule, enforcement action, or company-specific product change was reported at first coverage."
+  ],
+  "reinclude_only_if": [
+    "The FCA or UK government opens a formal consultation or announces concrete regulatory perimeter changes for general-purpose AI models.",
+    "Binding requirements are proposed or adopted for model testing, financial advice boundaries, critical third-party oversight, or customer-facing AI in financial services.",
+    "OpenAI, Anthropic, Google, banks, or cloud providers make a material policy, product, or access-control change in response.",
+    "A credible source reports enforcement, supervisory action, or a significant correction to the FCA review interpretation."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/britain-should-consider-regulating-ai-models-fca-official-says-2026-07-06/",
+    "https://www.reuters.com/legal/litigation/financial-services-ai-dangers-highlighted-by-regulators-review-2026-07-06/",
+    "https://www.theguardian.com/business/2026/jul/06/boost-city-regulators-powers-protect-uk-consumers-ai-cyber-crime-fraud-watchdog"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.86,
+  "notes": "Midday delta item because it turns frontier/general-purpose AI tools from consumer productivity products into a financial regulatory perimeter question. Coverage is policy-directional, not a binding rule yet."
+}
