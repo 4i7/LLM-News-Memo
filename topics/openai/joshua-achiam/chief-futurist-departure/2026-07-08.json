@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/joshua-achiam/chief-futurist-departure/2026-07-08",
+  "canonical_title": "OpenAI Chief Futurist Joshua Achiam departure",
+  "aliases": [
+    "Joshua Achiam leaving OpenAI",
+    "OpenAI chief futurist leaves",
+    "OpenAI mission alignment safety departure",
+    "Joshua Achiam chief futurist"
+  ],
+  "organizations": ["OpenAI"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-08T12:00:00+09:00",
+  "last_seen_jst": "2026-07-08T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a governance and safety-org personnel signal, not a model release. Reinclude only if OpenAI confirms organizational changes, Achiam launches or joins a safety/governance organization, additional senior safety departures occur, or this materially affects OpenAI safety policy, model release governance, or strategic futures leadership.",
+  "known_facts": [
+    "Wired reported on 2026-07-08 that OpenAI Chief Futurist Joshua Achiam is leaving later in July after nearly nine years at the company.",
+    "The report says Achiam previously led safety and mission-alignment work and helped advocate government policies aligned with OpenAI's mission.",
+    "Wired reported that OpenAI's mission alignment team, formed in 2024, was disbanded in early 2026.",
+    "The departure follows other safety-focused exits from OpenAI, including Jan Leike, Miles Brundage, Steven Adler, and Andrea Vallone, according to the report.",
+    "Dean Ball, a former White House AI adviser, recently joined OpenAI as head of strategic futures and will briefly overlap with Achiam."
+  ],
+  "reinclude_only_if": [
+    "OpenAI publishes an official statement or organizational update about the Chief Futurist or strategic futures function.",
+    "Joshua Achiam announces a new safety, governance, policy, or research organization.",
+    "Additional senior safety or mission-alignment departures occur and materially change the pattern.",
+    "The departure is linked by credible reporting to model release governance, safety framework changes, or policy commitments.",
+    "OpenAI changes its safety or strategic futures structure in a way that affects deployment, preparedness, or external oversight."
+  ],
+  "sources": [
+    "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.78,
+  "notes": "Adopted as a midday delta after the 2026-07-07 Night Lite FLI AI Safety Index item. This is related to the broader frontier-lab safety governance theme but is a distinct OpenAI personnel and governance signal."
+}
