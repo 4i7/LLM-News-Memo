@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/gpt-5-6/broad-public-rollout-after-government-review/2026-07-08",
+  "canonical_title": "OpenAI GPT-5.6 broad public rollout after U.S. government review",
+  "aliases": [
+    "GPT-5.6 broad rollout",
+    "GPT-5.6 Sol Terra Luna public launch",
+    "OpenAI GPT-5.6 government review",
+    "OpenAI GPT-5.6 delayed rollout lifted",
+    "GPT-5.6 Thursday public launch"
+  ],
+  "organizations": ["OpenAI", "U.S. Department of Commerce", "White House"],
+  "products": ["GPT-5.6 Sol", "GPT-5.6 Terra", "GPT-5.6 Luna", "ChatGPT", "OpenAI API"],
+  "event_type": "model_release_policy_availability",
+  "first_seen_jst": "2026-07-08T23:31:39+09:00",
+  "last_seen_jst": "2026-07-08T23:31:39+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a model availability and policy-governance topic. Reinclude only if OpenAI publishes final availability/pricing/API docs, the public rollout is delayed or restricted again, Commerce/White House issues a binding rule or correction, third-party evals reveal material capability/safety results, or GPT-5.6 Sol/Terra/Luna materially change coding, bio, cybersecurity, agentic, cost, or access assumptions.",
+  "known_facts": [
+    "Reuters reported on 2026-07-08 that OpenAI will publicly launch GPT-5.6 on Thursday after a June delay requested by the U.S. government over national-security concerns.",
+    "Axios reported that a broad launch followed additional testing and meetings between OpenAI and government officials, while a White House official said no approval or clearance is legally required.",
+    "The family includes GPT-5.6 Sol as the flagship model and lower-cost Terra and Luna variants.",
+    "Reuters and Business Insider reported that OpenAI positioned Sol around improved agentic capabilities in coding, biology, and cybersecurity.",
+    "The story is part of a broader pattern where frontier-model availability is being negotiated through voluntary government testing and release governance rather than purely product-led rollout."
+  ],
+  "reinclude_only_if": [
+    "OpenAI publishes official release notes, model cards, API pricing, availability tiers, or ChatGPT plan access details for GPT-5.6 Sol/Terra/Luna.",
+    "The public rollout is delayed, region-restricted, export-restricted, or otherwise materially changed after this report.",
+    "U.S. Department of Commerce, White House, or other government body issues a binding rule, denial, correction, or enforcement action about GPT-5.6 or frontier model pre-release testing.",
+    "Credible third-party benchmarks or safety evaluations show material capability or risk changes in coding, biology, cybersecurity, agentic workflows, or jailbreak robustness.",
+    "OpenAI confirms or changes safeguards, dangerous capability thresholds, or government-review workflow for future frontier models."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/openai-gets-us-approval-broad-gpt-56-rollout-axios-reports-2026-07-08/",
+    "https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted",
+    "https://www.businessinsider.com/openai-sol-terra-luna-gpt56-grok-elon-musk-sam-altman-2026-7",
+    "https://www.reuters.com/legal/litigation/openai-defers-public-rollout-gpt56-us-seeks-early-access-frontier-ai-models-2026-06-26/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.86,
+  "notes": "Adopted as the 2026-07-08 Night Lite delta after the midday Joshua Achiam departure item. This is a separate OpenAI model availability and frontier-model governance story, not a personnel-governance repeat."
+}
