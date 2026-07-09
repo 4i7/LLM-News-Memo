@@ -1,0 +1,41 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "china/ai-models/foreign-access-restrictions-silicon-curtain/2026-07-09",
+  "canonical_title": "China weighs restrictions on foreign access to advanced AI models",
+  "aliases": [
+    "China silicon curtain AI models",
+    "China restricting foreign access to AI models",
+    "Chinese open-source AI export controls",
+    "foreign access restrictions Chinese AI models",
+    "DeepSeek Z.ai GLM-5.2 access restriction risk"
+  ],
+  "organizations": ["China", "DeepSeek", "Z.ai", "Alibaba", "Hugging Face"],
+  "products": ["Chinese open-source AI models", "GLM-5.2"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-09T12:01:58+09:00",
+  "last_seen_jst": "2026-07-09T12:01:58+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a China AI-model access and open-weights geopolitics topic. Reinclude only if Chinese authorities publish a binding rule, specific controls on open-weight/API/model-card distribution appear, DeepSeek/Z.ai/Alibaba/Hugging Face availability changes, or credible reporting adds concrete implementation details.",
+  "known_facts": [
+    "Reuters reported on 2026-07-08 that Chinese authorities are considering restricting foreign access to advanced Chinese AI technologies, potentially including open-source models.",
+    "The report frames the move as a possible counterpart to U.S. scrutiny and restrictions on advanced frontier model releases.",
+    "Chinese models are widely used by foreign developers and researchers because of strong coding/agent performance and lower cost, so access restrictions could materially affect Western startups and open-model users.",
+    "The reported discussion is not yet a published binding rule, and concrete implementation details remain unconfirmed."
+  ],
+  "reinclude_only_if": [
+    "China publishes official regulation, ministry guidance, licensing requirements, export controls, API restrictions, repository restrictions, or model-weight distribution limits.",
+    "DeepSeek, Z.ai, Alibaba/Qwen, ModelScope, Hugging Face, or major cloud/API providers materially change access to Chinese frontier or open-weight models.",
+    "Credible reporting identifies specific models, thresholds, enforcement bodies, or implementation timelines.",
+    "Western companies or open-source infrastructure providers report disruption, migration, mirroring, or compliance actions caused by Chinese model-access controls.",
+    "A major Chinese lab changes license terms or withdraws weights/API access for geopolitical or regulatory reasons."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+    "https://www.businessinsider.com/distillation-problem-ai-industry-anthropic-openai-2026-7"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.78,
+  "notes": "Adopted as the 2026-07-09 Midday delta. This is separate from the prior OpenAI GPT-5.6 U.S. government-review topic and from Alibaba/Claude Code access restrictions because it concerns potential Chinese outbound controls on Chinese model access, including open-source/open-weight ecosystems."
+}
