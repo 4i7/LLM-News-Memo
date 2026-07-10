@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai-google/china-model-access/blacklisted-subsidiaries-export-control-loophole/2026-07-10",
+  "canonical_title": "OpenAI and Google AI services reached subsidiaries of US-blacklisted Chinese groups",
+  "aliases": [
+    "OpenAI Google blacklisted China groups",
+    "Alibaba Baidu Tencent Singapore subsidiaries AI access",
+    "AI software export control loophole",
+    "FT OpenAI Google China subsidiaries"
+  ],
+  "organizations": ["OpenAI", "Google", "Alibaba", "Baidu", "Tencent"],
+  "products": ["OpenAI API", "Google AI models"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-10T23:31:12+09:00",
+  "last_seen_jst": "2026-07-10T23:31:12+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a distinct export-control and access-governance story. Do not repeat unless a company, US agency, or affected Chinese group confirms new restrictions, enforcement, suspensions, legal changes, or materially clarifies which services and subsidiaries were involved.",
+  "known_facts": [
+    "Financial Times reported that OpenAI and Google supplied advanced AI services to Singapore-based subsidiaries of Alibaba, Baidu, and Tencent while the parent groups were on a US Defense Department blacklist.",
+    "The reported transactions were legal under the existing framework but exposed a gap between hardware export controls and controls on access to advanced AI software services.",
+    "The report said OpenAI suspended access for some Alibaba-linked users amid model-distillation concerns.",
+    "Anthropic has taken a stricter position by barring Chinese-controlled entities from using its models."
+  ],
+  "reinclude_only_if": [
+    "OpenAI or Google publishes a formal policy change or identifies affected accounts and services.",
+    "The US government changes export-control or blacklist enforcement rules for AI software or model access.",
+    "Alibaba, Baidu, Tencent, or their subsidiaries issue a material response.",
+    "Credible reporting establishes scale, dates, model names, revenue, or government involvement not previously known."
+  ],
+  "sources": [
+    "https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.82,
+  "notes": "Selected as a new night delta because it adds previously unknown factual reporting about legal access through overseas subsidiaries and an AI-software export-control gap."
+}
