@@ -1,0 +1,49 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "meta/muse-spark-1-1/developer-api-public-preview/2026-07-09",
+  "canonical_title": "Meta launches Muse Spark 1.1 and Meta Model API public preview",
+  "aliases": [
+    "Muse Spark 1.1",
+    "Meta Model API",
+    "Muse Spark developer API",
+    "Meta agentic coding model API"
+  ],
+  "organizations": [
+    "Meta",
+    "Meta Superintelligence Labs"
+  ],
+  "products": [
+    "Muse Spark 1.1",
+    "Meta Model API",
+    "Meta AI"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-07-10T12:01:56+09:00",
+  "last_seen_jst": "2026-07-10T12:01:56+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as Meta's paid developer-model/API entry and agentic coding model. Reinclude for wider geographic availability, pricing or license changes, independent evaluations, new model versions, or major deployment/safety changes.",
+  "known_facts": [
+    "Meta released Muse Spark 1.1 and opened the new Meta Model API in public preview for U.S. developers on 2026-07-09.",
+    "The model targets coding, debugging, tool use, multimodal perception, and long multi-step agentic workflows.",
+    "Reuters reported pricing of $1.25 per 1M input tokens and $4.25 per 1M output tokens, with $20 in initial credits.",
+    "The release is closed-weight and marks a developer monetization path distinct from Meta's historical open-weight Llama strategy.",
+    "Meta's evaluation report says the unmitigated model reaches High risk for Chemical & Biological capability and cannot rule out High for Cybersecurity; deployed mitigations reduce residual risk to moderate or lower.",
+    "Meta reports Cybench 92.9% pass@1 and recommends strict tool allowlists and workspace isolation for applications; these are vendor-reported results and controls."
+  ],
+  "reinclude_only_if": [
+    "Meta expands the API beyond U.S. preview, changes pricing, releases weights, or changes licensing.",
+    "Independent benchmarks materially confirm or contradict Meta's coding, agentic, multimodal, safety, or cost claims.",
+    "Meta releases a stronger Muse Spark version or changes the relationship between Muse and Llama.",
+    "A material safety incident, safeguard change, or evaluation correction emerges."
+  ],
+  "sources": [
+    "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+    "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report",
+    "https://www.reuters.com/business/meta-debuts-muse-spark-11-with-preview-open-developers-2026-07-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "New topic. GitHub search found no existing sharded record or legacy match for Muse Spark 1.1."
+}
