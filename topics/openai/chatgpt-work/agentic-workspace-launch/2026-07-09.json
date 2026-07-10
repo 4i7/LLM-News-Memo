@@ -1,0 +1,50 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/chatgpt-work/agentic-workspace-launch/2026-07-09",
+  "canonical_title": "OpenAI launches ChatGPT Work agentic workspace",
+  "aliases": [
+    "ChatGPT Work",
+    "ChatGPT Work launch",
+    "OpenAI Work agent",
+    "ChatGPT document spreadsheet presentation agent"
+  ],
+  "organizations": [
+    "OpenAI"
+  ],
+  "products": [
+    "ChatGPT Work",
+    "ChatGPT",
+    "Codex",
+    "GPT-5.6",
+    "Scheduled Tasks",
+    "Sites"
+  ],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-07-10T12:01:56+09:00",
+  "last_seen_jst": "2026-07-10T12:01:56+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a new ChatGPT product surface for long-running non-coding work. Reinclude only for major capability, plan, surface, connector, local-file, admin-control, or pricing changes.",
+  "known_facts": [
+    "OpenAI launched ChatGPT Work on 2026-07-09 as an agent for long-running tasks across connected apps and files.",
+    "It can research and analyze information and create editable documents, spreadsheets, presentations, reports, and Sites, with progress visibility, steering, questions, and approval gates.",
+    "Work supports one-time, recurring, trigger-based, and change-monitoring Scheduled Tasks.",
+    "On web and mobile it is rolling out to paid plans except Free and Go, with Pro, Pro Lite, Enterprise, and Edu first and Plus and Business following; availability and surface details vary during rollout.",
+    "The new desktop app combines Chat, Work, and Codex; desktop Work can use user-authorized local folders while web/mobile Work cannot directly access local computer files.",
+    "ChatGPT Work is powered by GPT-5.6 and incorporates Codex technology for non-software knowledge work."
+  ],
+  "reinclude_only_if": [
+    "OpenAI materially changes plan eligibility, pricing, limits, regional availability, or rollout order.",
+    "Work gains or loses major local-file, connected-app, document, spreadsheet, presentation, Sites, browser, desktop-control, or scheduled-task capabilities.",
+    "Material independent testing establishes reliability, safety, or productivity implications for long-running work."
+  ],
+  "sources": [
+    "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "New product-surface topic; distinct from the GPT-5.6 model-release topic."
+}
