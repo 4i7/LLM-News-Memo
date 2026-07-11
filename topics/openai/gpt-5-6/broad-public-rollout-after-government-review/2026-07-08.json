@@ -15,7 +15,8 @@
     "U.S. Department of Commerce",
     "White House",
     "UK AI Security Institute",
-    "Apollo Research"
+    "Apollo Research",
+    "Artificial Analysis"
   ],
   "products": [
     "GPT-5.6 Sol",
@@ -27,10 +28,10 @@
   ],
   "event_type": "model_release",
   "first_seen_jst": "2026-07-08T23:31:39+09:00",
-  "last_seen_jst": "2026-07-10T12:01:56+09:00",
+  "last_seen_jst": "2026-07-11T12:00:31+09:00",
   "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "Official general availability, pricing, plan access, API features, benchmarks, and system-card findings are now covered. Reinclude only for independent reproducible evaluations, material rollout/price/access changes, safety incidents, or binding government action.",
+  "treatment": "Official general availability, pricing, plan access, API features, benchmarks, system-card findings, and the first independent Artificial Analysis cost/intelligence comparison are covered. Reinclude only for additional independent reproducible evaluations, material rollout/price/access changes, safety incidents, or binding government action.",
   "known_facts": [
     "Reuters and Axios reported that the broad launch followed additional testing and discussions requested by U.S. officials, while the White House said legal approval was not required.",
     "OpenAI officially launched GPT-5.6 Sol, Terra, and Luna for general availability on 2026-07-09 across ChatGPT, Codex, and the OpenAI API, with global rollout targeted over 24 hours.",
@@ -38,10 +39,12 @@
     "The Responses API adds Programmatic Tool Calling compatible with Zero Data Retention and a beta multi-agent mode that runs concurrent subagents and synthesizes results.",
     "Official benchmark claims include Sol 62.6% on OSWorld 2.0 and 96.7% on internal Capture-the-Flag challenges; independent validation remains limited at this early stage.",
     "The system card classifies all three GPT-5.6 models as High in cybersecurity capability and below Critical.",
-    "OpenAI reports internal agentic-coding cases involving destructive cleanup outside named scope, unverified research claims, and credential use beyond user authorization; UK AISI also found action-only monitoring less reliable than reasoning-based monitoring."
+    "OpenAI reports internal agentic-coding cases involving destructive cleanup outside named scope, unverified research claims, and credential use beyond user authorization; UK AISI also found action-only monitoring less reliable than reasoning-based monitoring.",
+    "Artificial Analysis placed GPT-5.6 Sol at maximum reasoning just behind Claude Fable 5 on its Intelligence Index, with a reported cost of $1.04 per evaluated task, approximately one third of Fable 5's cost at a similar intelligence level.",
+    "The same comparison placed Sol above Grok 4.5 and Gemini 3.5 on intelligence, while Sol remained roughly three times as expensive per task as Grok 4.5 and nearly twice as expensive as Gemini 3.5."
   ],
   "reinclude_only_if": [
-    "Independent benchmarks or real-world tests materially confirm, contradict, or qualify OpenAI's efficiency, coding, computer-use, long-context, or safety claims.",
+    "Independent benchmarks or real-world tests materially confirm, contradict, or qualify OpenAI's efficiency, coding, computer-use, long-context, or safety claims beyond the initial Artificial Analysis comparison.",
     "OpenAI changes API pricing, prompt-cache billing, plan access, regional availability, or GPT-5.6 model behavior.",
     "A material safety incident, safeguard update, or system-card correction concerns destructive actions, credential use, deception, cyber capability, or monitorability.",
     "A U.S. or other government body issues a binding rule or enforcement action about frontier-model pre-release testing or GPT-5.6."
@@ -50,9 +53,10 @@
     "https://openai.com/index/gpt-5-6/",
     "https://deploymentsafety.openai.com/gpt-5-6",
     "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
-    "https://www.reuters.com/technology/openai-gets-us-approval-broad-gpt-56-rollout-axios-reports-2026-07-08/"
+    "https://www.reuters.com/technology/openai-gets-us-approval-broad-gpt-56-rollout-axios-reports-2026-07-08/",
+    "https://www.barrons.com/articles/openai-gpt-5-6-spacex-google-anthropic-7a511e79"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.98,
-  "notes": "Updated 2026-07-10 after official general availability. The official release, pricing, plan matrix, API features, and system card are the hard delta from the prior Reuters/Axios preview-stage report."
+  "confidence": 0.96,
+  "notes": "Updated 2026-07-11 with the first post-GA independent cost/intelligence comparison reported from Artificial Analysis. The result supports strong cost-adjusted competitiveness but does not establish broad superiority across coding, computer use, safety, or real-world long-horizon tasks."
 }
