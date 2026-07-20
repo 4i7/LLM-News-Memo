@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "moonshot-ai/kimi-k3/subscription-capacity-pause/2026-07-20",
+  "canonical_title": "Moonshot AI pauses new Kimi K3 subscriptions after demand strains compute capacity",
+  "aliases": [
+    "Kimi K3 subscription pause",
+    "Kimi K3 capacity shortage",
+    "Moonshot pauses new Kimi users",
+    "Kimi K3 GPU capacity limit"
+  ],
+  "organizations": [
+    "Moonshot AI"
+  ],
+  "products": [
+    "Kimi K3",
+    "Kimi"
+  ],
+  "event_type": "availability_restore",
+  "first_seen_jst": "2026-07-20T23:38:46+09:00",
+  "last_seen_jst": "2026-07-20T23:38:46+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as an availability and serving-capacity incident distinct from the Kimi K3 model launch. Reinclude only when new subscriptions reopen, capacity or plan structure materially changes, API availability is affected, or credible evidence clarifies the bottleneck.",
+  "known_facts": [
+    "Moonshot AI temporarily paused new consumer subscriptions after requests during the first 48 hours pushed its current compute clusters close to capacity.",
+    "Existing paid subscribers were prioritized and were reported as unaffected by the pause.",
+    "Moonshot said it was expanding compute and intended to reopen subscriptions in stages as capacity becomes available.",
+    "The incident demonstrates that strong benchmark or pricing competitiveness does not by itself establish reliable large-scale serving capacity."
+  ],
+  "reinclude_only_if": [
+    "Moonshot officially reopens new subscriptions or publishes a concrete reopening schedule.",
+    "Kimi K3 API, existing subscriber access, latency, pricing, or membership tiers materially change.",
+    "Credible reporting identifies the hardware, regional, regulatory, or financial constraint behind the capacity shortage.",
+    "The planned open-weight release changes the practical impact of hosted-service capacity limits."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/transactional/chinas-moonshot-pauses-kimi-subscriptions-amid-hot-demand-ipo-push-2026-07-20/",
+    "https://apnews.com/article/4c66a2e0f557ce79d3cc2d769c9a6226",
+    "https://technode.com/2026/07/20/kimi-k3-overwhelms-capacity-just-days-after-launch-suspends-new-consumer-subscriptions/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Selected as a hard availability delta first broadly reported during the night-edition window. This is not evidence that benchmark claims are independently validated."
+}
