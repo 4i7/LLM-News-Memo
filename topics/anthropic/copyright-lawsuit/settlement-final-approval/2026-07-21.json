@@ -1,0 +1,43 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/copyright-lawsuit/settlement-final-approval/2026-07-21",
+  "canonical_title": "Court gives final approval to Anthropic's $1.5 billion copyright settlement",
+  "aliases": [
+    "Anthropic 1.5 billion copyright settlement",
+    "Anthropic authors lawsuit final approval",
+    "Claude training books settlement",
+    "largest U.S. copyright settlement Anthropic"
+  ],
+  "organizations": [
+    "Anthropic",
+    "U.S. District Court for the Northern District of California"
+  ],
+  "products": [
+    "Claude"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-21T12:00:00+09:00",
+  "last_seen_jst": "2026-07-21T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a finalized legal settlement concerning pirated source copies used in the training-data pipeline, distinct from the court's fair-use holding on model training. Reinclude only for appeal, payment/distribution changes, separate opt-out litigation, or a material change to Anthropic's data-acquisition policy.",
+  "known_facts": [
+    "Reuters reported on 2026-07-20 at 20:49 UTC that a federal judge granted final approval to Anthropic's $1.5 billion class-action copyright settlement.",
+    "The underlying ruling maintained that training on copyrighted books was fair use, while finding infringement in Anthropic's storage of more than seven million pirated books in a central library.",
+    "More than 91% of covered authors and publishers had claimed compensation at the time of approval.",
+    "Some authors and publishers opted out and continue separate lawsuits."
+  ],
+  "reinclude_only_if": [
+    "The settlement is appealed, modified, delayed, or materially changes distribution terms.",
+    "Separate opt-out litigation produces a major ruling or additional liability.",
+    "Anthropic announces a material training-data acquisition, provenance, or licensing policy change.",
+    "Another court adopts or rejects the distinction between fair-use training and unlawful acquisition or storage of source material."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Selected because final judicial approval occurred inside the current delta window and converts a previously negotiated settlement into a legally operative resolution."
+}
