@@ -1,0 +1,43 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google-deepmind/gemini-3-5-pro/launch-delay-investor-scrutiny/2026-07-21",
+  "canonical_title": "Google delays Gemini 3.5 Pro launch as investor scrutiny rises",
+  "aliases": [
+    "Gemini 3.5 Pro delay",
+    "Google delays Gemini 3.5 Pro",
+    "Alphabet Gemini delay",
+    "Gemini coding model launch delay"
+  ],
+  "organizations": [
+    "Google",
+    "Google DeepMind",
+    "Alphabet"
+  ],
+  "products": [
+    "Gemini 3.5 Pro"
+  ],
+  "event_type": "availability_restore",
+  "first_seen_jst": "2026-07-21T23:30:02+09:00",
+  "last_seen_jst": "2026-07-21T23:30:02+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the confirmed delay from the previously expected June launch as covered. Reinclude only for an official release date, launch, further delay, pricing/API details, model card, or material independent evaluation.",
+  "known_facts": [
+    "Reuters reported on 2026-07-21 at 13:45 UTC that Google delayed Gemini 3.5 Pro from a previously expected June launch.",
+    "The model is positioned as important for AI coding tools and agentic tasks.",
+    "The delay is increasing investor scrutiny of Alphabet's large AI infrastructure spending while Chinese open-weight models gain attention.",
+    "Google had not published a new official launch date in the reporting available at this run."
+  ],
+  "reinclude_only_if": [
+    "Google or Google DeepMind publishes an official launch date or releases Gemini 3.5 Pro.",
+    "Official API pricing, availability, benchmark, or model-card details are published.",
+    "A further material delay, cancellation, or product-scope change is credibly reported."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/alphabets-gemini-delay-spending-worries-loom-over-earnings-2026-07-21/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Selected as a new availability and product-timing hard delta within the night window. This does not establish model quality or a revised launch date."
+}
