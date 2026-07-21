@@ -1,0 +1,46 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-commerce/caisi/chris-fall-resignation/2026-07-21",
+  "canonical_title": "U.S. Center for AI Standards and Innovation director Chris Fall resigns",
+  "aliases": [
+    "Head of US AI safety agency resigns",
+    "Chris Fall resignation",
+    "CAISI director resignation",
+    "U.S. AI testing institute leadership change"
+  ],
+  "organizations": [
+    "U.S. Department of Commerce",
+    "U.S. Center for AI Standards and Innovation",
+    "OpenAI",
+    "Anthropic",
+    "Google DeepMind",
+    "Microsoft",
+    "xAI"
+  ],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-21T12:00:00+09:00",
+  "last_seen_jst": "2026-07-21T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a U.S. frontier-model testing governance and institutional continuity topic. Reinclude only for an official explanation, permanent successor, mandate or staffing change, test-program disruption, or binding policy consequence.",
+  "known_facts": [
+    "Reuters reported on 2026-07-20 at 16:21 UTC that CAISI director Chris Fall resigned roughly three months after appointment.",
+    "The Commerce Department did not disclose a reason for the resignation.",
+    "Arvind Raman, who oversees the institute's parent Commerce office, will serve temporarily.",
+    "CAISI works with frontier labs including OpenAI, Anthropic, Google DeepMind, Microsoft, and xAI to test unreleased models for demonstrable risks."
+  ],
+  "reinclude_only_if": [
+    "The Commerce Department provides an official reason or names a permanent successor.",
+    "CAISI changes its mandate, staffing, model-testing agreements, or pre-release evaluation procedures.",
+    "A credible report shows the resignation delayed or altered testing of a specific frontier model.",
+    "A binding U.S. policy or enforcement action follows from the leadership change."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/us/head-us-ai-safety-agency-resigns-2026-07-20/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.94,
+  "notes": "Selected because the resignation occurred inside the midday delta window and materially affects the federal institution responsible for testing unreleased frontier models. The reason for departure remains undisclosed."
+}
