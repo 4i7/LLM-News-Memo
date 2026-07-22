@@ -1,0 +1,53 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/gemini-flash/3-6-flash-3-5-flash-lite-cyber-launch/2026-07-21",
+  "canonical_title": "Google launches Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, and Gemini 3.5 Flash Cyber",
+  "aliases": [
+    "Gemini 3.6 Flash launch",
+    "Gemini 3.5 Flash-Lite GA",
+    "Gemini 3.5 Flash Cyber",
+    "Google lightweight Gemini model update"
+  ],
+  "organizations": [
+    "Google",
+    "Google DeepMind"
+  ],
+  "products": [
+    "Gemini 3.6 Flash",
+    "Gemini 3.5 Flash-Lite",
+    "Gemini 3.5 Flash Cyber",
+    "CodeMender",
+    "Gemini API",
+    "Antigravity"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-07-22T12:00:00+09:00",
+  "last_seen_jst": "2026-07-22T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the Flash launches as covered. Reinclude only for major independent evaluations, pricing or access changes, production regressions, safety findings, or broad availability of Flash Cyber.",
+  "known_facts": [
+    "Gemini 3.6 Flash and Gemini 3.5 Flash-Lite are generally available for production use through the Gemini API.",
+    "Gemini 3.6 Flash is priced at $1.50 per million input tokens and $7.50 per million output tokens; Gemini 3.5 Flash-Lite is priced at $0.30 input and $2.50 output.",
+    "Both support a 1M-token context window, 64k maximum output, thinking, built-in tools, and Computer Use.",
+    "Google positions 3.6 Flash as the coding, multimodal, and agentic workhorse and has made it the default model for the Antigravity agent.",
+    "Gemini 3.5 Flash Cyber is a specialized cybersecurity model deployed through CodeMender and is initially limited to governments and trusted partners.",
+    "Google says Gemini 3.5 Pro remains in partner testing and that training has begun on Gemini 4."
+  ],
+  "reinclude_only_if": [
+    "Independent benchmarks materially confirm or contradict Google's coding, agentic, long-context, token-efficiency, latency, or computer-use claims.",
+    "Google changes API pricing, model IDs, plan access, regional availability, context limits, or tool support.",
+    "Gemini 3.5 Flash Cyber becomes broadly available or receives a material safety, misuse, or deployment update.",
+    "A major production regression, deprecation, or migration issue affects Gemini 3.6 Flash or 3.5 Flash-Lite."
+  ],
+  "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "https://ai.google.dev/gemini-api/docs/latest-model",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+    "https://www.reuters.com/business/google-updates-lightweight-gemini-models-flagship-still-delayed-2026-07-21/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Distinct from the existing Gemini 3.5 Pro delay topic: this record covers released Flash-class models and their API availability."
+}
