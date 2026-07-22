@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/public-first-action/ai-regulation-lobbying-donation/2026-07-22",
+  "canonical_title": "Anthropic donates another $20 million to Public First Action for AI regulation advocacy",
+  "aliases": [
+    "Anthropic Public First Action donation",
+    "Anthropic $20 million AI regulation lobbying donation",
+    "Anthropic political spending AI regulation",
+    "Public First Action Anthropic funding"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Public First Action",
+    "Leading the Future",
+    "OpenAI",
+    "Andreessen Horowitz"
+  ],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-22T23:29:40+09:00",
+  "last_seen_jst": "2026-07-22T23:29:40+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a corporate-policy and lobbying-spend topic. Reinclude only for additional material donations, disclosed campaign deployment, binding policy influence, legal restrictions, or a concrete response from rival AI political groups.",
+  "known_facts": [
+    "Anthropic announced an additional $20 million donation to Public First Action on 2026-07-22, following a separate $20 million contribution in February 2026.",
+    "Public First Action advocates for mitigating major AI risks and supports political action committees aligned with stricter AI regulation.",
+    "Anthropic stated that the donation cannot be used to influence the election of any federal, state, or local candidate.",
+    "Public First Action was created to counter Leading the Future, a group that generally opposes stricter AI regulation and is backed by figures including OpenAI president Greg Brockman and Marc Andreessen."
+  ],
+  "reinclude_only_if": [
+    "Anthropic or Public First Action discloses a material new donation or specific policy campaign funded by the contribution.",
+    "A regulator, court, election authority, or legislature imposes a binding rule or disclosure requirement affecting AI-company political spending.",
+    "Leading the Future, OpenAI executives, or other major AI companies announce a concrete counter-campaign or materially larger political expenditure.",
+    "Credible reporting establishes a direct policy outcome attributable to this spending."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/government/anthropic-donate-20-million-us-political-group-that-supports-ai-regulation-2026-07-22/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Reuters published the report at 2026-07-22 09:03 UTC, or 18:03 JST, inside the night-edition coverage window. This is a policy-influence and corporate-governance delta, not a model or product release."
+}
