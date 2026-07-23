@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/infrastructure/effingham-georgia-power-deal/2026-07-23",
+  "canonical_title": "OpenAI signs 25-year Georgia power deal for 3.2-gigawatt data center",
+  "aliases": [
+    "OpenAI Georgia Power deal",
+    "OpenAI Effingham County data center",
+    "Project Camellia power agreement",
+    "OpenAI 3.2 GW Georgia facility"
+  ],
+  "organizations": [
+    "OpenAI",
+    "Georgia Power",
+    "Southern Company"
+  ],
+  "products": [
+    "Project Camellia",
+    "Codex"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-07-23T12:00:00+09:00",
+  "last_seen_jst": "2026-07-23T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the signed power agreement, capacity, cost commitments, demand-response provision, and local investment package as covered. Reinclude only for construction approval, material schedule/capacity change, financing change, grid or ratepayer impact, cancellation, or operational commissioning.",
+  "known_facts": [
+    "Georgia Power signed a 25-year power-supply agreement with OpenAI for Project Camellia in Effingham County, Georgia.",
+    "The planned data center requires about 3.2 gigawatts, with phased delivery expected between 2028 and 2032.",
+    "OpenAI agreed to pay the full infrastructure and electric-service costs and to provide up to 1 gigawatt back to the grid through curtailment during peak demand.",
+    "OpenAI announced an $80 million community investment fund and up to $71 million in Codex credits for Georgia colleges, universities, and technical schools."
+  ],
+  "reinclude_only_if": [
+    "The project receives or loses a material permit, financing commitment, or construction milestone.",
+    "Capacity, delivery dates, grid-curtailment terms, ratepayer protections, or project cost materially change.",
+    "The project is delayed, cancelled, commissioned, or causes a documented grid or community impact."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/energy/southern-co-unit-signs-25-year-power-deal-with-openai-2026-07-22/",
+    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Selected as a concrete AI infrastructure hard delta within the post-night-report window."
+}
