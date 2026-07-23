@@ -1,0 +1,50 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/gemini-4/monthly-roadmap-and-capex/2026-07-23",
+  "canonical_title": "Google discloses Gemini 4 roadmap and raises AI capital spending",
+  "aliases": [
+    "Gemini 4 monthly cadence",
+    "Google Gemini 4 roadmap",
+    "Alphabet AI capex increase",
+    "Pichai Gemini 4 earnings call"
+  ],
+  "organizations": [
+    "Google",
+    "Google DeepMind",
+    "Alphabet"
+  ],
+  "products": [
+    "Gemini 4",
+    "Gemini 3.5 Pro",
+    "Gemini 3.6 Flash",
+    "Google Cloud",
+    "TPU"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-23T12:00:00+09:00",
+  "last_seen_jst": "2026-07-23T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the earnings-call disclosure of Gemini 4 training, a planned near-monthly model cadence, acknowledged coding/agentic gaps, and the increased 2026 capex range as covered. Reinclude only for a concrete Gemini 4 release, official specifications, a revised cadence, material capex change, or an operational impact.",
+  "known_facts": [
+    "Sundar Pichai said Google has started training Gemini 4 and described it as a very ambitious frontier effort.",
+    "Pichai said the Gemini 4 roadmap includes model releases at an almost monthly cadence.",
+    "Google acknowledged that coding and agentic coding are areas where it needs to improve while Gemini 3.5 Pro remains in partner testing.",
+    "Alphabet raised its 2026 capital-expenditure guidance by $15 billion to a range of $195 billion to $205 billion as AI demand continued to exceed capacity.",
+    "Google Cloud revenue grew 82% to $24.8 billion in the reported quarter, while Alphabet reported negative free cash flow for the first time."
+  ],
+  "reinclude_only_if": [
+    "Google officially releases a Gemini 4 model or publishes model-card, API, pricing, benchmark, or availability details.",
+    "Google materially changes the stated near-monthly release cadence or cancels/delays the roadmap.",
+    "Alphabet materially revises AI capex, reports a capacity shortfall, or links infrastructure spending to a specific model rollout.",
+    "Independent evidence materially confirms or contradicts Google's coding and agentic recovery claims."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/pichai-pushes-back-claims-google-is-losing-ground-ai-race-2026-07-23/",
+    "https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Distinct from the existing Gemini 3.5 Pro delay topic because this record covers the newly disclosed Gemini 4 roadmap and the infrastructure spending response."
+}
