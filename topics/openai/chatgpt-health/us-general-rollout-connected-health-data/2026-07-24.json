@@ -1,0 +1,53 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/chatgpt-health/us-general-rollout-connected-health-data/2026-07-24",
+  "canonical_title": "OpenAI expands Health in ChatGPT to eligible U.S. users with connected medical records and Apple Health",
+  "aliases": [
+    "Health in ChatGPT",
+    "ChatGPT Health general rollout",
+    "ChatGPT Apple Health integration",
+    "ChatGPT connected medical records",
+    "OpenAI Health U.S. rollout"
+  ],
+  "organizations": [
+    "OpenAI",
+    "Apple"
+  ],
+  "products": [
+    "ChatGPT",
+    "Health in ChatGPT",
+    "Apple Health",
+    "GPT-5.6 Sol",
+    "GPT-5.5 Instant"
+  ],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-07-24T12:03:09+09:00",
+  "last_seen_jst": "2026-07-24T12:03:09+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a major ChatGPT product and sensitive-data integration rollout. Reinclude only for material regional expansion, supported-record or wearable changes, privacy/security incidents, regulatory action, independent clinical-safety evidence, plan restrictions, or model-behavior changes.",
+  "known_facts": [
+    "OpenAI began general rollout of Health in ChatGPT on 2026-07-23 to logged-in U.S. users aged 18 or older on Free, Go, Plus, and Pro plans, on web and iOS.",
+    "Eligible users can connect supported U.S. medical records, One Medical, Function Health, and Apple Health data, then ask questions grounded in lab results, medications, visits, sleep, activity, and related context.",
+    "Connected health information and conversations that use it are not used to train OpenAI foundation models or target ads, regardless of the user's general model-training setting.",
+    "By default, ChatGPT asks permission before using connected Health information in a response; users can instead grant persistent access and can disconnect sources later.",
+    "OpenAI says GPT-5.5 Instant powers health assistance for free users and GPT-5.6 Sol is its strongest health model for paid users, while warning that ChatGPT can make mistakes and does not replace qualified medical care.",
+    "The general rollout removes the earlier limited-access or waitlist-style availability and makes the product broadly available to eligible U.S. users."
+  ],
+  "reinclude_only_if": [
+    "OpenAI expands Health beyond the United States, adds Android or major new record/wearable providers, or changes plan eligibility.",
+    "A material privacy, security, data-retention, consent, or unauthorized-disclosure incident affects connected Health information.",
+    "A regulator, court, hospital network, or medical authority takes binding action concerning Health in ChatGPT.",
+    "Independent clinical or safety evaluation materially confirms or contradicts OpenAI's claims about escalation, accuracy, privacy, or usefulness.",
+    "OpenAI materially changes model use, training-data policy, permissions, memory behavior, or supported actions involving health data."
+  ],
+  "sources": [
+    "https://openai.com/index/health-in-chatgpt/",
+    "https://openai.com/products/release-notes/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Selected because the full U.S. rollout became visible after the previous night brief. This is a product-availability and sensitive-data integration delta, not a claim that ChatGPT is a diagnostic or treatment system."
+}
