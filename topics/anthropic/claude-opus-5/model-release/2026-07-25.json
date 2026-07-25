@@ -1,0 +1,41 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-opus-5/model-release/2026-07-25",
+  "canonical_title": "Anthropic launches Claude Opus 5",
+  "aliases": [
+    "Claude Opus 5",
+    "Opus 5 launch",
+    "Anthropic Opus 5",
+    "claude-opus-5"
+  ],
+  "organizations": ["Anthropic"],
+  "products": ["Claude Opus 5", "Claude API", "Claude Code", "Claude Cowork"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-07-25T12:00:49+09:00",
+  "last_seen_jst": "2026-07-25T12:00:49+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Official launch, price, availability, effort controls, safeguards, and initial benchmark claims are covered. Reinclude only for independent reproducible evaluations, material price or access changes, significant safety findings, or deployment incidents.",
+  "known_facts": [
+    "Anthropic released Claude Opus 5 on 2026-07-24 across all platforms with API model ID claude-opus-5.",
+    "API pricing is $5 per million input tokens and $25 per million output tokens, unchanged from Opus 4.8; Fast mode is about 2.5 times faster at twice the base price.",
+    "Anthropic positions Opus 5 near Fable 5 performance at roughly half the cost per task and as the new default on Claude Max and strongest model on Claude Pro.",
+    "Official claims include state-of-the-art results on Frontier-Bench and GDPval-AA, strong cost-adjusted performance on CursorBench, AutomationBench, and OSWorld 2.0, and improved life-sciences performance over Opus 4.8.",
+    "Anthropic reports Opus 5 as its most aligned recent model, behind Mythos 5 in biology and offensive cybersecurity, with cyber classifiers expected to intervene about 85% less often than on Fable 5.",
+    "The launch adds beta mid-conversation tool changes and automatic safety fallbacks on the API."
+  ],
+  "reinclude_only_if": [
+    "Independent benchmarks or real-world agent tests materially confirm or contradict Anthropic's coding, computer-use, knowledge-work, efficiency, or reliability claims.",
+    "Anthropic changes pricing, plan access, platform availability, effort settings, Fast mode, API behavior, or safety fallback behavior.",
+    "A system-card correction, safety incident, material misuse report, or government action concerns Opus 5.",
+    "Cloud providers or major developer platforms materially change Opus 5 availability."
+  ],
+  "sources": [
+    "https://www.anthropic.com/news/claude-opus-5",
+    "https://www.reuters.com/technology/anthropic-rolls-out-opus-5-ai-model-efficiency-upgrade-2026-07-24/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Official launch facts and Anthropic benchmark/safety claims are covered; most performance claims still require independent validation."
+}
