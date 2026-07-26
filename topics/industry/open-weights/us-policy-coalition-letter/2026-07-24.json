@@ -29,13 +29,14 @@
   "last_seen_jst": "2026-07-26T12:00:00+09:00",
   "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "The July 24 policy letter, its principal arguments, OpenAI's later signature, and the expanded official signatory list are covered. Reinclude only for a binding U.S. policy response, a major signatory reversal or addition that changes the coalition, a formal Anthropic or Google position, or concrete legislation affecting open-weight distribution.",
+  "treatment": "The July 24 policy letter, its principal arguments, OpenAI's later signature, and the reported coalition expansion are covered. Reinclude only for a binding U.S. policy response, a major signatory reversal or addition that changes the coalition, a formal Anthropic or Google position, or concrete legislation affecting open-weight distribution.",
   "known_facts": [
     "NVIDIA and an initial coalition of technology companies and organizations published the July 24, 2026 letter Open Weights and American AI Leadership, urging U.S. policymakers to avoid premature broad restrictions on downloadable model weights.",
     "The letter argues that open weights improve competition, customer control, cybersecurity defense, and sovereign deployment while acknowledging that released weights are difficult to trace or reverse.",
     "The letter asks policymakers to expand compute access and shared training and evaluation assets, preserve a plural frontier, and distinguish legitimate distillation from unlawful extraction.",
-    "OpenAI was absent from the initial signatory list but joined later; the current NVIDIA-hosted PDF lists at least 35 organizations, including NVIDIA, Microsoft, Meta, OpenAI, Hugging Face, Mistral, Mozilla, The Linux Foundation, GitHub, Cisco, Cohere, CrowdStrike, and Palantir.",
-    "Google CEO Sundar Pichai publicly supported the message, according to Business Insider, but Google was not listed as a signatory in the current official PDF; Anthropic also remained absent."
+    "Business Insider reported that OpenAI was absent initially but joined later, and that the coalition had reached 32 signatories by Friday evening.",
+    "Google CEO Sundar Pichai publicly supported the message, according to Business Insider, but Google had not formally signed at the time of that report; Anthropic also remained absent.",
+    "During this run, the NVIDIA-hosted PDF had inconsistent rendered and parsed signatory lists, so no larger exact current count was treated as authoritative."
   ],
   "reinclude_only_if": [
     "The U.S. government issues a binding rule, sanction, or formal policy concerning open-weight model distribution or Chinese open-weight models.",
@@ -48,6 +49,6 @@
     "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.94,
-  "notes": "Selected on 2026-07-26 because OpenAI's later signature and expansion of the official signatory list were newly visible after the prior midday brief. The official PDF is authoritative for the current list; secondary claims that the coalition reached 50 were not used because they did not match the PDF inspected during this run."
+  "confidence": 0.91,
+  "notes": "Selected on 2026-07-26 because OpenAI's later signature and the reported coalition expansion were newly visible after the prior midday brief. The rendered signature page and extracted text of the NVIDIA PDF were inconsistent during inspection, so claims of 35 or 50 current signatories were not retained."
 }
