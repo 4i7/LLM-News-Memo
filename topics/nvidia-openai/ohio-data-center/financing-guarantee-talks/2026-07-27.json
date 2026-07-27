@@ -1,0 +1,46 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia-openai/ohio-data-center/financing-guarantee-talks/2026-07-27",
+  "canonical_title": "Nvidia discusses $250 billion financing guarantee for OpenAI Ohio data center",
+  "aliases": [
+    "Nvidia OpenAI $250 billion guarantee",
+    "OpenAI Ohio 10GW data center financing",
+    "SoftBank Ohio AI data center",
+    "Nvidia OpenAI financing backstop"
+  ],
+  "organizations": [
+    "Nvidia",
+    "OpenAI",
+    "SoftBank",
+    "SB Energy",
+    "U.S. Department of Commerce"
+  ],
+  "products": [
+    "OpenAI compute infrastructure",
+    "Nvidia AI accelerators"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-07-27T12:03:52+09:00",
+  "last_seen_jst": "2026-07-27T12:03:52+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as credible reporting about infrastructure financing talks, not a completed agreement. Reinclude only for a signed guarantee, finalized financing structure, confirmed project scope or location, construction milestone, government approval, or material cancellation/change.",
+  "known_facts": [
+    "The Wall Street Journal reported that Nvidia is in advanced talks to provide roughly a $250 billion financing backstop connected to OpenAI's lease of a proposed 10-gigawatt data-center project in southern Ohio.",
+    "SoftBank's energy subsidiary is developing the project, whose total cost including chips could exceed $500 billion according to the report.",
+    "The proposed guarantee would help OpenAI obtain debt financing on better terms because OpenAI does not have an investment-grade credit rating.",
+    "The discussions are not a finalized financing agreement as of this report."
+  ],
+  "reinclude_only_if": [
+    "Nvidia, OpenAI, SoftBank, a lender, or the U.S. government officially confirms a signed guarantee or financing package.",
+    "The project receives a material construction, power-allocation, permitting, location, cost, or completion-date update.",
+    "The talks collapse or the financing/project scope changes materially."
+  ],
+  "sources": [
+    "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.84,
+  "notes": "Selected as a new high-signal infrastructure-financing report within the midday coverage window. The figures and structure are based on people familiar with the matter; no completed transaction has been announced."
+}
