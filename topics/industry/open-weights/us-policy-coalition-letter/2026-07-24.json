@@ -7,7 +7,9 @@
     "Open Weights and American AI Leadership",
     "NVIDIA open weights letter",
     "OpenAI joins open-weight AI coalition",
-    "U.S. open-weight AI policy letter"
+    "U.S. open-weight AI policy letter",
+    "Anthropic open-weight policy clarification",
+    "Dario Amodei open-weight testing proposal"
   ],
   "organizations": [
     "NVIDIA",
@@ -19,36 +21,41 @@
     "Mozilla",
     "The Linux Foundation",
     "GitHub",
-    "Palantir"
+    "Palantir",
+    "Anthropic"
   ],
   "products": [
     "open-weight AI models"
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-07-26T12:00:00+09:00",
-  "last_seen_jst": "2026-07-26T12:00:00+09:00",
+  "last_seen_jst": "2026-07-28T12:00:00+09:00",
   "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "The July 24 policy letter, its principal arguments, OpenAI's later signature, and the reported coalition expansion are covered. Reinclude only for a binding U.S. policy response, a major signatory reversal or addition that changes the coalition, a formal Anthropic or Google position, or concrete legislation affecting open-weight distribution.",
+  "treatment": "The July 24 policy letter, OpenAI's later signature, the coalition expansion, and Anthropic's formal counter-position are covered. Reinclude only for a binding U.S. policy response, a major signatory reversal, concrete legislation, or published capability thresholds and testing rules.",
   "known_facts": [
     "NVIDIA and an initial coalition of technology companies and organizations published the July 24, 2026 letter Open Weights and American AI Leadership, urging U.S. policymakers to avoid premature broad restrictions on downloadable model weights.",
     "The letter argues that open weights improve competition, customer control, cybersecurity defense, and sovereign deployment while acknowledging that released weights are difficult to trace or reverse.",
     "The letter asks policymakers to expand compute access and shared training and evaluation assets, preserve a plural frontier, and distinguish legitimate distillation from unlawful extraction.",
     "Business Insider reported that OpenAI was absent initially but joined later, and that the coalition had reached 32 signatories by Friday evening.",
-    "Google CEO Sundar Pichai publicly supported the message, according to Business Insider, but Google had not formally signed at the time of that report; Anthropic also remained absent.",
-    "During this run, the NVIDIA-hosted PDF had inconsistent rendered and parsed signatory lists, so no larger exact current count was treated as authoritative."
+    "Google CEO Sundar Pichai publicly supported the message, according to Business Insider, but Google had not formally signed at the time of that report; Anthropic remained absent.",
+    "On July 27, Anthropic CEO Dario Amodei formally said Anthropic has never advocated a blanket ban on open-weight models and described models without dangerous capabilities as a public good.",
+    "Anthropic instead called for mandatory safety testing of sufficiently capable open and closed models, tighter controls on advanced chips reaching authoritarian regimes, and enforcement against industrial-scale model distillation or extraction.",
+    "Anthropic continued to dispute the claim that open weights inherently improve safety, arguing that dangerous capabilities can diffuse faster than defenses once weights are released."
   ],
   "reinclude_only_if": [
     "The U.S. government issues a binding rule, sanction, or formal policy concerning open-weight model distribution or Chinese open-weight models.",
-    "Anthropic, Google, Amazon, or another major frontier provider formally joins, rejects, or materially qualifies the coalition position.",
-    "The coalition publishes technical safety commitments, evaluation standards, or a substantially revised policy proposal.",
+    "Anthropic, Google, Amazon, or another major frontier provider materially changes its formal position or joins the coalition.",
+    "The coalition or Anthropic publishes concrete capability thresholds, mandatory evaluation standards, or implementation details.",
     "A concrete law or enforcement action materially changes the availability or legal treatment of open-weight models."
   ],
   "sources": [
     "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
-    "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7"
+    "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7",
+    "https://www.businessinsider.com/dario-amodei-blog-post-anthropic-banning-open-weight-ai-models-2026-7",
+    "https://news.bloomberglaw.com/artificial-intelligence/anthropic-says-never-sought-ban-on-open-weights-ai-models"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.91,
-  "notes": "Selected on 2026-07-26 because OpenAI's later signature and the reported coalition expansion were newly visible after the prior midday brief. The rendered signature page and extracted text of the NVIDIA PDF were inconsistent during inspection, so claims of 35 or 50 current signatories were not retained."
+  "confidence": 0.95,
+  "notes": "Updated 2026-07-28 with Anthropic's formal clarification: no blanket open-weight ban, but capability-based testing plus chip and distillation controls. The unresolved issue is the threshold for 'sufficiently capable'."
 }
