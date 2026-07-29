@@ -1,0 +1,49 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "industry/automated-ai-rd/pacing-the-frontier-employee-statement/2026-07-29",
+  "canonical_title": "Pacing the Frontier employee statement on automated AI development",
+  "aliases": [
+    "Pacing the Frontier",
+    "frontier AI employees automated AI development statement",
+    "1,178 AI workers pacing statement"
+  ],
+  "organizations": [
+    "OpenAI",
+    "Anthropic",
+    "Google DeepMind",
+    "Meta AI",
+    "Thinking Machines",
+    "Guidelight AI Standards",
+    "Encode AI"
+  ],
+  "products": [
+    "automated AI research",
+    "frontier AI"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-29T12:01:06+09:00",
+  "last_seen_jst": "2026-07-29T12:01:06+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as covered. Reinclude only for a formal company endorsement, a concrete U.S. or international policy initiative, publication of technical pacing mechanisms, a major verified expansion or withdrawal of signatories, or a binding coordination agreement.",
+  "known_facts": [
+    "A public statement signed by 1,178 verified employees of frontier AI companies asks the U.S. government to support an international effort to develop technical and governance tools for deliberately pacing automated AI development.",
+    "Named signatories include senior researchers and executives from OpenAI, Anthropic, Google DeepMind, Meta AI, and Thinking Machines, but signatures are in a personal capacity rather than formal company endorsements.",
+    "The statement argues that competitive pressure makes unilateral slowing difficult and that society may need mechanisms to buy time if automated AI research accelerates capability development faster than oversight can adapt."
+  ],
+  "reinclude_only_if": [
+    "A company formally endorses or rejects the statement.",
+    "The U.S. government or an international body launches a concrete pacing initiative.",
+    "Specific technical coordination, monitoring, release-control, or compute-governance mechanisms are published.",
+    "The signatory base changes materially and is independently verified."
+  ],
+  "sources": [
+    "https://www.pacingthefrontier.com/",
+    "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+    "https://www.businessinsider.com/ai-open-letter-automated-development-2026-7"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Employee-led statement with nonprofit organizational support; not an official joint position of the listed companies."
+}
