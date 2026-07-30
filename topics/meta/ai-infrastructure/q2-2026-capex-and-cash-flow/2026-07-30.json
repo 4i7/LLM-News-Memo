@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "meta/ai-infrastructure/q2-2026-capex-and-cash-flow/2026-07-30",
+  "canonical_title": "Meta Q2 2026 AI spending compresses free cash flow",
+  "aliases": [
+    "Meta Q2 2026 earnings AI capex",
+    "Meta free cash flow drops 91%",
+    "Meta 2026 capex 130-145 billion"
+  ],
+  "organizations": ["Meta"],
+  "products": ["Meta AI", "Muse Spark", "AI infrastructure"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-30T12:00:00+09:00",
+  "last_seen_jst": "2026-07-30T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for a material capex revision, new AI monetization disclosure, financing change, data-center capacity commitment, or a major cash-flow correction.",
+  "known_facts": [
+    "Meta reported Q2 2026 free cash flow of $784 million, down 91% year over year, as AI infrastructure spending and other costs rose.",
+    "Meta raised the lower end of its 2026 capital expenditure guidance to $130 billion while retaining a $145 billion upper bound.",
+    "Quarterly revenue rose 28% year over year to $60.8 billion, while investors focused on the cost and monetization risk of Meta's AI strategy."
+  ],
+  "reinclude_only_if": [
+    "Meta materially changes 2026 or 2027 AI capital expenditure guidance.",
+    "Meta discloses concrete revenue, subscription, business-agent, or compute-resale economics for its AI investments.",
+    "A major financing, data-center, chip-supply, or restructuring decision changes the practical interpretation of the buildout."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/meta-narrows-annual-capex-forecast-ai-buildout-grows-2026-07-29/",
+    "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Classified as NEW after exact and alias searches returned no matching sharded topic record."
+}
