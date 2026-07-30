@@ -33,6 +33,7 @@ Read these before editing or running scheduled writeback:
 For curated GitHub utility reports, also read:
 
 - [GitHub Repo Radar Reports](concepts/github-repo-radar-reports.md)
+- [GitHub Repo Radar Scheduled Run](playbooks/github-repo-radar-scheduled-run.md)
 - [GitHub Repo Radar Retrospective — 2026-07-07 to 2026-07-20](../reports/github-repo-radar/2026-07-retrospective.md)
 - [GitHub Repo Radar Retrospective — 2026-07-21 to 2026-07-30](../reports/github-repo-radar/2026-07-late-retrospective.md)
 
