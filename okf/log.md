@@ -1,5 +1,11 @@
 # OKF Update Log
 
+## 2026-07-30
+
+* **Late-July Repo Radar retrospective**: Added `reports/github-repo-radar/2026-07-late-retrospective.md`, consolidating the 2026-07-21 through 2026-07-30 runs into durable Tier A, conditional, watch-only, safety, and compact-toolkit conclusions.
+* **Plugin-backed continuity**: Recorded that future GitHub Repo Radar runs should use the connected GitHub plugin to read the curated reports before discovery and write substantial retrospective updates only after a meaningful source window.
+* **Index update**: Added direct OKF navigation to both July Repo Radar retrospectives.
+
 ## 2026-07-20
 
 * **Curated reports boundary**: Added `reports/` as an explicitly requested human-readable knowledge layer that remains separate from canonical LLM News duplicate-control state.
