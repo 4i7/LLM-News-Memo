@@ -1,0 +1,48 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "scale-ai/leadership/francis-desouza-ceo/2026-07-30",
+  "canonical_title": "Scale AI appoints Francis deSouza as CEO",
+  "aliases": [
+    "Scale AI new CEO",
+    "Francis deSouza Scale AI CEO",
+    "Scale enterprise AI strategy",
+    "Scale applications business expansion"
+  ],
+  "organizations": [
+    "Scale AI",
+    "Google Cloud",
+    "Meta"
+  ],
+  "products": [
+    "Scale Data Engine",
+    "Scale Generative AI Platform",
+    "Scale Applied AI"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-07-31T00:04:51+09:00",
+  "last_seen_jst": "2026-07-31T12:02:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a Scale AI leadership and strategy transition. Reinclude only for concrete restructuring, major customer or partner changes, material changes to the data/evaluation business, applications revenue overtaking data, acquisition or financing events, or a reversal of the enterprise and government applications strategy.",
+  "known_facts": [
+    "Scale AI appointed Google Cloud COO Francis deSouza as CEO effective August 10, 2026.",
+    "He replaces interim CEO Jason Droege, who had led Scale since founder Alexandr Wang departed for Meta in 2025.",
+    "Scale said it is expanding both its data and applications businesses.",
+    "Axios reported that Scale expects its applications business to overtake its data business within 18 months.",
+    "The appointment signals a strategic shift from primarily supplying training data and human evaluation toward enterprise and government AI deployment systems."
+  ],
+  "reinclude_only_if": [
+    "Scale AI announces a material restructuring, workforce change, acquisition, financing event, or major customer loss or win under Francis deSouza.",
+    "Scale discloses that its applications business has overtaken its data business or materially revises that target.",
+    "The CEO transition date, role, or strategy is materially changed.",
+    "Scale changes its relationship with Meta or other frontier-model customers in a way that affects its data or evaluation business."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/scale-ai-taps-former-google-cloud-executive-ceo-2026-07-30/",
+    "https://www.axios.com/2026/07/30/scale-ai-google-cloud-coo-francis-desouza"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Selected for the 2026-07-31 Midday Brief. This is a corporate-strategy topic, not a model release. The strongest delta is the explicit move toward enterprise and government AI applications, with the applications business expected to surpass the original data business."
+}
