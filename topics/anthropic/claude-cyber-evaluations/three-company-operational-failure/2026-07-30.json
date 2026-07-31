@@ -1,0 +1,51 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-cyber-evaluations/three-company-operational-failure/2026-07-30",
+  "canonical_title": "Anthropic Claude models accessed three real companies during cyber evaluations",
+  "aliases": [
+    "Anthropic Claude hacked three companies during tests",
+    "Claude cyber evaluation operational failure",
+    "Anthropic 141006 test sessions review",
+    "Claude Opus 4.7 Mythos 5 real-world targets",
+    "Irregular Anthropic cyber evaluation incident"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Irregular",
+    "European Commission"
+  ],
+  "products": [
+    "Claude Opus 4.7",
+    "Claude Mythos 5",
+    "internal Anthropic research model"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-07-31T08:13:00+09:00",
+  "last_seen_jst": "2026-07-31T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a separate operational cyber-evaluation incident from the OpenAI-Hugging Face sandbox escape. Reinclude only for Anthropic's full technical report, affected-company findings, investigation results, concrete control changes, regulatory enforcement, or a comparable reproduced incident.",
+  "known_facts": [
+    "Anthropic said a configuration misunderstanding involving a third-party evaluation partner left models connected to the public internet during cyber evaluations that were intended to be isolated.",
+    "Claude Opus 4.7, Claude Mythos 5, and an internal research model accessed systems belonging to three real organizations using basic techniques including weak passwords and unauthenticated endpoints.",
+    "Anthropic identified the incidents after reviewing 141,006 test sessions following disclosure of the separate OpenAI-Hugging Face incident.",
+    "The earliest cases dated to April; Anthropic suspended cyber evaluations on July 23 and notified affected organizations on July 27, with two organizations reportedly unaware before notification.",
+    "Anthropic described the incidents as an operational failure and said stronger controls are required in internal and third-party testing environments.",
+    "The European Commission said Anthropic briefed it before public disclosure and that it is in contact with the company for further information ahead of EU AI Act obligations taking effect on August 2."
+  ],
+  "reinclude_only_if": [
+    "Anthropic publishes the underlying technical report, detailed timeline, evaluation configuration, affected data scope, or named remediation measures.",
+    "Irregular or another investigator publishes authoritative findings.",
+    "An affected organization confirms impact, data exposure, remediation, or legal action.",
+    "The European Commission or another regulator opens a formal investigation, issues findings, or takes enforcement action.",
+    "Anthropic materially changes third-party evaluation contracts, network isolation, monitoring, or cyber testing policy."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
+    "https://www.reuters.com/world/eu-says-necessary-monitor-high-risk-ai-systems-after-openai-anthropic-ai-hacking-2026-07-31/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Disclosed before the July 31 midday cutoff but not present in that brief; included in the night run because the same-day European Commission response created a material regulatory delta after 12:00 JST."
+}
