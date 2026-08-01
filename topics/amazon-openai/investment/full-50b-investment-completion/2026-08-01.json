@@ -1,0 +1,51 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "amazon-openai/investment/full-50b-investment-completion/2026-08-01",
+  "canonical_title": "Amazon completes its $50 billion investment in OpenAI",
+  "aliases": [
+    "Amazon completes $50bn OpenAI investment",
+    "Amazon full $50 billion OpenAI investment",
+    "Amazon additional $35 billion OpenAI investment completed",
+    "Amazon OpenAI 5 percent stake"
+  ],
+  "organizations": [
+    "Amazon",
+    "OpenAI",
+    "AWS",
+    "Microsoft"
+  ],
+  "products": [
+    "OpenAI Frontier",
+    "Amazon Bedrock",
+    "AWS Trainium"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-01T12:00:00+09:00",
+  "last_seen_jst": "2026-08-01T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as completion of the previously announced Amazon-OpenAI capital and infrastructure partnership. Reinclude only for official confirmation of final ownership terms, material changes to AWS or Trainium commitments, OpenAI IPO or valuation changes, Microsoft contractual consequences, regulatory intervention, or a major revision to the investment structure.",
+  "known_facts": [
+    "Financial Times reported on 2026-08-01 JST that Amazon completed the full $50 billion investment in OpenAI and acquired roughly a 5% stake.",
+    "Amazon and OpenAI originally announced the $50 billion commitment in February 2026, beginning with $15 billion and an additional $35 billion subject to specified conditions or a public listing trigger.",
+    "The partnership includes AWS distribution for OpenAI Frontier, OpenAI consumption of approximately two gigawatts of Trainium capacity, and joint development of models for Amazon applications.",
+    "Completion converts the previously conditional second stage into deployed capital and materially deepens Amazon's position across both OpenAI and Anthropic."
+  ],
+  "reinclude_only_if": [
+    "Amazon or OpenAI publishes final transaction documents, exact ownership, governance rights, or revised valuation details.",
+    "AWS, Bedrock, Trainium, or OpenAI Frontier commercial terms materially change.",
+    "Microsoft initiates or resolves a material contractual dispute related to the Amazon partnership.",
+    "A regulator opens a formal competition, investment, or national-security review.",
+    "OpenAI completes or materially changes its expected public listing plans."
+  ],
+  "sources": [
+    "https://www.ft.com/content/8ae9e6e4-a53c-44da-8e7d-c9d81f0df4b9",
+    "https://openai.com/index/amazon-partnership/",
+    "https://www.aboutamazon.com/news/aws/openai-amazon-partnership-explained",
+    "https://www.sec.gov/Archives/edgar/data/1018724/000110465926021050/tm267374d1_8k.htm"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Selected as the 2026-08-01 Midday Brief delta. The February agreement itself is old; the hard delta is reported completion of the previously conditional additional $35 billion investment."
+}
