@@ -1,0 +1,52 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/astra/ten-math-tcs-advances/2026-08-01",
+  "canonical_title": "OpenAI publishes ten mathematics and theoretical computer science advances from internal Astra model",
+  "aliases": [
+    "OpenAI Astra ten advances",
+    "Astra mathematics breakthroughs",
+    "Ten advances in mathematics and theoretical computer science",
+    "OpenAI ten-proofs",
+    "Astra Lean certificates"
+  ],
+  "organizations": [
+    "OpenAI"
+  ],
+  "products": [
+    "Astra",
+    "GPT-5.6 Sol",
+    "Lean"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-01T12:00:00+09:00",
+  "last_seen_jst": "2026-08-01T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a major scientific-reasoning capability claim backed by an OpenAI publication, a 249-page manuscript collection, and public Lean certificates. Reinclude only for substantial independent mathematical validation or refutation, formal publication or peer review, corrections to specific results, or official Astra model release/model-card/API details.",
+  "known_facts": [
+    "On August 1, 2026, OpenAI published ten claimed advances across mathematics and theoretical computer science produced by an internal version of Astra, which it described as its next major model.",
+    "OpenAI said the selected problems had been open with no progress on the main result for at least a decade in each case, and usually much longer.",
+    "The ten areas include high-dimensional sphere packing, binary and spherical codes, non-sofic groups, Connes's rigidity conjecture, arithmetic circuit complexity, quantum parallel repetition, closest vector problem hardness, Ehrhart's volume conjecture, multicolor Ramsey numbers, and extremal graph theory conjectures.",
+    "OpenAI published a 249-page manuscript collection describing the results.",
+    "OpenAI said Astra generated the mathematical arguments, humans used the same model to prepare manuscripts, and the model then formalized the arguments into Lean certificates.",
+    "OpenAI published the Lean certificates in the public GitHub repository openai/ten-proofs.",
+    "OpenAI estimated that the successful solution-generation token usage would cost roughly $2,000 at GPT-5.6 Sol API rates.",
+    "OpenAI explicitly said it takes responsibility for correctness while asking the mathematical community to evaluate the results and place them in context; broad independent validation was not yet established at first report."
+  ],
+  "reinclude_only_if": [
+    "Independent domain experts validate, refute, or materially correct one or more of the ten results.",
+    "The results are accepted to major journals, conferences, or other formal mathematical publication venues, or substantial peer-review findings become public.",
+    "OpenAI issues corrections, withdrawals, or materially revised proofs or Lean certificates.",
+    "OpenAI officially releases Astra, publishes its model card, architecture/capability details, pricing, API availability, or ChatGPT access.",
+    "Independent evaluations establish whether Astra's research capability generalizes beyond these selected results."
+  ],
+  "sources": [
+    "https://openai.com/index/ten-advances-in-mathematics/",
+    "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+    "https://github.com/openai/ten-proofs"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Official OpenAI publication and artifacts are verified. The existence of the manuscripts and Lean certificates is high confidence; the mathematical significance and correctness of all ten claimed advances still require independent expert validation."
+}
