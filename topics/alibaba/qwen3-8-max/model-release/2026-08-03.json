@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "alibaba/qwen3-8-max/model-release/2026-08-03",
+  "canonical_title": "Alibaba releases Qwen3.8-Max open-weight model",
+  "aliases": ["Qwen3.8-Max", "Qwen 3.8 Max", "Alibaba 2.4 trillion parameter model"],
+  "organizations": ["Alibaba", "Alibaba Cloud", "Qwen"],
+  "products": ["Qwen3.8-Max"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-03T23:30:00+09:00",
+  "last_seen_jst": "2026-08-03T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for official technical artifacts, corrected architecture or parameter details, weights/license changes, API pricing/availability changes, or credible independent evaluations that materially change interpretation.",
+  "known_facts": ["Reuters reported on 2026-08-03 that Alibaba unveiled Qwen3.8-Max, described as its most capable AI model to date.", "The model is reported at 2.4 trillion total parameters with a mixture-of-experts design activating about 95 billion parameters per request.", "Weights are publicly available according to Reuters and The Verge reporting."],
+  "reinclude_only_if": ["Official model card or technical report materially changes known specifications.", "Weights, license, API pricing, or availability materially changes.", "Credible independent reproducible evaluations materially confirm or contradict capability claims."],
+  "sources": ["https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/", "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Primary-source technical page was not surfaced by web search during this run; release facts are grounded in same-day Reuters and The Verge reporting."
+}
