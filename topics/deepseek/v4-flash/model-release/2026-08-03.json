@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "deepseek/v4-flash/model-release/2026-08-03",
+  "canonical_title": "DeepSeek releases V4-Flash low-cost model",
+  "aliases": ["DeepSeek V4-Flash", "V4-Flash"],
+  "organizations": ["DeepSeek"],
+  "products": ["DeepSeek V4-Flash"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-03T23:30:00+09:00",
+  "last_seen_jst": "2026-08-03T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for official technical artifacts, pricing/availability changes, weights/license release, or credible independent reproducible evaluations that materially change interpretation.",
+  "known_facts": ["Reuters reported on 2026-08-03 that DeepSeek introduced V4-Flash as an unusually low-cost model.", "Reuters cited Artificial Analysis pricing of $0.14 per million input tokens and $0.28 per million output tokens."],
+  "reinclude_only_if": ["DeepSeek publishes an official model card or technical report that materially changes specifications.", "Pricing, availability, context limits, weights, or license materially changes.", "Credible independent reproducible evaluations materially confirm or contradict capability-per-dollar claims."],
+  "sources": ["https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.82,
+  "notes": "Official DeepSeek release page was not surfaced by web search during this run, so detailed capability claims remain secondary-source grounded."
+}
