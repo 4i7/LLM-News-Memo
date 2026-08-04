@@ -1,0 +1,55 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-white-house/frontier-ai/voluntary-cybersecurity-testing-framework/2026-08-04",
+  "canonical_title": "White House finalizes voluntary cybersecurity testing framework for frontier AI models",
+  "aliases": [
+    "White House voluntary AI cyber tests",
+    "frontier AI cybersecurity testing framework",
+    "covered frontier model testing",
+    "Trump administration AI model cyber tests",
+    "government pre-release frontier model cyber testing"
+  ],
+  "organizations": [
+    "White House",
+    "Office of the National Cyber Director",
+    "U.S. Department of Commerce",
+    "NIST",
+    "NSA",
+    "CISA",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Meta"
+  ],
+  "products": [
+    "frontier AI models"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-04T12:00:00+09:00",
+  "last_seen_jst": "2026-08-04T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a U.S. government frontier-model cyber evaluation framework topic. The June executive-order mandate and the August 3 finalization of voluntary test details are covered. Reinclude only for published test metrics, threshold definitions, reporting rules, participating-model results, formal developer commitments, mandatory requirements, or material implementation changes.",
+  "known_facts": [
+    "A June 2026 executive order directed U.S. agencies to develop a classified benchmarking process for advanced cyber capabilities and a voluntary framework allowing developers to provide covered frontier models to the Federal Government for up to 30 days before wider trusted-partner release.",
+    "Reuters reported on 2026-08-03 that the White House had finalized details of voluntary cybersecurity tests intended to measure the hacking capabilities of the most advanced U.S. AI models.",
+    "Meta, Anthropic, OpenAI, and Google were invited to discuss the framework with White House officials on Tuesday, according to Reuters sources and company confirmation for Meta.",
+    "The White House had not yet publicly disclosed the specific test metrics, result-reporting method, or whether results would be public.",
+    "The framework remains voluntary and does not itself establish a mandatory licensing, preclearance, or permitting requirement for model release."
+  ],
+  "reinclude_only_if": [
+    "The White House, ONCD, Commerce, NIST, NSA, or CISA publishes the test suite, covered-frontier-model threshold, metrics, reporting rules, or implementation guidance.",
+    "OpenAI, Anthropic, Google, Meta, or another frontier lab formally joins, declines, or materially conditions participation.",
+    "The government publishes results from testing a specific model or changes a model release based on the framework.",
+    "Congress or the administration converts the voluntary framework into a binding reporting, licensing, pre-release access, or enforcement requirement.",
+    "A material security incident causes the framework to be revised or expanded."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/",
+    "https://www.whitehouse.gov/wp-content/uploads/2026/06/eo-14409.pdf"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Adopted as the 2026-08-04 Midday delta. Distinct from the GPT-5.6 rollout/government-review topic and from incident-specific OpenAI/Anthropic regulatory follow-ups because this is a cross-industry federal testing framework."
+}
