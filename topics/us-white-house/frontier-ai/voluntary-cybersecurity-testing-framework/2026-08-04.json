@@ -8,7 +8,8 @@
     "frontier AI cybersecurity testing framework",
     "covered frontier model testing",
     "Trump administration AI model cyber tests",
-    "government pre-release frontier model cyber testing"
+    "government pre-release frontier model cyber testing",
+    "open-weight model testing exemption"
   ],
   "organizations": [
     "White House",
@@ -20,36 +21,43 @@
     "OpenAI",
     "Anthropic",
     "Google",
-    "Meta"
+    "Meta",
+    "Nvidia"
   ],
   "products": [
-    "frontier AI models"
+    "frontier AI models",
+    "Llama",
+    "Nemotron"
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-04T12:00:00+09:00",
-  "last_seen_jst": "2026-08-04T12:00:00+09:00",
+  "last_seen_jst": "2026-08-05T12:03:00+09:00",
   "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "Treat as a U.S. government frontier-model cyber evaluation framework topic. The June executive-order mandate and the August 3 finalization of voluntary test details are covered. Reinclude only for published test metrics, threshold definitions, reporting rules, participating-model results, formal developer commitments, mandatory requirements, or material implementation changes.",
+  "treatment": "Treat as a U.S. government frontier-model cyber evaluation framework topic. The June executive-order mandate, August 3 framework finalization, and August 4 industry-meeting decision to exclude open-weight models from voluntary testing are covered. Reinclude only for published test metrics, threshold definitions, reporting rules, participating-model results, formal developer commitments, mandatory requirements, changes to the open-weight exemption, or other material implementation changes.",
   "known_facts": [
     "A June 2026 executive order directed U.S. agencies to develop a classified benchmarking process for advanced cyber capabilities and a voluntary framework allowing developers to provide covered frontier models to the Federal Government for up to 30 days before wider trusted-partner release.",
     "Reuters reported on 2026-08-03 that the White House had finalized details of voluntary cybersecurity tests intended to measure the hacking capabilities of the most advanced U.S. AI models.",
-    "Meta, Anthropic, OpenAI, and Google were invited to discuss the framework with White House officials on Tuesday, according to Reuters sources and company confirmation for Meta.",
-    "The White House had not yet publicly disclosed the specific test metrics, result-reporting method, or whether results would be public.",
+    "Meta, Anthropic, OpenAI, Google, and Nvidia discussed the unpublished framework with White House officials on 2026-08-04.",
+    "Reuters reported after the meeting that the administration told developers it would not put open-weight models such as Meta Llama and Nvidia Nemotron through the voluntary safety tests.",
+    "The White House had not publicly disclosed the specific test metrics, result-reporting method, or full framework text as of the August 4 meeting.",
+    "Five Democratic senators called for legislation making testing permanent for the most advanced American-made frontier models.",
     "The framework remains voluntary and does not itself establish a mandatory licensing, preclearance, or permitting requirement for model release."
   ],
   "reinclude_only_if": [
     "The White House, ONCD, Commerce, NIST, NSA, or CISA publishes the test suite, covered-frontier-model threshold, metrics, reporting rules, or implementation guidance.",
-    "OpenAI, Anthropic, Google, Meta, or another frontier lab formally joins, declines, or materially conditions participation.",
+    "OpenAI, Anthropic, Google, Meta, Nvidia, or another frontier lab formally joins, declines, or materially conditions participation.",
     "The government publishes results from testing a specific model or changes a model release based on the framework.",
     "Congress or the administration converts the voluntary framework into a binding reporting, licensing, pre-release access, or enforcement requirement.",
+    "The administration changes or removes the open-weight model exemption.",
     "A material security incident causes the framework to be revised or expanded."
   ],
   "sources": [
     "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/",
+    "https://www.reuters.com/legal/litigation/meta-anthropic-google-openai-meet-with-trump-white-house-amid-rogue-ai-agent-2026-08-04/",
     "https://www.whitehouse.gov/wp-content/uploads/2026/06/eo-14409.pdf"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.98,
-  "notes": "Adopted as the 2026-08-04 Midday delta. Distinct from the GPT-5.6 rollout/government-review topic and from incident-specific OpenAI/Anthropic regulatory follow-ups because this is a cross-industry federal testing framework."
+  "notes": "Adopted as the 2026-08-04 Midday delta. Updated 2026-08-05 Midday with the post-meeting exclusion of open-weight models from voluntary testing. Distinct from incident-specific OpenAI/Anthropic regulatory follow-ups because this is a cross-industry federal testing framework."
 }
