@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-industry/alliance-for-critical-infrastructure/ai-risk-coordination-expansion/2026-08-05",
+  "canonical_title": "JPMorgan-backed Alliance for Critical Infrastructure expands into cross-industry AI risk coordination",
+  "aliases": [
+    "JPMorgan ACI AI risk initiative",
+    "Alliance for Critical Infrastructure AI risks",
+    "Jamie Dimon AI critical infrastructure coalition",
+    "ACI cross-industry AI safeguards"
+  ],
+  "organizations": ["Alliance for Critical Infrastructure", "JPMorgan Chase", "Mastercard", "Berkshire Hathaway Energy"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-05T19:03:56+09:00",
+  "last_seen_jst": "2026-08-05T19:03:56+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as private-sector critical-infrastructure coordination around AI and cyber risk. Reinclude only for named membership expansion, formal standards or safeguards, concrete incident-sharing mechanisms, government agreements, published technical guidance, or operational launch milestones.",
+  "known_facts": [
+    "Reuters reported that JPMorgan CEO Jamie Dimon is expanding the Alliance for Critical Infrastructure's focus to include AI risks.",
+    "Outreach includes more than 40 companies across financial services, energy, water, utilities, telecommunications, airlines, railroads and other critical-infrastructure sectors.",
+    "The initiative aims to build a shared understanding of AI use, risks and safeguards and to coordinate with the U.S. government.",
+    "The ACI is intended to function as an industry response and information-sharing forum for AI and technology risks.",
+    "Reuters reported that the revamped ACI aims to be fully functional by the end of 2026.",
+    "This effort is distinct from separate bank testing of Anthropic's Mythos models and from the U.S. government's Gold Eagle initiative."
+  ],
+  "reinclude_only_if": [
+    "ACI publishes formal AI safeguards, technical guidance, standards, incident-sharing rules, or response playbooks.",
+    "Major new members or named AI developers formally join the initiative.",
+    "ACI enters a concrete agreement with federal agencies or the White House on AI risk coordination.",
+    "The group becomes operational and discloses material findings, incidents, or remediation mechanisms."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/jpmorgan-ceo-dimon-leads-new-cross-industry-effort-tackle-ai-risks-2026-08-05/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Selected because it creates a new cross-sector operational coordination layer for AI risk in critical infrastructure rather than merely adding commentary to existing government testing stories."
+}
