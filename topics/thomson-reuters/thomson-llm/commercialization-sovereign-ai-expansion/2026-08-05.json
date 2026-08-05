@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "thomson-reuters/thomson-llm/commercialization-sovereign-ai-expansion/2026-08-05",
+  "canonical_title": "Thomson Reuters expands commercialization plans for its proprietary Thomson LLM",
+  "aliases": [
+    "Thomson Reuters Thomson LLM commercialization",
+    "Thomson sovereign AI",
+    "Thomson Reuters proprietary legal LLM",
+    "Thomson model Westlaw CoCounsel"
+  ],
+  "organizations": ["Thomson Reuters"],
+  "products": ["Thomson", "Westlaw", "Practical Law", "Checkpoint", "CoCounsel"],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-08-05T19:53:00+09:00",
+  "last_seen_jst": "2026-08-05T19:53:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as commercialization and deployment strategy for Thomson Reuters' proprietary domain LLM, not as a first model-launch story. Reinclude only for general availability, pricing, external API or licensing, independently documented benchmark results, sovereign-AI customer deployments, material CoCounsel/Westlaw integration changes, or significant economics/cost disclosures.",
+  "known_facts": [
+    "Thomson Reuters had already disclosed the existence of its proprietary Thomson LLM before this run; the 2026-08-05 hard delta is the clearer commercialization and deployment strategy described alongside Q2 results.",
+    "Reuters reported that CEO Steve Hasker said Thomson Reuters plans to keep investing in Thomson and develop applications across legal, tax, accounting and audit workflows while exploring broader commercialization.",
+    "Hasker said the company sees an opportunity to offer sovereign AI solutions to large sophisticated customers and to use Thomson to power products such as Westlaw and CoCounsel for speed, scalability and cost advantages.",
+    "Thomson is trained on Thomson Reuters content including Westlaw, Practical Law, Checkpoint and Reuters, according to the company.",
+    "CFO Gary Bischoping said about 32% of underlying contract value relied on generative AI in Q2 2026, up from 30% in Q1."
+  ],
+  "reinclude_only_if": [
+    "Thomson enters full general availability or gains a public API, licensing terms, or explicit customer deployment terms.",
+    "Thomson Reuters publishes reproducible or independently verified benchmarks comparing Thomson with frontier models.",
+    "A named sovereign-AI customer deployment or material external commercialization agreement is announced.",
+    "Westlaw, CoCounsel, Checkpoint, or other major products materially switch model architecture or disclose meaningful cost, latency, or quality changes attributable to Thomson."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/thomson-reuters-reports-higher-second-quarter-revenue-2026-08-05/",
+    "https://ir.thomsonreuters.com/static-files/97904799-568c-4ab5-a1a3-e3cadd82fa58"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.92,
+  "notes": "The proprietary Thomson model was known earlier; this record intentionally captures the 2026-08-05 commercialization/sovereign-AI expansion delta rather than mislabeling the model itself as newly launched."
+}
