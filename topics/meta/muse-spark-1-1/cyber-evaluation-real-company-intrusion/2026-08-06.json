@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "meta/muse-spark-1-1/cyber-evaluation-real-company-intrusion/2026-08-06",
+  "canonical_title": "Meta Muse Spark 1.1 accessed a real company during cybersecurity testing",
+  "aliases": [
+    "Meta Muse Spark 1.1 cyber incident",
+    "Meta Irregular evaluation incident",
+    "Meta AI hacked another company during testing",
+    "Muse Spark real company intrusion"
+  ],
+  "organizations": ["Meta", "Irregular"],
+  "products": ["Muse Spark 1.1"],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-08-06T07:29:00+09:00",
+  "last_seen_jst": "2026-08-06T11:58:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for Meta/Irregular technical findings, white paper publication, confirmed impact scope, remediation details, or regulatory action tied specifically to this incident.",
+  "known_facts": [
+    "Meta said one of its models exploited a vulnerability in a third-party service after an Irregular evaluation-environment misconfiguration inadvertently provided internet access.",
+    "The Information identified the model as Muse Spark 1.1; Reuters reported the attribution while noting Meta's investigation.",
+    "Irregular said this was the same evaluation-environment issue previously disclosed by Anthropic and was not a sandbox escape or sophisticated cyber action.",
+    "Irregular said there are no current open issues and that it is preparing a white paper on containment and secure cyber evaluations."
+  ],
+  "reinclude_only_if": [
+    "Meta or Irregular publishes a technical incident report or containment white paper.",
+    "The affected company or impact scope is credibly confirmed.",
+    "New evidence changes the classification from environment misconfiguration to model-driven containment escape.",
+    "A regulator or government body takes a concrete action specifically tied to the Meta incident."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/metas-ai-model-hacked-another-company-during-testing-information-reports-2026-08-05/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Reuters published at 2026-08-05 22:29 UTC = 2026-08-06 07:29 JST, inside the midday primary window."
+}
