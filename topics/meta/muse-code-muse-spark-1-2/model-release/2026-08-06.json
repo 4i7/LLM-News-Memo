@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "meta/muse-code-muse-spark-1-2/model-release/2026-08-06",
+  "canonical_title": "Meta launches Muse Code powered by Muse Spark 1.2",
+  "aliases": [
+    "Meta Muse Code",
+    "Muse Spark 1.2",
+    "Meta coding agent",
+    "Muse Code beta"
+  ],
+  "organizations": ["Meta"],
+  "products": ["Muse Code", "Muse Spark 1.2"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-06T06:29:00+09:00",
+  "last_seen_jst": "2026-08-06T11:58:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for GA, material pricing changes, independent benchmark validation, major platform expansion, or material Muse Code/Muse Spark 1.2 capability changes.",
+  "known_facts": [
+    "Meta launched Muse Code in beta, powered by Muse Spark 1.2.",
+    "Muse Code can write code, verify results, handle long complex projects, and run multiple sub-agents in parallel.",
+    "Muse Code keeps an action log that lets it resume after a crash.",
+    "Standard pay-as-you-go pricing is $1.25 per million input tokens and $4.25 per million output tokens.",
+    "Meta said Muse Spark 1.2 and Muse Code were trained together to work as a pair."
+  ],
+  "reinclude_only_if": [
+    "Meta publishes a formal model card or safety report for Muse Spark 1.2.",
+    "Muse Code reaches general availability or materially expands supported platforms.",
+    "Independent reproducible benchmarks materially validate or contradict Meta's capability claims.",
+    "Pricing or contributor-data terms materially change."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/meta-launches-new-ai-coding-tool-powered-by-muse-spark-12-2026-08-05/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.94,
+  "notes": "Reuters published at 2026-08-05 21:29 UTC = 2026-08-06 06:29 JST, inside the midday primary window."
+}
