@@ -1,0 +1,35 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "microsoft/maia-300/unveil-plan/2026-08-10",
+  "canonical_title": "Microsoft plans September unveiling for Maia 300 AI chip",
+  "aliases": [
+    "Maia 300",
+    "Microsoft next-generation AI chip",
+    "Microsoft Maia 300 September unveiling"
+  ],
+  "organizations": ["Microsoft", "TSMC", "Anthropic"],
+  "products": ["Maia 300", "Maia 200"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-10T22:09:00+09:00",
+  "last_seen_jst": "2026-08-10T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for Microsoft official confirmation, launch/specification details, production commitments, cloud availability, major customer adoption, or material changes to reported TSMC capacity plans.",
+  "known_facts": [
+    "The Information reported Microsoft plans to unveil Maia 300 as early as September 2026.",
+    "Microsoft is reportedly discussing TSMC capacity for more than 300,000 units for delivery in 2027, with a longer-term ambition above one million units.",
+    "Microsoft is reportedly seeking adoption from major cloud customers including Anthropic."
+  ],
+  "reinclude_only_if": [
+    "Microsoft officially announces Maia 300 or publishes specifications.",
+    "Production capacity, process node, memory architecture, performance, pricing, or deployment details become concrete.",
+    "A major external customer confirms Maia 300 adoption."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/microsoft-plans-unveil-its-new-maia-300-ai-chip-this-fall-information-reports-2026-08-10/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.84,
+  "notes": "Reuters report published 2026-08-10 13:09 UTC = 22:09 JST; underlying claims are attributed to The Information and were not confirmed by Microsoft in the Reuters report."
+}
