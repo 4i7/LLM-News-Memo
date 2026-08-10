@@ -11,7 +11,7 @@
   "organizations": ["Meta"],
   "products": ["Muse Glimmer", "Muse Spark 1.2"],
   "event_type": "model_release",
-  "first_seen_jst": "2026-08-10T17:01:00+09:00",
+  "first_seen_jst": "2026-08-10T19:01:00+09:00",
   "last_seen_jst": "2026-08-10T23:30:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
@@ -31,5 +31,5 @@
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.93,
-  "notes": "Reuters publication time 2026-08-10 10:01 UTC (19:01 JST? verify arithmetic: UTC+9 = 19:01 JST)."
+  "notes": "Reuters publication time 2026-08-10 10:01 UTC = 19:01 JST."
 }
