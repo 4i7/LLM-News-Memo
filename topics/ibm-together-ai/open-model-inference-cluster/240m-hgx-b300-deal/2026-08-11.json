@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "ibm-together-ai/open-model-inference-cluster/240m-hgx-b300-deal/2026-08-11",
+  "canonical_title": "IBM and Together AI sign $240M Nvidia HGX B300 inference cluster deal",
+  "aliases": ["IBM Together AI $240M deal", "IBM Cloud Together AI HGX B300 cluster"],
+  "organizations": ["IBM", "Together AI", "NVIDIA"],
+  "products": ["IBM Cloud", "NVIDIA HGX B300", "NVIDIA Spectrum-X"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-11T21:02:46+09:00",
+  "last_seen_jst": "2026-08-11T21:02:46+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for cluster capacity/availability, customer deployment, pricing/performance, material expansion, or contract change.",
+  "known_facts": ["IBM and Together AI signed a $240 million multi-year agreement for a large-scale AI inference cluster on IBM Cloud.", "The cluster uses NVIDIA HGX B300 systems and Spectrum-X Ethernet and targets inference for open models including DeepSeek, MiniMax and Kimi."],
+  "reinclude_only_if": ["IBM or Together AI discloses cluster scale or production availability.", "Material pricing, performance, customer adoption, expansion, or contract change is announced."],
+  "sources": ["https://www.reuters.com/business/ibm-together-ai-ink-240-million-deal-nvidia-powered-ai-inference-cluster-2026-08-11/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Reuters timestamp 2026-08-11 12:02:46 UTC = 21:02:46 JST, inside the night delta window."
+}
