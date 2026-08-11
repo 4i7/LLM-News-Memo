@@ -1,5 +1,11 @@
 # OKF Update Log
 
+## 2026-08-11
+
+* **Early-August Repo Radar retrospective**: Added `reports/github-repo-radar/2026-08-early-retrospective.md`, consolidating the post-July source window through 2026-08-11 into durable Tier A, conditional, watch-only, safety, and compact-toolkit conclusions.
+* **Durable additions**: Preserved high-value conclusions for DevToys, CrystalDiskInfo, ONLYOFFICE Desktop Editors, ULogViewer, EverythingToolbar, WinDirStat, and Rufus, with conditional retention for PeaZip, massCode, electerm, Files, ImageGlass, Focra, HandBrake, and Sunshine.
+* **Index update**: Added direct OKF navigation to the new early-August retrospective while keeping Repo Radar reports separate from canonical LLM News duplicate-control state.
+
 ## 2026-07-30
 
 * **Late-July Repo Radar retrospective**: Added `reports/github-repo-radar/2026-07-late-retrospective.md`, consolidating the 2026-07-21 through 2026-07-30 runs into durable Tier A, conditional, watch-only, safety, and compact-toolkit conclusions.
