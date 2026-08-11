@@ -5,7 +5,7 @@ description: Agent-readable editing contract for the LLM News shared ledger and 
 okf_version: "0.2"
 resource: https://github.com/4i7/LLM-News-Memo
 tags: [llm-news, ledger, schedules, duplicate-control, reports, okf]
-timestamp: 2026-07-30T12:21:00+09:00
+timestamp: 2026-08-11T11:56:00+09:00
 ---
 
 # Purpose
@@ -36,6 +36,7 @@ For curated GitHub utility reports, also read:
 - [GitHub Repo Radar Scheduled Run](playbooks/github-repo-radar-scheduled-run.md)
 - [GitHub Repo Radar Retrospective — 2026-07-07 to 2026-07-20](../reports/github-repo-radar/2026-07-retrospective.md)
 - [GitHub Repo Radar Retrospective — 2026-07-21 to 2026-07-30](../reports/github-repo-radar/2026-07-late-retrospective.md)
+- [GitHub Repo Radar Retrospective — 2026-07-31 to 2026-08-11](../reports/github-repo-radar/2026-08-early-retrospective.md)
 
 # Rules
 
