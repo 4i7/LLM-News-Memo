@@ -1,0 +1,32 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/nemotron-3-5-lightning/model-release/2026-08-11",
+  "canonical_title": "NVIDIA releases Nemotron 3.5 Lightning",
+  "aliases": ["Nemotron 3.5 Lightning", "NVIDIA Lightning open model"],
+  "organizations": ["NVIDIA"],
+  "products": ["Nemotron 3.5 Lightning"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-12T00:04:00+09:00",
+  "last_seen_jst": "2026-08-12T00:04:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for model card, weights/license details, independently reproducible benchmarks, material availability changes, or significant deployment/adoption evidence.",
+  "known_facts": [
+    "NVIDIA released Nemotron 3.5 Lightning as an open model aimed at code review, tool use, security alert monitoring, billing questions and other enterprise tasks.",
+    "NVIDIA positioned the model as a smaller, lower-cost option than larger frontier systems.",
+    "The release was reported by Reuters after the prior LLM Night Lite boundary."
+  ],
+  "reinclude_only_if": [
+    "Official model card or weights/license details materially change practical interpretation.",
+    "Independent reproducible evaluation establishes a meaningful capability or efficiency delta.",
+    "A major deployment or compatibility change materially affects use."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/nvidia-is-developing-nemotron-4-open-source-models-information-reports-2026-08-11/",
+    "https://www.wsj.com/cio-journal/nvidia-releases-new-open-model-ee66e6a3"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "NeMo Switchyard was discussed in the same announcement cycle, but the project/package had public availability before this run, so it is not treated as a separate NEW release topic here."
+}
