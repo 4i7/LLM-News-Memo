@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "lovable/platform/series-c-funding/2026-08-12",
+  "canonical_title": "Lovable raises $400M Series C at $13.3B valuation",
+  "aliases": [
+    "Lovable $400 million Series C",
+    "Lovable $13.3 billion valuation",
+    "Lovable vibe-coding funding August 2026"
+  ],
+  "organizations": ["Lovable", "Menlo Ventures", "EQT", "Tencent"],
+  "products": ["Lovable"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-12T22:57:00+09:00",
+  "last_seen_jst": "2026-08-12T22:57:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Do not repeat the funding round or valuation. Reinclude only for a new financing event, material product/model release, independently verified adoption/revenue change, acquisition/IPO event, or other hard operational delta.",
+  "known_facts": [
+    "Lovable raised $400 million in Series C funding at a $13.3 billion valuation, double its December valuation.",
+    "Menlo Ventures and the EQT-managed Scaleup Europe Fund co-led the round; Tencent, Balderton Capital and other new investors also participated.",
+    "Lovable said annual recurring revenue had nearly tripled from $200 million and was tracking toward $600 million by the end of August 2026.",
+    "Lovable said users had created more than 60 million projects and Lovable-built apps attracted more than 900 million visits per month.",
+    "The company plans to hire heavily in machine learning, product, infrastructure and security."
+  ],
+  "reinclude_only_if": [
+    "A new funding, acquisition, IPO, or material valuation event occurs.",
+    "Lovable releases a materially new model, agent system, runtime, or enterprise product.",
+    "Independent evidence materially changes the interpretation of its revenue, adoption, or production reliability."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/vibe-coding-startup-lovable-raises-400-million-133-billion-valuation-2026-08-12/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Reuters timestamp 2026-08-12 13:57 UTC = 22:57 JST, inside the 2026-08-12 night delta window."
+}
