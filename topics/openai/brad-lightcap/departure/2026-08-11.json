@@ -1,0 +1,29 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/brad-lightcap/departure/2026-08-11",
+  "canonical_title": "Brad Lightcap leaves OpenAI for a new venture",
+  "aliases": ["Brad Lightcap departure", "OpenAI Brad Lightcap leaves"],
+  "organizations": ["OpenAI"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-12T01:41:00+09:00",
+  "last_seen_jst": "2026-08-12T01:41:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only if the new venture is identified, the departure materially changes OpenAI leadership/operations, or OpenAI announces a consequential replacement or reorganization.",
+  "known_facts": [
+    "Senior OpenAI executive Brad Lightcap said he will leave to start a new venture.",
+    "Lightcap had moved from COO to special projects in April and OpenAI said day-to-day team operations are not expected to be affected."
+  ],
+  "reinclude_only_if": [
+    "Lightcap discloses the new venture and it has material AI relevance.",
+    "OpenAI announces a consequential leadership or organizational change tied to the departure."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/brad-lightcap-leaving-openai-2026-08-11/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Corporate delta; lower technical significance than the NVIDIA model items."
+}
