@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "deepseek/v4-api/pricing-change/2026-08-13",
+  "canonical_title": "DeepSeek V4 API peak/off-peak pricing increase",
+  "aliases": ["DeepSeek V4 API price increase", "V4 Pro pricing", "V4 Flash pricing"],
+  "organizations": ["DeepSeek"],
+  "products": ["DeepSeek V4 Pro", "DeepSeek V4 Flash"],
+  "event_type": "pricing",
+  "first_seen_jst": "2026-08-13T20:56:00+09:00",
+  "last_seen_jst": "2026-08-13T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for another material pricing revision, cancellation, effective-date change, or measured demand/availability impact.",
+  "known_facts": ["DeepSeek announced higher API pricing for V4 Pro and V4 Flash with peak and off-peak rates.", "Reuters reports increases ranging from 50% to 1,100% depending on model, token type, and time of use.", "The new pricing takes effect in mid-August 2026."],
+  "reinclude_only_if": ["DeepSeek changes or cancels the new rates.", "The effective date changes materially.", "There is credible evidence of significant demand, routing, or availability impact."],
+  "sources": ["https://www.reuters.com/world/china/deepseek-raises-api-pricing-its-v4-models-2026-08-13/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Pricing is a separate hard delta from the V4 Pro GA model release."
+}
