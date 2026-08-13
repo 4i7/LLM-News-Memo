@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "deepseek/v4-pro/ga-release/2026-08-13",
+  "canonical_title": "DeepSeek V4 Pro GA release",
+  "aliases": ["DeepSeek V4-Pro-0813", "DeepSeek V4 Pro official release", "V4-Pro-0813"],
+  "organizations": ["DeepSeek"],
+  "products": ["DeepSeek V4 Pro", "DeepSeek V4 Flash"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-13T21:56:00+09:00",
+  "last_seen_jst": "2026-08-13T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for weights/model card release, material independent benchmark findings, rollback/fix confirmation, or substantial availability changes.",
+  "known_facts": ["DeepSeek formally released V4-Pro-0813 on APP, Web, and API.", "DeepSeek says the GA build significantly improves agent capabilities.", "The API now supports the Responses API format and thinking-effort controls.", "Post-trained GA weights were not confirmed as publicly released at report time."],
+  "reinclude_only_if": ["GA weights or a new model card/technical report are released.", "Independent reproducible evaluations materially change the performance interpretation.", "DeepSeek confirms a rollback or corrective release.", "Availability or API behavior materially changes."],
+  "sources": ["https://www.reuters.com/world/china/deepseek-releases-official-v4-pro-model-it-steps-up-expansion-2026-08-13/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Community reports of degraded reasoning/possible rollback are unconfirmed and should not be treated as fact without official or reproducible evidence."
+}
