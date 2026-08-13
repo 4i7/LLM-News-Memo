@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google-deepmind/gemini/ai-reshuffle-flagship-delay/2026-08-13",
+  "canonical_title": "Google DeepMind reshuffle and delayed flagship Gemini update",
+  "aliases": [
+    "Google AI reshuffle",
+    "Gemini flagship delayed two months",
+    "Koray Kavukcuoglu final say DeepMind",
+    "DeepMind teams moved into corporate Google"
+  ],
+  "organizations": ["Google", "Alphabet", "Google DeepMind"],
+  "products": ["Gemini"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-13T02:36:00+09:00",
+  "last_seen_jst": "2026-08-13T02:36:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for an official new Gemini release schedule, confirmed model artifact, further material DeepMind reorganization, or a major correction to the reported two-month delay and governance changes.",
+  "known_facts": [
+    "Reuters reported that Google delayed its next flagship Gemini update by about two months after internal testing showed it still lagged rivals in areas including coding.",
+    "Several nontechnical DeepMind teams were moved into corporate Google after the August leadership overhaul.",
+    "Google said Koray Kavukcuoglu now has final say on major DeepMind decisions, while Demis Hassabis moved to chair with fewer management duties.",
+    "Reuters reported that Sergey Brin has pushed AI staff to prioritize Gemini and directed attention toward areas including recursive self-improvement."
+  ],
+  "reinclude_only_if": [
+    "Google confirms a new flagship Gemini release date or ships the delayed model.",
+    "Google publishes a model card or benchmark artifact that materially changes the interpretation of the coding-performance delay.",
+    "Google announces further material DeepMind organizational changes or reverses the reported governance structure."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.92,
+  "notes": "Selected for the 2026-08-13 midday delta because Reuters published previously unreported internal details within the primary window."
+}
