@@ -20,26 +20,31 @@
   "products": [],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-11T01:34:00+09:00",
-  "last_seen_jst": "2026-08-11T12:00:00+09:00",
-  "last_report": "LLM Midday Brief",
+  "last_seen_jst": "2026-08-14T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
-  "treatment": "Treat the reported $500 billion infrastructure-financing consortium as covered. Reinclude only for signed commitments, named projects, capital structure, deployment schedule, changes in participants, or official NVIDIA/partner confirmation with material new detail.",
+  "treatment": "Treat the $500 billion compute-financing platform and the August 14 financing-structure details as covered. Reinclude only for binding capital commitments, named financed projects, deployment schedules, changes in participants, closed transactions, or regulatory/financing documents with material new terms.",
   "known_facts": [
-    "Reuters reported on August 10 at 16:34 UTC that financial firms including Apollo and Blackstone are working with NVIDIA on a roughly $500 billion financing package for AI infrastructure.",
-    "The consortium also includes BlackRock Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR, according to the reporting.",
+    "Reuters reported on August 10 at 16:34 UTC that financial firms including Apollo and Blackstone were working with NVIDIA on a roughly $500 billion financing package for AI infrastructure.",
+    "The consortium includes BlackRock Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR.",
     "The capital is intended to support chips, power generation and data-center infrastructure underpinning AI build-out.",
-    "The arrangement was still described as being in talks rather than a fully closed financing package at publication time."
+    "By August 14, Reuters reported that NVIDIA had signed memorandums of understanding with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR for compute-financing platforms aimed at raising more than $500 billion in third-party capital.",
+    "Jensen Huang said NVIDIA has the option to backstop up to $125 billion, or 25% of potential deals.",
+    "Reuters reported Goldman Sachs is the sole lender in the initiative alongside the asset managers and is discussing participation with banks, insurers, money managers and private-credit investors.",
+    "The intended structure is an asset-backed market for AI compute rather than the heavier vendor-guarantee model used in some earlier AI infrastructure financings."
   ],
   "reinclude_only_if": [
-    "NVIDIA or consortium members formally announce the vehicle or binding commitments.",
+    "NVIDIA or consortium members announce binding capital commitments or closed financings.",
     "Specific data-center, power, chip-purchase or financing projects are disclosed.",
     "The size, capital structure, participant list or deployment timeline materially changes.",
     "Regulatory filings or financing documents reveal material terms."
   ],
   "sources": [
-    "https://www.reuters.com/technology/wall-street-giants-partner-with-nvidia-500-billion-ai-financing-deal-ft-reports-2026-08-10/"
+    "https://www.reuters.com/technology/wall-street-giants-partner-with-nvidia-500-billion-ai-financing-deal-ft-reports-2026-08-10/",
+    "https://www.reuters.com/legal/transactional/goldman-talks-with-investors-nvidia-financing-deal-after-landing-prized-role-2026-08-14/",
+    "https://www.reuters.com/legal/transactional/private-credit-roundup-nvidias-half-trillion-chips-financing-plus-others-2026-08-14/"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.9,
-  "notes": "NEW in the 2026-08-11 Midday window; Reuters publication time 2026-08-10 16:34 UTC = 2026-08-11 01:34 JST."
+  "confidence": 0.97,
+  "notes": "FOLLOW_UP on 2026-08-14 Night: prior coverage described the platform as still being assembled; new Reuters reporting confirms signed MoUs, NVIDIA's up-to-$125B backstop option, Goldman's lender role, and target investor base."
 }
