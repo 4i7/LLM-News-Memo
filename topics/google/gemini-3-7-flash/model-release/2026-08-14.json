@@ -1,0 +1,30 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/gemini-3-7-flash/model-release/2026-08-14",
+  "canonical_title": "Google launches Gemini 3.7 Flash for coding and agent workflows",
+  "aliases": ["Gemini 3.7 Flash", "Google Gemini 3.7 Flash", "Gemini Spark 3.7 Flash rollout"],
+  "organizations": ["Google", "Google DeepMind"],
+  "products": ["Gemini 3.7 Flash", "Gemini Spark"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-14T02:02:00+09:00",
+  "last_seen_jst": "2026-08-14T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for a material benchmark correction, pricing change after the introductory period, major availability change, model card/safety artifact, or reproducible independent finding.",
+  "known_facts": [
+    "Google launched Gemini 3.7 Flash for coding and automated multi-step agent workflows.",
+    "Reuters reported introductory pricing of $0.75 per million input tokens and $3.75 per million output tokens through the end of 2026.",
+    "The model is rolling out immediately to Gemini Spark for Google AI Pro and Ultra customers in more than 160 countries.",
+    "Google still did not give a release date for the anticipated Gemini 3.5 Pro flagship model."
+  ],
+  "reinclude_only_if": [
+    "Google publishes a model card, safety report, or detailed benchmark artifact that materially changes interpretation.",
+    "Independent reproducible testing establishes a material performance or reliability difference.",
+    "Pricing or broad availability materially changes."
+  ],
+  "sources": ["https://www.reuters.com/business/google-unveils-gemini-37-flash-ai-model-coding-agent-workflows-2026-08-13/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Reuters timestamp 2026-08-13 17:02 UTC = 2026-08-14 02:02 JST, inside the post-night primary window."
+}
