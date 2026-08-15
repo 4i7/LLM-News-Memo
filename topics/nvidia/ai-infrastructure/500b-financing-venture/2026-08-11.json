@@ -6,7 +6,8 @@
   "aliases": [
     "Nvidia $500 billion AI financing venture",
     "Nvidia Wall Street AI infrastructure fund",
-    "Apollo Blackstone Nvidia AI financing"
+    "Apollo Blackstone Nvidia AI financing",
+    "Nvidia Ohio OpenAI data center guarantee"
   ],
   "organizations": [
     "NVIDIA",
@@ -15,15 +16,18 @@
     "BlackRock Global Infrastructure Partners",
     "Brookfield Asset Management",
     "Goldman Sachs",
-    "KKR"
+    "KKR",
+    "OpenAI",
+    "SB Energy",
+    "SoftBank Group"
   ],
   "products": [],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-11T01:34:00+09:00",
-  "last_seen_jst": "2026-08-14T23:30:00+09:00",
-  "last_report": "LLM Night Lite",
+  "last_seen_jst": "2026-08-15T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "Treat the $500 billion compute-financing platform and the August 14 financing-structure details as covered. Reinclude only for binding capital commitments, named financed projects, deployment schedules, changes in participants, closed transactions, or regulatory/financing documents with material new terms.",
+  "treatment": "Treat the $500 billion compute-financing platform, its August 14 financing structure, and the Ohio OpenAI project's revised NVIDIA guarantee as covered. Reinclude only for binding capital commitments, signed Ohio agreements, named financed projects, deployment schedules, changes in participants, closed transactions, or regulatory/financing documents with material new terms.",
   "known_facts": [
     "Reuters reported on August 10 at 16:34 UTC that financial firms including Apollo and Blackstone were working with NVIDIA on a roughly $500 billion financing package for AI infrastructure.",
     "The consortium includes BlackRock Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR.",
@@ -31,10 +35,14 @@
     "By August 14, Reuters reported that NVIDIA had signed memorandums of understanding with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR for compute-financing platforms aimed at raising more than $500 billion in third-party capital.",
     "Jensen Huang said NVIDIA has the option to backstop up to $125 billion, or 25% of potential deals.",
     "Reuters reported Goldman Sachs is the sole lender in the initiative alongside the asset managers and is discussing participation with banks, insurers, money managers and private-credit investors.",
-    "The intended structure is an asset-backed market for AI compute rather than the heavier vendor-guarantee model used in some earlier AI infrastructure financings."
+    "The intended structure is an asset-backed market for AI compute rather than the heavier vendor-guarantee model used in some earlier AI infrastructure financings.",
+    "On August 15 JST, Reuters relayed a Wall Street Journal report that NVIDIA and OpenAI were nearing an agreement for the proposed 10-gigawatt Ohio data-center project developed by SB Energy.",
+    "The proposed NVIDIA financial guarantee for the Ohio project was reduced from as much as $250 billion to initially less than $120 billion, with NVIDIA expected to backstop only the first phase.",
+    "The reported reduction followed investor concerns about NVIDIA's risk exposure to large financing commitments; OpenAI was still discussing a binding lease for the full 10-gigawatt project."
   ],
   "reinclude_only_if": [
     "NVIDIA or consortium members announce binding capital commitments or closed financings.",
+    "The Ohio OpenAI/SB Energy agreement or lease is signed, cancelled, resized, or materially restructured.",
     "Specific data-center, power, chip-purchase or financing projects are disclosed.",
     "The size, capital structure, participant list or deployment timeline materially changes.",
     "Regulatory filings or financing documents reveal material terms."
@@ -42,9 +50,10 @@
   "sources": [
     "https://www.reuters.com/technology/wall-street-giants-partner-with-nvidia-500-billion-ai-financing-deal-ft-reports-2026-08-10/",
     "https://www.reuters.com/legal/transactional/goldman-talks-with-investors-nvidia-financing-deal-after-landing-prized-role-2026-08-14/",
-    "https://www.reuters.com/legal/transactional/private-credit-roundup-nvidias-half-trillion-chips-financing-plus-others-2026-08-14/"
+    "https://www.reuters.com/legal/transactional/private-credit-roundup-nvidias-half-trillion-chips-financing-plus-others-2026-08-14/",
+    "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.97,
-  "notes": "FOLLOW_UP on 2026-08-14 Night: prior coverage described the platform as still being assembled; new Reuters reporting confirms signed MoUs, NVIDIA's up-to-$125B backstop option, Goldman's lender role, and target investor base."
+  "notes": "FOLLOW_UP on 2026-08-15 Midday: the first named project-level financing terms surfaced. NVIDIA's proposed Ohio OpenAI backstop was reportedly cut below $120B from the previously discussed $250B, limiting support to the first phase."
 }
