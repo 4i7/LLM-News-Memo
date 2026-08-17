@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-console/legacy-workbench-prompt-tools-retirement/2026-08-17",
+  "canonical_title": "Anthropic retires legacy Workbench and experimental prompt tools APIs",
+  "aliases": [
+    "Claude legacy Workbench retirement",
+    "Anthropic experimental prompt tools API retirement",
+    "generate_prompt improve_prompt templatize_prompt retirement"
+  ],
+  "organizations": ["Anthropic"],
+  "products": ["Claude Console", "Workbench", "/v1/experimental/generate_prompt", "/v1/experimental/improve_prompt", "/v1/experimental/templatize_prompt"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-17T12:00:00+09:00",
+  "last_seen_jst": "2026-08-17T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for confirmed shutdown timing, replacement APIs/features, migration tooling, or a rollback/extension.",
+  "known_facts": [
+    "Anthropic scheduled legacy Claude Console Workbench access to end on August 17, 2026.",
+    "Saved prompts, prompt versions, variables, and evals from the legacy Workbench are not supported in the refreshed stateless Workbench.",
+    "Anthropic scheduled /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt for retirement on August 17, 2026; after removal, requests return errors."
+  ],
+  "reinclude_only_if": [
+    "Anthropic confirms the retirement has completed or publishes an exact shutdown time.",
+    "Anthropic extends or rolls back the shutdown.",
+    "Anthropic introduces replacement prompt-management or evaluation APIs."
+  ],
+  "sources": [
+    "https://platform.claude.com/docs/en/release-notes/overview",
+    "https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Effective-date hard delta. At 12:00 JST the official docs still describe the August 17 retirement date without an exact time, so this record does not assert that shutdown has already completed."
+}
