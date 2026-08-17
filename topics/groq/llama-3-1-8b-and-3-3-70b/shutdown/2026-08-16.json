@@ -10,7 +10,7 @@
   ],
   "organizations": ["Groq", "Meta", "OpenAI", "Qwen"],
   "products": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "openai/gpt-oss-20b", "openai/gpt-oss-120b", "qwen/qwen3.6-27b"],
-  "event_type": "availability_restore",
+  "event_type": "other",
   "first_seen_jst": "2026-08-17T12:00:00+09:00",
   "last_seen_jst": "2026-08-17T12:00:00+09:00",
   "last_report": "LLM Midday Brief",
