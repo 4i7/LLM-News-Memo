@@ -1,0 +1,50 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "higgsfield/platform/series-b-funding/2026-08-17",
+  "canonical_title": "Higgsfield raises $400 million Series B at $5.4 billion valuation",
+  "aliases": [
+    "Higgsfield $400M Series B",
+    "Higgsfield $5.4B valuation",
+    "Higgsfield AI content funding"
+  ],
+  "organizations": [
+    "Higgsfield",
+    "DST Capital",
+    "Goldman Sachs Alternatives",
+    "Tribe Capital",
+    "Intel Capital",
+    "Accel",
+    "Menlo Ventures",
+    "GFT Ventures"
+  ],
+  "products": [
+    "Soul 2.0",
+    "Keyframes"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-17T20:49:00+09:00",
+  "last_seen_jst": "2026-08-17T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the August 17 Series B, $5.4B valuation, $700M annualized revenue and 30M-user adoption figures as covered. Reinclude only for a new funding close, material revenue/customer update, major proprietary model or agent release, acquisition, or infrastructure/product disclosure that changes practical interpretation.",
+  "known_facts": [
+    "Reuters reported on August 17 that Higgsfield raised $400 million in a Series B led by DST Capital, with participation from Goldman Sachs Alternatives, Tribe Capital, Intel Capital and existing investors.",
+    "The round valued Higgsfield at $5.4 billion, roughly four times its valuation about six months earlier.",
+    "Higgsfield said annualized revenue reached $700 million in August 2026.",
+    "The company said global users had doubled since January to more than 30 million.",
+    "Funding is intended for global sales and management expansion plus infrastructure, research and hiring."
+  ],
+  "reinclude_only_if": [
+    "Higgsfield announces a major proprietary model, agent runtime or infrastructure release.",
+    "Revenue, enterprise adoption or user scale changes materially with credible new figures.",
+    "A new financing, acquisition, strategic partnership or material corporate transaction closes.",
+    "Independent evidence materially changes the interpretation of production adoption or economics."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/higgsfields-valuation-soars-fourfold-54-billion-six-months-ai-content-demand-2026-08-17/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "NEW in 2026-08-17 Night: selected as a concrete adoption/economics signal for generative media infrastructure rather than as a model-release story."
+}
