@@ -1,0 +1,33 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "groq/llama-3-1-8b-and-3-3-70b/shutdown/2026-08-16",
+  "canonical_title": "Groq shuts down Llama 3.1 8B Instant and Llama 3.3 70B Versatile for free and developer tiers",
+  "aliases": [
+    "Groq Llama 3.3 70B Versatile shutdown",
+    "Groq llama-3.1-8b-instant deprecation",
+    "Groq llama-3.3-70b-versatile deprecation"
+  ],
+  "organizations": ["Groq", "Meta", "OpenAI", "Qwen"],
+  "products": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "openai/gpt-oss-20b", "openai/gpt-oss-120b", "qwen/qwen3.6-27b"],
+  "event_type": "availability_restore",
+  "first_seen_jst": "2026-08-17T12:00:00+09:00",
+  "last_seen_jst": "2026-08-17T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered",
+  "treatment": "Recovered from the prior night search-failure window. Repeat only for rollback, enterprise-tier impact, migration changes, or a materially different Groq production replacement.",
+  "known_facts": [
+    "Groq set August 16, 2026 as the shutdown date for llama-3.1-8b-instant and llama-3.3-70b-versatile on free and developer tiers.",
+    "Enterprise customers with committed-spend contracts are not affected by this deprecation.",
+    "Groq recommends openai/gpt-oss-20b for Llama 3.1 8B Instant and openai/gpt-oss-120b or qwen/qwen3.6-27b for Llama 3.3 70B Versatile."
+  ],
+  "reinclude_only_if": [
+    "Groq restores either model ID for affected tiers.",
+    "Groq changes the enterprise exemption or recommended replacements.",
+    "A material compatibility or outage issue emerges from the migration."
+  ],
+  "sources": ["https://console.groq.com/docs/deprecations"],
+  "seed_basis": "manual_recovery_from_failed_scheduled_run",
+  "confidence": 0.98,
+  "notes": "Backfilled because the 2026-08-16 Night Lite run could not verify external news due to search failure."
+}
