@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "velaura-ai/titan-core/series-a-funding/2026-08-18",
+  "canonical_title": "Velaura AI raises $110M Series A at more than $1B valuation for low-power AI chip design",
+  "aliases": [
+    "Velaura AI Series A",
+    "Velaura AI $110M funding",
+    "Titan Core funding",
+    "Auradine Velaura AI"
+  ],
+  "organizations": ["Velaura AI", "Seligman Ventures", "Capricorn Investment Group", "Samsung Catalyst Fund", "StepStone Group", "Maverick Silicon"],
+  "products": ["Titan Core"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-18T21:01:00+09:00",
+  "last_seen_jst": "2026-08-18T21:01:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as a material AI-infrastructure funding and compute-efficiency signal. Reinclude only for product deployment, customer wins, independent silicon efficiency evidence, major new financing, or acquisition/IPO events.",
+  "known_facts": [
+    "Reuters reported on August 18, 2026 that Velaura AI raised $110 million and was valued at more than $1 billion.",
+    "The round was led by Seligman Ventures with participation from Capricorn Investment Group and existing investors including Samsung Catalyst Fund, StepStone Group and Maverick Silicon.",
+    "Velaura develops low-power chip and software technologies for AI data centers, edge and physical AI.",
+    "Its Titan Core silicon design platform targets lower arithmetic power consumption and data-center operating costs."
+  ],
+  "reinclude_only_if": [
+    "Velaura announces production silicon, named customers, or major deployment milestones.",
+    "Independent measurements substantiate or materially challenge Titan Core power-efficiency claims.",
+    "A new material financing, acquisition, IPO, or strategic chip partnership is announced."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/transactional/chip-designer-velaura-ai-valued-more-than-1-billion-after-funding-round-2026-08-18/",
+    "https://velaura.ai/velaura-ai-unveils-silicon-design-and-ip-platform-enabling-up-to-2x-lower-power-for-ai-accelerators/",
+    "https://velaura.ai/low-power-ai-compute/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Public funding report falls inside the 2026-08-18 12:00-23:30 JST night window."
+}
