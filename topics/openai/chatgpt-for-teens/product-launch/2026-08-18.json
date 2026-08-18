@@ -1,0 +1,41 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/chatgpt-for-teens/product-launch/2026-08-18",
+  "canonical_title": "OpenAI launches ChatGPT for Teens with automatic age-based protections and parental controls",
+  "aliases": [
+    "ChatGPT for Teens",
+    "OpenAI teen mode",
+    "ChatGPT teen protections",
+    "ChatGPT parental controls"
+  ],
+  "organizations": ["OpenAI"],
+  "products": ["ChatGPT", "ChatGPT for Teens"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-18T20:51:00+09:00",
+  "last_seen_jst": "2026-08-18T20:51:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as the formal product launch. Reinclude only for material changes to age estimation, safeguards, parental-control capabilities, geographic availability, enforcement behavior, or credible evidence of significant safety failures.",
+  "known_facts": [
+    "OpenAI launched ChatGPT for Teens on August 18, 2026.",
+    "The teen experience activates when a user is estimated to be under 18 or self-identifies as 13 to 17.",
+    "OpenAI says it defaults to the safer teen setting when age is uncertain.",
+    "Parents can set Quiet Hours, manage selected settings, and receive limited alerts around sensitive-topic discussions.",
+    "The teen experience adds restrictions around high-risk topics including self-harm, violence and eating disorders and includes guided-learning tools."
+  ],
+  "reinclude_only_if": [
+    "OpenAI materially changes age-prediction or verification behavior.",
+    "OpenAI expands or removes major parental controls or teen safeguards.",
+    "A regulator, court, or credible technical investigation establishes a material safety or privacy issue.",
+    "Availability or eligibility changes materially."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/openai-unveils-chatgpt-teens-with-stronger-guardrails-parental-controls-2026-08-18/",
+    "https://help.openai.com/en/articles/12315553-parental-controls-faq",
+    "https://help.openai.com/en/articles/12652064-age-prediction-in-chatgpt/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Formal launch falls inside the 2026-08-18 12:00-23:30 JST night window."
+}
