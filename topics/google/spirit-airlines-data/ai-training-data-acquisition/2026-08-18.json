@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/spirit-airlines-data/ai-training-data-acquisition/2026-08-18",
+  "canonical_title": "Google to acquire de-identified Spirit Airlines business data for AI training",
+  "aliases": [
+    "Google Spirit Airlines data acquisition",
+    "Spirit Airlines AI training data sale",
+    "$10 million Spirit data Google"
+  ],
+  "organizations": ["Google", "Alphabet", "Spirit Airlines"],
+  "products": ["Google AI models"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-18T06:23:00+09:00",
+  "last_seen_jst": "2026-08-18T06:23:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat Google's $10M agreement to buy de-identified Spirit Airlines internal business data for product development and AI-model training as covered. Reinclude only for court approval/rejection, material changes to dataset scope or privacy terms, disclosure of model/training use, or similar large enterprise-data acquisitions that materially change interpretation.",
+  "known_facts": [
+    "Reuters reported Google agreed to pay $10 million for internal business data from bankrupt Spirit Airlines for product development and training its AI models.",
+    "The dataset includes employee emails, Microsoft Teams messages, spreadsheets, calendars, and marketing, productivity, and operations data.",
+    "The data is to be de-identified before the sale closes and is described as containing no customer information or personally identifiable information.",
+    "A U.S. bankruptcy judge is scheduled to consider approval of the sale at a Wednesday hearing.",
+    "AI data company Mercor submitted a competing $7.5 million bid."
+  ],
+  "reinclude_only_if": [
+    "The bankruptcy court approves, rejects, or materially changes the sale.",
+    "Google discloses which models, products, or training objectives use the dataset.",
+    "Material privacy, labor, copyright, or data-governance restrictions are imposed.",
+    "Google makes another comparable acquisition that establishes a broader enterprise-training-data strategy."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/google-buy-spirit-airlines-business-data-10-million-2026-08-17/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "NEW in 2026-08-18 Midday. The sale still requires bankruptcy-court consideration; do not describe it as fully closed until approved and completed."
+}
