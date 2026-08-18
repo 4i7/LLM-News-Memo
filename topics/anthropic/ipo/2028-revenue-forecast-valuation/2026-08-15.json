@@ -6,32 +6,37 @@
   "aliases": [
     "Anthropic 2028 revenue forecast",
     "Anthropic IPO valuation 190 200 billion revenue",
-    "Anthropic analyst day valuation"
+    "Anthropic analyst day valuation",
+    "Anthropic $65 billion revenue run rate"
   ],
   "organizations": ["Anthropic"],
-  "products": ["Claude"],
+  "products": ["Claude", "Claude Code"],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-15T09:12:00+09:00",
-  "last_seen_jst": "2026-08-15T12:00:00+09:00",
+  "last_seen_jst": "2026-08-18T06:36:00+09:00",
   "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "Treat the reported $190-200B 2028 revenue forecast and IPO valuation methodology as covered. Reinclude only for official filing, revised forecast, pricing range, analyst-day disclosures, IPO timing, margin/profitability disclosures, or other material valuation terms.",
+  "treatment": "Treat the reported $190-200B 2028 revenue forecast, IPO valuation methodology, and the July-end annual revenue run rate above $65B as covered. Reinclude only for official filing, revised forecast, material revenue/run-rate update, pricing range, analyst-day disclosures, IPO timing, margin/profitability disclosures, or other material valuation terms.",
   "known_facts": [
     "Reuters reported that Anthropic is projecting roughly $190 billion to $200 billion of 2028 revenue, a figure not previously reported.",
     "Bankers and investors are using forward enterprise-value-to-revenue multiples and are considering Cloudflare, Palantir and SpaceX as reference points ahead of Anthropic's analyst day.",
     "Anthropic's reported revenue run rate exceeded $47 billion by May 2026, up from about $9 billion at the end of 2025.",
-    "Reuters reported Anthropic had projected at least $10.9 billion of Q2 2026 revenue and was on track for its first quarterly operating profit of $559 million."
+    "Reuters reported Anthropic had projected at least $10.9 billion of Q2 2026 revenue and was on track for its first quarterly operating profit of $559 million.",
+    "Reuters reported on August 17 that Anthropic's annual revenue run rate topped $65 billion by the end of July 2026, up from more than $47 billion in May; the figure had been shared with investors as part of ongoing financial updates.",
+    "Reuters attributed the growth in part to Claude coding-agent traction among developers and enterprise customers."
   ],
   "reinclude_only_if": [
     "Anthropic files for an IPO or discloses an official valuation or price range.",
     "The 2028 revenue forecast materially changes or is officially confirmed.",
+    "Anthropic reports another material revenue or revenue-run-rate change.",
     "Analyst-day materials disclose material margin, compute-cost, profitability or growth assumptions.",
     "IPO timing or structure materially changes."
   ],
   "sources": [
-    "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/"
+    "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+    "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.93,
-  "notes": "NEW in 2026-08-15 Midday. The forecast is sourced to people familiar with Anthropic's financials; Anthropic did not comment."
+  "confidence": 0.94,
+  "notes": "NEW in 2026-08-15 Midday. FOLLOW_UP in 2026-08-18 Midday: reported annual revenue run rate rose above $65B by end-July from above $47B in May. Both figures are sourced reporting rather than public company guidance."
 }
