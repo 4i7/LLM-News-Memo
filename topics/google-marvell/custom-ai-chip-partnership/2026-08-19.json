@@ -1,0 +1,46 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google-marvell/custom-ai-chip-partnership/2026-08-19",
+  "canonical_title": "Google and Marvell expand custom AI chip partnership with up to $12.2B equity warrant",
+  "aliases": [
+    "Google Marvell $12.2 billion warrant",
+    "Google Marvell custom AI chips",
+    "Marvell Google TPU ecosystem deal",
+    "Google Marvell AI chip partnership"
+  ],
+  "organizations": [
+    "Google",
+    "Alphabet",
+    "Marvell Technology",
+    "Broadcom"
+  ],
+  "products": [
+    "Google TPU ecosystem",
+    "custom AI chips"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-19T21:38:00+09:00",
+  "last_seen_jst": "2026-08-19T21:38:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as a new strategic custom-AI-chip partnership. Reinclude only for material purchase commitments, warrant exercise, disclosed chip generations/specifications, production deployments, or a material change in Google's Broadcom/Marvell supplier mix.",
+  "known_facts": [
+    "Reuters reported on August 19, 2026 that Marvell will help develop a broad range of chips and related technologies designed to work with Google's TPU ecosystem.",
+    "Google received a warrant to buy up to 58.97 million Marvell shares at $206.58 per share, worth about $12.18 billion if fully exercised according to Reuters calculations.",
+    "Most of the warrant becomes exercisable only if Google meets agreed purchasing targets through fiscal 2033, tying Google's potential equity stake to future procurement from Marvell.",
+    "Broadcom remains Google's major custom-chip partner and has a separate long-term agreement covering future custom AI chips and next-generation AI rack components through 2031."
+  ],
+  "reinclude_only_if": [
+    "Google or Marvell discloses specific chip products, specifications, tape-out, production or deployment milestones under the partnership.",
+    "Google meets material purchase thresholds, exercises a material portion of the warrant, or Marvell discloses quantified revenue or order commitments tied to Google.",
+    "Google materially changes its Broadcom relationship or supplier allocation for TPU/custom AI chip development.",
+    "A new generation of Google TPU or related AI rack technology is officially announced as part of the Marvell partnership."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/marvell-grants-google-122-billion-stock-warrant-custom-chip-deal-2026-08-19/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Reuters published the report at 2026-08-19 12:38 UTC = 21:38 JST, inside the 2026-08-19 Night Lite window."
+}
