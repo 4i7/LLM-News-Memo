@@ -1,0 +1,46 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "ant-international/falcon-time-series-transformer-2-0/model-release/2026-08-20",
+  "canonical_title": "Ant International launches Falcon Time-Series Transformer Model 2.0 with major-bank adoption",
+  "aliases": [
+    "Falcon Time-Series Transformer Model 2.0",
+    "Falcon TST 2.0",
+    "Ant International forex AI model",
+    "Ant International liquidity risk AI"
+  ],
+  "organizations": [
+    "Ant International",
+    "Citi",
+    "HSBC",
+    "Deutsche Bank",
+    "Standard Chartered",
+    "Barclays"
+  ],
+  "products": [
+    "Falcon Time-Series Transformer Model 2.0"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-20T11:06:00+09:00",
+  "last_seen_jst": "2026-08-20T11:06:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as a specialised financial AI model launch with major-bank adoption. Do not repeat for generic adoption commentary; reinclude only for independently verified forecasting performance, additional major-bank production deployment, pricing/API availability, model documentation, or material product changes.",
+  "known_facts": [
+    "Ant International launched Falcon Time-Series Transformer Model 2.0 on August 20, 2026.",
+    "Ant International said it had partnered with six large banks, including Citi, HSBC, Deutsche Bank, Standard Chartered and Barclays.",
+    "The model is specialised for financial forecasting and liquidity-risk scenarios rather than general-purpose LLM use.",
+    "Ant International said precise forecasting can reduce foreign-exchange hedging and allocation costs by more than 60%; this is a company claim and not an independent benchmark."
+  ],
+  "reinclude_only_if": [
+    "Official model card, technical paper, API documentation, pricing or reproducible benchmark is released.",
+    "A major bank confirms production deployment with measurable operational results.",
+    "Ant International materially changes availability, architecture, or supported financial workflows."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/finance/citi-hsbc-stanchart-adopt-ant-internationals-forex-ai-tool-2026-08-20/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Reuters published at 2026-08-20T02:06:00Z = 11:06 JST, inside the midday delta window. No matching sharded topic was found by canonical title, aliases, model name, or source URL."
+}
