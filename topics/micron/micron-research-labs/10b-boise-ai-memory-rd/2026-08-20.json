@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "micron/micron-research-labs/10b-boise-ai-memory-rd/2026-08-20",
+  "canonical_title": "Micron commits $10B to Boise AI memory research lab",
+  "aliases": [
+    "Micron $10B Boise research lab",
+    "Micron Research Labs Boise",
+    "Micron AI memory R&D lab"
+  ],
+  "organizations": [
+    "Micron Technology"
+  ],
+  "products": [
+    "Micron Research Labs",
+    "High Bandwidth Memory"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-20T22:44:54+09:00",
+  "last_seen_jst": "2026-08-20T22:44:54+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a major AI-memory R&D infrastructure commitment. Reinclude only for construction milestones, named research programs or partners, material changes to the $10B commitment, concrete HBM/compute technology outputs, or production implications.",
+  "known_facts": [
+    "Reuters reported on 2026-08-20 that Micron plans to spend $10 billion over the next decade on a newly established research lab in Boise, Idaho.",
+    "The lab is intended to advance memory technologies, develop compute systems and support future chip manufacturing.",
+    "Micron said the lab will bring together customers, academia, government and the broader semiconductor ecosystem.",
+    "The $10 billion commitment is separate from more than $250 billion Micron has committed to U.S. manufacturing and R&D.",
+    "Micron expects to break ground in 2027; the facility is planned to host hundreds of researchers and support international conferences and workshops.",
+    "The investment is tied to rising AI-infrastructure demand for high-bandwidth memory and other advanced memory technologies."
+  ],
+  "reinclude_only_if": [
+    "Micron breaks ground or materially changes the construction schedule or investment amount.",
+    "Micron identifies specific AI-memory, HBM, compute-system or packaging technologies being developed at the lab.",
+    "Named customers, universities, government agencies or other research partners join with material commitments.",
+    "The lab produces a material manufacturing, supply or product-roadmap consequence."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/asia-pacific/micron-unveils-10-billion-ai-memory-research-lab-boise-2026-08-20/",
+    "https://www.micron.com/us-expansion"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Adopted as a 2026-08-20 Night NEW topic. This is an R&D commitment, not a new memory product release or a $10B immediate one-year capex event."
+}
