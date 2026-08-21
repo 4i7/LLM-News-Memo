@@ -8,7 +8,9 @@
     "Anthropic TPU financing machine",
     "Google Broadcom Compute SPV Anthropic",
     "$128B Broadcom TPU commitments for Anthropic",
-    "Google Anthropic 4.5GW TPU financing"
+    "Google Anthropic 4.5GW TPU financing",
+    "Broadcom $60B AI debt Anthropic",
+    "Broadcom $100B AI XPV financing"
   ],
   "organizations": [
     "Google",
@@ -23,33 +25,39 @@
   ],
   "products": [
     "Google TPU",
-    "Claude"
+    "Claude",
+    "Broadcom AI XPV Platform"
   ],
   "event_type": "other",
   "first_seen_jst": "2026-08-04T13:00:16+09:00",
-  "last_seen_jst": "2026-08-04T23:30:00+09:00",
-  "last_report": "LLM Night Lite",
+  "last_seen_jst": "2026-08-21T05:38:49+09:00",
+  "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "Treat as an AI infrastructure financing and TPU supply-chain topic. Reinclude only for material changes to committed TPU capacity, financing structure, Google/Broadcom guarantees, Anthropic lease obligations, data-center capacity, defaults, or independently confirmed revisions to the reported contract totals.",
+  "treatment": "Treat as an AI infrastructure financing and TPU/XPU supply-chain topic. Reinclude only for material changes to committed capacity, financing structure, Google/Broadcom guarantees, Anthropic lease obligations, data-center capacity, defaults, or independently confirmed revisions to reported contract totals.",
   "known_facts": [
     "Financial Times reported on 2026-08-04 that contracts underpinning Google's TPU and data-center supply operation for Anthropic total roughly $200B.",
     "FT reported that about four-fifths of the total is tied to AI chips, with Broadcom disclosing $128B of purchase commitments associated almost entirely with 3.5GW of TPU hardware for Anthropic through fiscal 2028.",
     "A June financing tranche used a special-purpose vehicle called Compute SPV to buy roughly $35B of TPU hardware representing about 1GW, with debt anchored by Apollo and Blackstone and residual-value support from Broadcom.",
     "FT identified Google-backed data-center financing across multiple former crypto-mining operators and reported Google has backstopped 10 developments totaling about 2.4GW of power for TPUs.",
     "FT reported Google's maximum exposure to those lease guarantees could reach about $44B, while the company marks a much smaller liability on its balance sheet.",
-    "The structure lowers financing costs for Google-backed TPU projects and shifts part of the capital burden to private-credit vehicles, Broadcom, and data-center developers rather than keeping all hardware and project debt directly on Google's balance sheet."
+    "The structure lowers financing costs for Google-backed TPU projects and shifts part of the capital burden to private-credit vehicles, Broadcom, and data-center developers rather than keeping all hardware and project debt directly on Google's balance sheet.",
+    "Reuters reported on 2026-08-20, citing Bloomberg, that Broadcom is discussing a new AI-chip financing package with lenders that could include about $30B of junior debt plus a $60B-$70B senior-secured tranche, potentially bringing the raise to as much as $100B.",
+    "The reported new debt would be issued by a special-purpose vehicle, with Broadcom guaranteeing part of the senior-secured tranche; Apollo and Blackstone are in talks to participate.",
+    "The new financing would benefit Anthropic and other AI companies and follows the June $35B AI XPV Platform transaction."
   ],
   "reinclude_only_if": [
-    "Google, Anthropic, Broadcom, or financing partners officially confirm or materially revise the reported $200B contract structure.",
-    "Broadcom materially changes the $128B TPU purchase commitments or 3.5GW delivery schedule.",
-    "Anthropic, Google, or an SPV encounters a material payment, refinancing, lease, capacity, or default event.",
-    "Additional financing tranches materially change the reported 4.5GW TPU deployment plan or Google's guarantee exposure.",
+    "Google, Anthropic, Broadcom, or financing partners officially confirm or materially revise the reported $200B contract structure or the newly reported debt package.",
+    "Broadcom materially changes the $128B TPU purchase commitments, 3.5GW delivery schedule, or AI XPV Platform capacity plan.",
+    "Anthropic, Google, Broadcom, or an SPV encounters a material payment, refinancing, lease, capacity, or default event.",
+    "Additional financing tranches materially change the reported TPU/XPU deployment plan, guarantee exposure, debt seniority, or total capital raised.",
     "Credible reporting establishes a major cost, performance, or market-share effect versus Nvidia-centered infrastructure financing."
   ],
   "sources": [
-    "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c"
+    "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
+    "https://www.reuters.com/technology/broadcom-seeks-more-than-60-billion-latest-ai-debt-deal-bloomberg-news-reports-2026-08-20/",
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-apollo-and-blackstone-establish-landmark-strategic"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.94,
-  "notes": "NEW because the detailed financing architecture, SPV structure, Broadcom residual-value support, purchase commitments, and aggregate contract scale had not previously been recorded in the canonical ledger. Distinct from earlier Google-Anthropic investment or compute-capacity announcements."
+  "notes": "FOLLOW_UP on 2026-08-21 because the reported $60B-$70B senior tranche plus roughly $30B junior tranche would materially expand the financing architecture beyond the initial $35B transaction and could take the new raise to about $100B. The new terms remain under discussion and are not yet officially confirmed."
 }
