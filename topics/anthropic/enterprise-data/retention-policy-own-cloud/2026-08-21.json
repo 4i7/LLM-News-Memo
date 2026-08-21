@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/enterprise-data/retention-policy-own-cloud/2026-08-21",
+  "canonical_title": "Anthropic plans enterprise data-retention shift allowing customer-controlled cloud storage",
+  "aliases": [
+    "Anthropic enterprise data retention own cloud",
+    "Claude enterprise 30-day retention policy change",
+    "Anthropic Salesforce data retention policy"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Salesforce"
+  ],
+  "products": [
+    "Claude",
+    "Claude Fable 5",
+    "Mythos"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-21T04:32:38+09:00",
+  "last_seen_jst": "2026-08-21T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as an enterprise privacy, safety, and retention-policy topic. Reinclude only for official rollout details, effective dates, technical architecture, customer eligibility, safety-system details, material changes to the 30-day requirement, or confirmed customer impact.",
+  "known_facts": [
+    "Reuters reported on 2026-08-20 that Anthropic plans to keep a 30-day enterprise retention requirement for advanced models while allowing business customers to retain the data on their own cloud infrastructure.",
+    "The proposed system has reportedly been developed with more than 100 customers, including Salesforce.",
+    "Anthropic is also expected to introduce a new safety system later in 2026.",
+    "Anthropic had announced in June that enterprise traffic for Fable, Mythos, and future frontier models would be retained for 30 days to help detect cyber misuse."
+  ],
+  "reinclude_only_if": [
+    "Anthropic officially publishes the revised retention architecture, rollout date, or eligible products and customers.",
+    "The 30-day retention requirement is materially shortened, extended, removed, or given new exceptions.",
+    "The planned safety system is launched with technical details or materially changes misuse monitoring.",
+    "A major enterprise customer confirms a material deployment, privacy, compliance, or availability consequence."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/anthropic-plans-change-enterprise-data-retention-policy-source-says-2026-08-20/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "NEW because the planned customer-controlled retention location and associated enterprise architecture were not present in the sharded ledger. The policy remains reported rather than officially published, so future official documentation is the strongest follow-up trigger."
+}
