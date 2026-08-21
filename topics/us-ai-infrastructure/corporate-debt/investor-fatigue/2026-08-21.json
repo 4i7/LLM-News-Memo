@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-ai-infrastructure/corporate-debt/investor-fatigue/2026-08-21",
+  "canonical_title": "US AI infrastructure debt issuance begins testing investor limits",
+  "aliases": ["AI debt investor fatigue", "US corporate AI debt surge", "hyperscaler bond investor limits"],
+  "organizations": ["Amazon", "Alphabet", "BNP Paribas", "Capital Group", "DWS", "Schroders"],
+  "products": [],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-21T19:02:00+09:00",
+  "last_seen_jst": "2026-08-21T19:02:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Do not repeat general AI capex/debt commentary. Reinclude only for a material new issuance, failed/downsized deal, sharp pricing change, rating action, or quantified investor-capacity shift.",
+  "known_facts": ["Reuters reported on August 21 that investors are demanding larger yield concessions as AI-related corporate bond supply surges.", "BNP Paribas data cited by Reuters put 2026 AI hyperscaler debt issuance at $220 billion as of August 10, versus $12.5 billion in the comparable 2025 period.", "Amazon's recent $25 billion long-dated bond sale priced around 120 basis points over Treasuries, roughly twice the comparable spread a year earlier according to analysts cited by Reuters.", "Tech corporate bond spreads were reported at 89 basis points, 9 basis points wider than the overall investment-grade market.", "Institutional portfolio concentration limits of roughly 2% to 3% per issuer were identified as a practical constraint if repeated hyperscaler issuance continues."],
+  "reinclude_only_if": ["A major AI-related bond issue fails, is downsized, or requires materially larger concessions.", "A hyperscaler or major AI infrastructure borrower receives a material rating/outlook change tied to AI capex.", "New market data shows a material change in AI debt issuance volume, spreads, or institutional capacity."],
+  "sources": ["https://www.reuters.com/legal/transactional/us-corporate-ai-debt-surge-tests-investor-limits-fatigue-emerges-2026-08-21/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Selected because the quantified market-capacity signal became visible after the midday cutoff; this is not a model release but materially changes interpretation of AI infrastructure financing conditions."
+}
