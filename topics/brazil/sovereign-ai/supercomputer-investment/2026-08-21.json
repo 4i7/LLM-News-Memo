@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "brazil/sovereign-ai/supercomputer-investment/2026-08-21",
+  "canonical_title": "Brazil announces R$2.3B sovereign AI supercomputer investment split across Chinese and US suppliers",
+  "aliases": [
+    "Brazil AI supercomputer Huawei iFlytek Nvidia",
+    "Brazil R$2.3B sovereign AI investment",
+    "Brazil FNDCT AI supercomputer"
+  ],
+  "organizations": [
+    "Government of Brazil",
+    "Huawei",
+    "iFlytek",
+    "NVIDIA"
+  ],
+  "products": [
+    "AI supercomputer",
+    "large language models"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-21T06:07:31+09:00",
+  "last_seen_jst": "2026-08-21T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "watch_only",
+  "treatment": "Watch as a sovereign-AI infrastructure topic. Do not promote again unless supplier awards, deployed compute capacity, named models, operational availability, or material policy/supply-chain changes become concrete.",
+  "known_facts": [
+    "Reuters reported that Brazil announced about R$2.3B ($444.2M) in AI ecosystem investments funded through FNDCT.",
+    "R$1.3B is intended for a Rio de Janeiro supercomputing project with Huawei and iFlytek, primarily to develop general and sector-specific large language models.",
+    "About R$1B is allocated through a tender for a separate supercomputer in Rio Grande do Norte that Brazil expects to rank among the world's top ten AI processing machines; officials expect NVIDIA to supply it.",
+    "Brazil framed the split supplier strategy as reducing dependence on any single company, technology, or country and strengthening sovereignty over data."
+  ],
+  "reinclude_only_if": [
+    "The NVIDIA tender is formally awarded with hardware, capacity, or deployment details.",
+    "The Huawei/iFlytek project names or releases a Brazilian general-purpose or sector-specific LLM.",
+    "The planned supercomputers become operational or materially change schedule or funding.",
+    "Brazil announces material sovereign-cloud, semiconductor, or model-access rules tied directly to these projects."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/americas/brazil-launches-ai-supercomputer-push-splits-projects-between-chinese-us-firms-2026-08-20/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "NEW watch-only topic. It is a real LLM infrastructure delta within the window, but omitted from the main adopted table to keep the brief focused on higher-signal enterprise-policy and financing changes."
+}
