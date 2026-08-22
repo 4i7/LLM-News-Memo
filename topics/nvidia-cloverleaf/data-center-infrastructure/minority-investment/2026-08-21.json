@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia-cloverleaf/data-center-infrastructure/minority-investment/2026-08-21",
+  "canonical_title": "NVIDIA minority investment in Cloverleaf Infrastructure for AI data-center development",
+  "aliases": [
+    "NVIDIA Cloverleaf Infrastructure investment",
+    "Nvidia invests in data center developer Cloverleaf Infrastructure",
+    "Cloverleaf NVIDIA DSX"
+  ],
+  "organizations": ["NVIDIA", "Cloverleaf Infrastructure"],
+  "products": ["NVIDIA DSX"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-21T23:35:15+09:00",
+  "last_seen_jst": "2026-08-22T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered",
+  "treatment": "Treat as NVIDIA's direct investment in powered-land/data-center development capacity. Do not merge with the separate $500B compute-financing platform unless a later development explicitly links the capital structures.",
+  "known_facts": [
+    "NVIDIA made a minority investment in privately held Cloverleaf Infrastructure to accelerate U.S. AI data-center site development.",
+    "Financial terms were not disclosed by the companies; Wall Street Journal reporting said the expected investment was several hundred million dollars.",
+    "Cloverleaf works with utilities, energy providers and investors to secure power and related infrastructure for data-center sites.",
+    "Cloverleaf will deploy NVIDIA DSX to optimize site selection, power, cooling and compute-infrastructure decisions.",
+    "Cloverleaf said it has delivered multiple gigawatt-scale projects across North America since its 2024 founding."
+  ],
+  "reinclude_only_if": [
+    "Official investment amount or ownership percentage is disclosed.",
+    "A named Cloverleaf site or customer reaches a signed power, land, financing or compute deployment milestone tied to NVIDIA.",
+    "Material DSX deployment details, capacity, schedule or economics are disclosed.",
+    "The investment is formally connected to NVIDIA's compute-financing platforms or another major financing structure."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/nvidia-invests-data-center-developer-cloverleaf-infrastructure-2026-08-21/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Reuters timestamp 2026-08-21 14:35:15 UTC = 2026-08-21 23:35:15 JST, five minutes after the prior LLM Night Lite boundary."
+}
