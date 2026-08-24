@@ -7,34 +7,40 @@
     "Thomson Reuters Thomson LLM commercialization",
     "Thomson sovereign AI",
     "Thomson Reuters proprietary legal LLM",
-    "Thomson model Westlaw CoCounsel"
+    "Thomson model Westlaw CoCounsel",
+    "Thomson Reuters launches Thomson",
+    "Thomson open-weight small model"
   ],
   "organizations": ["Thomson Reuters"],
-  "products": ["Thomson", "Westlaw", "Practical Law", "Checkpoint", "CoCounsel"],
+  "products": ["Thomson", "Westlaw", "Practical Law", "Checkpoint", "CoCounsel", "CoCounsel Legal", "Tabular Analysis"],
   "event_type": "tooling_model_integration",
   "first_seen_jst": "2026-08-05T19:53:00+09:00",
-  "last_seen_jst": "2026-08-05T19:53:00+09:00",
+  "last_seen_jst": "2026-08-24T22:00:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
-  "treatment": "Treat as commercialization and deployment strategy for Thomson Reuters' proprietary domain LLM, not as a first model-launch story. Reinclude only for general availability, pricing, external API or licensing, independently documented benchmark results, sovereign-AI customer deployments, material CoCounsel/Westlaw integration changes, or significant economics/cost disclosures.",
+  "treatment": "Thomson officially launched on 2026-08-24. Reinclude only for public API or licensing terms, named sovereign-AI deployments, material new product integration, independent/reproducible benchmark results, meaningful model/version changes, or material economics/cost disclosures beyond the launch details already recorded.",
   "known_facts": [
-    "Thomson Reuters had already disclosed the existence of its proprietary Thomson LLM before this run; the 2026-08-05 hard delta is the clearer commercialization and deployment strategy described alongside Q2 results.",
-    "Reuters reported that CEO Steve Hasker said Thomson Reuters plans to keep investing in Thomson and develop applications across legal, tax, accounting and audit workflows while exploring broader commercialization.",
-    "Hasker said the company sees an opportunity to offer sovereign AI solutions to large sophisticated customers and to use Thomson to power products such as Westlaw and CoCounsel for speed, scalability and cost advantages.",
-    "Thomson is trained on Thomson Reuters content including Westlaw, Practical Law, Checkpoint and Reuters, according to the company.",
-    "CFO Gary Bischoping said about 32% of underlying contract value relied on generative AI in Q2 2026, up from 30% in Q1."
+    "Thomson Reuters had disclosed the existence and commercialization direction of its proprietary Thomson LLM before the 2026-08-24 official launch.",
+    "On 2026-08-24 Thomson Reuters officially launched Thomson, its first proprietary in-house LLM, built from a strong open-source foundation and specialized with proprietary professional content and subject-matter expertise.",
+    "Thomson Reuters said it invested $40 million across talent and compute to train Thomson and that the model has so far been trained on less than 10% of Thomson Reuters content.",
+    "The first deployment is inside Tabular Analysis in CoCounsel Legal; CoCounsel remains multi-model and will use other leading models where appropriate.",
+    "Thomson Reuters is making a small version of Thomson available as an open-weight model on Hugging Face for academic and non-commercial use to support external validation.",
+    "Thomson Reuters plans to extend Thomson across legal and tax products and continues to plan sovereign-AI options.",
+    "Earlier Q2 disclosures said about 32% of underlying contract value relied on generative AI, up from 30% in Q1 2026."
   ],
   "reinclude_only_if": [
-    "Thomson enters full general availability or gains a public API, licensing terms, or explicit customer deployment terms.",
-    "Thomson Reuters publishes reproducible or independently verified benchmarks comparing Thomson with frontier models.",
+    "Thomson gains a public API, commercial licensing terms, or explicit external deployment terms.",
+    "Thomson Reuters publishes reproducible benchmarks or independent evaluations materially changing the performance interpretation.",
     "A named sovereign-AI customer deployment or material external commercialization agreement is announced.",
-    "Westlaw, CoCounsel, Checkpoint, or other major products materially switch model architecture or disclose meaningful cost, latency, or quality changes attributable to Thomson."
+    "Westlaw, CoCounsel, Checkpoint, or another major product materially changes model architecture, availability, cost, latency, or quality because of Thomson.",
+    "A new Thomson model/version or materially broader open-weight release is published."
   ],
   "sources": [
     "https://www.reuters.com/business/thomson-reuters-reports-higher-second-quarter-revenue-2026-08-05/",
-    "https://ir.thomsonreuters.com/static-files/97904799-568c-4ab5-a1a3-e3cadd82fa58"
+    "https://ir.thomsonreuters.com/static-files/97904799-568c-4ab5-a1a3-e3cadd82fa58",
+    "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.92,
-  "notes": "The proprietary Thomson model was known earlier; this record intentionally captures the 2026-08-05 commercialization/sovereign-AI expansion delta rather than mislabeling the model itself as newly launched."
+  "confidence": 0.98,
+  "notes": "The 2026-08-24 event is a FOLLOW_UP because the model and commercialization plan were already covered on 2026-08-05; the hard delta is official launch, initial CoCounsel deployment, $40M development disclosure, and a small open-weight release for academic/non-commercial validation."
 }
