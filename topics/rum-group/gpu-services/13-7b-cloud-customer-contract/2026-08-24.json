@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "rum-group/gpu-services/13-7b-cloud-customer-contract/2026-08-24",
+  "canonical_title": "RUM Group signs $13.7B six-year GPU services contract with US cloud customer",
+  "aliases": [
+    "RUM Group $13.7 billion GPU deal",
+    "Rumble Northern Data Maysville GPU contract",
+    "Quake AI Maysville cloud customer contract"
+  ],
+  "organizations": ["RUM Group", "Rumble", "Northern Data", "Quake AI"],
+  "products": ["GPU services", "Maysville AI infrastructure"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-24T21:44:00+09:00",
+  "last_seen_jst": "2026-08-24T21:44:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a signed AI-infrastructure services contract, not as delivered capacity or financed buildout. Reinclude only for customer identification, financing closure, named GPU generation/capacity, construction or delivery milestones, material contract amendment, or evidence that the third tranche becomes binding.",
+  "known_facts": [
+    "RUM Group disclosed a six-year commercial agreement with an unaffiliated U.S.-based cloud customer for GPU services at its Maysville, Georgia site, which is still under development.",
+    "The total order value is approximately $13.7 billion across three tranches; the third tranche is contingent on customer approval of the proposed delivery date.",
+    "The customer is eligible for a warrant covering up to 50,808,408 Class A shares at a $0.01 exercise price, with vesting tied to purchases and potential expansion agreements.",
+    "RUM Group disclosed that it does not currently have the financing needed to fulfill the contract and expects to raise substantial debt and/or equity capital.",
+    "RUM Group was formed after Rumble closed its acquisition of Northern Data and operates its AI-infrastructure business as Quake AI."
+  ],
+  "reinclude_only_if": [
+    "The unnamed cloud customer is identified or independently confirmed.",
+    "RUM Group closes material debt/equity financing required to fulfill the contract.",
+    "GPU generation, GPU count, MW capacity, or delivery schedule is formally disclosed.",
+    "The third tranche becomes binding or a material expansion agreement is signed.",
+    "A major construction, energization, or service-delivery milestone occurs at Maysville."
+  ],
+  "sources": [
+    "https://www.publicnow.com/view/239B76E4585DCD735D0450ED53288C9245F058DE",
+    "https://finance.yahoo.com/news/trump-linked-rum-group-signs-124430455.html"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "The agreement is signed, but fulfillment remains capital-intensive and financing is not yet secured; do not equate $13.7B order value with current revenue or delivered compute capacity."
+}
