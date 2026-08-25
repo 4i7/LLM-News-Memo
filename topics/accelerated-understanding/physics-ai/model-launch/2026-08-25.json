@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "accelerated-understanding/physics-ai/model-launch/2026-08-25",
+  "canonical_title": "Accelerated Understanding launches physics-native neural-operator AI model",
+  "aliases": [
+    "Accelerated Understanding",
+    "Anima Anandkumar physics AI",
+    "neural operator physics model",
+    "5 trillion data pieces single prompt"
+  ],
+  "organizations": [
+    "Accelerated Understanding Inc.",
+    "Caltech"
+  ],
+  "products": [
+    "Accelerated Understanding physics AI model"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-25T19:02:53+09:00",
+  "last_seen_jst": "2026-08-25T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the corporate/model launch as covered. Reinclude only for a technical paper or model card, reproducible external evaluation, named enterprise deployment, API/weights availability, architecture details beyond the launch description, or material funding/partnership disclosure.",
+  "known_facts": [
+    "Accelerated Understanding Inc., founded by Anima Anandkumar and Benedikt Jenik, launched publicly on 2026-08-25.",
+    "The company says its AI is built for physical phenomena across space and time rather than language and uses neural-operator technology instead of Transformer architecture.",
+    "Reuters reported company tests in which the system handled 5 trillion data pieces in a single prompt; this is a company-reported capability rather than an independently reproduced benchmark.",
+    "The company targets applications including chip design, robotics, weather and energy-related physical systems."
+  ],
+  "reinclude_only_if": [
+    "A technical paper, model card, architecture specification or reproducible benchmark is released.",
+    "A named customer or material production deployment is announced.",
+    "API, weights or other concrete model availability is announced.",
+    "Material funding, compute-provider or strategic partnership details are disclosed."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/",
+    "https://acceleratedunderstanding.com/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "NEW in the 2026-08-25 Night window. Large input-scale claim is company-reported and should not be treated as an independently validated benchmark."
+}
