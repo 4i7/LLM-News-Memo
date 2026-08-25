@@ -1,5 +1,11 @@
 # OKF Update Log
 
+## 2026-08-25
+
+* **Late-August Repo Radar retrospective**: Added `reports/github-repo-radar/2026-08-late-retrospective.md`, consolidating the 2026-08-19 through 2026-08-25 source window into durable Tier A, conditional, watch-only, safety, and compact-toolkit conclusions.
+* **Durable additions**: Preserved high-value conclusions for mise, Zotero, RapidCRC Unicode, Pot, Gaphor, and Nushell, with conditional retention for Notepad++, darktable, FreeCAD, Qalculate, TagSpaces, TortoiseGit, Sigil, and Far Manager.
+* **Index update**: Added direct OKF navigation to the new late-August retrospective while keeping Repo Radar reports separate from canonical LLM News duplicate-control state.
+
 ## 2026-08-18
 
 * **Mid-August Repo Radar retrospective**: Added `reports/github-repo-radar/2026-08-mid-retrospective.md`, consolidating the 2026-08-12 through 2026-08-18 source window into durable Tier A, conditional, watch-only, safety, and compact-toolkit conclusions.
