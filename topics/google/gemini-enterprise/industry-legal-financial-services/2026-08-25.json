@@ -1,0 +1,54 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/gemini-enterprise/industry-legal-financial-services/2026-08-25",
+  "canonical_title": "Google launches Gemini Enterprise for Legal and Financial Services",
+  "aliases": [
+    "Gemini Enterprise for Legal",
+    "Gemini Enterprise for Financial Services",
+    "Google legal AI agents",
+    "Google financial services AI agents"
+  ],
+  "organizations": [
+    "Google Cloud",
+    "Alphabet",
+    "Thomson Reuters",
+    "Harvey",
+    "LexisNexis",
+    "CME Group",
+    "Deutsche Bank"
+  ],
+  "products": [
+    "Gemini Enterprise for Legal",
+    "Gemini Enterprise for Financial Services",
+    "Gemini Enterprise"
+  ],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-08-25T21:03:48+09:00",
+  "last_seen_jst": "2026-08-25T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the initial industry-specific Gemini Enterprise launch as covered. Reinclude only for general availability, material pricing/API changes, major named-customer production deployment, benchmarked workflow results, security/governance changes, or expansion into a materially new industry vertical.",
+  "known_facts": [
+    "Google Cloud launched Gemini Enterprise for Legal and Gemini Enterprise for Financial Services on 2026-08-25 as the first packaged industry solutions on Gemini Enterprise.",
+    "The Legal offering is initially available in preview and combines specialized legal skills, secure connectors, partner agents and governance controls.",
+    "Legal integrations include platforms from Thomson Reuters, Harvey, iManage, NetDocuments, Relativity and others, including MCP-based connections.",
+    "Launch collaborators include Cleary Gottlieb, Freshfields, Weil and Williams & Connolly.",
+    "The Financial Services offering is initially available in preview for capital markets and corporate banking, with a Google-managed Financial Research agent and more than 50 specialized skills; CME Group and Deutsche Bank are among named users/design partners."
+  ],
+  "reinclude_only_if": [
+    "Google announces general availability or material pricing/API changes.",
+    "A major named customer discloses production-scale deployment or measurable workflow results.",
+    "Google publishes material model, security, governance or benchmark details specific to the industry suites.",
+    "Gemini Enterprise expands into another industry with materially distinct product capabilities."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/google-expands-gemini-ai-platform-law-firms-lawyers-2026-08-25/",
+    "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+    "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Legal",
+    "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Financial-Services"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "NEW in the 2026-08-25 Night window. Legal and Financial Services were grouped as one industry-suite launch event to avoid duplicate reporting of a coordinated same-day product rollout."
+}
