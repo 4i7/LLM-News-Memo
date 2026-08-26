@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "apple/mac-mini-mac-studio/ai-agent-hardware-refresh/2026-08-26",
+  "canonical_title": "Apple refreshes Mac mini and Mac Studio for local AI-agent workloads",
+  "aliases": [
+    "Apple M6 Mac mini AI agents",
+    "Mac mini always-on agentic device",
+    "Mac Studio M5 Ultra local LLM",
+    "Apple AI agent Mac refresh"
+  ],
+  "organizations": ["Apple"],
+  "products": ["Mac mini", "Mac Studio", "M6", "M5 Pro", "M5 Max", "M5 Ultra"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-26T00:19:00+09:00",
+  "last_seen_jst": "2026-08-26T00:19:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the August 2026 Mac mini/Mac Studio refresh and Apple's explicit always-on/local AI-agent positioning as covered. Reinclude only for material shipping/spec changes, memory or model-capacity disclosures, new agent-runtime features, independent local-LLM performance data, or significant pricing/availability changes.",
+  "known_facts": [
+    "Reuters reported Apple unveiled a new Mac mini with either M6 or M5 Pro, starting at $899, and explicitly described the product as suitable for always-on agentic use.",
+    "Apple said the M6 variant delivers up to four times faster AI performance than the prior M4-powered model.",
+    "Apple also refreshed Mac Studio with M5 Max and M5 Ultra options, positioning the systems for running large models on-device and combining multiple systems for more intensive AI tasks.",
+    "Reuters reported strong demand for Mac mini and Mac Studio among users running autonomous AI agents locally, including OpenClaw."
+  ],
+  "reinclude_only_if": [
+    "Apple publishes materially new memory/model-capacity or local-AI performance specifications.",
+    "Independent benchmarks materially change the practical interpretation of local LLM or agent performance.",
+    "Apple adds a new first-party agent hosting/runtime capability or remote-management feature.",
+    "Pricing, availability or shipping timing materially changes."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/retail-consumer/apple-launches-faster-mac-mini-mac-studio-tap-ai-boom-2026-08-25/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "NEW in 2026-08-26 Midday. Selected because the hardware refresh explicitly targets always-on/local agentic workloads rather than merely adding generic AI acceleration."
+}
