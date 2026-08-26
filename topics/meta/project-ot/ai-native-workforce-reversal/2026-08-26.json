@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "meta/project-ot/ai-native-workforce-reversal/2026-08-26",
+  "canonical_title": "Meta scaled back Project OT after AI-agent productivity fell short",
+  "aliases": ["Meta Project OT", "Meta AI native workforce", "Meta AI agent productivity layoffs"],
+  "organizations": ["Meta"],
+  "products": ["AI agents"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-26T19:00:00+09:00",
+  "last_seen_jst": "2026-08-26T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for new official restructuring decisions, quantified agent productivity evidence, or a renewed second-wave plan.",
+  "known_facts": ["Reuters reviewed internal documents showing Meta explored reductions of up to 60% in some teams under Project OT, not 60% of the whole workforce.", "Meta confirmed Project OT and the two-wave scenario planning, but planning for the second wave was canceled before overall cuts were determined.", "Reuters reports internal data suggested autonomous AI agents were not delivering the hoped-for productivity gains; Zuckerberg later said agent technology had not accelerated as quickly as expected."],
+  "reinclude_only_if": ["Meta publishes quantified productivity results for its agent-based workflow changes.", "Meta revives or replaces the canceled second-wave restructuring with a material new plan.", "A material workforce or organizational decision is officially tied to measured AI-agent performance."],
+  "sources": ["https://www.reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "High-signal adoption/breakage evidence: internal enterprise agent deployment materially underperformed expectations and altered restructuring plans."
+}
