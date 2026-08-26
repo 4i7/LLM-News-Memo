@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "moonshot-ai/kimi-k3/us-cloud-revenue-sharing-talks/2026-08-26",
+  "canonical_title": "Moonshot AI seeks Kimi K3 revenue-sharing deals with major US clouds",
+  "aliases": ["Kimi K3 Azure AWS Google Cloud revenue sharing", "Moonshot Microsoft Amazon Google talks"],
+  "organizations": ["Moonshot AI", "Microsoft", "Amazon", "Google"],
+  "products": ["Kimi K3", "Microsoft Azure", "Amazon Web Services", "Google Cloud"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-26T16:53:00+09:00",
+  "last_seen_jst": "2026-08-26T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only if a cloud agreement is signed, commercial terms materially change, or regulatory action changes availability.",
+  "known_facts": ["Reuters reports Moonshot AI is in early-stage talks with Microsoft, Amazon and Google to host Kimi K3 with revenue sharing.", "Moonshot is seeking up to 30% of K3-related service revenue; unresolved issues include revenue split, data access and token-usage auditing.", "No agreement is certain and the companies declined or did not provide confirmation."],
+  "reinclude_only_if": ["A named US cloud signs or launches Kimi K3 under the proposed commercial structure.", "Material final revenue-share, data-access or audit terms are disclosed.", "US trade or regulatory action materially blocks or changes the arrangement."],
+  "sources": ["https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Commercial-distribution story distinct from the original Kimi K3 model release."
+}
