@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "kioxia-sandisk/flash-memory/japan-31b-investment/2026-08-27",
+  "canonical_title": "Kioxia and Sandisk plan over $31B Japan memory investment",
+  "aliases": [
+    "Kioxia Sandisk $31 billion Japan investment",
+    "Kioxia Sandisk Kitakami memory expansion",
+    "Kioxia Sandisk AI flash memory investment"
+  ],
+  "organizations": ["Kioxia", "Sandisk"],
+  "products": ["BiCS Flash", "3D flash memory"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-27T18:26:15+09:00",
+  "last_seen_jst": "2026-08-27T18:26:15+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered as a major AI-memory supply investment. Repeat only for final government support, material project changes, production start, capacity figures, or new AI-specific product details.",
+  "known_facts": [
+    "Kioxia and Sandisk announced planned investments totaling over $31 billion in Japan through 2032, contingent on government support.",
+    "The program includes infrastructure at Yokkaichi and Kitakami and aims to expand flash-memory supply for AI and data-driven demand.",
+    "Kioxia said a new Kitakami memory facility represents about 1.8 trillion yen of investment.",
+    "Kioxia and Sandisk are manufacturing 10th-generation BiCS Flash at Kitakami."
+  ],
+  "reinclude_only_if": [
+    "Japanese government support is formally finalized or materially changed.",
+    "The companies disclose material capacity, production-start, technology-generation, or AI-specific supply details.",
+    "A material change occurs to the investment amount, timeline, or plant scope."
+  ],
+  "sources": [
+    "https://www.kioxia.com/en-jp/about/news/2026/20260827-3.html",
+    "https://www.reuters.com/world/asia-pacific/kioxia-sandisk-invest-over-31-billion-japan-amid-ai-boom-2026-08-27/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Night-window hard delta; official Kioxia/Sandisk announcement and Reuters reporting agree on the >$31B through-2032 plan."
+}
