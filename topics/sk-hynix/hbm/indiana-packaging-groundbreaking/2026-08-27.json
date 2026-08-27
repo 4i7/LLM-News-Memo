@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "sk-hynix/hbm/indiana-packaging-groundbreaking/2026-08-27",
+  "canonical_title": "SK hynix breaks ground on $4B Indiana HBM packaging and AI R&D facility",
+  "aliases": [
+    "SK hynix Indiana $4 billion HBM facility",
+    "SK hynix Purdue Research Park AI chip packaging",
+    "SK hynix West Lafayette HBM packaging plant"
+  ],
+  "organizations": ["SK hynix", "Purdue University"],
+  "products": ["HBM"],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-27T23:02:00+09:00",
+  "last_seen_jst": "2026-08-27T23:02:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered at construction-groundbreaking milestone. Repeat only for cleanroom/production start, material capacity or product-generation disclosure, major customer commitment, or material financing/scope change.",
+  "known_facts": [
+    "SK hynix held the groundbreaking ceremony for an advanced packaging and AI semiconductor R&D facility in West Lafayette, Indiana, with total investment now stated at more than $4 billion.",
+    "The site is planned to house a next-generation HBM packaging line and AI semiconductor R&D facility.",
+    "Cleanroom operations are scheduled for the second half of 2028.",
+    "The U.S. government previously finalized $458 million in grants and up to $500 million in loans under the CHIPS Act."
+  ],
+  "reinclude_only_if": [
+    "SK hynix discloses material HBM generation, packaging capacity, or production-volume details.",
+    "The facility reaches cleanroom or production start.",
+    "A named Nvidia, Microsoft, Google, or other major customer commitment materially changes the project.",
+    "The investment, financing, or facility scope materially changes."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/asia-pacific/sk-hynix-holds-groundbreaking-ceremony-4-billion-indiana-ai-chip-packaging-2026-08-27/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "The ceremony occurred in the night window. The project was announced earlier, but groundbreaking is a new construction milestone."
+}
