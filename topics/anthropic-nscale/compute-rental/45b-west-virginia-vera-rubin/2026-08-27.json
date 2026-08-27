@@ -1,0 +1,47 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic-nscale/compute-rental/45b-west-virginia-vera-rubin/2026-08-27",
+  "canonical_title": "Anthropic agrees to spend $45 billion on Nscale compute capacity",
+  "aliases": [
+    "Anthropic Nscale $45 billion deal",
+    "Anthropic West Virginia 460 MW compute",
+    "Anthropic Vera Rubin Nscale",
+    "Nscale Anthropic six-year compute agreement"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Nscale",
+    "NVIDIA",
+    "Reuters",
+    "Bloomberg News"
+  ],
+  "products": [
+    "Claude Code",
+    "Vera Rubin"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-08-27T02:21:00+09:00",
+  "last_seen_jst": "2026-08-27T02:21:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a distinct Anthropic compute-capacity procurement story. Reinclude only for official confirmation, material contract changes, deployment milestones, or disclosed financing/infrastructure details.",
+  "known_facts": [
+    "Reuters reported, citing a person familiar with the matter, that Anthropic will spend $45 billion to rent AI computing power from Nscale's West Virginia data center campus.",
+    "The agreement is described as six years and about 460 megawatts of power capacity.",
+    "Nscale will deploy NVIDIA Vera Rubin chips for Anthropic's workloads.",
+    "Anthropic declined to comment to Reuters at publication time."
+  ],
+  "reinclude_only_if": [
+    "Anthropic or Nscale officially confirms the agreement or publishes contract terms.",
+    "The campus reaches a material construction, energization, or deployment milestone.",
+    "GPU counts, rack/network design, exact capacity schedule, or financing structure are disclosed.",
+    "The agreement is materially expanded, reduced, delayed, terminated, or replaced."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/anthropic-pay-nscale-45-billion-rent-ai-computing-power-bloomberg-news-reports-2026-08-26/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.88,
+  "notes": "Reuters publication time 2026-08-26 17:21 UTC = 2026-08-27 02:21 JST. The report says the agreement covers roughly 460 MW over six years and uses NVIDIA Vera Rubin."
+}
