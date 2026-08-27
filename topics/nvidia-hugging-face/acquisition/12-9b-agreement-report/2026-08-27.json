@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia-hugging-face/acquisition/12-9b-agreement-report/2026-08-27",
+  "canonical_title": "NVIDIA reportedly agrees to acquire Hugging Face for $12.9 billion",
+  "aliases": [
+    "Nvidia Hugging Face acquisition",
+    "$12.9 billion Hugging Face deal",
+    "NVIDIA buys Hugging Face",
+    "The Information Nvidia Hugging Face deal"
+  ],
+  "organizations": [
+    "NVIDIA",
+    "Hugging Face",
+    "The Information",
+    "Reuters"
+  ],
+  "products": [
+    "Hugging Face"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-27T09:45:00+09:00",
+  "last_seen_jst": "2026-08-27T09:45:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a high-signal but not yet officially confirmed acquisition report. Do not describe the transaction as closed until NVIDIA and Hugging Face confirm completion or binding terms publicly.",
+  "known_facts": [
+    "Reuters reported on August 27, citing The Information and a person with knowledge of the deal, that NVIDIA agreed to acquire Hugging Face for $12.9 billion.",
+    "NVIDIA and Hugging Face had not immediately responded to Reuters requests for comment at publication time.",
+    "NVIDIA previously invested in Hugging Face's 2023 funding round at a $4.5 billion valuation, and the Financial Times reported that Hugging Face rejected a $500 million NVIDIA investment offer in 2025 that would have valued it at $7 billion."
+  ],
+  "reinclude_only_if": [
+    "NVIDIA or Hugging Face officially confirms or denies the transaction.",
+    "Definitive agreement terms, financing, regulatory filings, closing conditions, governance changes, or expected close timing are disclosed.",
+    "A regulator opens a material review or imposes conditions.",
+    "The deal is terminated, repriced, or materially restructured."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Reuters publication time 2026-08-27 00:45 UTC = 09:45 JST. The acquisition is reported as agreed but remains unconfirmed by the two companies at publication time."
+}
