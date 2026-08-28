@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/ai-cloud-financing/revenue-sharing-program-pause/2026-08-28",
+  "canonical_title": "NVIDIA pauses revenue-sharing AI cloud financing deals",
+  "aliases": [
+    "Nvidia pauses AI cloud revenue sharing deals",
+    "Nvidia AI cloud financing initiative pause",
+    "Nvidia 50 percent cloud revenue share"
+  ],
+  "organizations": ["NVIDIA"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-28T07:31:00+09:00",
+  "last_seen_jst": "2026-08-28T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the reported pause of some revenue-sharing AI-cloud financing deals as covered. Keep separate from the $500B institutional compute-financing platform unless NVIDIA formally merges the programs.",
+  "known_facts": [
+    "Reuters relayed a Wall Street Journal report that NVIDIA paused some deals under a financing initiative for smaller AI cloud companies.",
+    "The model offered credit support and a guaranteed buyer for unsold compute capacity in exchange for a share of cloud revenue generated using NVIDIA hardware.",
+    "The Journal reported regulatory and control concerns, including proposed restrictions on approved renters and terms under which NVIDIA could receive 50% of revenue above a threshold.",
+    "NVIDIA said the broader business model remains in place and continues to evolve."
+  ],
+  "reinclude_only_if": [
+    "NVIDIA resumes, cancels or materially restructures the revenue-sharing program.",
+    "Formal deal documents or named counterparties reveal binding economic terms.",
+    "Regulators open a formal review or enforcement action tied to the program."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "NEW in the 2026-08-28 Midday window. This is distinct from the institutional $500B compute-financing platform already tracked elsewhere."
+}
