@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/model-hardware-standard/research-preview/2026-08-28",
+  "canonical_title": "Anthropic previews Model Hardware Standard for AI agents operating physical devices",
+  "aliases": [
+    "Anthropic Model Hardware Standard",
+    "Anthropic MHS",
+    "AI agents physical devices standard"
+  ],
+  "organizations": ["Anthropic"],
+  "products": ["Model Hardware Standard", "Claude"],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-08-28T03:01:00+09:00",
+  "last_seen_jst": "2026-08-28T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the initial MHS research preview as covered. Reinclude for open-source release, published specification changes, named production deployments, safety evaluation results, or material device/network-control changes.",
+  "known_facts": [
+    "Anthropic opened a research preview of the Model Hardware Standard to an initial group of scientific research labs and advanced manufacturers.",
+    "MHS is intended to let AI agents safely operate multiple programmable physical devices such as microscopes, liquid handlers and robotic arms, including across networks.",
+    "Anthropic is sharing the early version with partners for safety evaluations before an intended open-source release."
+  ],
+  "reinclude_only_if": [
+    "Anthropic publishes the MHS specification or open-sources the implementation.",
+    "Named labs or manufacturers disclose production deployments or reproducible results.",
+    "Safety evaluations materially change the design, permissions model or network-control architecture."
+  ],
+  "sources": [
+    "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "NEW in the 2026-08-28 Midday window; official Anthropic research preview plus Reuters coverage."
+}
