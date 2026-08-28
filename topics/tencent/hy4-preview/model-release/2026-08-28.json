@@ -1,0 +1,34 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "tencent/hy4-preview/model-release/2026-08-28",
+  "canonical_title": "Tencent Hy4 preview open-source model release",
+  "aliases": ["Hy4 preview", "Tencent Hy4 preview", "Tencent Hunyuan Hy4 preview"],
+  "organizations": ["Tencent"],
+  "products": ["Hy4 preview", "CodeBuddy", "WorkBuddy", "Tencent Cloud TokenHub"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-08-28T18:37:00+09:00",
+  "last_seen_jst": "2026-08-28T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered as the August 28 open-source preview release. Repeat only for GA/final release, material model-card or license changes, weights/API availability changes, independently reproducible benchmark findings, or major production adoption/breakage.",
+  "known_facts": [
+    "Tencent released and open-sourced Hy4 preview on August 28, 2026.",
+    "The model uses a mixture-of-experts design with 770B total parameters and 49B active parameters per text request.",
+    "Tencent states the context window exceeds 1M tokens.",
+    "It is available through Tencent products including CodeBuddy and WorkBuddy and via API through Tencent Cloud TokenHub and OpenRouter.",
+    "Tencent says the preview can over-verify complex answers and sometimes take longer than necessary."
+  ],
+  "reinclude_only_if": [
+    "Tencent publishes a final/GA release or materially changes weights, license, model card, context, pricing, or API availability.",
+    "A credible independent evaluation produces reproducible results that materially change the performance interpretation.",
+    "A major adoption or breakage signal changes practical use of Hy4 preview."
+  ],
+  "sources": [
+    "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+    "https://www.reuters.com/world/asia-pacific/chinas-tencent-releases-new-open-source-ai-model-coding-research-tasks-2026-08-28/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Reuters published at 09:37 UTC (18:37 JST), inside the 2026-08-28 Night Lite window."
+}
