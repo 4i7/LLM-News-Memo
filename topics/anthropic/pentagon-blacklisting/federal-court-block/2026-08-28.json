@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/pentagon-blacklisting/federal-court-block/2026-08-28",
+  "canonical_title": "US federal judge blocks Pentagon blacklisting of Anthropic",
+  "aliases": [
+    "Anthropic Pentagon blacklist ruling",
+    "Anthropic supply-chain risk designation blocked",
+    "Judge Rita Lin Anthropic Pentagon"
+  ],
+  "organizations": ["Anthropic", "U.S. Department of Defense"],
+  "products": ["Claude"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-28T10:19:00+09:00",
+  "last_seen_jst": "2026-08-28T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the California federal-court ruling blocking the Pentagon supply-chain-risk designation as covered. Reinclude for appeal, stay, reinstatement, settlement, contract-policy changes, or a material ruling in the separate Washington D.C. case.",
+  "known_facts": [
+    "U.S. District Judge Rita F. Lin ruled that the Pentagon's blacklisting of Anthropic was unlawful and blocked the supply-chain-risk designation.",
+    "The court found unlawful retaliation under the First Amendment, insufficient pre-deprivation process under the Fifth Amendment, and violations of the governing statutory scheme.",
+    "The designation followed Anthropic's refusal to permit Claude to be used for U.S. surveillance or autonomous weapons and had excluded Anthropic from certain military contracts.",
+    "Anthropic has a separate lawsuit pending in Washington, D.C. concerning another Pentagon supply-chain-risk designation that could affect civilian government contracts."
+  ],
+  "reinclude_only_if": [
+    "The U.S. government appeals, obtains a stay, reinstates or materially changes the designation.",
+    "Anthropic and the Pentagon settle or revise Claude military-use contract terms.",
+    "The separate Washington D.C. case reaches a material ruling."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/us-judge-rules-pentagon-blacklisting-anthropic-unlawful-2026-08-28/",
+    "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "NEW in the 2026-08-28 Midday window; court ruling materially changes Anthropic's government-contract position."
+}
