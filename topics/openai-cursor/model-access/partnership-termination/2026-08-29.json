@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai-cursor/model-access/partnership-termination/2026-08-29",
+  "canonical_title": "OpenAI to end model-supply agreement with Cursor after SpaceX acquisition",
+  "aliases": ["OpenAI Cursor partnership termination", "OpenAI Cursor model shutoff", "OpenAI SpaceX Cursor agreement"],
+  "organizations": ["OpenAI", "Cursor", "SpaceX"],
+  "products": ["Cursor", "OpenAI models", "Astra"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-08-29T11:01:00+09:00",
+  "last_seen_jst": "2026-08-29T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered",
+  "treatment": "Covered as the August 29 decision to wind down OpenAI model supply to Cursor following Cursor's acquisition by SpaceX. Repeat only for a changed shutoff date, a replacement model-supply agreement, a material change to Cursor model availability, or a formal response that changes the practical impact.",
+  "known_facts": [
+    "OpenAI notified SpaceX that it intends to wind down its contract providing OpenAI models to Cursor.",
+    "OpenAI proposed November 12, 2026 as the shutoff date and said this is the maximum notice period under the contract.",
+    "OpenAI said it is not confident SpaceX would use its technology within OpenAI's terms of service.",
+    "OpenAI said its change-of-control clause gives it a limited cancellation window after Cursor's acquisition by SpaceX.",
+    "OpenAI said it will not provide future models to Cursor during the wind-down and specifically cited increased accountability around Astra."
+  ],
+  "reinclude_only_if": [
+    "OpenAI, Cursor, or SpaceX changes or cancels the November 12 shutoff plan.",
+    "Cursor announces a replacement agreement or material change in access to OpenAI models.",
+    "A future OpenAI model, including Astra, becomes available to Cursor despite the announced restriction.",
+    "A formal legal, contractual, or product response materially changes the practical interpretation."
+  ],
+  "sources": [
+    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+    "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
+    "https://cursor.com/blog/joining-spacex"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Reuters published at 02:01 UTC (11:01 JST) on August 29, inside the 2026-08-29 Midday Brief window."
+}
