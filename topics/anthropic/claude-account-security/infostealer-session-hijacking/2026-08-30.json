@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-account-security/infostealer-session-hijacking/2026-08-30",
+  "canonical_title": "Anthropic warns of Claude session hijacking via commodity infostealers",
+  "aliases": [
+    "Claude session cookie theft",
+    "Anthropic infostealer warning",
+    "Claude sessions drained by infostealers"
+  ],
+  "organizations": ["Anthropic"],
+  "products": ["Claude"],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-08-30T23:30:00+09:00",
+  "last_seen_jst": "2026-08-30T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered as a user-account security incident involving stolen authenticated Claude sessions. Do not repeat generic infostealer guidance without a material incident or mitigation delta.",
+  "known_facts": [
+    "Anthropic warned affected Claude users that commodity infostealer malware on already-compromised devices had stolen active Claude login sessions and that a bad actor was using those sessions to consume account usage.",
+    "Anthropic identified Vidar, LummaC2, StealC, RedLine and Acreed on Windows and Atomic Stealer on a small number of Macs among malware seen in affected cases.",
+    "Anthropic said it was revoking compromised sessions, removing saved payment methods and refunding charges it identified as unauthorized.",
+    "The incident does not indicate that Claude installed or delivered the malware; Anthropic said the malware was general-purpose infostealer software already present on victims' machines."
+  ],
+  "reinclude_only_if": [
+    "Anthropic publishes a formal incident report or quantified scope affecting materially more users.",
+    "Anthropic changes session-token design, device binding, authentication or account-security controls in response.",
+    "A new malware campaign or reproducible finding materially changes the practical risk or mitigation."
+  ],
+  "sources": [
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.94,
+  "notes": "BleepingComputer published the report at the late edge of the 2026-08-30 night coverage window and reproduced details from Anthropic emails sent to affected users."
+}
