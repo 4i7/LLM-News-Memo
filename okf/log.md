@@ -1,5 +1,11 @@
 # OKF Update Log
 
+## 2026-08-31
+
+* **End-of-August Repo Radar retrospective**: Added `reports/github-repo-radar/2026-08-end-retrospective.md`, consolidating the 2026-08-26 through 2026-08-31 source window after seven Radar executions.
+* **Durable additions**: Preserved high-value conclusions for x64dbg, Detect It Easy, HTTP Toolkit, OBS Studio, and Shotcut, with conditional retention for lessmsi, ExifToolGui, and Keyviz.
+* **Index update**: Added direct OKF navigation to the new end-of-August retrospective while keeping Repo Radar reports separate from canonical LLM News duplicate-control state.
+
 ## 2026-08-25
 
 * **Late-August Repo Radar retrospective**: Added `reports/github-repo-radar/2026-08-late-retrospective.md`, consolidating the 2026-08-19 through 2026-08-25 source window into durable Tier A, conditional, watch-only, safety, and compact-toolkit conclusions.
@@ -29,7 +35,7 @@
 * **Curated reports boundary**: Added `reports/` as an explicitly requested human-readable knowledge layer that remains separate from canonical LLM News duplicate-control state.
 * **GitHub Repo Radar retrospective**: Added `reports/github-repo-radar/2026-07-retrospective.md`, consolidating durable Windows 11 utility recommendations, risk tiers, and review triggers from prior Radar runs.
 * **OKF contract**: Added `okf/concepts/github-repo-radar-reports.md` to define evidence, update, safety, and storage rules for Repo Radar retrospectives.
-* **Scheduled-task isolation**: Clarified that LLM News schedules must not read curated reports as seen-topic state or modify them during routine writeback.
+* **Scheduled-task isolation**: Clarified that LLM News schedules must not read curated reports as seen-topic state or modify them during routine news writeback.
 
 ## 2026-07-03
 
