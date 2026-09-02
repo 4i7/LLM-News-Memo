@@ -7,7 +7,8 @@
     "Nvidia $500 billion AI financing venture",
     "Nvidia Wall Street AI infrastructure fund",
     "Apollo Blackstone Nvidia AI financing",
-    "Nvidia Ohio OpenAI data center guarantee"
+    "Nvidia Ohio OpenAI data center guarantee",
+    "OpenAI SB Energy $5.5 billion warrants"
   ],
   "organizations": [
     "NVIDIA",
@@ -24,39 +25,37 @@
   "products": [],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-11T01:34:00+09:00",
-  "last_seen_jst": "2026-08-17T23:30:00+09:00",
-  "last_report": "LLM Night Lite",
+  "last_seen_jst": "2026-08-31T13:31:00+09:00",
+  "last_report": "LLM Midday Brief",
   "coverage_status": "covered_watch",
-  "treatment": "Treat the $500 billion compute-financing platform, its August 14 financing structure, the Ohio OpenAI project's revised NVIDIA guarantee, and the August 17 signed SB Energy investment/capacity deal as covered. Reinclude only for additional binding capital commitments, signed leases, named financed projects, deployment schedules, changes in participants, closed transactions, or regulatory/financing documents with material new terms.",
+  "treatment": "Treat the $500 billion compute-financing platform, its August financing structure, the Ohio OpenAI project's revised NVIDIA guarantee, the signed SB Energy investment/capacity deal, and the reported OpenAI SB Energy warrant package as covered. Reinclude only for additional binding capital commitments, signed leases, named financed projects, deployment schedules, changes in participants, closed transactions, IPO/regulatory filings, or financing documents with material new terms.",
   "known_facts": [
-    "Reuters reported on August 10 at 16:34 UTC that financial firms including Apollo and Blackstone were working with NVIDIA on a roughly $500 billion financing package for AI infrastructure.",
-    "The consortium includes BlackRock Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR.",
-    "The capital is intended to support chips, power generation and data-center infrastructure underpinning AI build-out.",
-    "By August 14, Reuters reported that NVIDIA had signed memorandums of understanding with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR for compute-financing platforms aimed at raising more than $500 billion in third-party capital.",
-    "Jensen Huang said NVIDIA has the option to backstop up to $125 billion, or 25% of potential deals.",
-    "Reuters reported Goldman Sachs is the sole lender in the initiative alongside the asset managers and is discussing participation with banks, insurers, money managers and private-credit investors.",
-    "The intended structure is an asset-backed market for AI compute rather than the heavier vendor-guarantee model used in some earlier AI infrastructure financings.",
-    "On August 15 JST, Reuters relayed a Wall Street Journal report that NVIDIA and OpenAI were nearing an agreement for the proposed 10-gigawatt Ohio data-center project developed by SB Energy.",
-    "The proposed NVIDIA financial guarantee for the Ohio project was reduced from as much as $250 billion to initially less than $120 billion, with NVIDIA expected to backstop only the first phase.",
-    "The reported reduction followed investor concerns about NVIDIA's risk exposure to large financing commitments; OpenAI was still discussing a binding lease for the full 10-gigawatt project.",
-    "On August 17 Reuters reported a binding deal under which NVIDIA will invest $1.5 billion in SB Energy and secure up to 8 GW of AI computing capacity at the Ohio PORTS-Pike Technology Campus being built for OpenAI.",
-    "The Ohio campus has an initial planned capacity of 4.25 GW using NVIDIA GPUs and networking equipment, while SB Energy and SoftBank plan at least 10 GW of new power generation and $4.2 billion of Ohio grid investment."
+    "Reuters reported that financial firms including Apollo and Blackstone were working with NVIDIA on a roughly $500 billion financing package for AI infrastructure, alongside BlackRock Global Infrastructure Partners, Brookfield, Goldman Sachs and KKR.",
+    "By August 14, Reuters reported that NVIDIA had signed memorandums of understanding with the consortium for compute-financing platforms aimed at raising more than $500 billion in third-party capital, with NVIDIA able to backstop up to $125 billion or 25% of potential deals.",
+    "Reuters reported Goldman Sachs is the sole lender in the initiative and is discussing participation with banks, insurers, asset managers and private-credit investors.",
+    "For the Ohio OpenAI project developed by SB Energy, the proposed NVIDIA guarantee was reduced from as much as $250 billion to initially less than $120 billion, with NVIDIA expected to backstop only the first phase.",
+    "On August 17 Reuters reported a binding deal under which NVIDIA would invest $1.5 billion in SB Energy and secure up to 8 GW of AI computing capacity at the Ohio PORTS-Pike Technology Campus being built for OpenAI.",
+    "The Ohio campus has an initial planned capacity of 4.25 GW using NVIDIA GPUs and networking equipment, while SB Energy and SoftBank plan at least 10 GW of new power generation and $4.2 billion of Ohio grid investment.",
+    "On August 31 Reuters relayed a Wall Street Journal report based on draft SB Energy IPO documents that OpenAI had been issued warrants worth an estimated $5.5 billion in SB Energy.",
+    "The same report said SoftBank Group and OpenAI are planned tenants in three SB Energy data centers.",
+    "Reuters could not independently verify the warrant report and OpenAI and SB Energy did not immediately comment."
   ],
   "reinclude_only_if": [
     "NVIDIA or consortium members announce additional binding capital commitments or closed financings.",
     "The Ohio OpenAI/SB Energy lease or related capacity agreement is signed, cancelled, resized, or materially restructured.",
     "Specific data-center, power, chip-purchase or financing projects are disclosed.",
     "The size, capital structure, participant list or deployment timeline materially changes.",
-    "Regulatory filings or financing documents reveal material terms."
+    "SB Energy IPO or other regulatory filings confirm or materially revise the warrant package, tenant commitments, valuation, or financing structure."
   ],
   "sources": [
     "https://www.reuters.com/technology/wall-street-giants-partner-with-nvidia-500-billion-ai-financing-deal-ft-reports-2026-08-10/",
     "https://www.reuters.com/legal/transactional/goldman-talks-with-investors-nvidia-financing-deal-after-landing-prized-role-2026-08-14/",
     "https://www.reuters.com/legal/transactional/private-credit-roundup-nvidias-half-trillion-chips-financing-plus-others-2026-08-14/",
     "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-    "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/"
+    "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
+    "https://www.reuters.com/technology/openai-issued-warrants-worth-55-billion-sb-energy-wsj-reports-2026-08-31/"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.99,
-  "notes": "FOLLOW_UP on 2026-08-17 Night: the Ohio project moved from reported guarantee/lease negotiations to a signed NVIDIA-SB Energy investment and capacity arrangement. NVIDIA committed $1.5B and secured up to 8 GW of compute capacity."
+  "confidence": 0.97,
+  "notes": "FOLLOW_UP recovered on 2026-09-02. 前回からの差分: draft SB Energy IPO documents reportedly reveal an estimated $5.5B OpenAI warrant package and planned OpenAI/SoftBank tenancy across three SB Energy data centers, adding concrete equity and tenant economics to the previously covered Ohio financing story."
 }
