@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic-lambda/cloud-compute/35b-texas-deal/2026-08-31",
+  "canonical_title": "Anthropic signs $35 billion cloud-computing deal with Lambda for Texas capacity",
+  "aliases": [
+    "Anthropic Lambda $35 billion cloud deal",
+    "Anthropic Texas 350 MW Lambda deal",
+    "Lambda Anthropic Nueces County data center"
+  ],
+  "organizations": ["Anthropic", "Lambda", "NVIDIA", "Hut 8"],
+  "products": ["Claude", "Claude Code"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-01T08:59:00+09:00",
+  "last_seen_jst": "2026-09-01T08:59:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the reported $35B Anthropic-Lambda Texas cloud agreement as covered. Reinclude only for official confirmation, final lease/financing terms, GPU/rack/network details, energization schedule, capacity changes, or material execution risk.",
+  "known_facts": [
+    "Reuters reported on August 31 at 23:59 UTC that Anthropic signed a cloud-computing deal worth $35 billion with Nvidia-backed Lambda for a Texas data center.",
+    "The project is being developed by Hut 8 in Nueces County and covers about 350 MW of capacity, according to a source familiar with the matter.",
+    "The capacity is intended to bring Nvidia compute online for growing Claude demand.",
+    "Reuters said Nvidia itself would hold the lease on the data center according to the Wall Street Journal.",
+    "Anthropic had separately agreed to spend $45 billion for Nscale capacity in West Virginia, so this deal represents another large dedicated compute commitment rather than a replacement for that contract."
+  ],
+  "reinclude_only_if": [
+    "Anthropic, Lambda, Nvidia or Hut 8 officially confirms the contract or publishes material terms.",
+    "GPU generation, rack count, networking, power delivery or production start schedule becomes public.",
+    "The contract value, 350 MW capacity, lease structure or counterparties materially change.",
+    "Financing or construction delays materially change expected delivery."
+  ],
+  "sources": [
+    "https://www.reuters.com/technology/anthropic-signs-35-billion-cloud-deal-with-nvidia-backed-lambda-source-says-2026-08-31/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "NEW in the recovered 2026-09-02 Midday run. Reuters publication 2026-08-31 23:59 UTC = 2026-09-01 08:59 JST."
+}
