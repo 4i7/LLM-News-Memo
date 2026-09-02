@@ -1,0 +1,32 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "zoho/catalyst-3-0/agent-ready-platform-launch/2026-09-02",
+  "canonical_title": "Zoho Catalyst 3.0 agent-ready full-stack platform launch",
+  "aliases": ["Catalyst 3.0", "Zoho Catalyst agent-ready cloud", "Catalyst Agent Skills MCP"],
+  "organizations": ["Zoho"],
+  "products": ["Catalyst 3.0", "Catalyst Agent Skills", "Zoho MCP"],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-09-02T21:10:00+09:00",
+  "last_seen_jst": "2026-09-02T21:10:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered as the Catalyst 3.0 launch. Repeat only for GA/availability changes, material pricing changes, production-scale adoption, new first-party agent runtime capabilities, or major breakage/security findings.",
+  "known_facts": [
+    "Zoho launched Catalyst 3.0 as an agent-ready full-stack cloud platform.",
+    "The release integrates AI IDE workflows, Agent Skills, MCP support, AI-assisted workflows and a non-interactive CLI for end-to-end agent execution.",
+    "Catalyst Agent Skills are available for Claude Code and Codex ecosystems, and Catalyst exposes MCP connectivity for agents to provision and operate platform resources."
+  ],
+  "reinclude_only_if": [
+    "Catalyst 3.0 availability, pricing, or supported agent surfaces materially change.",
+    "Zoho publishes production adoption, benchmark, reliability, or security data that changes practical interpretation.",
+    "A reproducible material breakage or security issue emerges in agent-driven deployment workflows."
+  ],
+  "sources": [
+    "https://cio.economictimes.indiatimes.com/news/corporate-news/zoho-announces-catalyst-3-0-ai-agent-ready-full-stack-cloud-development-platform/133710089",
+    "https://catalyst.zoho.com/blog/catalyst-codex-plugin.html"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Launch article published 2026-09-02 17:40 IST (21:10 JST), inside the Night window."
+}
