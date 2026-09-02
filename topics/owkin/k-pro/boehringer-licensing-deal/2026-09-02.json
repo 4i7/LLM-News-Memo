@@ -1,0 +1,29 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "owkin/k-pro/boehringer-licensing-deal/2026-09-02",
+  "canonical_title": "Owkin K Pro licensing deal with Boehringer Ingelheim",
+  "aliases": ["Owkin Boehringer AI drug discovery deal", "K Pro Boehringer cancer immunology"],
+  "organizations": ["Owkin", "Boehringer Ingelheim"],
+  "products": ["K Pro"],
+  "event_type": "science_life_sciences_follow_up",
+  "first_seen_jst": "2026-09-02T21:03:00+09:00",
+  "last_seen_jst": "2026-09-02T21:03:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered as a new production-scale AI drug-discovery licensing agreement. Repeat only for disclosed financial terms, validated discovery outcomes, material platform/model changes, or named clinical/development milestones.",
+  "known_facts": [
+    "Boehringer Ingelheim licensed Owkin's K Pro AI research platform and patient data for oncology and immunology drug discovery.",
+    "The agreement expands a 2025 pilot; Owkin will license multimodal oncology data and generate new immunology data.",
+    "Financial terms were not disclosed."
+  ],
+  "reinclude_only_if": [
+    "Financial terms or scope materially change.",
+    "Boehringer reports validated targets, drug candidates, clinical milestones, or measurable productivity gains from K Pro.",
+    "Owkin materially changes K Pro model/platform availability or technical capabilities."
+  ],
+  "sources": ["https://www.reuters.com/legal/litigation/owkin-signs-ai-drug-discovery-deal-with-boehringer-cancer-immunology-2026-09-02/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Reuters timestamp 2026-09-02 12:03 UTC, inside the 12:00-23:30 JST Night window."
+}
