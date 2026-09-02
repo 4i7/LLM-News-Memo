@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-fable-5-1/model-release/2026-09-01",
+  "canonical_title": "Anthropic releases Claude Fable 5.1 and Claude Mythos 5.1",
+  "aliases": [
+    "Claude Fable 5.1",
+    "Claude Mythos 5.1",
+    "claude-fable-5-1",
+    "Anthropic September 1 2026 model release"
+  ],
+  "organizations": ["Anthropic"],
+  "products": ["Claude Fable 5.1", "Claude Mythos 5.1", "Claude Code", "Claude Platform"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-09-02T03:27:00+09:00",
+  "last_seen_jst": "2026-09-02T03:27:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the September 1 release of Claude Fable 5.1 and gated Mythos 5.1 as covered. Reinclude only for material model-card/system-card changes, pricing or availability changes, independent reproducible benchmark/adoption results, safeguard changes, or a major production breakage.",
+  "known_facts": [
+    "Anthropic released Claude Fable 5.1 on September 1, 2026 as its most capable generally available model for coding, knowledge work and long-running agentic tasks.",
+    "Claude Mythos 5.1 uses the same underlying model but has reduced safeguards for vetted cybersecurity and life-sciences users through trusted access programs.",
+    "Fable 5.1 is available through Claude, the Claude API as claude-fable-5-1, AWS, Google Cloud and Microsoft Foundry.",
+    "Base API pricing remains $10 per million input tokens and $50 per million output tokens, while cache reads were cut 75% to $0.25 per million tokens.",
+    "Anthropic estimates the cache-price change lowers typical workload cost by about 25% and highly agentic workload cost by up to about 45%.",
+    "Fable 5.1 can identify software vulnerabilities in source code, while safeguards still block or reroute exploit development, penetration testing and other higher-risk cyber tasks.",
+    "Anthropic says Fable 5.1 improves across coding, scientific research and long-running agent benchmarks; vendor benchmark claims remain subject to independent validation."
+  ],
+  "reinclude_only_if": [
+    "Anthropic changes Fable 5.1 or Mythos 5.1 pricing, availability, trusted-access eligibility, safeguards, or model behavior materially.",
+    "Anthropic publishes a new system card or technical artifact that materially changes the capability or risk assessment.",
+    "A credible independent evaluation demonstrates a material capability, regression, cost or production-adoption result.",
+    "A major production incident or compatibility breakage changes practical use."
+  ],
+  "sources": [
+    "https://www.anthropic.com/claude/fable",
+    "https://www.anthropic.com/claude/mythos"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.995,
+  "notes": "NEW in the recovered 2026-09-02 Midday run. Public tracking placed the announcement at about 18:27 UTC on September 1, which is 03:27 JST on September 2 and inside the current primary window."
+}
