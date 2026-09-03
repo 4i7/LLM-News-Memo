@@ -2,12 +2,13 @@
   "record_type": "topic",
   "schema_version": 2,
   "topic_key": "nvidia-hugging-face/acquisition/12-9b-agreement-report/2026-08-27",
-  "canonical_title": "NVIDIA reportedly agrees to acquire Hugging Face for $12.9 billion",
+  "canonical_title": "NVIDIA acquisition of Hugging Face for $12.93 billion",
   "aliases": [
     "Nvidia Hugging Face acquisition",
     "$12.9 billion Hugging Face deal",
     "NVIDIA buys Hugging Face",
-    "The Information Nvidia Hugging Face deal"
+    "The Information Nvidia Hugging Face deal",
+    "NVIDIA $12.93B Hugging Face acquisition"
   ],
   "organizations": [
     "NVIDIA",
@@ -20,25 +21,27 @@
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-27T09:45:00+09:00",
-  "last_seen_jst": "2026-08-27T09:45:00+09:00",
-  "last_report": "LLM Midday Brief",
-  "coverage_status": "covered_watch",
-  "treatment": "Treat as a high-signal but not yet officially confirmed acquisition report. Do not describe the transaction as closed until NVIDIA and Hugging Face confirm completion or binding terms publicly.",
+  "last_seen_jst": "2026-09-03T21:08:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "The acquisition is now officially announced. Reinclude only for regulatory review, closing conditions, governance or platform-policy changes, expected/actual closing, termination, repricing, or material restructuring.",
   "known_facts": [
     "Reuters reported on August 27, citing The Information and a person with knowledge of the deal, that NVIDIA agreed to acquire Hugging Face for $12.9 billion.",
-    "NVIDIA and Hugging Face had not immediately responded to Reuters requests for comment at publication time.",
-    "NVIDIA previously invested in Hugging Face's 2023 funding round at a $4.5 billion valuation, and the Financial Times reported that Hugging Face rejected a $500 million NVIDIA investment offer in 2025 that would have valued it at $7 billion."
+    "On September 3, NVIDIA announced the acquisition at a $12.93 billion headline value.",
+    "NVIDIA will pay about $11.9 billion to Hugging Face investors and provide up to $1 billion in equity-based retention incentives for employees joining NVIDIA.",
+    "NVIDIA CEO Jensen Huang said Hugging Face will remain an open platform for the entire AI ecosystem and NVIDIA chips will not be required to build on or deploy through it.",
+    "NVIDIA previously invested in Hugging Face's 2023 funding round at a $4.5 billion valuation."
   ],
   "reinclude_only_if": [
-    "NVIDIA or Hugging Face officially confirms or denies the transaction.",
-    "Definitive agreement terms, financing, regulatory filings, closing conditions, governance changes, or expected close timing are disclosed.",
-    "A regulator opens a material review or imposes conditions.",
-    "The deal is terminated, repriced, or materially restructured."
+    "A regulator opens a material review, imposes conditions, or blocks the transaction.",
+    "Closing timing, governance changes, financing details, or material platform-policy changes are disclosed.",
+    "The deal closes, is terminated, repriced, or materially restructured."
   ],
   "sources": [
-    "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
+    "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/",
+    "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.9,
-  "notes": "Reuters publication time 2026-08-27 00:45 UTC = 09:45 JST. The acquisition is reported as agreed but remains unconfirmed by the two companies at publication time."
+  "confidence": 0.99,
+  "notes": "FOLLOW_UP on 2026-09-03: the previously unconfirmed acquisition report became an official NVIDIA-announced transaction. Reuters publication time 2026-09-03 12:08 UTC = 21:08 JST."
 }
