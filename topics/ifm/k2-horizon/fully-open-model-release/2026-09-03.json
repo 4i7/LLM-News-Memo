@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "ifm/k2-horizon/fully-open-model-release/2026-09-03",
+  "canonical_title": "IFM releases K2 Horizon fully open model family",
+  "aliases": [
+    "K2 Horizon",
+    "Institute of Foundation Models K2 Horizon",
+    "MBZUAI K2 Horizon",
+    "fully open AI models with training data and checkpoints"
+  ],
+  "organizations": [
+    "Institute of Foundation Models",
+    "Mohamed bin Zayed University of Artificial Intelligence"
+  ],
+  "products": [
+    "K2 Horizon"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-09-03T22:00:00+09:00",
+  "last_seen_jst": "2026-09-03T22:02:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat the six-model K2 Horizon release as covered. Reinclude only for material license or artifact changes, independent reproducibility findings, major benchmark corrections, production adoption, or a subsequent model release.",
+  "known_facts": [
+    "IFM introduced six K2 Horizon foundation models ranging from 0.9B to 375B parameters.",
+    "The release includes model weights, code, training data, methodologies, and intermediate checkpoints rather than weights alone.",
+    "The artifacts are intended to let researchers inspect and reproduce the development process.",
+    "IFM positions the 375B model for enterprise deployments and the smallest model for constrained devices.",
+    "The family was announced as available through public model-distribution channels including Hugging Face, Ollama, Unsloth, and IFM's repository."
+  ],
+  "reinclude_only_if": [
+    "Independent researchers reproduce or materially challenge the claimed results using the released data and checkpoints.",
+    "License, dataset, code, checkpoints, or availability materially changes.",
+    "A major production deployment or adoption milestone is announced.",
+    "A new K2 Horizon version or materially different model is released."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/middle-east/abu-dhabi-ai-institute-releases-fully-open-source-models-with-training-data-code-2026-09-03/",
+    "https://www.prnewswire.com/news-releases/institute-of-foundation-models-launches-the-industrys-largest-fully-open-source-fleet-of-ai-models-complete-with-weights-code-training-data-and-methodologies-302868628.html"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "NEW in the 2026-09-03 Night window. Official release timestamp 2026-09-03 09:00 ET = 22:00 JST; Reuters publication time 13:02 UTC = 22:02 JST."
+}
