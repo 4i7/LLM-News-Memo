@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/gemini-3-8-flash/model-release/2026-09-02",
+  "canonical_title": "Google releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber",
+  "aliases": ["Gemini 3.8 Flash","Gemini 3.8 Flash Cyber","Google Fairwind Program","Gemini 3.8"],
+  "organizations": ["Google","Google DeepMind"],
+  "products": ["Gemini 3.8 Flash","Gemini 3.8 Flash Cyber","Fairwind Program","Google AI Studio","Gemini Enterprise"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-09-03T04:20:00+09:00",
+  "last_seen_jst": "2026-09-03T04:20:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as a model release. Reinclude only for GA/pricing changes, material model-card or benchmark corrections, Fairwind access-policy changes, major independent evaluations, or production adoption/breakage.",
+  "known_facts": [
+    "Google released Gemini 3.8 Flash three weeks after 3.7 Flash, describing it as its most intelligent Flash workhorse for software engineering, agentic tasks and multi-step reasoning.",
+    "Gemini 3.8 Flash keeps the introductory developer price of $0.75 per million input tokens and $3.75 per million output tokens.",
+    "Google also released Gemini 3.8 Flash Cyber, based on the same foundational intelligence but specialized for vulnerability detection and automated patching.",
+    "Gemini 3.8 Flash Cyber is limited to trusted defenders through Google's new Fairwind Program.",
+    "Google says both variants use long-running agentic loops that recursively evaluate and refine task execution.",
+    "Google reports 73.7% on DeepSWE v1.1 for Gemini 3.8 Flash and 86.2% on CyberGym for Gemini 3.8 Flash Cyber; these are vendor-reported results pending broader independent replication."
+  ],
+  "reinclude_only_if": [
+    "Google changes pricing, availability, context/output limits, or production model identifiers.",
+    "Google publishes a material system/model card update or corrects reported benchmark results.",
+    "Independent reproducible evaluations materially change the interpretation of coding, agentic, cyber, cost, or token-efficiency performance.",
+    "Fairwind materially changes access criteria or Gemini 3.8 Flash Cyber becomes broadly available.",
+    "A major production adoption, outage, regression, or safety incident changes practical interpretation."
+  ],
+  "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.999,
+  "notes": "NEW for the 2026-09-03 Midday window. Google announced the models on Sep 2 US time; multiple timestamped reports place the launch well after the prior 2026-09-02 23:30 JST Night boundary."
+}
