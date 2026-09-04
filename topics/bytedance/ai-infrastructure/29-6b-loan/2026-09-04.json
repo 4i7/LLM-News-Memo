@@ -1,0 +1,30 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "bytedance/ai-infrastructure/29-6b-loan/2026-09-04",
+  "canonical_title": "ByteDance secures $29.6 billion loan supporting overseas AI expansion",
+  "aliases": ["ByteDance $29.6B loan","ByteDance AI loan","ByteDance overseas AI expansion financing"],
+  "organizations": ["ByteDance","Citigroup","JPMorgan"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-04T20:19:00+09:00",
+  "last_seen_jst": "2026-09-04T20:19:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as a major AI-infrastructure financing event. Reinclude only for signing/closing changes, materially revised amount or terms, named AI-chip or data-center allocations, or concrete deployment milestones.",
+  "known_facts": [
+    "Reuters reported ByteDance secured a $29.6 billion unsecured loan from nearly 30 banks, increased from an initial $20 billion target after strong lender demand.",
+    "The three-year facility is coordinated by Citigroup and JPMorgan and has options to extend for two additional years.",
+    "Sources told Reuters the proceeds, formally for general corporate purposes, will mainly support ByteDance AI-related plans and projects outside China.",
+    "Reuters reported ByteDance is an offtaker for multiple data centers under construction in Southeast Asia and has stepped up spending on AI chips and multimodal AI development."
+  ],
+  "reinclude_only_if": [
+    "The facility is formally signed with materially changed terms or amount.",
+    "ByteDance identifies specific AI chip purchases, data-center capacity, model-training programs, or geographic deployments funded by the facility.",
+    "A material financing, regulatory, or deployment change alters the practical interpretation of the AI expansion plan."
+  ],
+  "sources": ["https://www.reuters.com/legal/transactional/bytedance-secures-296-billion-loan-ai-push-sources-say-2026-09-04/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "NEW on 2026-09-04 LLM Night Lite. Reuters publication 2026-09-04 11:19 UTC = 20:19 JST."
+}
