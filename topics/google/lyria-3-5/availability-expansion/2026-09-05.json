@@ -1,0 +1,32 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/lyria-3-5/availability-expansion/2026-09-05",
+  "canonical_title": "Google expands Lyria 3.5 to Gemini app and Gemini API",
+  "aliases": ["Lyria 3.5", "lyria-3.5", "Gemini music generation"],
+  "organizations": ["Google", "Google DeepMind"],
+  "products": ["Lyria 3.5", "Gemini app", "Gemini API", "Google AI Studio"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-09-05T01:02:00+09:00",
+  "last_seen_jst": "2026-09-05T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Do not repeat without a material availability, pricing, API, benchmark, or product change.",
+  "known_facts": [
+    "The hard delta is wider availability rather than the first existence of Lyria 3.5.",
+    "Google made Lyria 3.5 available in the Gemini app, Gemini API, and Google AI Studio.",
+    "Gemini app users can select genre, vocal or instrumental styles, templates, and short or longer tracks."
+  ],
+  "reinclude_only_if": [
+    "Material API pricing or model ID change.",
+    "Availability or deprecation change.",
+    "Independent reproducible evaluation materially changes interpretation."
+  ],
+  "sources": [
+    "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+    "https://www.androidauthority.com/latest-lyria-model-comes-to-gemini-app-3707842/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Official post is dated Sep 4, 2026; timestamped coverage at 2:21 PM ET places the expansion inside this run window."
+}
