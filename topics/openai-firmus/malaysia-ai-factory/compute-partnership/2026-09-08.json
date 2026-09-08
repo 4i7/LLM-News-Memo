@@ -1,0 +1,47 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai-firmus/malaysia-ai-factory/compute-partnership/2026-09-08",
+  "canonical_title": "OpenAI contracts Firmus AI compute capacity from two Malaysia sites",
+  "aliases": [
+    "OpenAI Firmus Malaysia data centre deal",
+    "Firmus OpenAI anchor customer Malaysia",
+    "Firmus 900 MW OpenAI partnership"
+  ],
+  "organizations": [
+    "OpenAI",
+    "Firmus",
+    "NVIDIA"
+  ],
+  "products": [
+    "Firmus AI Factory",
+    "NVIDIA Vera Rubin NVL72",
+    "NVIDIA DSX"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-08T10:40:00+09:00",
+  "last_seen_jst": "2026-09-08T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for disclosed OpenAI-contracted MW, contract value, site locations/timelines, commissioning milestones, or material changes to the NVIDIA Vera Rubin deployment.",
+  "known_facts": [
+    "OpenAI and Firmus announced a multi-year strategic partnership for dedicated AI compute capacity from two Firmus AI Factory sites in Malaysia.",
+    "OpenAI will become an anchor customer of Firmus.",
+    "Firmus says total contracted capacity across all customers now exceeds 900 MW; this is not stated as OpenAI's own contracted share.",
+    "Firmus says its broader platform spans seven AI factories across Australia, Singapore, Indonesia and Malaysia, with two operational and five under development targeting ready-for-service within 24 months.",
+    "Firmus says its HyperCube-based AI factories will use NVIDIA DSX and NVIDIA Vera Rubin NVL72 systems."
+  ],
+  "reinclude_only_if": [
+    "OpenAI-specific contracted capacity or contract value is disclosed.",
+    "Malaysia site locations, power capacity, or ready-for-service dates are disclosed.",
+    "A commissioning or production-service milestone occurs.",
+    "The hardware platform or strategic scope materially changes."
+  ],
+  "sources": [
+    "https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia",
+    "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Do not misattribute Firmus' >900 MW total contracted portfolio to OpenAI; OpenAI-specific MW and contract value are undisclosed."
+}
