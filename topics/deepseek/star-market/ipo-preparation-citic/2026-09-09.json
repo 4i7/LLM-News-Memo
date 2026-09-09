@@ -1,0 +1,33 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "deepseek/star-market/ipo-preparation-citic/2026-09-09",
+  "canonical_title": "DeepSeek STAR Market IPO preparation",
+  "aliases": [
+    "DeepSeek CITIC IPO",
+    "DeepSeek STAR Market IPO"
+  ],
+  "organizations": [
+    "DeepSeek",
+    "CITIC Securities"
+  ],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-09T15:11:00+09:00",
+  "last_seen_jst": "2026-09-09T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat for official filing, prospectus, fundraising target, valuation, timetable, or listing.",
+  "known_facts": [
+    "Reuters reported DeepSeek engaged CITIC Securities to prepare for a Shanghai STAR Market IPO."
+  ],
+  "reinclude_only_if": [
+    "Official filing or material transaction details appear."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/chinas-deepseek-taps-citic-securities-domestic-ipo-sources-say-2026-09-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Source-reported; not company-confirmed."
+}
