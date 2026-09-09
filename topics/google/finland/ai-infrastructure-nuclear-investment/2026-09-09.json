@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/finland/ai-infrastructure-nuclear-investment/2026-09-09",
+  "canonical_title": "Google €13B Finland AI infrastructure and nuclear power agreement",
+  "aliases": [
+    "Google Finland €13B AI investment",
+    "Google Fortum Loviisa nuclear PPA",
+    "Google Finland AI infrastructure"
+  ],
+  "organizations": [
+    "Google",
+    "Alphabet",
+    "Fortum"
+  ],
+  "products": [
+    "Gemini"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-09T16:01:00+09:00",
+  "last_seen_jst": "2026-09-09T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for concrete site capacity, accelerator deployment, commissioning milestones, new power capacity, or a material change to the Fortum nuclear/energy agreement.",
+  "known_facts": [
+    "Google announced at least €13B of Finland investment for 2027-2028 across data centres, grid, clean energy and battery projects.",
+    "Fortum and Google signed a 22-year PPA covering up to 50% of Loviisa nuclear plant capacity; it is Google's first nuclear power agreement outside the US.",
+    "Fortum disclosed Google-linked projects/partnerships in Hamina, Muhos, Vaala and Kajaani, including a 94 MW battery system adjacent to the Kajaani data centre."
+  ],
+  "reinclude_only_if": [
+    "Concrete MW/GPU/accelerator capacity or site commissioning is disclosed.",
+    "The nuclear PPA, Loviisa uprate/life extension, or new nuclear MoU produces a material binding development."
+  ],
+  "sources": [
+    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-ai-commitment-to-finland/",
+    "https://www.fortum.com/en/media/2026/09/inside-information-fortum-and-google-partner-drive-sustainable-growth-finland-sign-nuclear-power-purchase-agreement",
+    "https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Selected as NEW in 2026-09-09 LLM Night Lite."
+}
