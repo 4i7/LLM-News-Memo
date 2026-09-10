@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "d-matrix/raptor/nvlink-fusion-adoption/2026-09-10",
+  "canonical_title": "d-Matrix Raptor adopts NVIDIA NVLink Fusion",
+  "aliases": ["d-Matrix Raptor NVLink Fusion", "Raptor NVIDIA racks"],
+  "organizations": ["d-Matrix", "NVIDIA", "Astera Labs"],
+  "products": ["Raptor", "NVLink Fusion"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-10T22:20:00+09:00",
+  "last_seen_jst": "2026-09-10T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for tape-out, shipping, rack availability, customer deployment, or material architecture/performance disclosure.",
+  "known_facts": ["d-Matrix will integrate NVLink Fusion into Raptor inference processors for NVIDIA-compatible data-center racks.", "Raptor final design is targeted by end-2026 and compatible racks for 2027."],
+  "reinclude_only_if": ["Raptor tape-out or shipment", "NVIDIA-compatible rack availability", "Material customer or performance disclosure"],
+  "sources": ["https://www.reuters.com/business/media-telecom/chip-startup-d-matrix-use-nvidia-chip-linking-tech-ai-servers-2026-09-10/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Inference accelerator interoperability with NVIDIA rack infrastructure."
+}
