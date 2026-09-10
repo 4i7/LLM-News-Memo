@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia-groq/licensing-deal/doj-antitrust-investigation/2026-09-10",
+  "canonical_title": "US DOJ investigates Nvidia-Groq licensing deal",
+  "aliases": [
+    "Nvidia Groq DOJ probe",
+    "Nvidia $17 billion Groq licensing antitrust",
+    "Groq licensing deal investigation"
+  ],
+  "organizations": [
+    "NVIDIA",
+    "Groq",
+    "U.S. Department of Justice"
+  ],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-10T10:07:00+09:00",
+  "last_seen_jst": "2026-09-10T11:57:54+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for DOJ findings, charges, settlement, fines, structural remedies, or new transaction details.",
+  "known_facts": [
+    "The New York Times reported that the U.S. DOJ is investigating whether Nvidia structured its $17 billion Groq licensing deal to avoid antitrust scrutiny.",
+    "The DOJ reportedly sent Nvidia a formal demand for information.",
+    "Reuters reported the investigation but said DOJ and Groq had not commented."
+  ],
+  "reinclude_only_if": [
+    "DOJ formally confirms findings or enforcement.",
+    "Nvidia or Groq discloses material new transaction or regulatory details."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Underlying investigation details are attributed by Reuters to New York Times sources."
+}
