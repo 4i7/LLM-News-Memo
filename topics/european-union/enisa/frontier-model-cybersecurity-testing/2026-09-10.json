@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "european-union/enisa/frontier-model-cybersecurity-testing/2026-09-10",
+  "canonical_title": "ENISA granted access to Mythos 5 and GPT-6 Astra for testing",
+  "aliases": ["ENISA Mythos 5", "ENISA GPT-6 Astra"],
+  "organizations": ["ENISA", "European Commission", "Anthropic", "OpenAI"],
+  "products": ["Mythos 5", "GPT-6 Astra"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-10T17:56:00+09:00",
+  "last_seen_jst": "2026-09-10T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for published ENISA findings, restrictions, regulatory action, or material testing results.",
+  "known_facts": ["The European Commission said ENISA has access to Anthropic Mythos 5 and OpenAI GPT-6 Astra and is testing them."],
+  "reinclude_only_if": ["ENISA publishes test findings", "EU announces a restriction, finding, or enforcement action based on testing"],
+  "sources": ["https://www.reuters.com/technology/eus-cybersecurity-agency-granted-access-mythos-5-ai-model-commission-says-2026-09-10/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Commission-confirmed access and testing; no results disclosed yet."
+}
