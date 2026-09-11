@@ -1,0 +1,30 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/chatgpt-for-financial-services/product-launch/2026-09-10",
+  "canonical_title": "OpenAI launches ChatGPT for Financial Services",
+  "aliases": ["ChatGPT for Financial Services", "OpenAI financial services ChatGPT"],
+  "organizations": ["OpenAI", "Morgan Stanley", "Evercore"],
+  "products": ["ChatGPT for Financial Services", "GPT-6 Astra"],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-09-11T02:29:00+09:00",
+  "last_seen_jst": "2026-09-11T12:00:00+09:00",
+  "last_report": "LLM Midday Brief",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for major availability, pricing, data-provider, model, compliance-control, or adoption changes.",
+  "known_facts": [
+    "OpenAI launched ChatGPT for Financial Services for investment banking and equity research workflows.",
+    "Morgan Stanley and Evercore served as design partners.",
+    "The product uses GPT-6 Astra and integrates financial data from providers including LSEG, PitchBook and Daloopa.",
+    "It includes enterprise controls such as role-based access, encryption, and audit-log export workflows."
+  ],
+  "reinclude_only_if": [
+    "Material pricing or general-availability change.",
+    "Major new regulated-industry deployment or adoption figure.",
+    "Substantive model, dataset, compliance, or auditability change."
+  ],
+  "sources": ["https://www.reuters.com/business/openai-launches-chatgpt-financial-services-industry-2026-09-10/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Reuters timestamp 2026-09-10 17:29 UTC."
+}
