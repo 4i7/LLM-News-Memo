@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "uae-g42/stargate-uae/infrastructure-resilience-redesign/2026-09-11",
+  "canonical_title": "UAE revises 5GW AI campus into distributed hardened data-center network",
+  "aliases": [
+    "Stargate UAE 5GW redesign",
+    "UAE-US AI Campus distributed data centers",
+    "G42 AI campus resilience redesign"
+  ],
+  "organizations": ["G42", "OpenAI", "Oracle", "NVIDIA", "Cisco", "SoftBank"],
+  "products": ["Stargate UAE", "UAE-US AI Campus"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-11T18:04:00+09:00",
+  "last_seen_jst": "2026-09-11T23:28:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for a finalized revised masterplan, material capacity/timeline change, confirmed site distribution, new security architecture, or partner commitment change.",
+  "known_facts": [
+    "Reuters reported that the UAE is revising the planned 5GW AI campus from a single roughly 10-square-mile Abu Dhabi campus toward a network of data centers distributed across the UAE.",
+    "Officials are considering underground construction, blast-resistant concrete, backup power and cooling, electronic jamming, and drone/missile air defenses.",
+    "The first $30 billion 1GW Stargate UAE phase is expected to continue, with the first 200MW still due online in 2026, although protective modifications are being considered.",
+    "G42 said work is progressing as planned and that project specifics remain under continuous review."
+  ],
+  "reinclude_only_if": [
+    "The UAE or G42 publishes the finalized revised masterplan.",
+    "The 5GW target, first-phase 1GW target, or 2026 200MW commissioning schedule changes materially.",
+    "Specific new sites, underground/mountain facilities, or air-defense/security requirements are officially confirmed.",
+    "OpenAI, Oracle, NVIDIA, Cisco, or SoftBank materially changes its role or commitment."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.92,
+  "notes": "Reuters exclusive based on six people familiar with the deliberations; revised masterplan was not yet finalized."
+}
