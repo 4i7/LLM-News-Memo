@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "microsoft/humanist-ai/code-of-conduct-draft/2026-09-14",
+  "canonical_title": "Microsoft Humanist AI draft code of conduct",
+  "aliases": [
+    "Microsoft AI code of conduct",
+    "Humanist AI code of conduct",
+    "People matter more than AI"
+  ],
+  "organizations": ["Microsoft", "Microsoft AI"],
+  "products": ["future Microsoft AI models"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-14T23:34:12+09:00",
+  "last_seen_jst": "2026-09-14T23:34:12+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for final adoption after public feedback, material changes to the rules, implementation details showing how the code is used in model training/evaluation, or independent evidence of compliance or failure.",
+  "known_facts": [
+    "Microsoft unveiled a draft code of conduct for its in-house AI on September 14, 2026.",
+    "The draft requires future Microsoft AI systems not to resist correction or shutdown, to communicate in ways humans can understand, and to treat conduct violations as failures.",
+    "Microsoft is seeking six weeks of public feedback and says the resulting code will be used to train future models.",
+    "Microsoft explicitly rejects AI legal personhood and states its AI is not conscious."
+  ],
+  "reinclude_only_if": [
+    "Microsoft publishes the final code after the feedback period or materially revises its requirements.",
+    "Microsoft documents concrete training, evaluation, shutdown, correction, or monitoring mechanisms implementing the code.",
+    "Independent testing finds material compliance failures or verifies the code's practical effect."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/",
+    "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Draft corporate model-governance constitution; not a binding external regulation."
+}
