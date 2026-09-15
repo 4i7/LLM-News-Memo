@@ -1,0 +1,29 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "delos-data/ai-networking/series-funding/2026-09-15",
+  "canonical_title": "Delos Data raises $100 million for heterogeneous AI data-center networking",
+  "aliases": ["Delos Data $100 million", "Delos Data AI networks", "Intel veterans Delos Data"],
+  "organizations": ["Delos Data", "Intel", "Playground", "Matrix Partners"],
+  "products": [],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-15T22:02:00+09:00",
+  "last_seen_jst": "2026-09-15T22:02:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for product specifications, silicon availability, benchmark results, major customer deployment, or another material financing/manufacturing milestone.",
+  "known_facts": [
+    "Delos Data raised $100 million to develop chips and software for moving data inside increasingly heterogeneous AI data centers.",
+    "The company is targeting flexible networking across mixed accelerator architectures as inference and agent workloads diversify compute fleets.",
+    "Former Intel CEO Pat Gelsinger's Playground participated in the financing."
+  ],
+  "reinclude_only_if": [
+    "Delos Data publishes concrete chip architecture, interconnect, bandwidth, latency, or power specifications.",
+    "A major cloud or AI infrastructure customer deploys the technology.",
+    "Production silicon or reproducible performance data becomes available."
+  ],
+  "sources": ["https://www.reuters.com/business/delos-data-chip-startup-founded-by-intel-veterans-raises-100-million-ai-networks-2026-09-15/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Funding is notable mainly as a signal that heterogeneous agentic inference is creating demand for accelerator-agnostic data movement."
+}
