@@ -1,0 +1,29 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "mediatek/dimensity-9600-pro/model-release/2026-09-15",
+  "canonical_title": "MediaTek launches Dimensity 9600 Pro with 2nm process and upgraded on-device AI NPU",
+  "aliases": ["Dimensity 9600 Pro", "MediaTek 2nm mobile AI chip", "Dimensity 9600M"],
+  "organizations": ["MediaTek", "TSMC"],
+  "products": ["Dimensity 9600 Pro", "Dimensity 9600M"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-15T16:31:00+09:00",
+  "last_seen_jst": "2026-09-15T16:31:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for shipping devices, independent NPU benchmarks, detailed AI model capability, or material data-center accelerator milestones.",
+  "known_facts": [
+    "MediaTek launched Dimensity 9600 Pro, its first smartphone processor on TSMC's 2nm process, alongside the 3nm Dimensity 9600M.",
+    "MediaTek says the 9600 Pro NPU improves prompt-processing performance by 51% versus the prior generation, without publishing detailed methodology.",
+    "MediaTek expects its first AI accelerator for a major U.S. cloud provider to enter mass production in Q4 2026."
+  ],
+  "reinclude_only_if": [
+    "Independent on-device generative-AI benchmarks become available.",
+    "First shipping smartphone implementations materially clarify capability or efficiency.",
+    "MediaTek identifies or materially updates its U.S. cloud AI accelerator program."
+  ],
+  "sources": ["https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "The 51% NPU figure is vendor-reported and lacks detailed methodology."
+}
