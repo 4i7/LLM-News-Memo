@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "european-commission/frontier-ai/pacing-lab-talks/2026-09-16",
+  "canonical_title": "European Commission backs frontier AI pacing talks",
+  "aliases": ["von der Leyen AI slowdown", "EU frontier labs talks", "pace the frontier"],
+  "organizations": ["European Commission", "European Union"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-16T16:47:00+09:00",
+  "last_seen_jst": "2026-09-16T16:47:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for formal invitations, agreed pacing measures, new binding rules, model-evaluation requirements, or concrete international coordination.",
+  "known_facts": ["European Commission President Ursula von der Leyen publicly backed calls to pace frontier AI development.", "She said she would invite major frontier labs to discuss support for industry efforts to pace the frontier.", "She identified model evaluation, verification and AI security as areas for work with partners including Canada and the UK."],
+  "reinclude_only_if": ["The Commission formally convenes frontier labs and publishes participants or commitments.", "A binding EU measure or concrete pacing/evaluation mechanism follows.", "International partners announce a joint framework."],
+  "sources": ["https://www.reuters.com/world/eus-von-der-leyen-invite-frontier-labs-talks-tackling-ai-risks-2026-09-16/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Policy signal is concrete enough for night delta because it includes planned frontier-lab talks, but no binding measure yet."
+}
