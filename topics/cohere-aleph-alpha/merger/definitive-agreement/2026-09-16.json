@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "cohere-aleph-alpha/merger/definitive-agreement/2026-09-16",
+  "canonical_title": "Cohere and Aleph Alpha sign definitive merger agreement",
+  "aliases": ["Cohere Aleph Alpha merger", "$20 billion Cohere Aleph Alpha combination"],
+  "organizations": ["Cohere", "Aleph Alpha", "Schwarz Group", "StackIT"],
+  "products": ["Command"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-16T22:17:00+09:00",
+  "last_seen_jst": "2026-09-16T22:17:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for regulatory approval, closing, material financial changes, product roadmap integration, or compute deployment details.",
+  "known_facts": ["Cohere and Aleph Alpha signed a definitive merger agreement.", "The combined company will retain the Cohere name with Toronto and Berlin headquarters.", "Schwarz Group will invest 500 million euros and plans up to 13 billion euros of compute investment through StackIT.", "The transaction remains subject to regulatory approvals."],
+  "reinclude_only_if": ["Regulators approve or block the transaction.", "The merger closes or financial terms materially change.", "A concrete combined model or sovereign-enterprise deployment roadmap is announced."],
+  "sources": ["https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "April plan advanced to definitive agreement. No matching canonical ledger topic was found."
+}
