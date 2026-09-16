@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "openai/chatgpt/sponsored-agents-ads/2026-09-16",
+  "canonical_title": "OpenAI tests business-sponsored agents in ChatGPT ads",
+  "aliases": ["Sponsored Agents", "ChatGPT Ads Manager", "advertiser-sponsored agents"],
+  "organizations": ["OpenAI", "HubSpot", "Shopify"],
+  "products": ["ChatGPT", "Sponsored Agents", "ChatGPT Ads Manager"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-16T23:20:00+09:00",
+  "last_seen_jst": "2026-09-16T23:20:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for broader availability, material ad/agent behavior changes, pricing, privacy controls, or international rollout.",
+  "known_facts": ["OpenAI began testing clearly labeled business-sponsored agents with select U.S. advertisers.", "Sponsored agents are separated from ChatGPT independent responses and the user's original chat.", "ChatGPT Ads Manager uses natural-language prompts to create, update and analyze ad campaigns.", "HubSpot is the first CRM partner and Shopify the first e-commerce partner; Shopify international rollout is planned from September 23 where ChatGPT Ads is available."],
+  "reinclude_only_if": ["Sponsored Agents expand beyond the initial U.S. advertiser test.", "OpenAI publishes material privacy, ranking, pricing, or agent-control changes.", "The September 23 Shopify rollout materially changes availability."],
+  "sources": ["https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Late-breaking primary-window item."
+}
