@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/australia/inference-datacenter-lease/2026-09-16",
+  "canonical_title": "Anthropic signs first Australian data-centre lease",
+  "aliases": ["Anthropic Australia data centre", "Anthropic Zerra DC 2.16 GW", "Brisbane Anthropic inference campus"],
+  "organizations": ["Anthropic", "Zerra DC"],
+  "products": ["Claude"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-16T12:49:00+09:00",
+  "last_seen_jst": "2026-09-16T12:49:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for FIRB approval, commissioning, capacity/schedule change, or official Anthropic/Zerra confirmation with material new details.",
+  "known_facts": ["Anthropic signed its first Australian data-centre lease, according to Reuters sources.", "The lease covers a planned 2.16 GW Zerra DC campus about 250 km from Brisbane, expected to begin coming online in 2027.", "The site is intended for inference rather than training and would use renewable PPAs and closed-loop air cooling.", "The deal is subject to Foreign Investment Review Board approval."],
+  "reinclude_only_if": ["FIRB approves or rejects the deal.", "Anthropic or Zerra DC officially confirms material capacity or deployment details.", "The 2027 commissioning schedule or inference-only role changes."],
+  "sources": ["https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Reuters source-based report; Anthropic and Zerra DC declined comment."
+}
