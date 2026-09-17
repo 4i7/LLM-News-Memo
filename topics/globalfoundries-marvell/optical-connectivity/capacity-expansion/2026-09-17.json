@@ -1,0 +1,32 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "globalfoundries-marvell/optical-connectivity/capacity-expansion/2026-09-17",
+  "canonical_title": "GlobalFoundries and Marvell expand SiGe capacity for AI data-center optical connectivity",
+  "aliases": ["GlobalFoundries Marvell AI data center connectivity", "GF Marvell SiGe capacity expansion", "Marvell optical connectivity capacity"],
+  "organizations": ["GlobalFoundries", "Marvell Technology"],
+  "products": ["SiGe", "pluggable optical transceivers", "Near-Packaged Optics", "Co-Packaged Optics"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-17T21:35:00+09:00",
+  "last_seen_jst": "2026-09-17T21:35:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for quantified capacity, production milestones, customer deployments, higher-speed roadmap details, or material schedule changes.",
+  "known_facts": [
+    "GlobalFoundries and Marvell announced an expanded multi-year agreement to increase SiGe manufacturing capacity at GlobalFoundries' Burlington, Vermont facility.",
+    "The capacity supports AI data-center optical connectivity including pluggable transceivers, Near-Packaged Optics and Co-Packaged Optics.",
+    "GlobalFoundries says its current SiGe technology supports 200G-per-lane optical connectivity and has a roadmap for higher-speed generations."
+  ],
+  "reinclude_only_if": [
+    "The companies quantify the added manufacturing capacity or investment.",
+    "A production or deployment milestone is announced for NPO or CPO products.",
+    "GlobalFoundries or Marvell discloses materially new higher-speed optical specifications or customers."
+  ],
+  "sources": [
+    "https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/",
+    "https://www.reuters.com/business/globalfoundries-marvell-expand-chip-capacity-deal-ai-data-center-connectivity-2026-09-17/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Official announcement published September 17, 2026 at 08:35 ET, within the Night Lite coverage window."
+}
