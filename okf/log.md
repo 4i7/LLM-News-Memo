@@ -1,5 +1,12 @@
 # OKF Update Log
 
+## 2026-09-17
+
+* **Mid-September Repo Radar retrospective**: Added `reports/github-repo-radar/2026-09-mid-retrospective.md`, consolidating the 2026-09-11 through 2026-09-17 source window after seven Radar executions.
+* **Durable addition**: Preserved `Sathvik-Rao/ClipCascade` as a conditional cross-device clipboard workflow and `w4po/ExplorerTabUtility` as watch-only pending a stable Windows compatibility refresh.
+* **Deduplication correction**: Recorded that the curated report corpus is cumulative; WinDirStat, TrafficMonitor, ScreenToGif, gsudo, Clink, and Sigil had already been covered in August and must not be resurfaced merely because they are absent from the latest retrospective.
+* **Index update**: Added direct OKF navigation to the new mid-September retrospective while keeping Repo Radar reports separate from canonical LLM News duplicate-control state.
+
 ## 2026-09-10
 
 * **Early-September Repo Radar retrospective**: Added `reports/github-repo-radar/2026-09-early-retrospective.md`, consolidating the 2026-09-01 through 2026-09-10 source window after a meaningful run window.
