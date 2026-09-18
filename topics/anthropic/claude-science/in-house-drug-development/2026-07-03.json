@@ -7,32 +7,39 @@
     "Claude Science drug development",
     "Anthropic wants to develop its own drugs",
     "Anthropic neglected diseases",
-    "Claude Science life sciences"
+    "Claude Science life sciences",
+    "Anthropic wet lab",
+    "Anthropic biology lab"
   ],
   "organizations": ["Anthropic"],
-  "products": ["Claude Science"],
+  "products": ["Claude Science", "Claude"],
   "event_type": "science_life_sciences_follow_up",
   "first_seen_jst": "2026-07-03T23:30:00+09:00",
-  "last_seen_jst": "2026-07-03T23:30:00+09:00",
+  "last_seen_jst": "2026-09-18T19:02:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
-  "treatment": "Treat as a follow-up to Claude Science. Do not repeat unless Anthropic gives official details on target diseases, wet lab plan, partners, clinical path, manufacturing, pricing, availability, or safety/research governance.",
+  "treatment": "Follow-up confirmed a Bay Area wet lab and physical biology work. Do not repeat unless Anthropic gives target diseases, experimental results, lab-automation milestones, partners, clinical path, manufacturing, or material safety/research-governance changes.",
   "known_facts": [
     "Claude Science was already known as a scientific research workbench.",
-    "The Verge reported that Anthropic also wants to develop its own drugs, with an initial focus on neglected diseases.",
-    "Details on diseases, clinical path, partners, lab work, animal testing, trials, and manufacturing were not disclosed in the report."
+    "The Verge reported in July that Anthropic wanted to develop its own drugs, with an initial focus on neglected diseases.",
+    "On September 18 Reuters reported, and Anthropic life sciences head Eric Kauderer-Abrams confirmed, that Anthropic has established a Bay Area wet lab and is already doing physical biology work in-house and with external partners.",
+    "Anthropic is exploring Claude-directed robotic lab execution with limited human intervention while stating that human oversight remains essential.",
+    "Anthropic says it is not running clinical trials for now and is focusing on needs that pharma and biotech companies would not otherwise address.",
+    "A spokesperson clarified that the wet lab itself is not specifically a drug-discovery lab."
   ],
   "reinclude_only_if": [
-    "Anthropic publishes official details about in-house drug development.",
-    "Target diseases, wet lab plan, clinical path, manufacturing, or partner strategy becomes specific.",
-    "A credible source reports a materially new development or correction.",
+    "Anthropic publishes specific target diseases or experimental results.",
+    "Claude-directed robotic lab automation reaches a concrete production or autonomy milestone.",
+    "Anthropic discloses a clinical, manufacturing, or major external-partner strategy change.",
+    "A credible source reports a material safety, governance, or competitive-boundary change in the life-sciences program.",
     "Claude Science product availability, pricing, admin enablement, or scientific workflow capability changes materially."
   ],
   "sources": [
     "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-    "https://www.reuters.com/science/anthropic-unveils-claude-science-ai-platform-scientific-research-2026-06-30/"
+    "https://www.reuters.com/science/anthropic-unveils-claude-science-ai-platform-scientific-research-2026-06-30/",
+    "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
   ],
   "seed_basis": "manual_recovery_from_failed_scheduled_run",
-  "confidence": 0.82,
-  "notes": "Recovered after a scheduled LLM Night Lite run reported LEDGER_WRITE_FAILED because the old protocol tried to rewrite the full monolithic JSONL. This topic file is the durable replacement writeback."
+  "confidence": 0.96,
+  "notes": "Recovered after a scheduled LLM Night Lite run reported LEDGER_WRITE_FAILED because the old protocol tried to rewrite the full monolithic JSONL. September 18 follow-up adds confirmed wet-lab operation and physical lab automation work."
 }
