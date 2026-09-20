@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "big-tech/ai-infrastructure/residual-value-guarantees/2026-09-20",
+  "canonical_title": "Big Tech uses residual value guarantees to finance AI infrastructure",
+  "aliases": [
+    "Big Tech $300bn AI exposure off balance sheets",
+    "AI infrastructure residual value guarantees",
+    "RVG AI financing"
+  ],
+  "organizations": ["Meta", "Nvidia", "Broadcom", "SoftBank"],
+  "products": ["AI data centers", "AI accelerators"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-20T16:32:00+09:00",
+  "last_seen_jst": "2026-09-20T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for new disclosed guarantee amounts, named transactions, rating/accounting changes, defaults, or material financing-policy changes.",
+  "known_facts": [
+    "Financial Times reported that residual value guarantees are increasingly being used to support AI infrastructure financing while limiting balance-sheet recognition.",
+    "The report identified roughly $300 billion of AI-related exposure supported by these structures and described use by companies including Meta, Nvidia and Broadcom.",
+    "The structures shift financing to special-purpose vehicles while technology companies provide minimum-value or related guarantees, creating contingent exposure that rating agencies may still consider."
+  ],
+  "reinclude_only_if": [
+    "A company discloses a new material guarantee or transaction.",
+    "A rating agency, regulator or accounting authority changes treatment of these structures.",
+    "A guarantee is triggered, impaired or materially repriced.",
+    "New primary documentation materially changes the estimated exposure."
+  ],
+  "sources": [
+    "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Selected as the only strong post-midday hard delta in the 2026-09-20 Night Lite window."
+}
