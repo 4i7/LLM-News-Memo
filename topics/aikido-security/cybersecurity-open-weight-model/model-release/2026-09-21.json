@@ -1,0 +1,34 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "aikido-security/cybersecurity-open-weight-model/model-release/2026-09-21",
+  "canonical_title": "Aikido Security launches locally deployable open-weight cybersecurity AI model",
+  "aliases": [
+    "Aikido cybersecurity AI model",
+    "Aikido open-weight security model",
+    "Aikido local cybersecurity model"
+  ],
+  "organizations": ["Aikido Security"],
+  "products": ["Aikido cybersecurity open-weight AI model"],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-09-21T23:29:00+09:00",
+  "last_seen_jst": "2026-09-21T23:29:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for official model card, weights/repository, architecture/parameter details, license, reproducible benchmark results, or material deployment changes.",
+  "known_facts": [
+    "Reuters reported on 2026-09-21 that Aikido Security launched an open-weight AI model tailored for cybersecurity applications.",
+    "The model is intended for local deployment so organizations can analyze sensitive code without sending it to an external AI provider."
+  ],
+  "reinclude_only_if": [
+    "Official model card, weights, repository, architecture, parameter count, or license becomes available.",
+    "Credible independent cybersecurity benchmarks or reproducible technical findings materially change the interpretation.",
+    "Material availability or deployment changes are announced."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/belgiums-aikido-launches-cybersecurity-ai-model-demand-local-tools-grows-2026-09-21/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Night delta selected because it is a concrete open-weight/local model release rather than a repeat discussion item. Exact model name and detailed technical specification were not established from the sources available in this run."
+}
