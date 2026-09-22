@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "snorkel-ai/training-data/funding-and-agentic-data-platform/2026-09-22",
+  "canonical_title": "Snorkel AI raises $350M as frontier labs demand complex training data and RL environments",
+  "aliases": ["Snorkel AI $3.5 billion valuation", "Snorkel AI $350 million funding", "Snorkel agentic data development platform"],
+  "organizations": ["Snorkel AI", "Insight Partners", "S32"],
+  "products": ["agentic data development platform", "reinforcement-learning environments"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-22T22:02:00+09:00",
+  "last_seen_jst": "2026-09-22T22:02:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as a frontier-model training-data market signal. Reinclude only for disclosed frontier-lab customers, material revenue/profitability changes, evaluation expansion, or new data/RL-environment capabilities.",
+  "known_facts": ["Snorkel AI raised $350 million at a $3.5 billion valuation.", "Annualized revenue run-rate crossed about $350 million, up from roughly $20 million a year earlier, according to its CEO.", "The company shifted from primarily selling software toward finished datasets and reinforcement-learning environments, using human experts plus AI automation.", "Snorkel expects human input to remain necessary while synthetic and automated approaches scale data production."],
+  "reinclude_only_if": ["Named frontier-lab customers or contracts are disclosed.", "Material technical details about RL environments, evaluation methodology, or data-generation systems are published.", "Profitability or revenue changes materially from the reported trajectory."],
+  "sources": ["https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Reuters exclusive published 2026-09-22 13:02 UTC, inside the Night Lite window. Selected because it quantifies the shift toward complex expert data and RL environments for frontier training rather than merely reporting a financing round."
+}
