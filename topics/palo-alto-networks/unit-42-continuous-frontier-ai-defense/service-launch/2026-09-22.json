@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "palo-alto-networks/unit-42-continuous-frontier-ai-defense/service-launch/2026-09-22",
+  "canonical_title": "Palo Alto Networks launches Unit 42 Continuous Frontier AI Defense",
+  "aliases": ["Unit 42 Continuous Frontier AI Defense", "Continuous Frontier AI Defense", "Palo Alto frontier AI cybersecurity service"],
+  "organizations": ["Palo Alto Networks", "Anthropic", "OpenAI"],
+  "products": ["Unit 42 Continuous Frontier AI Defense", "Claude Mythos 5", "GPT-5.6-Cyber"],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-09-22T22:34:00+09:00",
+  "last_seen_jst": "2026-09-22T22:34:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered at launch. Reinclude only for material availability, pricing, measured efficacy, model-mix, exploit-validation, or deployment changes.",
+  "known_facts": ["Palo Alto Networks announced a globally available annual-subscription service that continuously tests web apps, APIs and cloud infrastructure using Claude Mythos 5, GPT-5.6-Cyber and open-weight models.", "The service identifies vulnerabilities and attack paths and provides remediation guidance including code-level fixes and virtual patching.", "Pricing depends on the selected mix of AI models."],
+  "reinclude_only_if": ["Official pricing or availability details materially change.", "Palo Alto Networks publishes reproducible efficacy or exploit-validation results.", "The supported frontier-model mix or deployment model changes materially."],
+  "sources": ["https://www.reuters.com/technology/palo-alto-networks-unveils-ai-powered-cybersecurity-service-using-claude-gpt-2026-09-22/", "https://www.paloaltonetworks.com/unit42/frontier-ai-defense"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Reuters publication 2026-09-22 13:34 UTC, inside the Night Lite window. Distinct from earlier Frontier AI Defense program/model-integration announcements because this is the Continuous service launch and commercial subscription offering."
+}
