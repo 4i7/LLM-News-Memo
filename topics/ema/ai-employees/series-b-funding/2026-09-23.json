@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "ema/ai-employees/series-b-funding/2026-09-23",
+  "canonical_title": "Ema raises $77M Series B for enterprise AI employees",
+  "aliases": ["Ema $77M Series B", "Ema AI employees", "Ema enterprise AI agents"],
+  "organizations": ["Ema", "Creaegis", "Accel", "Section 32", "Prosus"],
+  "products": ["Ema AI Employees"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-23T21:00:00+09:00",
+  "last_seen_jst": "2026-09-23T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered as an enterprise-agent adoption and financing signal. Repeat only for material product architecture, verified adoption metrics, major customer expansion, pricing changes, or another significant financing/transaction delta.",
+  "known_facts": ["Ema raised $77 million in a Series B led by Creaegis, bringing total funding to $140 million.", "Ema coordinates multiple AI agents across enterprise workflows in HR, IT, and finance and can draw on more than 150 models.", "Ema says it has more than 1 million active enterprise users, more than 50 active enterprise deals, over $150 million in multiyear bookings, and around 180% net dollar retention.", "Pricing is tied to completed tasks and business outcomes rather than seats or token consumption."],
+  "reinclude_only_if": ["Material verified adoption or revenue metric changes practical interpretation.", "Major product architecture, model-routing, pricing, or enterprise deployment change.", "New major financing, acquisition, or strategic transaction."],
+  "sources": ["https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/", "https://finance.yahoo.com/technology/ai/articles/ema-raises-77m-series-b-130000096.html"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "TechCrunch published at 5:00 AM PDT / 21:00 JST, inside the Night window. Company announcement was 9:00 AM EDT / 22:00 JST."
+}
