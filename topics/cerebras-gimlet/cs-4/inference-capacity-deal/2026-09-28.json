@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "cerebras-gimlet/cs-4/inference-capacity-deal/2026-09-28",
+  "canonical_title": "Cerebras to supply roughly 100 MW of CS-4 AI systems to Gimlet Labs",
+  "aliases": ["Cerebras Gimlet Labs deal", "Gimlet CS-4 cloud", "100 MW Cerebras inference"],
+  "organizations": ["Cerebras Systems", "Gimlet Labs"],
+  "products": ["CS-4"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-28T22:03:00+09:00",
+  "last_seen_jst": "2026-09-28T22:03:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for delivery, cloud availability, disclosed economics, frontier-model support, or measured inference performance.",
+  "known_facts": ["Cerebras plans to supply CS-4 systems with roughly 100 MW power capacity to Gimlet Labs over one to two years.", "Gimlet plans to offer the systems in its cloud in 2027 for frontier-model inference.", "Financial terms were not disclosed."],
+  "reinclude_only_if": ["CS-4 capacity becomes available in Gimlet cloud", "Financial terms or customer commitments disclosed", "Measured frontier-model inference performance disclosed", "Delivery scale materially changes"],
+  "sources": ["https://www.reuters.com/technology/cerebras-supply-ai-systems-cloud-computing-startup-gimlet-labs-2026-09-28/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Night-window inference infrastructure hard delta."
+}
