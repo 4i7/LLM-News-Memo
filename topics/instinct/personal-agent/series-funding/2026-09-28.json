@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "instinct/personal-agent/series-funding/2026-09-28",
+  "canonical_title": "Instinct raises $1 billion for personal AI agent at $10 billion valuation",
+  "aliases": ["Instinct AI agent funding", "Instinct personal agent", "$10 billion Instinct valuation"],
+  "organizations": ["Instinct"],
+  "products": ["Instinct personal agent", "Instinct concierge"],
+  "event_type": "other",
+  "first_seen_jst": "2026-09-28T21:25:00+09:00",
+  "last_seen_jst": "2026-09-28T21:25:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for material product availability, adoption, transaction capability, safety architecture, or financing changes.",
+  "known_facts": ["Instinct raised $1 billion and said its valuation reached $10 billion.", "Its personal agent handles tasks including travel planning, grocery purchases, ticket booking and subscription cancellation.", "A concierge offering can call businesses on users' behalf; the company also described isolated sandboxes, short-lived local credentials and active hallucination detection."],
+  "reinclude_only_if": ["Material user/adoption metrics", "New autonomous transaction or tool capability", "Material safety or privacy architecture change", "New financing or valuation event"],
+  "sources": ["https://www.reuters.com/technology/ai-agent-firm-instinct-raises-1-billion-latest-funding-round-2026-09-28/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Selected for agentic-AI adoption/capital signal rather than funding alone."
+}
