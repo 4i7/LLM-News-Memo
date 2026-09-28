@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "roche/autonomous-ai-labs/rd-buildout/2026-09-28",
+  "canonical_title": "Roche outlines autonomous AI lab buildout for drug R&D",
+  "aliases": ["Roche autonomous AI labs", "Roche AI independence R&D", "Target Nexus"],
+  "organizations": ["Roche", "Genentech"],
+  "products": ["Target Nexus"],
+  "event_type": "science_life_sciences_follow_up",
+  "first_seen_jst": "2026-09-28T20:05:00+09:00",
+  "last_seen_jst": "2026-09-28T20:05:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for operational autonomous-lab milestones, closed-loop experiment evidence, material Target Nexus deployment metrics, or disclosed scientific results.",
+  "known_facts": ["Roche says it recently started building autonomous AI-driven labs for pharma R&D.", "40% of pipeline decisions from Q4 2025 through Q2 2026 had a tracked AI/computational contribution.", "Roche targets Target Nexus contributing to 80% of research portfolio decisions by end-2026."],
+  "reinclude_only_if": ["Operational autonomous lab goes live", "Closed-loop AI-to-physical-experiment evidence is disclosed", "Material new Target Nexus adoption or scientific result"],
+  "sources": ["https://www.reuters.com/business/healthcare-pharmaceuticals/roche-outlines-plans-move-towards-autonomous-ai-labs-2026-09-28/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Night-window Reuters report; distinct from Anthropic Claude Science wet-lab topic."
+}
