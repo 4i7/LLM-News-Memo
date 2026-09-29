@@ -1,5 +1,12 @@
 # OKF Update Log
 
+## 2026-09-29
+
+* **Late-September Repo Radar retrospective**: Added `reports/github-repo-radar/2026-09-late-retrospective.md`, consolidating the post-2026-09-17 source window after seven meaningful Radar executions.
+* **Durable additions**: Preserved `limbo666/DesktopFramesPlus`, `tabris17/traynard`, and `iamzubin/holdem` as distinct Windows workflows; retained `filedonkey/filedonkey` and `Liset999/ZenDesktop` as watch-only.
+* **Use-case deduplication**: Recorded that `CrossPaste/crosspaste-desktop` overlaps ClipCascade and `lownamlee/CursorPeek` overlaps QuickLook; interaction differences alone are not enough to re-present an already-covered use case.
+* **Index update**: Added direct OKF navigation to the late-September retrospective while keeping Repo Radar reports separate from canonical LLM News duplicate-control state.
+
 ## 2026-09-17
 
 * **Mid-September Repo Radar retrospective**: Added `reports/github-repo-radar/2026-09-mid-retrospective.md`, consolidating the 2026-09-11 through 2026-09-17 source window after seven Radar executions.
