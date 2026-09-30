@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-ftc/frontier-ai-labs/consumer-risk-investigation/2026-09-30",
+  "canonical_title": "FTC opens broad consumer-risk investigation into frontier AI labs",
+  "aliases": ["FTC Anthropic OpenAI METR probe", "FTC AI labs consumer-risk investigation"],
+  "organizations": ["Federal Trade Commission", "Anthropic", "OpenAI", "METR"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-09-30T22:53:00+09:00",
+  "last_seen_jst": "2026-09-30T22:53:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for formal FTC demands, testimony, named additional targets, findings, enforcement action, settlement, or concrete technical disclosure caused by the investigation.",
+  "known_facts": ["Reuters reported the FTC is opening a sweeping probe into Anthropic, OpenAI and other AI labs over potential consumer dangers.", "The FTC plans formal information demands and may compel testimony from executives; METR is also named."],
+  "reinclude_only_if": ["Formal compulsory process is issued or disclosed.", "The FTC publishes findings or takes enforcement action.", "A company response adds material technical or legal facts."],
+  "sources": ["https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Reuters timestamp 2026-09-30 13:53 UTC (22:53 JST), inside Night window. Investigation reportedly predates the later OpenAI agent/Hugging Face incident."
+}
