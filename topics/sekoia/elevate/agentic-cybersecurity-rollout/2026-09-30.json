@@ -1,0 +1,21 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "sekoia/elevate/agentic-cybersecurity-rollout/2026-09-30",
+  "canonical_title": "Sekoia rolls out Elevate agentic cybersecurity platform",
+  "aliases": ["Sekoia Elevate", "Sekoia cybersecurity AI agentic tool"],
+  "organizations": ["Sekoia"],
+  "products": ["Elevate"],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-09-30T21:02:00+09:00",
+  "last_seen_jst": "2026-09-30T21:02:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for independent performance evidence, supported-model/tooling details, pricing/availability changes, major customer adoption, or material safety findings.",
+  "known_facts": ["Sekoia rolled Elevate out to clients after early access with around 2,000 customers.", "Elevate lets customers connect a preferred AI model to cybersecurity tools for autonomous threat analysis.", "Sekoia says early-access service providers reported investigation times reduced by up to fivefold."],
+  "reinclude_only_if": ["Independent benchmark or production metrics are published.", "Material architecture, model-routing, permissioning, or containment details are disclosed.", "Large-scale adoption or failure evidence changes practical interpretation."],
+  "sources": ["https://www.reuters.com/legal/litigation/frances-sekoia-rolls-out-ai-cybersecurity-platform-its-clients-2026-09-30/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Reuters timestamp 2026-09-30 12:02 UTC (21:02 JST), inside Night window. Vendor-reported fivefold investigation-time reduction is not independent validation."
+}
