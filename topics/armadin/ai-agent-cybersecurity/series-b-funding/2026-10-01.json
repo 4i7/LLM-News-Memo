@@ -1,0 +1,29 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "armadin/ai-agent-cybersecurity/series-b-funding/2026-10-01",
+  "canonical_title": "Armadin raises $255.5 million for AI-agent cybersecurity platform",
+  "aliases": ["Armadin $255.5 million Series B", "Armadin $2.5 billion valuation", "Kevin Mandia Armadin AI agents"],
+  "organizations": ["Armadin", "Andreessen Horowitz", "Accel", "Bain Capital Ventures", "Redpoint", "Google Ventures", "Kleiner Perkins", "Menlo Ventures", "In-Q-Tel"],
+  "products": ["Armadin AI-agent cybersecurity platform"],
+  "event_type": "other",
+  "first_seen_jst": "2026-10-01T19:43:00+09:00",
+  "last_seen_jst": "2026-10-01T19:43:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for material product architecture, independent efficacy results, production adoption, major incidents, or another material financing/availability change.",
+  "known_facts": [
+    "Armadin raised $255.5 million in Series B funding at a valuation above $2.5 billion, bringing total funding to $445 million.",
+    "The company says its platform uses a swarm of AI agents that behave like hackers to find weaknesses.",
+    "Armadin was founded by Kevin Mandia, founder of Mandiant; the round was co-led by Andreessen Horowitz and Accel."
+  ],
+  "reinclude_only_if": [
+    "Armadin publishes reproducible or independent security efficacy metrics.",
+    "The platform's agent architecture, permissions, containment, or model stack is materially disclosed.",
+    "A major production deployment, incident, acquisition, or financing event materially changes interpretation."
+  ],
+  "sources": ["https://www.reuters.com/legal/transactional/ai-cybersecurity-startup-armadin-valued-over-25-billion-after-new-funding-round-2026-10-01/"],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Selected in 2026-10-01 LLM Night Lite as a new agentic-cybersecurity commercialization signal."
+}
