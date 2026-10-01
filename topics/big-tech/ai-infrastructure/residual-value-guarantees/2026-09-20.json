@@ -8,13 +8,15 @@
     "AI infrastructure residual value guarantees",
     "RVG AI financing",
     "AI buildout systemic financing risk",
-    "$10 trillion AI infrastructure buildout"
+    "$10 trillion AI infrastructure buildout",
+    "Broadcom Anthropic $42 billion financing",
+    "Anthropic $125.2 billion TPU lease commitment"
   ],
-  "organizations": ["Meta", "Nvidia", "Broadcom", "SoftBank", "Amazon", "Alphabet", "Columbia Business School", "Brookings Institution"],
-  "products": ["AI data centers", "AI accelerators"],
+  "organizations": ["Meta", "Nvidia", "Broadcom", "SoftBank", "Amazon", "Alphabet", "Anthropic", "Columbia Business School", "Brookings Institution"],
+  "products": ["AI data centers", "AI accelerators", "TPU compute capacity"],
   "event_type": "other",
   "first_seen_jst": "2026-09-20T16:32:00+09:00",
-  "last_seen_jst": "2026-09-24T19:05:00+09:00",
+  "last_seen_jst": "2026-10-01T19:06:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Repeat only for new disclosed guarantee amounts, named transactions, rating/accounting changes, defaults, material financing-policy changes, or primary research that materially changes the scale/risk estimate.",
@@ -23,20 +25,24 @@
     "The report identified roughly $300 billion of AI-related exposure supported by these structures and described use by companies including Meta, Nvidia and Broadcom.",
     "The structures shift financing to special-purpose vehicles while technology companies provide minimum-value or related guarantees, creating contingent exposure that rating agencies may still consider.",
     "On September 24, Reuters reported new research by Columbia Business School professor Stijn Van Nieuwerburgh estimating the US AI buildout could require more than $10 trillion through 2032, about 3.6% of annual US GDP, with roughly 183 GW of new data-center capacity over seven years.",
-    "The study estimates the AI industry would need about $3.7 trillion in annual revenue by 2032 to achieve expected returns and argues that rising leverage, SPV complexity and unproven revenue streams create meaningful downside and potentially systemic risk, while not implying distress is imminent."
+    "The study estimates the AI industry would need about $3.7 trillion in annual revenue by 2032 to achieve expected returns and argues that rising leverage, SPV complexity and unproven revenue streams create meaningful downside and potentially systemic risk, while not implying distress is imminent.",
+    "On October 1, Reuters reported from Anthropic's IPO filing that Broadcom agreed to lend Anthropic up to $42 billion to finance infrastructure spending, potentially covering about one-third of Anthropic's $125.2 billion five-year TPU compute lease commitment.",
+    "The Broadcom financing can involve convertible debt, and Anthropic disclosed potential conflicts of interest because Broadcom is both a hardware supplier and financing partner."
   ],
   "reinclude_only_if": [
     "A company discloses a new material guarantee or transaction.",
     "A rating agency, regulator or accounting authority changes treatment of these structures.",
     "A guarantee is triggered, impaired or materially repriced.",
     "New primary documentation materially changes the estimated exposure.",
-    "The Brookings paper or subsequent primary research materially revises the $10 trillion, 3.6% GDP, 183 GW, or $3.7 trillion revenue estimates."
+    "The Brookings paper or subsequent primary research materially revises the $10 trillion, 3.6% GDP, 183 GW, or $3.7 trillion revenue estimates.",
+    "Anthropic or Broadcom materially changes, draws, converts, defaults on, or expands the disclosed $42 billion financing facility or $125.2 billion TPU lease commitment."
   ],
   "sources": [
     "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
-    "https://www.reuters.com/business/finance/financing-historic-ai-buildout-raises-systemic-risks-us-researcher-says-2026-09-24/"
+    "https://www.reuters.com/business/finance/financing-historic-ai-buildout-raises-systemic-risks-us-researcher-says-2026-09-24/",
+    "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.96,
-  "notes": "2026-09-24 FOLLOW_UP: new research materially quantifies total AI buildout scale, leverage and revenue requirements beyond the earlier RVG-specific exposure estimate."
+  "confidence": 0.98,
+  "notes": "2026-09-24 FOLLOW_UP: research quantified total AI buildout scale and leverage. 2026-10-01 FOLLOW_UP: Anthropic's IPO filing disclosed a concrete Broadcom financing facility of up to $42 billion tied to a $125.2 billion five-year TPU lease commitment."
 }
