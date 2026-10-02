@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/ipo-government-relations-risk/2026-10-02",
+  "canonical_title": "Anthropic IPO filing details government-relations and model restriction risks",
+  "aliases": [
+    "Anthropic government attitudes customer ties IPO prospectus",
+    "Anthropic Fable 5 Mythos 5 export restrictions",
+    "Anthropic government contracts less than 1% revenue"
+  ],
+  "organizations": ["Anthropic", "US Department of Defense", "US Department of Commerce"],
+  "products": ["Fable 5", "Mythos 5"],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-02T19:07:00+09:00",
+  "last_seen_jst": "2026-10-02T19:07:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for a new government restriction, contract action, model availability change, material customer impact, or new filing disclosure that changes the practical risk assessment.",
+  "known_facts": [
+    "Reuters reported from Anthropic's IPO prospectus that government attitudes toward Anthropic and its technology could affect commercial customers, partners and other business relationships beyond direct government contracts.",
+    "Anthropic disclosed that government agency contracts account for less than 1% of annual revenue.",
+    "The filing cites a February federal-agency stop-use order and a US Department of Defense supply-chain-risk designation as examples of government actions that could hurt the business.",
+    "Anthropic said June worldwide US Commerce Department export restrictions on Fable 5 and Mythos 5 caused it to disable those models for all customers until the restrictions were later lifted and the models redeployed."
+  ],
+  "reinclude_only_if": [
+    "A government imposes or lifts a material restriction affecting Anthropic model availability.",
+    "Anthropic discloses material revenue, customer, partner or operational impact from government action.",
+    "A new filing or official statement materially changes the disclosed government-relations risk."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/anthropic-warns-government-attitudes-may-hurt-customer-ties-ipo-prospectus-shows-2026-10-02/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Night-window hard delta: new IPO-prospectus details quantified government revenue exposure and documented prior model-wide restriction effects."
+}
