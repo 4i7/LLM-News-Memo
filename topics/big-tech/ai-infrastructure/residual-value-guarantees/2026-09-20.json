@@ -10,13 +10,15 @@
     "AI buildout systemic financing risk",
     "$10 trillion AI infrastructure buildout",
     "Broadcom Anthropic $42 billion financing",
-    "Anthropic $125.2 billion TPU lease commitment"
+    "Anthropic $125.2 billion TPU lease commitment",
+    "$30 trillion global data-center spending by 2050",
+    "$4.2 trillion new hyperscaler revenue requirement"
   ],
-  "organizations": ["Meta", "Nvidia", "Broadcom", "SoftBank", "Amazon", "Alphabet", "Anthropic", "Columbia Business School", "Brookings Institution"],
+  "organizations": ["Meta", "Nvidia", "Broadcom", "SoftBank", "Amazon", "Alphabet", "Anthropic", "Columbia Business School", "Brookings Institution", "PwC", "Bain & Company", "JPMorgan"],
   "products": ["AI data centers", "AI accelerators", "TPU compute capacity"],
   "event_type": "other",
   "first_seen_jst": "2026-09-20T16:32:00+09:00",
-  "last_seen_jst": "2026-10-01T19:06:00+09:00",
+  "last_seen_jst": "2026-10-03T14:06:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Repeat only for new disclosed guarantee amounts, named transactions, rating/accounting changes, defaults, material financing-policy changes, or primary research that materially changes the scale/risk estimate.",
@@ -27,22 +29,25 @@
     "On September 24, Reuters reported new research by Columbia Business School professor Stijn Van Nieuwerburgh estimating the US AI buildout could require more than $10 trillion through 2032, about 3.6% of annual US GDP, with roughly 183 GW of new data-center capacity over seven years.",
     "The study estimates the AI industry would need about $3.7 trillion in annual revenue by 2032 to achieve expected returns and argues that rising leverage, SPV complexity and unproven revenue streams create meaningful downside and potentially systemic risk, while not implying distress is imminent.",
     "On October 1, Reuters reported from Anthropic's IPO filing that Broadcom agreed to lend Anthropic up to $42 billion to finance infrastructure spending, potentially covering about one-third of Anthropic's $125.2 billion five-year TPU compute lease commitment.",
-    "The Broadcom financing can involve convertible debt, and Anthropic disclosed potential conflicts of interest because Broadcom is both a hardware supplier and financing partner."
+    "The Broadcom financing can involve convertible debt, and Anthropic disclosed potential conflicts of interest because Broadcom is both a hardware supplier and financing partner.",
+    "On October 3, Reuters reported PwC's projection that cumulative global data-center spending could exceed $30 trillion by 2050, while Bain estimated US hyperscalers and other AI-buildout participants would need more than $4.2 trillion in new revenue over the next five years to fund current expansion plans.",
+    "Reuters also reported from Anthropic's prospectus that Anthropic plans $518 billion of spending in coming years, more than 100 times its 2025 revenue, while broad-based US productivity gains remain insufficiently demonstrated to validate the investment assumptions."
   ],
   "reinclude_only_if": [
     "A company discloses a new material guarantee or transaction.",
     "A rating agency, regulator or accounting authority changes treatment of these structures.",
     "A guarantee is triggered, impaired or materially repriced.",
     "New primary documentation materially changes the estimated exposure.",
-    "The Brookings paper or subsequent primary research materially revises the $10 trillion, 3.6% GDP, 183 GW, or $3.7 trillion revenue estimates.",
+    "Primary research materially revises the $10 trillion US buildout, $30 trillion global data-center spending, 183 GW capacity, or multi-trillion-dollar revenue requirement estimates.",
     "Anthropic or Broadcom materially changes, draws, converts, defaults on, or expands the disclosed $42 billion financing facility or $125.2 billion TPU lease commitment."
   ],
   "sources": [
     "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
     "https://www.reuters.com/business/finance/financing-historic-ai-buildout-raises-systemic-risks-us-researcher-says-2026-09-24/",
-    "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+    "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/",
+    "https://www.reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.98,
-  "notes": "2026-09-24 FOLLOW_UP: research quantified total AI buildout scale and leverage. 2026-10-01 FOLLOW_UP: Anthropic's IPO filing disclosed a concrete Broadcom financing facility of up to $42 billion tied to a $125.2 billion five-year TPU lease commitment."
+  "notes": "2026-09-24 FOLLOW_UP: research quantified total AI buildout scale and leverage. 2026-10-01 FOLLOW_UP: Anthropic's IPO filing disclosed a concrete Broadcom financing facility of up to $42 billion tied to a $125.2 billion five-year TPU lease commitment. 2026-10-03 FOLLOW_UP: new cross-source estimates extended the scale horizon to more than $30 trillion in global data-center spending by 2050 and more than $4.2 trillion of required new revenue over five years."
 }
