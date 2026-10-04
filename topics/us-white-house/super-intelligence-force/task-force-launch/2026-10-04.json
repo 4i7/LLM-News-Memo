@@ -1,0 +1,33 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-white-house/super-intelligence-force/task-force-launch/2026-10-04",
+  "canonical_title": "White House launches Super Intelligence Force led by Jay Clayton",
+  "aliases": ["Super Intelligence Force", "SIF", "Jay Clayton AI czar", "White House AI task force"],
+  "organizations": ["White House", "Office of the Director of National Intelligence", "Federal Trade Commission", "Department of Defense", "Office of Personnel Management"],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-04T23:15:00+09:00",
+  "last_seen_jst": "2026-10-04T23:31:39+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for the 120-day report, binding policy or enforcement changes, material incident-reporting requirements, or a significant membership/mandate change.",
+  "known_facts": [
+    "President Donald Trump announced the Super Intelligence Force on October 4, 2026 to coordinate federal AI policy and U.S. leadership efforts.",
+    "Director of National Intelligence Jay Clayton leads the task force; reported members include FTC Chair Andrew Ferguson, Pentagon CTO Emil Michael and OPM Director Scott Kupor.",
+    "The task force is expected to report on AI risks, opportunities and the federal oversight role within 120 days, including review of security-incident reporting and existing authorities."
+  ],
+  "reinclude_only_if": [
+    "The task force publishes its 120-day report or concrete recommendations.",
+    "A binding rule, executive action, enforcement mechanism or incident-reporting requirement is adopted.",
+    "The mandate or membership changes materially."
+  ],
+  "sources": [
+    "https://apnews.com/article/b8689ea07de9102a52bd1cd2049b5901",
+    "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
+    "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Night-window hard delta: formal launch and named leadership became public on Oct. 4; distinct from the previously covered voluntary White House AI safety accord."
+}
