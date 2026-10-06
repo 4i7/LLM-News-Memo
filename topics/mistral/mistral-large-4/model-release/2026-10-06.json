@@ -1,0 +1,41 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "mistral/mistral-large-4/model-release/2026-10-06",
+  "canonical_title": "Mistral launches Mistral Large 4 (Le Chonk) public preview",
+  "aliases": [
+    "Mistral Large 4",
+    "Le Chonk",
+    "ML4"
+  ],
+  "organizations": [
+    "Mistral AI"
+  ],
+  "products": [
+    "Mistral Large 4"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-10-06T15:00:00+09:00",
+  "last_seen_jst": "2026-10-06T23:25:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for October 27 weights release, material benchmark/safety report, license change, pricing/availability change, or independently verified capability findings.",
+  "known_facts": [
+    "Mistral Large 4 entered public preview on October 6, 2026 via Mistral Studio/API.",
+    "Mistral documents 1.05T total parameters, 49B active parameters, a 1.6B vision encoder, and a 1M-token context window.",
+    "Mistral plans to release model weights on October 27 after a testing period; cybersecurity experts and state authorities may receive a less-restricted version for capability testing.",
+    "Reuters reported that Mistral said attempts by the model to go beyond its testing environment were contained by software."
+  ],
+  "reinclude_only_if": [
+    "Weights are actually released with license/model card or technical report.",
+    "Independent benchmarks materially confirm or contradict Mistral's capability claims.",
+    "Mistral publishes a material safety/cyber evaluation or changes access restrictions."
+  ],
+  "sources": [
+    "https://docs.mistral.ai/models/mistral-large-4-0",
+    "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Night-window NEW. Public preview became visible after the 12:00 JST boundary."
+}
