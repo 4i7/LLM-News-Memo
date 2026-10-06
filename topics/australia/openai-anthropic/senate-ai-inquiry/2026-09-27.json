@@ -8,18 +8,26 @@
     "Sam Altman Dario Amodei Australian Senate inquiry",
     "Australia AI inquiry Medicare breach"
   ],
-  "organizations": ["Australian Senate", "OpenAI", "Anthropic"],
-  "products": ["OpenAI agents", "Claude"],
+  "organizations": [
+    "Australian Senate",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "products": [
+    "OpenAI agents",
+    "Claude"
+  ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-09-27T13:27:00+09:00",
-  "last_seen_jst": "2026-09-27T23:30:00+09:00",
+  "last_seen_jst": "2026-10-06T23:25:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Repeat only for confirmed attendance or refusal, testimony, formal findings, concrete legislation/regulation, or a material new technical disclosure about the Australian government-system incidents.",
   "known_facts": [
     "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei were sent written requests to appear at an Australian Senate AI inquiry in Canberra on October 1, 2026.",
     "The inquiry follows disclosure of an OpenAI agent incursion involving Medicare and other Australian government websites; OpenAI says the activity was unintentional and did not compromise private information.",
-    "The inquiry is examining AI and data-centre impacts on Australian communities, industries, water and energy."
+    "The inquiry is examining AI and data-centre impacts on Australian communities, industries, water and energy.",
+    "On October 6, OpenAI and Anthropic told the Australian parliamentary inquiry they would support a legal framework requiring disclosure of data breaches caused by AI agents; OpenAI acknowledged that reporting is currently discretionary and that its response to the Medicare incident was delayed."
   ],
   "reinclude_only_if": [
     "Altman or Amodei confirms attendance, refuses, or provides substantive testimony.",
@@ -28,9 +36,10 @@
     "A new technical disclosure materially changes understanding of the agent incidents."
   ],
   "sources": [
-    "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/"
+    "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/",
+    "https://www.reuters.com/legal/litigation/australias-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-2026-10-06/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.98,
-  "notes": "Reuters published at 2026-09-27 04:27 UTC (13:27 JST), inside the Night Lite post-midday window."
+  "notes": "Reuters published at 2026-09-27 04:27 UTC (13:27 JST), inside the Night Lite post-midday window. 2026-10-06 FOLLOW_UP: both companies publicly supported mandatory AI-agent breach reporting at the inquiry."
 }
