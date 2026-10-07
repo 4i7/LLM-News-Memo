@@ -1,0 +1,47 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "biohub/virtual-biology-initiative/funding-expansion/2026-10-07",
+  "canonical_title": "Biohub Virtual Biology Initiative expands to $1.8B with US government and AI-lab partners",
+  "aliases": [
+    "Virtual Biology Initiative",
+    "Biohub $1.8 billion AI biology data",
+    "Google DeepMind Isomorphic Labs Meta Biohub"
+  ],
+  "organizations": [
+    "Biohub",
+    "U.S. Department of Energy",
+    "National Institutes of Health",
+    "Meta Platforms",
+    "Google DeepMind",
+    "Isomorphic Labs"
+  ],
+  "products": [
+    "Virtual Biology Initiative"
+  ],
+  "event_type": "science_life_sciences_follow_up",
+  "first_seen_jst": "2026-10-07T22:02:00+09:00",
+  "last_seen_jst": "2026-10-07T23:32:19+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered as a new ledger topic because the April $500M Biohub initiative gained material new named commitments on Oct 7, bringing the effort to $1.8B. Reinclude only for new named funders/commitments, dataset release, predictive-model release, access-policy change, or material technical results.",
+  "known_facts": [
+    "Biohub originally committed $500M in April 2026.",
+    "On Oct 7, the U.S. Department of Energy committed more than $500M over five years; NIH will coordinate and standardize datasets built with more than $500M in prior federal funding; Meta, Google DeepMind and Isomorphic Labs jointly committed $300M.",
+    "The first dataset is targeted in about one year and predictive cell models within five years.",
+    "Commercial funders receive an embargo/head-start period before funded datasets become public; government-funded work has no such restriction."
+  ],
+  "reinclude_only_if": [
+    "New named funding or partner commitment materially changes scale.",
+    "A first dataset or predictive model is actually released.",
+    "Material change to open-data/embargo access terms.",
+    "Reproducible technical results materially change expected utility."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-google-join-zuckerberg-backed-biohub-18-billion-push-ai-biology-2026-10-07/",
+    "https://biohub.org/news/virtual-biology-initiative/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "Night-window hard delta: Reuters published 2026-10-07 13:02 UTC (22:02 JST)."
+}
