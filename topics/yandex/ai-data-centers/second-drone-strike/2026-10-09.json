@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "yandex/ai-data-centers/second-drone-strike/2026-10-09",
+  "canonical_title": "Yandex reports second data center outage",
+  "aliases": [
+    "Yandex Kaluga outage",
+    "Yandex Sasovo data center"
+  ],
+  "organizations": [
+    "Yandex"
+  ],
+  "products": [
+    "Yandex Cloud",
+    "YandexGPT"
+  ],
+  "event_type": "outage",
+  "first_seen_jst": "2026-10-09T23:27:00+09:00",
+  "last_seen_jst": "2026-10-09T23:27:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Revisit if confirmed AI training impact or service restoration.",
+  "known_facts": [
+    "Reuters reported a second Yandex data center outage on October 9, after the first on October 8.",
+    "The status of AI training equipment remains unconfirmed."
+  ],
+  "reinclude_only_if": [
+    "Confirmed AI model training disruption.",
+    "Confirmed recovery or material change in infrastructure availability."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Night delta."
+}
