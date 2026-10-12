@@ -1,0 +1,34 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "uk-aisi/frontier-models/safety-test-access/2026-10-12",
+  "canonical_title": "UK AI Security Institute confirms latest-model evaluation access",
+  "aliases": [
+    "UK AISI Gemini 4 Argon evaluations"
+  ],
+  "organizations": [
+    "UK AI Security Institute",
+    "Google"
+  ],
+  "products": [
+    "Gemini 4 Argon"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-10-12T23:33:21+09:00",
+  "last_seen_jst": "2026-10-12T23:33:21+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for a newly published evaluation result or confirmed change in access.",
+  "known_facts": [
+    "On October 12 the UK AI minister confirmed UK AISI is evaluating Gemini 4 Argon and other recent models."
+  ],
+  "reinclude_only_if": [
+    "New technical evaluation results or access agreements are published."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/uk-given-access-safety-test-latest-ai-models-minister-says-2026-10-12/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Reuters report 2026-10-12 13:38 UTC."
+}
