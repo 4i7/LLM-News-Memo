@@ -8,28 +8,43 @@
     "Microsoft next-generation AI chip",
     "Microsoft Maia 300 September unveiling"
   ],
-  "organizations": ["Microsoft", "TSMC", "Anthropic"],
-  "products": ["Maia 300", "Maia 200"],
+  "organizations": [
+    "Microsoft",
+    "TSMC",
+    "Anthropic"
+  ],
+  "products": [
+    "Maia 300",
+    "Maia 200"
+  ],
   "event_type": "other",
   "first_seen_jst": "2026-08-10T22:09:00+09:00",
-  "last_seen_jst": "2026-08-10T23:30:00+09:00",
+  "last_seen_jst": "2026-10-12T23:33:21+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
-  "treatment": "Repeat only for Microsoft official confirmation, launch/specification details, production commitments, cloud availability, major customer adoption, or material changes to reported TSMC capacity plans.",
+  "treatment": "Official Maia 300 unveiling and hardware specifications now covered as 2026-10-12 FOLLOW_UP. Future mentions need new production availability, independent performance validation, customer adoption, or material design changes.",
   "known_facts": [
     "The Information reported Microsoft plans to unveil Maia 300 as early as September 2026.",
     "Microsoft is reportedly discussing TSMC capacity for more than 300,000 units for delivery in 2027, with a longer-term ambition above one million units.",
-    "Microsoft is reportedly seeking adoption from major cloud customers including Anthropic."
+    "Microsoft is reportedly seeking adoption from major cloud customers including Anthropic.",
+    "On 2026-10-12 Microsoft officially unveiled Maia 300, replacing the earlier unconfirmed September unveiling plan.",
+    "Microsoft announced 2027 production deployment and multi-gigawatt Azure Maia scale-out; Reuters reported potential deployment above one million Maia 300 chips in 2027.",
+    "Microsoft says Maia 300 provides 40% more tokens per megawatt than unspecified leading GPU systems and up to 7x Maia 200 rack-scale throughput; these are vendor claims, not independent benchmarks.",
+    "Maia 300 features TSMC N2P compute chiplets, 8 HBM4 stacks with 18 TB/s peak bandwidth, 950 W accelerator TDP, and 96-accelerator racks using 167 kW with 27.6 TB HBM capacity.",
+    "Microsoft's Maia 200 is already serving production Copilot workloads, while Maia 300 deployment is not yet live."
   ],
   "reinclude_only_if": [
-    "Microsoft officially announces Maia 300 or publishes specifications.",
-    "Production capacity, process node, memory architecture, performance, pricing, or deployment details become concrete.",
-    "A major external customer confirms Maia 300 adoption."
+    "Maia 300 enters production in 2027 or actual deployment/availability becomes verifiable.",
+    "Independent workload-matched benchmark and pricing/TCO comparisons are published.",
+    "Microsoft confirms external customer adoption or material hardware changes."
   ],
   "sources": [
-    "https://www.reuters.com/business/microsoft-plans-unveil-its-new-maia-300-ai-chip-this-fall-information-reports-2026-08-10/"
+    "https://www.reuters.com/business/microsoft-plans-unveil-its-new-maia-300-ai-chip-this-fall-information-reports-2026-08-10/",
+    "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+    "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+    "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/"
   ],
   "seed_basis": "scheduled_run",
-  "confidence": 0.84,
-  "notes": "Reuters report published 2026-08-10 13:09 UTC = 22:09 JST; underlying claims are attributed to The Information and were not confirmed by Microsoft in the Reuters report."
+  "confidence": 0.99,
+  "notes": "Reuters report published 2026-08-10 13:09 UTC = 22:09 JST; underlying claims are attributed to The Information and were not confirmed by Microsoft in the Reuters report. 2026-10-12 22:01 JST Reuters official unveiling report; follow-up delta is first-party specifications and concrete deployment plan, not a fresh canonical topic."
 }
