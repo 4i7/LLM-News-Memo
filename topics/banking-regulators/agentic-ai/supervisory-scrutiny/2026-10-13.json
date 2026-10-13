@@ -1,0 +1,41 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "banking-regulators/agentic-ai/supervisory-scrutiny/2026-10-13",
+  "canonical_title": "US and European bank supervisors intensify agentic AI control and recovery scrutiny",
+  "aliases": [
+    "Federal Reserve ECB bank AI agent safeguards",
+    "banking watchdogs AI financial stability risks",
+    "Reuters October 13 AI bank scrutiny"
+  ],
+  "organizations": [
+    "Federal Reserve",
+    "European Central Bank",
+    "Bank of England"
+  ],
+  "products": [
+    "agentic AI",
+    "banking cyber recovery plans"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-13T23:30:21+09:00",
+  "last_seen_jst": "2026-10-13T23:30:21+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered in 2026-10-13 Night; repeat only on concrete post-publication hard delta.",
+  "known_facts": [
+    "Reuters exclusive published 2026-10-13 05:02 UTC says US bank supervisors are asking banks about advanced AI model usage, agent control and Chinese technology.",
+    "European supervisors including ECB and Bank of England are pressing for better recovery planning due to AI-related disruption risks.",
+    "No new binding AI-specific banking regulation is confirmed by this reporting."
+  ],
+  "reinclude_only_if": [
+    "Formal supervisory guidance, binding rule, deadline or enforcement action is published.",
+    "A specific bank discloses a material agentic-AI operational incident."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/banking-watchdogs-ramp-up-ai-scrutiny-stability-fears-mount-sources-say-2026-10-13/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.91,
+  "notes": "New reporting of supervisory activity, not a new regulation."
+}
