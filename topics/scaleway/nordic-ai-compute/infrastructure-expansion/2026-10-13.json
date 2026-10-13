@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "scaleway/nordic-ai-compute/infrastructure-expansion/2026-10-13",
+  "canonical_title": "Scaleway announces two Nordic AI compute facilities",
+  "aliases": [
+    "Sweden AMD MI355X supercomputer",
+    "Copenhagen Nvidia HGX B300"
+  ],
+  "organizations": [
+    "Scaleway",
+    "AMD",
+    "NVIDIA"
+  ],
+  "products": [
+    "MI355X",
+    "HGX B300"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-10-13T23:30:21+09:00",
+  "last_seen_jst": "2026-10-13T23:30:21+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for confirmed service launch, capacity or pricing.",
+  "known_facts": [
+    "Scaleway announced plans for Sweden AMD and Copenhagen Nvidia AI compute projects on October 13."
+  ],
+  "reinclude_only_if": [
+    "New deployment availability or capacity confirmed."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/scaleway-build-amd-powered-ai-supercomputer-sweden-2026-10-13/",
+    "https://www.reuters.com/business/media-telecom/scaleway-open-nvidia-powered-computing-site-copenhagen-2026-10-13/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": ""
+}
