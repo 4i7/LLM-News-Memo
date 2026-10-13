@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "researchers/ai-containment/international-oversight-open-letter/2026-10-13",
+  "canonical_title": "Scientists call for international AI containment and incident registry body",
+  "aliases": [
+    "Geoffrey Hinton Yoshua Bengio air-gapping letter",
+    "AI containment oversight international registry",
+    "October 13 scientist open letter"
+  ],
+  "organizations": [
+    "International AI and cybersecurity researchers"
+  ],
+  "products": [
+    "AI containment standards",
+    "security incident registry"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-13T23:30:21+09:00",
+  "last_seen_jst": "2026-10-13T23:30:21+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered in 2026-10-13 Night; repeat only on concrete post-publication hard delta.",
+  "known_facts": [
+    "Reuters 2026-10-13 10:02 UTC reports hundreds of researchers from more than 30 countries signed a new open letter calling for high-assurance containment and independent oversight.",
+    "Proposal includes initially air-gapping cyber-capable frontier models and creating an international body to register and ultimately publish major incidents.",
+    "This is a proposal, not an enacted regulator or mandatory rule."
+  ],
+  "reinclude_only_if": [
+    "An international body is formally constituted or receives government mandate.",
+    "Signatories publish operational standards, incident taxonomy, or concrete adopted containment rules."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/scientists-call-international-body-oversee-advanced-ai-2026-10-13/",
+    "https://www.abc.net.au/news/2026-10-13/more-than-300-scientists-greater-ai-security-international-body/107257078"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Signature count differs across reports; use hundreds rather than fixed number until primary letter confirmed."
+}
