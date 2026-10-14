@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "first_seen_jst": "2026-10-14T23:29:34+09:00",
+  "last_seen_jst": "2026-10-14T23:29:34+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "seed_basis": "scheduled_run",
+  "topic_key": "globalfoundries/japan-us-chip-fabs/investment-agreement/2026-10-14",
+  "canonical_title": "GlobalFoundries selected to operate two New York fabs under US-Japan investment plan",
+  "aliases": [
+    "GlobalFoundries Japan $21 billion fabs",
+    "GF Malta US Japan two fab investment",
+    "US Japan semiconductor 21 billion investment"
+  ],
+  "organizations": [
+    "GlobalFoundries",
+    "Government of Japan",
+    "United States government"
+  ],
+  "products": [
+    "300mm semiconductor fabs"
+  ],
+  "event_type": "policy_corporate",
+  "treatment": "Track concrete milestones and final funding; do not conflate with the separate October 8 GlobalFoundries-TSMC $2B silicon interposer deal.",
+  "known_facts": [
+    "GlobalFoundries officially announced October 14 that it was selected as technology provider and operator for two fabs at Malta, New York under a US-Japan initiative worth up to $21B.",
+    "Japan will provide investment capital; first ~$10B 300mm fab is expected online in 2029, second ~$10B fab is additional/conditional.",
+    "GF says each fab could add about 900,000 300mm wafers/year when fully operational; capacity is aimed primarily at foundational/automotive/industrial/connected infrastructure semiconductors rather than immediate frontier GPU production.",
+    "Reuters first reported the new deal at 12:30 UTC (21:30 JST)."
+  ],
+  "reinclude_only_if": [
+    "Binding funding/ownership agreement or concrete second-fab commitment.",
+    "Construction, technology node, schedule, customers or capacity materially change."
+  ],
+  "sources": [
+    "https://gf.com/news-and-events/news/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/",
+    "https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/"
+  ],
+  "confidence": 0.99,
+  "notes": "Night hard delta; distinct from GlobalFoundries TSMC CoWoS interposer supply agreement reported Oct 8."
+}
