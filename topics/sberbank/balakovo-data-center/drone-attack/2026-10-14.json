@@ -1,0 +1,33 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "sberbank/balakovo-data-center/drone-attack/2026-10-14",
+  "canonical_title": "Sberbank Balakovo data center incident",
+  "aliases": [
+    "Balakovo data center incident"
+  ],
+  "organizations": [
+    "Sberbank"
+  ],
+  "products": [
+    "GigaChat"
+  ],
+  "event_type": "outage",
+  "first_seen_jst": "2026-10-14T23:29:34+09:00",
+  "last_seen_jst": "2026-10-14T23:29:34+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Follow only confirmed service or AI compute changes.",
+  "known_facts": [
+    "October 14 Reuters report confirmed an incident at Balakovo. Services reported normal. Hardware impact unknown."
+  ],
+  "reinclude_only_if": [
+    "Verified AI computing impact or service status change."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/finance/ukrainian-drones-hit-russias-biggest-data-centre-2026-10-14/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "New facility separate from Yandex reports."
+}
