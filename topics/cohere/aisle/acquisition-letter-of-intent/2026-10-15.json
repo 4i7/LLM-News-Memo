@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "cohere/aisle/acquisition-letter-of-intent/2026-10-15",
+  "canonical_title": "Cohere signs letter of intent to acquire AISLE AI cybersecurity",
+  "aliases": [
+    "AISLE and Cohere to Join Forces",
+    "Cohere Cyber AISLE"
+  ],
+  "organizations": [
+    "Cohere",
+    "AISLE"
+  ],
+  "products": [
+    "AISLE platform"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-15T23:25:00+09:00",
+  "last_seen_jst": "2026-10-15T23:25:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Do not treat LOI as a completed acquisition; revisit only for definitive deal, closure, new products or technical integrations.",
+  "known_facts": [
+    "Cohere and AISLE announced an acquisition Letter of Intent on 15 October 2026; closing is not confirmed.",
+    "AISLE says its autonomous systems have discovered more than 500 assigned CVEs; this is the company's claim.",
+    "Upon completion AISLE leadership is expected to take roles in Cohere Cyber and AI Security; Prague office will join Cohere."
+  ],
+  "reinclude_only_if": [
+    "Definitive agreement or completed acquisition confirmed.",
+    "Concrete Cohere Cyber product, model or benchmark integration published."
+  ],
+  "sources": [
+    "https://aisle.com/blog/aisle-and-cohere-to-join-forces",
+    "https://www.reuters.com/legal/transactional/cohere-moves-buy-ai-cybersecurity-startup-aisle-2026-10-15/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Reuters 09:02 UTC = 18:02 JST; official AISLE post dated Oct 15."
+}
