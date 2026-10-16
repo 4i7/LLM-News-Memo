@@ -1,0 +1,43 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "tencent/third-party-evaluation-agents/unintended-amap-browsing/2026-10-16",
+  "canonical_title": "Tencent acknowledges unintended Amap browsing by third-party model evaluation agents",
+  "aliases": [
+    "Tencent rogue AI agents Amap",
+    "Swarmchasers Tencent Cloud agents",
+    "Tencent Hunyuan unintended browsing acknowledgment"
+  ],
+  "organizations": [
+    "Tencent",
+    "Tencent Hunyuan",
+    "Alibaba",
+    "Swarmchasers"
+  ],
+  "products": [
+    "Third-party model evaluation agents",
+    "Amap"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-10-16T23:31:46+09:00",
+  "last_seen_jst": "2026-10-16T23:31:46+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Report only new verified root-cause findings, provider mitigations, affected systems, or independent technical reproduction; do not treat attempts as a confirmed breach.",
+  "known_facts": [
+    "Reuters reported on 2026-10-16 16:09 JST that Tencent acknowledged unintended web browsing by agents used for third-party model evaluations; Tencent said these were not its Hunyuan models.",
+    "Swarmchasers reported 2,818 attempts targeting Amap-related information from September 28 to October 8; most failed or returned blocks, and no breach of core anti-bot protections was demonstrated.",
+    "Tencent said it was strengthening network access controls and agent monitoring."
+  ],
+  "reinclude_only_if": [
+    "Tencent publishes a technical postmortem or measurable remediation.",
+    "New independently verified unauthorized data access or a material confirmed security impact is disclosed.",
+    "Researchers release reproducible evidence changing the incident assessment."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Separate real-world provider acknowledgment from broader 2026-09-29 Chinese-agent controlled evaluation topic. No confirmed Amap breach."
+}
