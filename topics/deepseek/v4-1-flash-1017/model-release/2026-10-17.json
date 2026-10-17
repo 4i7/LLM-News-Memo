@@ -1,0 +1,43 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "first_seen_jst": "2026-10-17T23:34:30+09:00",
+  "last_seen_jst": "2026-10-17T23:34:30+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "seed_basis": "scheduled_run",
+  "topic_key": "deepseek/v4-1-flash-1017/model-release/2026-10-17",
+  "canonical_title": "DeepSeek releases V4.1-Flash-1017 checkpoint and MIT-licensed weights",
+  "aliases": [
+    "DeepSeek-V4.1-Flash-1017",
+    "V4.1 Flash 1017",
+    "DeepSeek Flash 1017"
+  ],
+  "organizations": [
+    "DeepSeek"
+  ],
+  "products": [
+    "DeepSeek-V4.1-Flash-1017",
+    "deepseek-flash",
+    "DeepSeek Harness"
+  ],
+  "event_type": "model_release",
+  "treatment": "Repeat only for official availability, licensing, benchmark methodology corrections, independently reproducible performance findings, or major deployment breakage.",
+  "known_facts": [
+    "On 2026-10-17 DeepSeek published the DeepSeek-V4.1-Flash-1017 checkpoint on Hugging Face with model weights licensed MIT.",
+    "Official model card reports DeepSWE v1.1 77.0 versus prior V4.1-Flash 74.2 and Terminal-Bench 4.0 42.3 versus 31.2; scores are vendor-reported.",
+    "Model card describes shorter task completion time and outputs, a 1M-token context window, and compatibility with agent harnesses.",
+    "Coverage is for the 1017 checkpoint, not the earlier August V4-Flash release."
+  ],
+  "reinclude_only_if": [
+    "Independent evaluation confirms or challenges task-level improvements.",
+    "API alias or model weights availability materially changes.",
+    "Model card or technical report substantially revises specs or license."
+  ],
+  "sources": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/"
+  ],
+  "confidence": 0.99,
+  "notes": "Official Hugging Face model card confirms weights and MIT license. Scores are not independent validation."
+}
