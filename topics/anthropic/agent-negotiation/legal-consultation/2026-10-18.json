@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/agent-negotiation/legal-consultation/2026-10-18",
+  "canonical_title": "Anthropic seeks legal guidance on agents negotiating deals for users",
+  "aliases": [
+    "Anthropic turns to lawyers to help AI agents strike deals",
+    "AI agent negotiation rules Anthropic",
+    "Anthropic delegated authority signed documents"
+  ],
+  "organizations": [
+    "Anthropic"
+  ],
+  "products": [
+    "Claude",
+    "AI agents"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-18T23:34:33+09:00",
+  "last_seen_jst": "2026-10-18T23:34:33+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "This is reported exploration, not a product release or adopted policy. Repeat only upon an official published protocol, deployment, experimental methodology or new material finding.",
+  "known_facts": [
+    "Financial Times reported on October 18 (reported 04:00 UTC/13:00 JST) that Anthropic is consulting legal experts about AI agents negotiating on behalf of users.",
+    "Reported areas include bargaining, customer disputes, agent-to-agent negotiation norms, and how human authority should be expressed.",
+    "Reported consideration of user-signed documents specifying agent permissions is exploratory, not a released feature."
+  ],
+  "reinclude_only_if": [
+    "Anthropic publishes official agent negotiation or delegated-authority protocol, research or product capability.",
+    "Credible reporting identifies specific enforceable authorization, consent or safety mechanisms and deployment timing."
+  ],
+  "sources": [
+    "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.82,
+  "notes": "Reported by FT; no primary company announcement verified. The 04:00 UTC publication timestamp is independently indexed; Oct 18 midday output unavailable."
+}
