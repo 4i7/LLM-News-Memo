@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "microsoft/nscale-loughton/contract-withdrawal/2026-10-18",
+  "canonical_title": "Microsoft withdraws from Nscale Loughton AI data-centre agreement",
+  "aliases": [
+    "Microsoft pulls out of UK data center deal with Nscale",
+    "Loughton Essex AI supercomputer anchor tenant withdrawal",
+    "Microsoft Nscale contract termination"
+  ],
+  "organizations": [
+    "Microsoft",
+    "Nscale"
+  ],
+  "products": [
+    "Loughton AI data centre"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-10-18T23:34:33+09:00",
+  "last_seen_jst": "2026-10-18T23:34:33+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not repeat the October 18 agreement withdrawal without a new official contract, power, financing or project milestone.",
+  "known_facts": [
+    "Reuters reported at 2026-10-18 10:01 UTC (19:01 JST) that Microsoft had terminated its agreement for the Nscale Loughton, Essex AI data-centre project, citing The Telegraph.",
+    "Nscale acknowledged a London-area grid issue and said the withdrawal does not affect its other Microsoft contracts.",
+    "Power supply for the site reportedly may not be available until the 2030s; Microsoft had not publicly stated its reasons at Reuters publication."
+  ],
+  "reinclude_only_if": [
+    "Microsoft or Nscale provides a new official contractual explanation or reversal.",
+    "New verified project cancellation, power connection, funding or customer agreement materially changes outlook."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/microsoft-pulls-out-uk-data-center-deal-with-nscale-telegraph-reports-2026-10-18/",
+    "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Night window verified from Reuters timestamp; grid delay was previously known, contract withdrawal is new. Oct 18 midday output not available."
+}
