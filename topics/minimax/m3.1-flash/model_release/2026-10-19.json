@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "minimax/m3.1-flash/model_release/2026-10-19",
+  "canonical_title": "MiniMax M3.1 Flash official API launch",
+  "aliases": [
+    "MiniMax M3.1 Flash",
+    "M3.1-Flash",
+    "Space Bunny"
+  ],
+  "organizations": [
+    "MiniMax"
+  ],
+  "products": [
+    "MiniMax M3.1 Flash"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-10-19T23:32:39+09:00",
+  "last_seen_jst": "2026-10-19T23:32:39+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not re-report without a verified post-publication hard delta.",
+  "known_facts": [
+    "MiniMax officially rolled out M3.1 Flash on 2026-10-19; API, M Plan and MiniMax Code available.",
+    "Vendor pricing USD per million tokens: input 0.15, output 0.60, cached input 0.015.",
+    "Vendor claims nearly 3x online inference speed and 70% lower agentic task cost than predecessor; not independent benchmarks.",
+    "Model weights not yet released as of 2026-10-19."
+  ],
+  "reinclude_only_if": [
+    "Model weights and license actually released",
+    "Independent agentic and coding benchmarks or material API pricing/availability change"
+  ],
+  "sources": [
+    "https://www.minimax.io/blog/minimax-m31f",
+    "https://www.reuters.com/world/asia-pacific/chinas-minimax-launches-updated-ai-model-m31-flash-claims-major-improvements-2026-10-19/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Night delta: sources published on 2026-10-19 after 12:00 JST; 2026-10-19 midday run unavailable in repository; GitHub search returned no match."
+}
