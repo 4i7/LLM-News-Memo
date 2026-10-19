@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "norforge/cairn/safety_security_report/2026-10-19",
+  "canonical_title": "NorForge documents exposed Cairn agent panels used in widespread intrusions",
+  "aliases": [
+    "Inside Cairn",
+    "AI agents 1200 websites",
+    "NorForge AI-driven cyber operations"
+  ],
+  "organizations": [
+    "NorForge"
+  ],
+  "products": [
+    "Cairn",
+    "DeepSeek",
+    "Claude Code"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-10-19T23:32:39+09:00",
+  "last_seen_jst": "2026-10-19T23:32:39+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not re-report without a verified post-publication hard delta.",
+  "known_facts": [
+    "NorForge published its investigation on 2026-10-19, finding more than 20 exposed Cairn control panels likely associated with malicious activity.",
+    "NorForge documented an extensive Chinese-language cluster targeting e-commerce sites including in Japan, and observed live webshell evidence in at least one case.",
+    "Reuters independently reviewed activity and identified victims; Reuters reported over 1200 attempted sites and over 100 successful intrusions, while data exfiltration extent remained unverified.",
+    "Token cost estimates are rough and not audited."
+  ],
+  "reinclude_only_if": [
+    "Independently verified additional victims or incident response",
+    "New reproducible agent security mitigation or material correction to attack counts"
+  ],
+  "sources": [
+    "https://norforge.com/blog/inside_cairn",
+    "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Night delta: sources published on 2026-10-19 after 12:00 JST; 2026-10-19 midday run unavailable in repository; GitHub search returned no match."
+}
