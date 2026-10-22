@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "meta/ads-business-terms-publisher-complaint/policy_corporate/2026-10-22",
+  "canonical_title": "Publisher and advertiser group seeks EU and UK intervention on Meta commercial terms",
+  "aliases": [
+    "Movement for an Open Web Meta commercial terms",
+    "Meta October 30 crawler terms CMA complaint"
+  ],
+  "organizations": [
+    "Meta",
+    "Movement for an Open Web",
+    "UK Competition and Markets Authority"
+  ],
+  "products": [
+    "Meta Commercial Terms"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-22T23:29:00+09:00",
+  "last_seen_jst": "2026-10-22T23:29:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not repeat without a concrete hard delta after this night brief.",
+  "known_facts": [
+    "Reuters 2026-10-22 14:11 UTC: Movement for an Open Web asked EU and UK regulators to suspend Meta's October 30 commercial terms.",
+    "UK CMA confirmed urgent discussions with Meta; no regulator suspension was announced.",
+    "Meta disputes that the updated terms grant new crawler rights or override robots.txt."
+  ],
+  "reinclude_only_if": [
+    "Interim injunction, regulator action, official revised terms, or enforceability clarification."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/publishers-advertisers-call-eu-uk-antitrust-regulators-suspend-metas-new-2026-10-22/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.94,
+  "notes": "2026-10-22 12:00–23:30 JST window; midday report not available for direct comparison."
+}
