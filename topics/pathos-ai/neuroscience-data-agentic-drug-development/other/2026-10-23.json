@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "pathos-ai/neuroscience-data-agentic-drug-development/other/2026-10-23",
+  "canonical_title": "Pathos AI, Bristol Myers Squibb and Tempus expand neuroscience data and agentic drug development agreements",
+  "aliases": [
+    "Pathos Bristol Myers Tempus neurology partnership",
+    "Tempus Neuro Order Form",
+    "Pathos Foundry neuroscience"
+  ],
+  "organizations": [
+    "Pathos AI",
+    "Bristol Myers Squibb",
+    "Tempus AI"
+  ],
+  "products": [
+    "Pathos Foundry",
+    "Tempus Agent",
+    "Tempus Lens"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-10-23T23:30:00+09:00",
+  "last_seen_jst": "2026-10-23T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not repeat without verified hard delta after 2026-10-23 night edition.",
+  "known_facts": [
+    "Reuters 2026-10-23 13:00 UTC: Pathos AI announced neuroscience drug development collaboration and $237 million Series E financing led by Bristol Myers Squibb.",
+    "Tempus 2026-10-23 Form 8-K: combined oncology and neurology agreements provide aggregate cash payments of $192.5 million over approximately five years.",
+    "Neurology agreement contemplates up to 500,000 de-identified records over five years, up to $55 million fees, and licensed Tempus Agent for analysis; deliveries and payments are conditional."
+  ],
+  "reinclude_only_if": [
+    "Specific clinical trial launch, measured results, model or agent technical documentation, or revised agreements."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/pathos-ai-teams-up-with-bristol-myers-tempus-ai-advance-drug-development-2026-10-23/",
+    "https://investors.tempus.com/static-files/5569416c-75d0-4733-9b1b-4bd60dd9897b"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.97,
+  "notes": "Coverage 2026-10-23 12:00–23:30 JST; no midday run event found in repository, so direct midday comparison unavailable."
+}
