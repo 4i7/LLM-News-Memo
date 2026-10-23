@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "bank-of-japan/ai-investment-nbfi-stress-report/other/2026-10-23",
+  "canonical_title": "Bank of Japan October Financial System Report analyzes AI-investment unwind risk via foreign NBFIs",
+  "aliases": [
+    "BOJ October 2026 AI investment financial stability",
+    "Japan financial system report AI nonbank stress",
+    "AI capex NBFI shock Japan"
+  ],
+  "organizations": [
+    "Bank of Japan"
+  ],
+  "products": [
+    "Financial System Report October 2026"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-10-23T23:30:00+09:00",
+  "last_seen_jst": "2026-10-23T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not repeat without verified hard delta after 2026-10-23 night edition.",
+  "known_facts": [
+    "Bank of Japan published October 2026 Financial System Report on 2026-10-23.",
+    "Report analyzes global AI investment funding via foreign non-bank financial intermediaries and stress tests for reduced AI investment profitability and portfolio adjustments.",
+    "BOJ reports no major present domestic financial imbalances; analysis is a risk scenario, not a prediction of an imminent AI crash."
+  ],
+  "reinclude_only_if": [
+    "New quantified stress test results or follow-up policy measures, significant verified market events."
+  ],
+  "sources": [
+    "https://www.boj.or.jp/research/brp/fsr/fsr261023.htm",
+    "https://www.reuters.com/world/asia-pacific/bank-japan-warns-risks-ai-market-shock-cyberattacks-2026-10-23/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Coverage 2026-10-23 12:00–23:30 JST; no midday run event found in repository, so direct midday comparison unavailable."
+}
