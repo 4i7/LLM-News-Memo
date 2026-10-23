@@ -5,7 +5,8 @@
   "canonical_title": "Publisher and advertiser group seeks EU and UK intervention on Meta commercial terms",
   "aliases": [
     "Movement for an Open Web Meta commercial terms",
-    "Meta October 30 crawler terms CMA complaint"
+    "Meta October 30 crawler terms CMA complaint",
+    "Meta commercial terms delayed to November 20"
   ],
   "organizations": [
     "Meta",
@@ -17,22 +18,25 @@
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-10-22T23:29:00+09:00",
-  "last_seen_jst": "2026-10-22T23:29:00+09:00",
+  "last_seen_jst": "2026-10-23T23:30:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered",
-  "treatment": "Do not repeat without a concrete hard delta after this night brief.",
+  "treatment": "Follow-up reported on 2026-10-23: effective date delayed to November 20; do not re-report without additional hard delta.",
   "known_facts": [
     "Reuters 2026-10-22 14:11 UTC: Movement for an Open Web asked EU and UK regulators to suspend Meta's October 30 commercial terms.",
     "UK CMA confirmed urgent discussions with Meta; no regulator suspension was announced.",
-    "Meta disputes that the updated terms grant new crawler rights or override robots.txt."
+    "Meta disputes that the updated terms grant new crawler rights or override robots.txt.",
+    "2026-10-23 13:37 UTC Reuters: Meta confirmed delaying updated Commercial Terms and Self-Serve Ad Terms effective date from October 30 to November 20, 2026; no regulator injunction announced."
   ],
   "reinclude_only_if": [
-    "Interim injunction, regulator action, official revised terms, or enforceability clarification."
+    "Interim injunction, regulator action, official revised terms, or enforceability clarification.",
+    "Material change to web-crawling clause, confirmed regulator action, or further effective-date revision."
   ],
   "sources": [
-    "https://www.reuters.com/legal/litigation/publishers-advertisers-call-eu-uk-antitrust-regulators-suspend-metas-new-2026-10-22/"
+    "https://www.reuters.com/legal/litigation/publishers-advertisers-call-eu-uk-antitrust-regulators-suspend-metas-new-2026-10-22/",
+    "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.94,
-  "notes": "2026-10-22 12:00–23:30 JST window; midday report not available for direct comparison."
+  "notes": "2026-10-22 12:00–23:30 JST window; midday report not available for direct comparison. | 2026-10-23 night follow-up: date moved 30 Oct -> 20 Nov; not a substantive withdrawal of contested crawler clause."
 }
