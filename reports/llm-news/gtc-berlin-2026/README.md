@@ -1,7 +1,7 @@
 ---
 type: Curated Report
 title: NVIDIA GTC Berlin 2026 — Technical Dossier
-description: Source-checked technical map of NVIDIA GTC Berlin 2026, October 20–22: architectures, software, status, operational constraints and evidence.
+description: "Source-checked technical map of NVIDIA GTC Berlin 2026, October 20–22: architectures, software, status, operational constraints and evidence."
 status: current
 scope: llm-news
 created: 2026-10-24
