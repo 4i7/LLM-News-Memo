@@ -26,6 +26,7 @@ tags: [llm-news, index, curated-research, technical-reports, source-maps]
 | **P0** | [NVIDIA GTC Berlin 2026 — 技術総合資料](gtc-berlin-2026/README.md) | 10/20–22 conference全体。agent、DPU、安全性、Vera Rubin、DSX、power、open models、local AI、科学・産業用途 | [設計レビュー](gtc-berlin-2026/architecture.md)、[一次ソース・提供状況](gtc-berlin-2026/announcements-and-sources.md) |
 | **P0** | [Agentic AI Security — 2026事故とruntime control](2026-agentic-security-casebook.md) | OpenAI/Hugging Face、Tencent/Amap、Cairn実攻撃観測、NVIDIA OpenShellと実装条件 | GTCのOpenShell章、各一次報告、OWASP |
 | **P1** | [PyTorch Accelerator Portability — TorchNeuron / TorchTPU](2026-accelerator-portability-torchneuron-torchtpu.md) | 10/20 OSS launch、CUDA lock-in、operator互換、compiler、precision、serving/training、PoC評価 | 両GitHub repo、PyTorch/Google公式技術文書 |
+| **P1** | [AI Factoryの電力制約と金融リスク](2026-ai-factory-power-finance.md) | Nscale契約離脱、送電接続、DSXの実用限界、電力効率、日銀のAI投資ストレス分析 | NVIDIA、Reuters、日銀、IEA |
 | **既存** | [July 2026 Retrospective](2026-07-retrospective.md) | 7月のニュース群の横断的な継続価値 | 本資料群を合わせて読み、古い状態と現在を区別 |
 
 ### GTC Berlin 2026の読み順
@@ -50,7 +51,7 @@ tags: [llm-news, index, curated-research, technical-reports, source-maps]
 | GTC Berlin 2026 | **今回のP0** | 大量の公式記事が断片化、参照設計の取り違えが起こりやすい |
 | Agent escape / abuse 2026 | **今回のP0** | OpenAI・HF・METR・Reuters・NVIDIAを横断して原因と防御を理解する必要 |
 | TorchNeuron / TorchTPU | **今回のP1** | 公開SDK、異なるcompiler、real-world portabilityのトレードオフ |
-| AI工場の電力・系統接続・金融リスク | 次回P1候補 | 2026-10-18 Nscaleの電力遅延・10/23 Bank of Japanの金融ストレス分析・10/21 DSXと直結。施設電力モデル・CAPEX/OPEXの定量データが追加され次第、独立資料化 |
+| AI工場の電力・系統接続・金融リスク | **今回のP1として資料化** | [技術・金融統合資料](2026-ai-factory-power-finance.md)。施設の稼働までの障壁と資金調達リスクを分離 |
 | 中国AI技術輸出管理案・open-weightの越境提供 | 重要な監視 | 10/16草案/暫定措置と11/15意見募集期限を追跡。最終法令とライセンス確定後に独立仕様資料を作る価値 |
 | 大企業のlocal/sovereign AI | 重要な監視 | Microsoft Sovereign Cloud / Google Distributed CloudのGA、off-grid実証、data locality/attestation詳細が出たら比較表 |
 | Model release/benchmark速報 | まずcanonical ledger | checkpoint固有の発表では長期保存価値が薄い場合が多い。公開weights/license/API + 独立再現が揃った際に昇格 |
@@ -77,5 +78,7 @@ tags: [llm-news, index, curated-research, technical-reports, source-maps]
 - TorchTPU source: https://github.com/google-pytorch/torch_tpu
 - PyTorch TorchNeuron engineering post: https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/
 - Google TorchTPU open source release: https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus/
+- Bank of Japan Financial System Report: https://www.boj.or.jp/research/brp/fsr/fsr261023.htm
+- IEA Key Questions on Energy and AI: https://www.iea.org/reports/key-questions-on-energy-and-ai
 
 **編集境界:** この`reports/llm-news/`はユーザーの明示的な依頼に基づくcurated research。標準のNight/Middayのたびに自動で全体を追記しない。
