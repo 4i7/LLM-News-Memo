@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/openshell/reference-architecture/2026-10-21",
+  "canonical_title": "NVIDIA OpenShell Reference Architecture for Safe AI Agents",
+  "aliases": [
+    "NVIDIA OpenShell GTC Berlin 2026",
+    "OpenShell BlueField-4 Sentry",
+    "OpenShell Reference Architecture"
+  ],
+  "organizations": [
+    "NVIDIA"
+  ],
+  "products": [
+    "OpenShell",
+    "BlueField-4",
+    "Sentry",
+    "Vera Rubin",
+    "Vera CPU"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-10-21T23:27:25+09:00",
+  "last_seen_jst": "2026-10-21T23:27:25+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Covered Oct 21; reinclude only with verified new GA/SKU availability, independently reproduced policy isolation or vulnerability finding, deployment evidence, security limits, or significant specification update.",
+  "known_facts": [
+    "On October 21 at GTC Berlin, NVIDIA announced an OpenShell Reference Architecture pairing Vera Rubin model inference, Vera CPUs for harness/tools, OpenShell sandbox policies, and BlueField-4 with Sentry out-of-band enforcement.",
+    "NVIDIA says Sentry can quarantine and stop out-of-policy agents in milliseconds; this is a vendor performance claim, not an independently established universal security guarantee.",
+    "Architecture availability must not be conflated with immediate general availability of all BlueField-4 hardware features across all partner systems."
+  ],
+  "reinclude_only_if": [
+    "Independent red-team / verification of security boundary, fail closed or quarantine latency with reproducible conditions.",
+    "GA/pricing/SKU availability, reference implementation or integration deployment verified by partner.",
+    "Officially disclosed OpenShell/Sentry vulnerability, mitigation or substantial functionality change."
+  ],
+  "sources": [
+    "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
+    "https://github.com/NVIDIA/OpenShell"
+  ],
+  "seed_basis": "manual_recovery_from_failed_scheduled_run",
+  "confidence": 0.98,
+  "notes": "Recovery created on 2026-10-24 from runs/2026-10-21/llm-night-gtc-google-cloud.jsonl. Earlier run event records writeback blocked. Curated technical dossier at reports/llm-news/gtc-berlin-2026/README.md is not duplicate-control state."
+}
