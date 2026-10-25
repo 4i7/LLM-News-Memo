@@ -1,0 +1,47 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "associated-press/us-china-ai-blocs-cross-membership/policy_corporate/2026-10-25",
+  "canonical_title": "AP reports sovereign AI bloc cross-membership pressure and Singapore's consideration of WAICO",
+  "aliases": [
+    "Pax Silica WAICO Kazakhstan",
+    "As the US and China form AI blocs countries are increasingly torn between them",
+    "Singapore considering WAICO",
+    "US-China AI blocs AP October 25"
+  ],
+  "organizations": [
+    "Associated Press",
+    "U.S. Department of State",
+    "World AI Cooperation Organization",
+    "Singapore",
+    "Indonesia",
+    "Kazakhstan"
+  ],
+  "products": [
+    "Pax Silica",
+    "World AI Cooperation Organization"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-25T23:30:00+09:00",
+  "last_seen_jst": "2026-10-25T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "New AP original reporting at 2026-10-25 00:05 ET (13:05 JST); not a newly binding policy or fresh pact. Track only an official accession, enforceable exclusion, new export restrictions, or verified bilateral agreement.",
+  "known_facts": [
+    "AP's 2026-10-25 reporting says Singapore is considering joining China's WAICO while it participates in US-led Pax Silica.",
+    "Indonesia's National Economic Council vice chair Mari Pangestu publicly describes seeking to benefit from both US and Chinese AI ecosystems.",
+    "Kazakhstan joined both groupings in June/July 2026, a previously known fact; US State Department says substantive involvement in competing superintelligence initiatives may undermine trust as a Pax Silica partner."
+  ],
+  "reinclude_only_if": [
+    "Formal change in Pax Silica/WAICO membership or legal access restrictions.",
+    "Official written guidance on dual participation or access to advanced chips/cloud.",
+    "New material country-specific agreement or independently corroborated implementation."
+  ],
+  "sources": [
+    "https://m.economictimes.com/news/international/world-news/as-the-us-and-china-form-ai-blocs-countries-are-increasingly-torn-between-them/amp_articleshow/135183287.cms",
+    "https://www.audacy.com/wilknews/news/business/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.87,
+  "notes": "AP original report 2026-10-25 00:05 EDT = 13:05 JST. Reuters/older sources previously covered US-China AI bloc competition; incremental facts are new attributed statements and Singapore's consideration, not a treaty or sanction. 2026-10-25 midday report not accessible in repository or visible conversation history."
+}
