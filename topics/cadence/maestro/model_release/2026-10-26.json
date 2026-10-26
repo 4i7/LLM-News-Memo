@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "cadence/maestro/model_release/2026-10-26",
+  "canonical_title": "Cadence unveils Maestro domain-specialized models for agentic chip design",
+  "aliases": [
+    "Cadence Maestro AI Model Portfolio",
+    "Cadence AI Super Agents Maestro",
+    "Nemotron OpenShell EDA Maestro"
+  ],
+  "organizations": [
+    "Cadence Design Systems",
+    "NVIDIA"
+  ],
+  "products": [
+    "Cadence Maestro",
+    "Cadence AI Super Agents",
+    "NVIDIA Nemotron",
+    "NVIDIA OpenShell"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Announced 2026-10-26; do not re-report without model availability, weights/API details, independent reproducible EDA benchmark, pricing, security architecture or production deployment hard delta.",
+  "known_facts": [
+    "Cadence officially introduced the Maestro domain-specialized model portfolio integrated with EDA/SDA tools and reinforcement learning using deterministic engineering feedback.",
+    "Official early design-workflow results claim up to 30% better quality of results and up to 5X greater token efficiency compared with general-purpose foundation models; independent methodology is not established.",
+    "Cadence says the solution can run in its cloud, public cloud, or customer-controlled on-premises environments; it uses NVIDIA Nemotron and is working with NVIDIA on OpenShell security integration.",
+    "First Maestro models are available only to select early-access customers in Q4 2026; not general availability. Reuters published 2026-10-26 13:03 UTC = 22:03 JST."
+  ],
+  "reinclude_only_if": [
+    "Public API, weights, licensing, pricing, GA status or expanded early access becomes available.",
+    "Independent reproducible EDA results validate or refute vendor 30% and 5X claims.",
+    "Published OpenShell policy enforcement and model fine-tuning/data-boundary implementation details materially change deployment options."
+  ],
+  "sources": [
+    "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+    "https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.98,
+  "notes": "NEW in night window, official press release plus Reuters 22:03 JST. Early access, not general public model weights."
+}
