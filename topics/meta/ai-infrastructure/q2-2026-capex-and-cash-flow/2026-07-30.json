@@ -8,29 +8,40 @@
     "Meta free cash flow drops 91%",
     "Meta 2026 capex 130-145 billion"
   ],
-  "organizations": ["Meta"],
-  "products": ["Meta AI", "Muse Spark", "AI infrastructure"],
+  "organizations": [
+    "Meta"
+  ],
+  "products": [
+    "Meta AI",
+    "Muse Spark",
+    "AI infrastructure"
+  ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-07-30T12:00:00+09:00",
-  "last_seen_jst": "2026-07-30T12:00:00+09:00",
-  "last_report": "LLM Midday Brief",
+  "last_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Repeat only for a material capex revision, new AI monetization disclosure, financing change, data-center capacity commitment, or a major cash-flow correction.",
   "known_facts": [
     "Meta reported Q2 2026 free cash flow of $784 million, down 91% year over year, as AI infrastructure spending and other costs rose.",
     "Meta raised the lower end of its 2026 capital expenditure guidance to $130 billion while retaining a $145 billion upper bound.",
-    "Quarterly revenue rose 28% year over year to $60.8 billion, while investors focused on the cost and monetization risk of Meta's AI strategy."
+    "Quarterly revenue rose 28% year over year to $60.8 billion, while investors focused on the cost and monetization risk of Meta's AI strategy.",
+    "FOLLOW_UP 2026-10-26: Meta announced equity fundraising plans totaling up to $95 billion for AI infrastructure, with roughly $35 billion common/preferred offerings launched and a separate up-to-$60 billion ATM program planned after Class C begins trading, expected Q1 2027.",
+    "Reuters reported Nvidia, AMD and Broadcom indicated potential interest in purchasing up to $5 billion combined of Class A stock; this is interest, not completed investment.",
+    "Reuters reported Meta Q3 2026 free cash flow negative $2.12 billion, with 2026 capex guidance $135-$145 billion; the new financing is distinct from previously covered Q2 capex compression."
   ],
   "reinclude_only_if": [
     "Meta materially changes 2026 or 2027 AI capital expenditure guidance.",
     "Meta discloses concrete revenue, subscription, business-agent, or compute-resale economics for its AI investments.",
-    "A major financing, data-center, chip-supply, or restructuring decision changes the practical interpretation of the buildout."
+    "A major financing, data-center, chip-supply, or restructuring decision changes the practical interpretation of the buildout.",
+    "Meta prices/completes the new $35B offerings, launches the $60B ATM program, or reports material changes to financing terms and chip-vendor participation."
   ],
   "sources": [
     "https://www.reuters.com/business/meta-narrows-annual-capex-forecast-ai-buildout-grows-2026-07-29/",
-    "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx"
+    "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx",
+    "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.95,
-  "notes": "Classified as NEW after exact and alias searches returned no matching sharded topic record."
+  "notes": "Classified as NEW after exact and alias searches returned no matching sharded topic record. FOLLOW_UP 2026-10-26 20:07 JST: announced $95B equity financing plan; 前回からの差分: 従来の設備投資・FCF悪化の報告に加え、Metaが約350億ドルの募集開始と最大600億ドルの追加売却計画を公表した。"
 }
