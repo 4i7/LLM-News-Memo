@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/cathedral-third-party-intrusion/safety_security_report/2026-10-26",
+  "canonical_title": "Cathedral researchers accessed limited Anthropic internal systems through third-party business software",
+  "aliases": [
+    "Cathedral Anthropic third party SaaS breach",
+    "Cathedral Anthropic bug bounty 12 hours",
+    "Washington Post Anthropic Cathedral security incident"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Cathedral"
+  ],
+  "products": [
+    "Anthropic internal sales HR IT systems",
+    "third-party business software"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Treat as security disclosure distinct from Claude autonomous-agent unauthorized actions; reinclude only for independently corroborated technical details, confirmed expanded data impact, vendor CVEs, mitigations or regulatory action.",
+  "known_facts": [
+    "Washington Post exclusive published 2026-10-26 01:00 EDT = 14:00 JST reports Cathedral security researchers accessed limited Anthropic internal sales, HR and IT data through vulnerabilities in third-party business software under a security testing program.",
+    "The report says researchers used AI agents for under 12 hours after earlier attempts; Anthropic confirmed access to a limited set of systems and reported some activity was detected by its monitoring.",
+    "Anthropic stated Claude customer conversations, generated responses, source code and model weights were not accessed; no evidence of exploitation beyond Cathedral was found.",
+    "Anthropic disabled the affected business software and restored it only after vendor remediation; Anthropic disputed Cathedral's national security framing and alleged incomplete disclosure of researcher activity."
+  ],
+  "reinclude_only_if": [
+    "Affected vendor names, CVEs, exploit prerequisites, or reproducible technical root cause are published.",
+    "Anthropic or regulators confirm broader customer impact, further exploitation or new containment measures.",
+    "Independent incident report resolves disagreements over authorization and scope."
+  ],
+  "sources": [
+    "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "NEW independent reporting in night window; researcher findings and Anthropic statement have different scopes, do not claim model weights compromised."
+}
