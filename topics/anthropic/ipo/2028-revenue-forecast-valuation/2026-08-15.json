@@ -11,12 +11,17 @@
     "Anthropic $30 trillion TAM",
     "Anthropic total addressable market over $30 trillion"
   ],
-  "organizations": ["Anthropic"],
-  "products": ["Claude", "Claude Code"],
+  "organizations": [
+    "Anthropic"
+  ],
+  "products": [
+    "Claude",
+    "Claude Code"
+  ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-15T09:12:00+09:00",
-  "last_seen_jst": "2026-08-26T01:56:00+09:00",
-  "last_report": "LLM Midday Brief",
+  "last_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Treat the reported $190-200B 2028 revenue forecast, July-end annual revenue run rate above $65B, and reported TAM above $30T as covered. Reinclude only for official filing, revised forecast or TAM, material revenue/run-rate update, pricing range, analyst-day disclosures, IPO timing, margin/profitability disclosures, or other material valuation terms.",
   "known_facts": [
@@ -27,22 +32,28 @@
     "Reuters reported on August 17 that Anthropic's annual revenue run rate topped $65 billion by the end of July 2026, up from more than $47 billion in May; the figure had been shared with investors as part of ongoing financial updates.",
     "Reuters attributed the growth in part to Claude coding-agent traction among developers and enterprise customers.",
     "On August 25, Reuters relayed a Wall Street Journal report that Anthropic is expected to tell investors it sees a total addressable market exceeding $30 trillion.",
-    "The reported TAM methodology looks at the full scope of work that could be completed with AI models; Anthropic had not confirmed the figure to Reuters at publication time."
+    "The reported TAM methodology looks at the full scope of work that could be completed with AI models; Anthropic had not confirmed the figure to Reuters at publication time.",
+    "FOLLOW_UP 2026-10-26: Anthropic publicly disclosed its S-1 IPO prospectus, beyond the prior confidential draft and leaked investor projections; Reuters first published the public filing news at 13:05 UTC (22:05 JST).",
+    "The public IPO filing shows first-half 2026 revenue of about $16.3 billion and net loss of about $80.7 billion, with most of the loss linked to fair-value changes in convertible instruments rather than solely cash operating losses.",
+    "The filing names Nasdaq ticker ANT, but offering share count and price range remain undisclosed."
   ],
   "reinclude_only_if": [
     "Anthropic files for an IPO or discloses an official valuation or price range.",
     "The 2028 revenue forecast or reported TAM materially changes or is officially confirmed.",
     "Anthropic reports another material revenue or revenue-run-rate change.",
     "Analyst-day materials disclose material margin, compute-cost, profitability, TAM methodology or growth assumptions.",
-    "IPO timing or structure materially changes."
+    "IPO timing or structure materially changes.",
+    "SEC-filed S-1/A sets IPO pricing/share count or new official profitability, compute commitment, governance, or risk disclosures emerge."
   ],
   "sources": [
     "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
     "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
     "https://www.reuters.com/business/media-telecom/anthropic-expected-tell-investors-it-sees-over-30-trillion-potential-revenue-wsj-2026-08-25/",
-    "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea"
+    "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea",
+    "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/",
+    "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.94,
-  "notes": "NEW in 2026-08-15 Midday. FOLLOW_UP in 2026-08-18 Midday: reported annual revenue run rate rose above $65B by end-July from above $47B in May. FOLLOW_UP in 2026-08-26 Midday: WSJ/Reuters reported Anthropic plans to present a TAM above $30T, adding a material valuation narrative but not an official company filing."
+  "notes": "NEW in 2026-08-15 Midday. FOLLOW_UP in 2026-08-18 Midday: reported annual revenue run rate rose above $65B by end-July from above $47B in May. FOLLOW_UP in 2026-08-26 Midday: WSJ/Reuters reported Anthropic plans to present a TAM above $30T, adding a material valuation narrative but not an official company filing. FOLLOW_UP 2026-10-26 22:05 JST: public S-1 filing and confirmed financial figures supersede prior confidential-draft-only coverage; 前回からの差分: 公開S-1の提出と2026年上期売上・損失・Nasdaq予定tickerが新たに確認された。"
 }
