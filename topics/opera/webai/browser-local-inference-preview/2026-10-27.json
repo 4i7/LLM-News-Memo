@@ -1,0 +1,46 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "opera/webai/browser-local-inference-preview/2026-10-27",
+  "canonical_title": "Opera introduces WebAI local inference browser API in Opera One early preview",
+  "aliases": [
+    "Opera WebAI",
+    "Opera browser on-device AI WebAI standard",
+    "Opera One local model developer API"
+  ],
+  "organizations": [
+    "Opera"
+  ],
+  "products": [
+    "WebAI",
+    "Opera One",
+    "Opera GX",
+    "Opera Neon",
+    "Gemma"
+  ],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-10-27T22:00:00+09:00",
+  "last_seen_jst": "2026-10-27T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Repeat only for a published technical specification, independent cross-browser implementation, new stable API release, security model or measurable performance change.",
+  "known_facts": [
+    "2026-10-27 06:00 PDT (22:00 JST) TechCrunch reported Opera's new WebAI interface for running open-weight AI models directly inside the browser without cloud inference.",
+    "Opera One early preview is opt-in; Opera GX and Opera Neon support is announced as upcoming, not generally available.",
+    "Reported models include Google's Gemma and Apple's on-device foundation model on Macs; model support and performance are device-dependent.",
+    "WebAI is described as a proposed/new web standard by Opera and media, not verified as an adopted W3C standard; independent specification and interoperability evidence are pending.",
+    "Opera previously offered local LLM functionality in 2024; the hard delta is the new WebAI developer-facing interface and Opera One early preview, not the first-ever local AI capability."
+  ],
+  "reinclude_only_if": [
+    "Opera publishes a formal WebAI specification, API reference, sample implementation or source code.",
+    "Other browsers or standards bodies independently adopt the interface.",
+    "Opera announces stable rollout, supported GPUs/models, permission/isolation or measurable resource usage."
+  ],
+  "sources": [
+    "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+    "https://press.opera.com/2024/04/03/ai-feature-drops-local-llms/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.88,
+  "notes": "Primary new information is the 2026-10-27 WebAI early preview. Independent Opera technical specification URL was not confirmed at run time; 'standard' remains Opera's characterization."
+}
