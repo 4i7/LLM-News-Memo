@@ -18,7 +18,7 @@
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-07-30T12:00:00+09:00",
-  "last_seen_jst": "2026-10-26T23:35:23+09:00",
+  "last_seen_jst": "2026-10-27T23:30:00+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Repeat only for a material capex revision, new AI monetization disclosure, financing change, data-center capacity commitment, or a major cash-flow correction.",
@@ -28,20 +28,25 @@
     "Quarterly revenue rose 28% year over year to $60.8 billion, while investors focused on the cost and monetization risk of Meta's AI strategy.",
     "FOLLOW_UP 2026-10-26: Meta announced equity fundraising plans totaling up to $95 billion for AI infrastructure, with roughly $35 billion common/preferred offerings launched and a separate up-to-$60 billion ATM program planned after Class C begins trading, expected Q1 2027.",
     "Reuters reported Nvidia, AMD and Broadcom indicated potential interest in purchasing up to $5 billion combined of Class A stock; this is interest, not completed investment.",
-    "Reuters reported Meta Q3 2026 free cash flow negative $2.12 billion, with 2026 capex guidance $135-$145 billion; the new financing is distinct from previously covered Q2 capex compression."
+    "Reuters reported Meta Q3 2026 free cash flow negative $2.12 billion, with 2026 capex guidance $135-$145 billion; the new financing is distinct from previously covered Q2 capex compression.",
+    "FOLLOW_UP 2026-10-27: Meta raised the total announced maximum equity fundraising from $95B to $97.5B, increasing the common-stock offering from $22.5B to $25B at $625 per share; $12.5B preferred depositary shares and up-to-$60B future ATM remain separate components.",
+    "FOLLOW_UP 2026-10-27: NVIDIA publicly committed to a planned $3B investment in Meta's equity offering, with expanded collaboration to optimize Muse model training/inference and consideration of NVIDIA OpenShell/Sentry; closing is not yet verified."
   ],
   "reinclude_only_if": [
     "Meta materially changes 2026 or 2027 AI capital expenditure guidance.",
     "Meta discloses concrete revenue, subscription, business-agent, or compute-resale economics for its AI investments.",
     "A major financing, data-center, chip-supply, or restructuring decision changes the practical interpretation of the buildout.",
-    "Meta prices/completes the new $35B offerings, launches the $60B ATM program, or reports material changes to financing terms and chip-vendor participation."
+    "Meta prices/completes the new $35B offerings, launches the $60B ATM program, or reports material changes to financing terms and chip-vendor participation.",
+    "Meta completes pricing and closing, or NVIDIA's announced $3B investment closes and definitive allocation/conditions are disclosed."
   ],
   "sources": [
     "https://www.reuters.com/business/meta-narrows-annual-capex-forecast-ai-buildout-grows-2026-07-29/",
     "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx",
-    "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
+    "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/",
+    "https://www.reuters.com/technology/nvidia-meta-partner-muse-agent-nvidia-invests-3-billion-2026-10-27/",
+    "https://www.wboc.com/online_features/press_releases/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust/article_cdfcf36d-f74b-56e7-b0c6-dadeb1179ec4.html"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.95,
-  "notes": "Classified as NEW after exact and alias searches returned no matching sharded topic record. FOLLOW_UP 2026-10-26 20:07 JST: announced $95B equity financing plan; 前回からの差分: 従来の設備投資・FCF悪化の報告に加え、Metaが約350億ドルの募集開始と最大600億ドルの追加売却計画を公表した。"
+  "notes": "Classified as NEW after exact and alias searches returned no matching sharded topic record. FOLLOW_UP 2026-10-26 20:07 JST: announced $95B equity financing plan; 前回からの差分: 従来の設備投資・FCF悪化の報告に加え、Metaが約350億ドルの募集開始と最大600億ドルの追加売却計画を公表した。 FOLLOW_UP 2026-10-27: 前回からの差分: Metaが株式調達上限を$95Bから$97.5Bに引き上げ、NVIDIAが$3B出資予定を明示しMuse最適化協業を拡大した。Investment announced, not verified closed."
 }
