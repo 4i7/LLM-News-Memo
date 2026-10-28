@@ -1,0 +1,44 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "sap/ai-model-routing-cost-optimization/policy_corporate/2026-10-28",
+  "canonical_title": "SAP replaces expensive AI models with cheaper alternatives; targets over EUR 2 billion efficiency gains",
+  "aliases": [
+    "SAP model routing",
+    "SAP €2bn AI efficiency",
+    "Dominik Asam cheapest adequate model"
+  ],
+  "organizations": [
+    "SAP"
+  ],
+  "products": [
+    "SAP AI assistants",
+    "OpenAI models",
+    "Anthropic models",
+    "Google models"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-28T23:34:45+09:00",
+  "last_seen_jst": "2026-10-28T23:34:45+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for concrete new policy, realized outcomes or independently verified implementation details.",
+  "known_facts": [
+    "Reuters published 2026-10-28 14:08 UTC (23:08 JST), citing SAP CFO Dominik Asam.",
+    "SAP has replaced some costly AI models in its products including its internal consulting assistant with cheaper alternatives where quality remains sufficient.",
+    "SAP expects more than EUR 2 billion of efficiency gains over two years; this is a company forecast, not realized savings.",
+    "SAP uses more than 70 AI models and increasingly selects the lowest-cost model meeting task requirements; overall AI spending is still expected to rise.",
+    "SAP charges customers for completed tasks rather than underlying model compute; model-origin restrictions and demand for local models affect routing."
+  ],
+  "reinclude_only_if": [
+    "Official quantified realized savings or revised targets",
+    "Named model routing policy, benchmarks, task-quality results or pricing changes",
+    "Material changes to model provider list, residency restrictions or production rollout"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/sap-swaps-costly-ai-models-cheaper-alternatives-targets-over-2-bln-gains-2026-10-28/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.94,
+  "notes": "Night hard delta; source timestamp 14:08 UTC / 23:08 JST. Distinguish forecast efficiencies from actual profit or cash savings."
+}
