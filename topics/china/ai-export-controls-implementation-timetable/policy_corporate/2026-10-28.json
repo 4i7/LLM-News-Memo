@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "china/ai-export-controls-implementation-timetable/policy_corporate/2026-10-28",
+  "canonical_title": "Reuters reports expected year-end adoption of China's AI technology export control draft",
+  "aliases": [
+    "China AI export controls October 16 draft",
+    "23 AI technologies export restrictions",
+    "MOFCOM model export control timetable"
+  ],
+  "organizations": [
+    "China Ministry of Commerce",
+    "China Ministry of Science and Technology"
+  ],
+  "products": [
+    "advanced AI model weights",
+    "AI agents",
+    "AI chip design technologies"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-28T23:34:45+09:00",
+  "last_seen_jst": "2026-10-28T23:34:45+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for concrete new policy, realized outcomes or independently verified implementation details.",
+  "known_facts": [
+    "China's AI export control proposal was released on 2026-10-16; the underlying draft is not a 2026-10-28 announcement.",
+    "Reuters on 2026-10-28 at 07:17 UTC (16:17 JST) newly reported, citing an unnamed informed source, that China is expected to adopt the proposals by year-end and issue implementation guidance later.",
+    "The proposal would add 23 AI-related technologies to a restricted/banned technology export list; certain temporary registration obligations took effect on October 16.",
+    "The draft distinguishes overseas API/cloud access from transfer of model weights, underlying technology or overseas deployments; some transfers may require approval.",
+    "The reported adoption timeline is not a government-confirmed effective date."
+  ],
+  "reinclude_only_if": [
+    "Official final rules or revisions and effective dates",
+    "Publication of implementing guidelines or definitive overseas deployment exemptions",
+    "Official changes to registration/licensing thresholds or affected models"
+  ],
+  "sources": [
+    "https://www.reuters.com/business/retail-consumer/chinas-new-export-curbs-draw-line-around-its-ai-crown-jewels-2026-10-28/",
+    "https://www.pbs.org/newshour/world/china-says-it-will-curb-tech-exports-including-ai-citing-national-security-risks"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.83,
+  "notes": "NEW in ledger only for newly sourced expected adoption timing, not a claim that the October 16 draft or temporary registration are new tonight. Year-end timeline is anonymous-source reporting."
+}
