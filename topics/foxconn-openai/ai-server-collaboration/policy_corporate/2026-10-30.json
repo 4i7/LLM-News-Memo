@@ -1,0 +1,41 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "foxconn-openai/ai-server-collaboration/policy_corporate/2026-10-30",
+  "canonical_title": "Foxconn confirms talks on expanded AI infrastructure collaboration with OpenAI",
+  "aliases": [
+    "Hon Hai OpenAI new tie-up",
+    "Foxconn Sam Altman AI server partnership",
+    "Young Liu OpenAI collaboration"
+  ],
+  "organizations": [
+    "Foxconn",
+    "OpenAI"
+  ],
+  "products": [
+    "AI data-center racks",
+    "AI servers"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-10-30T17:38:00+09:00",
+  "last_seen_jst": "2026-10-30T23:28:26+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Report chairman's confirmation of discussions once, clearly mark unsigned/undetailed status. Reinclude only for official signed deal, contract terms, capacity, pricing, investment or new supply-chain impact.",
+  "known_facts": [
+    "At Foxconn's Oct 30 technology event, chairman Young Liu said he met OpenAI CEO Sam Altman earlier and that a new collaboration was being worked on; details and announcement are pending.",
+    "The prospective collaboration would build on a 2025 agreement covering design/engineering of AI data-center racks, components and other hardware; no new contract terms were announced.",
+    "Reuters reported Oct 30 at 08:38 UTC (=17:38 JST), after the midday window boundary.",
+    "Foxconn reported six AI-server factory buildings in Houston and suggested further expansion; this is company commentary, not a confirmed new OpenAI order."
+  ],
+  "reinclude_only_if": [
+    "Foxconn or OpenAI publishes signed deal, technical scope, timeline or capital commitments.",
+    "New independently verified manufacturing or procurement effect emerges."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "NEW factual confirmation of negotiations; NOT a finalized new agreement. Avoid conflating the 2025 partnership with this discussion."
+}
