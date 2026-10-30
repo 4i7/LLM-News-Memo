@@ -1,0 +1,46 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "cursor/claude-code-extension/safety_security_report/2026-10-30",
+  "canonical_title": "Cursor Marketplace distributed malicious Anthropic.claude-code 2.1.313 extension",
+  "aliases": [
+    "Cursor Claude Code extension compromise",
+    "Anthropic.claude-code 2.1.313",
+    "Cursor marketplace SSH backdoor",
+    "svc-telemetry"
+  ],
+  "organizations": [
+    "Cursor",
+    "Anthropic"
+  ],
+  "products": [
+    "Cursor Extension Marketplace",
+    "Claude Code for VS Code"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-10-30T16:46:00+09:00",
+  "last_seen_jst": "2026-10-30T23:28:26+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Report official disclosure and remediation once; reinclude only if a new verified root cause, confirmed compromise impact, additional affected versions, or new remediation is published.",
+  "known_facts": [
+    "Cursor officially disclosed on Oct 30 JST a maliciously modified Anthropic.claude-code 2.1.313 build distributed via its own extension marketplace on Oct 29 PT (02:27–13:35 PT).",
+    "Cursor estimates at most 5,000 users affected; the malicious build was not developed by Anthropic and Cursor reports no evidence official distribution or other extensions were affected.",
+    "Payload gathered host/user metadata, appended attacker SSH key marked svc-telemetry, installed persistence and attempted reverse SSH; elevation-dependent remote access often failed but persistence and beacon could still execute.",
+    "Cursor removed the build, temporarily shut down and rebuilt marketplace, rotated keys and worked to take attacker server offline; uninstalling extension alone may not remove persistence.",
+    "Cursor published Windows and macOS IOC checks and remediation scripts; official clean version 2.1.314."
+  ],
+  "reinclude_only_if": [
+    "Official root-cause investigation identifies how malicious VSIX was published.",
+    "Confirmed number of compromised systems or evidence of data/credential theft changes materially.",
+    "New affected package sources/versions, revised IOCs or remediation, or independent reproducible analysis changes scope."
+  ],
+  "sources": [
+    "https://cursor.com/blog/claude-code-extension-security-notice",
+    "https://www.reuters.com/business/media-telecom/cursor-says-up-5000-users-affected-by-tampered-claude-code-extension-2026-10-30/",
+    "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Official Cursor blog dated Oct 29 in US Pacific; public disclosure on Oct 30 07:46 UTC (~16:46 JST), inside night window. Do not misattribute the malicious build to Anthropic or assume all exposed users were compromised. Marketplace origin vs Open VSX mirror remains disputed across technical writeups."
+}
