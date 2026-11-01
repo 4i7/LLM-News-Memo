@@ -1,0 +1,43 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "lobehub/lobehub-v2-3-0/tooling_model_integration/2026-11-01",
+  "canonical_title": "LobeHub v2.3.0 enables proactive bots by default and expands agent observability",
+  "aliases": [
+    "LobeHub 2.3.0",
+    "Lobe Chat v2.3.0",
+    "Proactive Bot",
+    "LobeHub proactive participation"
+  ],
+  "organizations": [
+    "LobeHub"
+  ],
+  "products": [
+    "LobeHub",
+    "Proactive Bot"
+  ],
+  "event_type": "tooling_model_integration",
+  "first_seen_jst": "2026-11-01T23:26:09+09:00",
+  "last_seen_jst": "2026-11-01T23:26:09+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Covered the 2026-11-01 v2.3.0 release. Do not repeat feature lists without new behavior, security, compatibility or availability changes.",
+  "known_facts": [
+    "Official GitHub release published 2026-11-01T09:12:54Z (18:12:54 JST), after midday window.",
+    "Proactive Bot participation is on by default, with an owner off switch; previously preview-gated in v2.2.21.",
+    "Wake records expose 30-day decisions, model scores and reasons; new channel/page/memory/task/dashboard integrations are included.",
+    "Self-hosted update adds database migrations 0193-0198; migration 0196 may block writes to user_memories_* tables while building indexes."
+  ],
+  "reinclude_only_if": [
+    "Material correction or rollback to default proactive behavior, permission boundaries or model-call economics.",
+    "New verified security issue or mitigation affecting proactive message processing or memory.",
+    "Material migration regression, compatibility break or independently reproduced issue."
+  ],
+  "sources": [
+    "https://github.com/lobehub/lobehub/releases/tag/v2.3.0",
+    "https://github.com/lobehub/lobehub/pull/22056"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Source: GitHub release API published_at=2026-11-01T09:12:54Z; no same-day midday run event existed under runs/2026-11-01 at check time."
+}
