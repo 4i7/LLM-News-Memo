@@ -19,7 +19,7 @@
   "products": [],
   "event_type": "other",
   "first_seen_jst": "2026-08-21T19:02:00+09:00",
-  "last_seen_jst": "2026-10-31T23:29:00+09:00",
+  "last_seen_jst": "2026-11-02T23:35:08+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Do not repeat general AI capex/debt commentary. Reinclude only for a material new issuance, failed/downsized deal, sharp pricing change, rating action, or quantified investor-capacity shift.",
@@ -29,19 +29,24 @@
     "Amazon's recent $25 billion long-dated bond sale priced around 120 basis points over Treasuries, roughly twice the comparable spread a year earlier according to analysts cited by Reuters.",
     "Tech corporate bond spreads were reported at 89 basis points, 9 basis points wider than the overall investment-grade market.",
     "Institutional portfolio concentration limits of roughly 2% to 3% per issuer were identified as a practical constraint if repeated hyperscaler issuance continues.",
-    "Wall Street Journal's October 31 reporting says CoreWeave, Nebius and Nscale have faced severely restricted bond-market access as lenders tighten terms; it also reports Lambda lowered its target valuation. This is a reported financing-access signal, not proof that any firm is insolvent or that every deal is cancelled."
+    "Wall Street Journal's October 31 reporting says CoreWeave, Nebius and Nscale have faced severely restricted bond-market access as lenders tighten terms; it also reports Lambda lowered its target valuation. This is a reported financing-access signal, not proof that any firm is insolvent or that every deal is cancelled.",
+    "FOLLOW_UP 2026-11-02: Alphabet launched a EUR 6 billion seven-tranche bond offering; Reuters reported over EUR 17 billion in investor orders at 14:12 UTC, indicating demand despite AI-capex credit-market concerns. Pricing/closing had not been confirmed at report time.",
+    "Oracle separately disclosed a planned USD 20 billion combined bond-and-equity fundraising for AI/cloud infrastructure, with pricing and share count not yet set (Reuters 13:22 UTC)."
   ],
   "reinclude_only_if": [
     "A major AI-related bond issue fails, is downsized, or requires materially larger concessions.",
     "A hyperscaler or major AI infrastructure borrower receives a material rating/outlook change tied to AI capex.",
     "New market data shows a material change in AI debt issuance volume, spreads, or institutional capacity.",
-    "A named neocloud secures or loses a material debt facility, changes valuation materially, or announces a confirmed new credit guarantee."
+    "A named neocloud secures or loses a material debt facility, changes valuation materially, or announces a confirmed new credit guarantee.",
+    "Alphabet's or Oracle's November 2 issuance is priced/closed on materially changed terms, or fails to complete."
   ],
   "sources": [
     "https://www.reuters.com/legal/transactional/us-corporate-ai-debt-surge-tests-investor-limits-fatigue-emerges-2026-08-21/",
-    "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d"
+    "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d",
+    "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/",
+    "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.93,
-  "notes": "Selected because the quantified market-capacity signal became visible after the midday cutoff; this is not a model release but materially changes interpretation of AI infrastructure financing conditions. 2026-10-31 night: FOLLOW_UP based on WSJ's named, cross-company lending-access details surfaced after midday JST; Nscale IPO postponement was already reported on Oct 22, so it is not counted as a new event. No formal default/rating action established."
+  "notes": "Selected because the quantified market-capacity signal became visible after the midday cutoff; this is not a model release but materially changes interpretation of AI infrastructure financing conditions. 2026-10-31 night: FOLLOW_UP based on WSJ's named, cross-company lending-access details surfaced after midday JST; Nscale IPO postponement was already reported on Oct 22, so it is not counted as a new event. No formal default/rating action established. FOLLOW_UP 2026-11-02 night: 前回からの差分: Alphabetが60億ユーロの起債を開始して170億ユーロ超の需要を集め、Oracleも200億ドルの社債・株式調達計画を公表した。"
 }
