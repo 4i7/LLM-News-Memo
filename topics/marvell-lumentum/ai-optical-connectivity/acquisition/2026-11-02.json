@@ -1,0 +1,45 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "marvell-lumentum/ai-optical-connectivity/acquisition/2026-11-02",
+  "canonical_title": "Marvell and Lumentum agree $115 billion AI optical connectivity acquisition",
+  "aliases": [
+    "Marvell Lumentum $115 billion merger",
+    "Marvell to acquire Lumentum",
+    "Marvell Lumentum optical connectivity"
+  ],
+  "organizations": [
+    "Marvell Technology",
+    "Lumentum"
+  ],
+  "products": [
+    "AI optical interconnect",
+    "optical transceivers",
+    "optical circuit switching",
+    "custom AI chips"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-02T21:05:00+09:00",
+  "last_seen_jst": "2026-11-02T23:35:08+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered_watch",
+  "treatment": "Definitive all-stock acquisition agreement covered; do not repeat speculation or generic commentary. Reinclude only for regulatory/shareholder approval, deal term revision, cancellation, completion, or concrete product/production integration milestones.",
+  "known_facts": [
+    "Joint Business Wire announcement published 2026-11-02 07:05 EST (21:05 JST) confirms a definitive all-stock agreement for Marvell to acquire Lumentum.",
+    "Implied enterprise value approximately $115 billion, equity value approximately $102.54 billion; Lumentum holders receive 4.5 Marvell shares per share and about 33% of the combined company.",
+    "The firms intend to combine Marvell's networking/custom silicon with Lumentum's lasers, optical components and manufacturing; claimed combined TAM $550 billion is a company estimate.",
+    "Both boards approved; shareholder and regulatory approvals remain required, and expected close is H1 calendar 2028."
+  ],
+  "reinclude_only_if": [
+    "Shareholders or regulators approve, condition, or reject the transaction.",
+    "Exchange ratio, valuation, financing, or expected close changes materially.",
+    "Official production milestones or quantified benefits of integrated optical technologies are announced."
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20261102374788/en/",
+    "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "NEW 2026-11-02 night. Prior October 28 deal speculation is not counted as the hard delta; the November 2 definitive agreement is."
+}
