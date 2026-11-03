@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "eu-court/gemini-publisher-rights/legal-opinion/2026-11-03",
+  "canonical_title": "CJEU Advocate General opinion on Gemini retrieval and press publishers' rights",
+  "aliases": [
+    "Google Gemini Like Company",
+    "Maciej Szpunar publisher copyright opinion"
+  ],
+  "organizations": [
+    "Court of Justice of the European Union",
+    "Google",
+    "Like Company"
+  ],
+  "products": [
+    "Gemini"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-03T23:27:00+09:00",
+  "last_seen_jst": "2026-11-03T23:27:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only on a binding CJEU ruling or materially new legal findings.",
+  "known_facts": [
+    "Reuters published at 2026-11-03 09:19 UTC (18:19 JST).",
+    "Advocate General Maciej Szpunar opined that chatbot retrieval and recognisable reproduction of publishers' expression may infringe rights under some conditions; facts alone are not protected.",
+    "Opinion is nonbinding; final court judgment remains pending."
+  ],
+  "reinclude_only_if": [
+    "CJEU final judgment",
+    "Substantial legal clarification or operational compliance change"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/googles-use-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-2026-11-03/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.95,
+  "notes": "Publication time falls after midday. GitHub search found no matching topic; full historical absence not guaranteed."
+}
