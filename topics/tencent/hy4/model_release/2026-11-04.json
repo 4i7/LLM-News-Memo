@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "tencent/hy4/model_release/2026-11-04",
+  "canonical_title": "Tencent releases Hy4 with defensive cybersecurity training restrictions",
+  "aliases": [
+    "Tencent Hy4",
+    "Hunyuan Hy4",
+    "Hy4 defensive cyber model"
+  ],
+  "organizations": [
+    "Tencent"
+  ],
+  "products": [
+    "Hy4"
+  ],
+  "event_type": "model_release",
+  "first_seen_jst": "2026-11-04T23:27:00+09:00",
+  "last_seen_jst": "2026-11-04T23:27:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only on official model card, weights, safety report, pricing or independently verified performance changes.",
+  "known_facts": [
+    "Reuters published the model release at 2026-11-04 10:34 UTC (19:34 JST).",
+    "Tencent says cybersecurity training was limited to defensive use; its internal tests found no increased cyber or biological misuse risk.",
+    "Weights and safety-testing report are planned, not yet confirmed released."
+  ],
+  "reinclude_only_if": [
+    "Official model weights and license become available.",
+    "Safety report or independent evaluations are released.",
+    "API specifications or availability materially change."
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.93,
+  "notes": "Reuters publication time establishes night-window eligibility. Independent security claims not verified."
+}
