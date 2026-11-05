@@ -1,0 +1,35 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/h200-china-import-hold/2026-11-05",
+  "canonical_title": "Nvidia H200 inventory in Hong Kong awaiting China import approval",
+  "aliases": [
+    "600,000 H200 chips in Hong Kong",
+    "China H200 import restrictions"
+  ],
+  "organizations": [
+    "Nvidia"
+  ],
+  "products": [
+    "H200"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-05T20:27:00+09:00",
+  "last_seen_jst": "2026-11-05T23:29:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for official import approval, inventory movement, confirmed quantities, or material policy change.",
+  "known_facts": [
+    "Reuters exclusive published 2026-11-05 11:27 UTC reports approximately 600,000 H200 chips stored in Hong Kong pending mainland China import approval, based on anonymous sources.",
+    "China has reportedly permitted limited quantities but not large-scale H200 imports; no official confirmation of stockpile quantity."
+  ],
+  "reinclude_only_if": [
+    "Official Chinese import decision or new material independently verified shipment or supply data."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.85,
+  "notes": "Reuters exclusive; 20:27 JST publication; source claims not official inventory audit."
+}
