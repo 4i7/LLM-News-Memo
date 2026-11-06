@@ -1,0 +1,32 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-congress/ai-regulation-legislative-plans/2026-11-06",
+  "canonical_title": "US congressional Democrats detail planned AI safety and data-center legislation",
+  "aliases": [
+    "US congressional Democrats detail"
+  ],
+  "organizations": [
+    "US Congress"
+  ],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-06T23:28:00+09:00",
+  "last_seen_jst": "2026-11-06T23:28:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for enacted/introduced legislation, official policy, project suspension or other verified hard delta.",
+  "known_facts": [
+    "Reuters 2026-11-06 11:05 UTC: lawmakers plan bills on independent model testing, liability and data-center electricity costs.",
+    "These are legislative plans, not enacted law."
+  ],
+  "reinclude_only_if": [
+    "New official action or independently verified material change"
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.91,
+  "notes": "Night delta; Reuters original reporting after 12:00 JST."
+}
