@@ -1,0 +1,33 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "microsoft/amsterdam-datacenter-protest/2026-11-06",
+  "canonical_title": "Activists enter Microsoft-linked Amsterdam data center construction site",
+  "aliases": [
+    "Activists enter Microsoft-linked Amsterdam"
+  ],
+  "organizations": [
+    "Microsoft",
+    "Pure Data Centres"
+  ],
+  "products": [],
+  "event_type": "other",
+  "first_seen_jst": "2026-11-06T23:28:00+09:00",
+  "last_seen_jst": "2026-11-06T23:28:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for enacted/introduced legislation, official policy, project suspension or other verified hard delta.",
+  "known_facts": [
+    "Reuters 2026-11-06 12:47 UTC: over 100 activists gathered and some entered the Amsterdam construction site.",
+    "Stop Dirty Data Centres coalition announced actions across 16 countries; no confirmed construction suspension."
+  ],
+  "reinclude_only_if": [
+    "New official action or independently verified material change"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.91,
+  "notes": "Night delta; Reuters original reporting after 12:00 JST."
+}
