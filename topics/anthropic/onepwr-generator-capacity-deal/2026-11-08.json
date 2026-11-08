@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/onepwr-generator-capacity-deal/2026-11-08",
+  "canonical_title": "Anthropic $3.4B OnePWR 1.7GW generator commitments",
+  "aliases": [
+    "Anthropic OnePWR",
+    "Anthropic gas-fired generators",
+    "1.7GW generator deal"
+  ],
+  "organizations": [
+    "Anthropic",
+    "OnePWR Solutions"
+  ],
+  "products": [
+    "Claude"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-08T21:54:00+09:00",
+  "last_seen_jst": "2026-11-08T23:30:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "FT reporting relayed by Reuters; not independently verified by Reuters. Repeat only for official confirmation, amended contract, construction timeline, or material capacity changes.",
+  "known_facts": [
+    "Reuters reported at 12:54 UTC Nov 8 that FT described approximately $3.4B generator commitments for 1.7GW purchased from OnePWR in late September.",
+    "This is a generator commitment, not acquisition of OnePWR; no employees transferred.",
+    "Reuters could not independently verify and neither party commented."
+  ],
+  "reinclude_only_if": [
+    "Official confirmation and scope",
+    "Deployment schedule, commissioning or cancellation",
+    "Material change in financial or energy terms"
+  ],
+  "sources": [
+    "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.78,
+  "notes": "New reporting published after 12:00 JST; underlying deal dates to September."
+}
