@@ -1,0 +1,35 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "apple/apple-intelligence-china-tablet-laptop/regulatory-registration/2026-11-09",
+  "canonical_title": "Apple Intelligence registered for tablets and laptops in China",
+  "aliases": [
+    "Apple Intelligence Shanghai registration",
+    "Apple AI China iPad Mac"
+  ],
+  "organizations": [
+    "Apple"
+  ],
+  "products": [
+    "Apple Intelligence"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-11-09T23:33:02+09:00",
+  "last_seen_jst": "2026-11-09T23:33:02+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only with a concrete new official or independently verified hard delta.",
+  "known_facts": [
+    "Reuters 2026-11-09 11:47 UTC: Shanghai cyberspace regulator confirmed registration for Apple Intelligence on tablets and laptops.",
+    "Registration is not proof of general availability; iPhone approval was reported in July."
+  ],
+  "reinclude_only_if": [
+    "New official specifications, availability, licensing, benchmarks, material deployment or regulatory change."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/retail-consumer/apple-intelligence-ai-service-registers-with-chinese-regulator-use-tablets-2026-11-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Night delta; midday full text not available for direct comparison."
+}
