@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "disney-adobe/custom-generative-models/partnership/2026-11-09",
+  "canonical_title": "Disney and Adobe agree to co-develop custom generative AI models",
+  "aliases": [
+    "Disney Adobe AI deal",
+    "Disney Adobe custom models"
+  ],
+  "organizations": [
+    "Disney",
+    "Adobe"
+  ],
+  "products": [
+    "custom generative AI models"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-11-09T23:33:02+09:00",
+  "last_seen_jst": "2026-11-09T23:33:02+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only with a concrete new official or independently verified hard delta.",
+  "known_facts": [
+    "Reuters 2026-11-09 13:08 UTC: Disney and Adobe struck a multi-year deal to co-develop custom generative AI models.",
+    "Target use includes Disney theme parks, studios and sports media; model architecture, licensing and deployment timing are not established."
+  ],
+  "reinclude_only_if": [
+    "New official specifications, availability, licensing, benchmarks, material deployment or regulatory change."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/disney-adobe-co-develop-custom-ai-models-tailored-media-giant-2026-11-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Night delta; midday full text not available for direct comparison."
+}
