@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "google/tpu-8tx-8i-max/model-hardware-release/2026-11-09",
+  "canonical_title": "Google introduces TPU 8tx and 8i Max variants",
+  "aliases": [
+    "8tx",
+    "8i Max",
+    "Google new TPU variants"
+  ],
+  "organizations": [
+    "Google",
+    "Alphabet"
+  ],
+  "products": [
+    "TPU 8tx",
+    "TPU 8i Max"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-11-09T23:33:02+09:00",
+  "last_seen_jst": "2026-11-09T23:33:02+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only with a concrete new official or independently verified hard delta.",
+  "known_facts": [
+    "Reuters 2026-11-09 12:39 UTC: Google introduced two TPU variants.",
+    "8tx targets confidential computing for regulated workloads; 8i Max combines two chips for larger memory and compute.",
+    "Performance claims are vendor-reported, not independent benchmarks."
+  ],
+  "reinclude_only_if": [
+    "New official specifications, availability, licensing, benchmarks, material deployment or regulatory change."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Night delta; midday full text not available for direct comparison."
+}
