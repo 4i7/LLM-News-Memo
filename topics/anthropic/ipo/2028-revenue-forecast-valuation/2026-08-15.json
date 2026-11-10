@@ -20,7 +20,7 @@
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-08-15T09:12:00+09:00",
-  "last_seen_jst": "2026-11-02T23:35:08+09:00",
+  "last_seen_jst": "2026-11-10T23:33:46+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered_watch",
   "treatment": "Treat the reported $190-200B 2028 revenue forecast, July-end annual revenue run rate above $65B, and reported TAM above $30T as covered. Reinclude only for official filing, revised forecast or TAM, material revenue/run-rate update, pricing range, analyst-day disclosures, IPO timing, margin/profitability disclosures, or other material valuation terms.",
@@ -36,7 +36,8 @@
     "FOLLOW_UP 2026-10-26: Anthropic publicly disclosed its S-1 IPO prospectus, beyond the prior confidential draft and leaked investor projections; Reuters first published the public filing news at 13:05 UTC (22:05 JST).",
     "The public IPO filing shows first-half 2026 revenue of about $16.3 billion and net loss of about $80.7 billion, with most of the loss linked to fair-value changes in convertible instruments rather than solely cash operating losses.",
     "The filing names Nasdaq ticker ANT, but offering share count and price range remain undisclosed.",
-    "FOLLOW_UP 2026-11-02: Japan securities filing sets an indicative upper offering amount of JPY 552.9 billion (about USD 3.5 billion) for Japanese investors in Anthropic's planned US IPO; the final offer size, share count, and price are not fixed."
+    "FOLLOW_UP 2026-11-02: Japan securities filing sets an indicative upper offering amount of JPY 552.9 billion (about USD 3.5 billion) for Japanese investors in Anthropic's planned US IPO; the final offer size, share count, and price are not fixed.",
+    "FOLLOW_UP 2026-11-10: Reuters reports updated SEC prospectus pricing up to $78 per share for 825 million shares, IPO proceeds up to $64.4B, plus $26B private placement; fully diluted valuation up to $1.4T and October 31 annual revenue run rate approximately $81B."
   ],
   "reinclude_only_if": [
     "Anthropic files for an IPO or discloses an official valuation or price range.",
@@ -54,9 +55,10 @@
     "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea",
     "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/",
     "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c",
-    "https://www.reuters.com/world/asia-pacific/anthropic-plans-sell-35-billion-shares-japan-investors-ipo-filing-shows-2026-11-02/"
+    "https://www.reuters.com/world/asia-pacific/anthropic-plans-sell-35-billion-shares-japan-investors-ipo-filing-shows-2026-11-02/",
+    "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.94,
-  "notes": "NEW in 2026-08-15 Midday. FOLLOW_UP in 2026-08-18 Midday: reported annual revenue run rate rose above $65B by end-July from above $47B in May. FOLLOW_UP in 2026-08-26 Midday: WSJ/Reuters reported Anthropic plans to present a TAM above $30T, adding a material valuation narrative but not an official company filing. FOLLOW_UP 2026-10-26 22:05 JST: public S-1 filing and confirmed financial figures supersede prior confidential-draft-only coverage; 前回からの差分: 公開S-1の提出と2026年上期売上・損失・Nasdaq予定tickerが新たに確認された。 FOLLOW_UP 2026-11-02 15:25 JST: 前回からの差分: 日本向けIPO募集の上限見込額約5,529億円が有価証券届出書で新たに明らかになった。"
+  "notes": "NEW in 2026-08-15 Midday. FOLLOW_UP in 2026-08-18 Midday: reported annual revenue run rate rose above $65B by end-July from above $47B in May. FOLLOW_UP in 2026-08-26 Midday: WSJ/Reuters reported Anthropic plans to present a TAM above $30T, adding a material valuation narrative but not an official company filing. FOLLOW_UP 2026-10-26 22:05 JST: public S-1 filing and confirmed financial figures supersede prior confidential-draft-only coverage; 前回からの差分: 公開S-1の提出と2026年上期売上・損失・Nasdaq予定tickerが新たに確認された。 FOLLOW_UP 2026-11-02 15:25 JST: 前回からの差分: 日本向けIPO募集の上限見込額約5,529億円が有価証券届出書で新たに明らかになった。 FOLLOW_UP 2026-11-10: 前回からの差分: SEC更新目論見書でIPOの価格上限78ドル、825百万株、最大644億ドルの募集と260億ドルの私募が具体化した。"
 }
