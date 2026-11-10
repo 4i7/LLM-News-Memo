@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "microsoft/chinese-optical-transceivers/import-ban-lobbying/2026-11-10",
+  "canonical_title": "Microsoft lobbying against proposed US ban on Chinese optical transceivers",
+  "aliases": [
+    "Microsoft Chinese optical transceiver import ban",
+    "FCC optical transceiver restriction",
+    "Microsoft data center supply chain lobbying"
+  ],
+  "organizations": [
+    "Microsoft",
+    "FCC"
+  ],
+  "products": [
+    "AI data centers",
+    "optical transceivers"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-10T20:02:00+09:00",
+  "last_seen_jst": "2026-11-10T23:33:46+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only for enacted or formally proposed restriction, revised threshold, official company response, or material supply disruption.",
+  "known_facts": [
+    "Reuters 2026-11-10 reports Microsoft and trade groups pressed US administration to stop proposed Chinese optical transceiver import ban; lobbying effort had not previously been reported.",
+    "The FCC is considering a ban; a 3.2 Tbps threshold is under consideration but not finalized.",
+    "Microsoft declined comment and no final restriction was announced."
+  ],
+  "reinclude_only_if": [
+    "FCC publishes official rule or proposed rule.",
+    "Microsoft confirms new mitigation or material supply impact."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/media-telecom/microsoft-presses-trump-scuttle-expected-ban-chinese-data-center-technology-2026-11-10/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.87,
+  "notes": "Reuters published 11:02 UTC / 20:02 JST."
+}
