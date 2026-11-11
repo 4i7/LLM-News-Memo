@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/h200-blacklisted-university-procurement/2026-11-11",
+  "canonical_title": "Blacklisted Chinese military-linked university purchased Nvidia H200 chips",
+  "aliases": [
+    "Northwestern Polytechnical University H200 procurement",
+    "西北工業大学 H200 2基 調達"
+  ],
+  "organizations": [
+    "Nvidia",
+    "Northwestern Polytechnical University"
+  ],
+  "products": [
+    "H200"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-11T14:49:00+09:00",
+  "last_seen_jst": "2026-11-11T23:31:50+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Separate from Nov 5 Hong Kong import-hold story; repeat only for verified enforcement, procurement pathway, or official response.",
+  "known_facts": [
+    "Reuters reported Nov 11 at 05:49 UTC that procurement records dated Oct 21 show Northwestern Polytechnical University, a US-blacklisted military-linked Chinese university, purchased two Nvidia H200 chips for CNY 874,700.",
+    "Procurement record evidence does not establish the chips' complete supply chain or a new policy decision."
+  ],
+  "reinclude_only_if": [
+    "Verified supply-chain identification, enforcement action, official response or significant additional procurement evidence."
+  ],
+  "sources": [
+    "https://www.reuters.com/jp/world/taiwan/FAYGBMYIHZOSLOVZ4QQIS2Q7O4-2026-11-11/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Newly reported procurement finding after 12:00 JST, distinct from Hong Kong H200 inventory story."
+}
