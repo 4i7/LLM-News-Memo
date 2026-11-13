@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/southeast-asia/chip-regulatory-scrutiny/2026-11-13",
+  "canonical_title": "Nvidia fallout prompts Southeast Asian AI chip and datacenter regulatory scrutiny",
+  "aliases": [
+    "Southeast Asia AI chip restrictions",
+    "Malaysia data centre Nvidia scrutiny"
+  ],
+  "organizations": [
+    "Nvidia"
+  ],
+  "products": [
+    "AI data centers",
+    "AI chips"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-13T23:37:45+09:00",
+  "last_seen_jst": "2026-11-13T23:37:45+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only on concrete new official status, enacted rule, or independently verified hard delta.",
+  "known_facts": [
+    "Reuters published a new regional reporting piece on November 13 at 13:12 UTC (22:12 JST).",
+    "Malaysia is weighing data-center monitoring legislation; executives and analysts expect heightened scrutiny and possible tighter chip export and licensing requirements.",
+    "No new restriction was enacted in this report."
+  ],
+  "reinclude_only_if": [
+    "Official resolution or new material outage impact",
+    "New enacted regulation or independently substantiated operational impact"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/asia-pacific/nvidia-fallout-throws-spotlight-southeast-asias-ai-boom-2026-11-13/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Night delta; checked against repository search; midday full report unavailable."
+}
