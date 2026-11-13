@@ -1,0 +1,38 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude/multi-surface-outage/2026-11-13",
+  "canonical_title": "Claude API, Claude Code and claude.ai elevated errors on November 13",
+  "aliases": [
+    "Claude November 13 outage",
+    "Elevated errors on claude.ai, the Claude API, and Claude Code"
+  ],
+  "organizations": [
+    "Anthropic"
+  ],
+  "products": [
+    "Claude",
+    "Claude API",
+    "Claude Code"
+  ],
+  "event_type": "outage",
+  "first_seen_jst": "2026-11-13T23:37:45+09:00",
+  "last_seen_jst": "2026-11-13T23:37:45+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only on concrete new official status, enacted rule, or independently verified hard delta.",
+  "known_facts": [
+    "Anthropic opened a new incident at 13:09 UTC (22:09 JST) on November 13.",
+    "At 14:03 UTC it expanded the affected surfaces to connectors, Claude Security, and Claude Managed Agents; unresolved at time of check."
+  ],
+  "reinclude_only_if": [
+    "Official resolution or new material outage impact",
+    "New enacted regulation or independently substantiated operational impact"
+  ],
+  "sources": [
+    "https://status.claude.com/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.99,
+  "notes": "Night delta; checked against repository search; midday full report unavailable."
+}
