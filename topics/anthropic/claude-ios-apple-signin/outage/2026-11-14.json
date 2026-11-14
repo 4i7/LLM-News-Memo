@@ -1,0 +1,39 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/claude-ios-apple-signin/outage/2026-11-14",
+  "canonical_title": "Claude iOS Sign in with Apple signup failures",
+  "aliases": [
+    "Claude iOS Apple login issue",
+    "Some users unable to sign up with Apple on the Claude iOS app"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Apple"
+  ],
+  "products": [
+    "Claude iOS app",
+    "Sign in with Apple"
+  ],
+  "event_type": "outage",
+  "first_seen_jst": "2026-11-14T23:28:42+09:00",
+  "last_seen_jst": "2026-11-14T23:28:42+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Report again only for official resolution, materially expanded impact, or root-cause findings.",
+  "known_facts": [
+    "Anthropic status page posted Investigating at 2026-11-14 07:11 UTC (16:11 JST), primarily affecting new accounts signing up with Apple on Claude iOS.",
+    "Google or email signup is listed as a workaround.",
+    "Claude API and Claude Code were operational at check time."
+  ],
+  "reinclude_only_if": [
+    "Official resolution or significant change in impact scope",
+    "Credible technical root cause"
+  ],
+  "sources": [
+    "https://anthropic.statuspage.io/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.96,
+  "notes": "Separate from 2026-11-13 multi-surface incident."
+}
