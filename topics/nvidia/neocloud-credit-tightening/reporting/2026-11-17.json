@@ -1,0 +1,40 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/neocloud-credit-tightening/reporting/2026-11-17",
+  "canonical_title": "Nvidia leadership turmoil and neocloud credit tightening",
+  "aliases": [
+    "CoreWeave and Nebius bond yield surge",
+    "Nvidia vendor financing uncertainty"
+  ],
+  "organizations": [
+    "Nvidia",
+    "CoreWeave",
+    "Nebius",
+    "Goldman Sachs"
+  ],
+  "products": [
+    "AI GPU cloud infrastructure"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-11-17T23:27:00+09:00",
+  "last_seen_jst": "2026-11-17T23:27:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Do not repeat market commentary; reinclude only for actual financing change, new formal guarantees, or verified bond/credit-market hard delta.",
+  "known_facts": [
+    "Reuters published new credit-investor reporting at 2026-11-17 11:12 UTC (20:12 JST).",
+    "CoreWeave June bonds' yield approached 15% from 9.625% at issue; Nebius August convertible bonds dropped to 70 cents, with yield above 12%.",
+    "Goldman Sachs reported no new high-yield AI deals in the past month despite expected fall issuance."
+  ],
+  "reinclude_only_if": [
+    "Nvidia formally changes vendor financing or guarantees",
+    "Material new credit financing or independently documented market dislocation"
+  ],
+  "sources": [
+    "https://www.reuters.com/business/nvidia-turmoil-marks-end-easy-money-ai-trade-2026-11-17/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.82,
+  "notes": "New factual Reuters reporting; Nvidia leadership change itself is older. Midday report full text not directly verified; GitHub code search returned no matches."
+}
