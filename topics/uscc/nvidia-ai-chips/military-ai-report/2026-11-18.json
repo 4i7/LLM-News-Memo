@@ -1,0 +1,35 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "uscc/nvidia-ai-chips/military-ai-report/2026-11-18",
+  "canonical_title": "USCC annual report says China seeks advanced Nvidia chips for AI weapons",
+  "aliases": [
+    "US-China Economic and Security Review Commission annual report",
+    "PLA intelligentized warfare Nvidia"
+  ],
+  "organizations": [
+    "US-China Economic and Security Review Commission",
+    "Nvidia"
+  ],
+  "products": [
+    "Nvidia AI chips"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-18T23:28:00+09:00",
+  "last_seen_jst": "2026-11-18T23:28:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for formal rule/report follow-up or independently verified material hard delta.",
+  "known_facts": [
+    "Reuters 2026-11-18 12:24 UTC reports USCC annual report says China's military seeks advanced Nvidia chips for AI-enabled weapons despite US export controls; this is a commission assessment, not verified delivery."
+  ],
+  "reinclude_only_if": [
+    "Official policy adopted, regulatory text published, new independently verified factual findings."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/china-seeks-advanced-nvidia-chips-ai-weapons-despite-us-curbs-report-says-2026-11-18/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.85,
+  "notes": "Night window; GitHub code search returned no match; midday full text not inspected."
+}
