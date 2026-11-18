@@ -1,0 +1,35 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-government/chinese-ai-use/disclosure-proposal/2026-11-18",
+  "canonical_title": "US administration considers disclosure of Chinese AI use by US companies",
+  "aliases": [
+    "Treasury Chinese AI disclosure",
+    "White House Chinese AI reporting proposal"
+  ],
+  "organizations": [
+    "US Treasury",
+    "White House"
+  ],
+  "products": [
+    "Chinese AI models"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-18T23:28:00+09:00",
+  "last_seen_jst": "2026-11-18T23:28:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only for formal rule/report follow-up or independently verified material hard delta.",
+  "known_facts": [
+    "Reuters exclusive published 2026-11-18 11:02 UTC reports Treasury and White House discussed requiring US firms to disclose use of Chinese AI; proposal not enacted."
+  ],
+  "reinclude_only_if": [
+    "Official policy adopted, regulatory text published, new independently verified factual findings."
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.85,
+  "notes": "Night window; GitHub code search returned no match; midday full text not inspected."
+}
