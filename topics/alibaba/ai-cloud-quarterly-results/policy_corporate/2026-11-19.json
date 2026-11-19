@@ -1,0 +1,35 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "alibaba/ai-cloud-quarterly-results/policy_corporate/2026-11-19",
+  "canonical_title": "Alibaba reports 53 percent AI cloud revenue growth and export-rule exposure",
+  "aliases": [
+    "Alibaba September quarter AI cloud 53%",
+    "Alibaba AI Cloud 60.97 billion yuan"
+  ],
+  "organizations": [
+    "Alibaba"
+  ],
+  "products": [
+    "AI Cloud and Compute Services"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-19T23:32:37+09:00",
+  "last_seen_jst": "2026-11-19T23:32:37+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only for material product availability, independent measurements, or official financial/policy updates.",
+  "known_facts": [
+    "Reuters 2026-11-19 10:11 UTC: AI Cloud and Compute Services revenue rose 53% to 60.97 billion yuan.",
+    "CEO says November 16 US compute export controls may affect next year's products and services; impact still under evaluation."
+  ],
+  "reinclude_only_if": [
+    "Official new availability or specs, new verified financial or regulatory impact"
+  ],
+  "sources": [
+    "https://www.reuters.com/business/retail-consumer/chinas-alibaba-beats-quarterly-revenue-estimates-2026-11-19/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.92,
+  "notes": "Reuters post-noon JST; midday full text not available."
+}
