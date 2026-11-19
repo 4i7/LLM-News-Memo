@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "ovhcloud/european-ai-cloud-products/model_release/2026-11-19",
+  "canonical_title": "OVHcloud launches 55 Europe-hosted cloud and AI products",
+  "aliases": [
+    "OVHcloud 55 AI products",
+    "OVHcloud Olala Qwant"
+  ],
+  "organizations": [
+    "OVHcloud",
+    "Qwant"
+  ],
+  "products": [
+    "OVHcloud AI Cloud",
+    "Olala"
+  ],
+  "event_type": "other",
+  "first_seen_jst": "2026-11-19T23:32:37+09:00",
+  "last_seen_jst": "2026-11-19T23:32:37+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only for material product availability, independent measurements, or official financial/policy updates.",
+  "known_facts": [
+    "Reuters 2026-11-19 08:43 UTC: 55 Europe-hosted cloud and AI products launched.",
+    "OVHcloud says Qwant Olala-powered summaries handle up to 3 million queries daily; costs reduced to one-third."
+  ],
+  "reinclude_only_if": [
+    "Official new availability or specs, new verified financial or regulatory impact"
+  ],
+  "sources": [
+    "https://www.reuters.com/business/ovhcloud-launches-ai-cloud-products-hosted-europe-2026-11-19/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.92,
+  "notes": "Reuters post-noon JST; midday full text not available."
+}
