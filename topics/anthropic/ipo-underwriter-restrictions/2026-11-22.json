@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "anthropic/ipo-underwriter-restrictions/2026-11-22",
+  "canonical_title": "Anthropic IPO underwriter staffing and non-compete restrictions",
+  "aliases": [
+    "Project Lantern IPO restrictions",
+    "Anthropic unusual IPO process",
+    "Anthropic bankers non-compete"
+  ],
+  "organizations": [
+    "Anthropic",
+    "Reuters"
+  ],
+  "products": [],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-22T20:03:00+09:00",
+  "last_seen_jst": "2026-11-22T23:29:00+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Report new independently sourced IPO process facts; do not re-report IPO valuation or share-price movements without a hard delta.",
+  "known_facts": [
+    "Reuters exclusive published 2026-11-22 11:03 UTC reports some of 22 underwriting banks were asked to limit deal teams to four senior bankers.",
+    "Reuters sources say some senior bank officers were asked to accept six-month restrictions on covering competitors including OpenAI, Cursor, DeepSeek and Hugging Face.",
+    "Banks were given several hours to approve a corrected S-1A distributed around 2 a.m. New York time."
+  ],
+  "reinclude_only_if": [
+    "Anthropic or banks officially confirm or correct restrictions",
+    "Legal or regulatory action materially changes understanding"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "New Reuters reporting about IPO execution, separate from prior IPO price/valuation coverage; bank sources, Anthropic declined comment."
+}
