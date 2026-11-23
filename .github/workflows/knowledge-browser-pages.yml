@@ -1,0 +1,97 @@
+name: LLM News Knowledge Browser
+
+on:
+  pull_request:
+    paths:
+      - "topics/**"
+      - "runs/**"
+      - "reports/**"
+      - "okf/**"
+      - "state/llm-news-ledger.md"
+      - "site/**"
+      - "tools/build_site_catalog.py"
+      - "tools/requirements-site.txt"
+      - "tests/test_site_catalog.py"
+      - ".github/workflows/knowledge-browser-pages.yml"
+  push:
+    branches: [main]
+    paths:
+      - "topics/**"
+      - "runs/**"
+      - "reports/**"
+      - "okf/**"
+      - "state/llm-news-ledger.md"
+      - "site/**"
+      - "tools/build_site_catalog.py"
+      - "tools/requirements-site.txt"
+      - "tests/test_site_catalog.py"
+      - ".github/workflows/knowledge-browser-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: llm-news-browser-pages
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install site build requirements
+        run: python -m pip install --disable-pip-version-check -r tools/requirements-site.txt
+      - name: Verify source and catalog
+        run: |
+          python -m py_compile tools/build_site_catalog.py
+          python -m unittest discover -s tests -p 'test_site_catalog.py' -v
+          python tools/build_site_catalog.py --output site/catalog.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("site/catalog.json").read_text(encoding="utf-8"))
+          counts = data["counts"]
+          assert data["schemaVersion"] == 1
+          assert counts["total"] == len(data["documents"])
+          assert counts["topics"] > 0 and counts["runs"] > 0
+          assert counts["reports"] > 0 and counts["references"] > 0
+          assert len({doc["id"] for doc in data["documents"]}) == counts["total"]
+          assert not any(doc["path"].startswith(("archive/","state/llm-news-seen.jsonl")) for doc in data["documents"])
+          print("Catalog validation passed", counts)
+          PY
+      - name: Verify browser JavaScript
+        run: node --check site/app.js
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install site build requirements
+        run: python -m pip install --disable-pip-version-check -r tools/requirements-site.txt
+      - name: Generate current catalog
+        run: python tools/build_site_catalog.py --output site/catalog.json
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy GitHub Pages
+        uses: actions/deploy-pages@v4
+        id: deployment

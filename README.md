@@ -12,6 +12,23 @@ The canonical ledger remains intentionally narrow in scope:
 
 Do not put unrelated project knowledge, codebase notes, Hermes skills, LLM-Wiki material, or general development notes into the canonical LLM News state.
 
+## Web knowledge browser
+
+**HTML閲覧サイト:** [LLM News Memo Knowledge Browser](https://4i7.github.io/LLM-News-Memo/)
+
+Denno-Watchと同様、GitHub Pages上で検索・絞り込み・詳細閲覧を行えます。ブラウザから直接確認できる内容は以下の4種です。
+
+- **トピック** — `topics/**/*.json` の既報事実・運用上の扱い・続報の掲載条件・出典。
+- **実行ログ** — `runs/**/*.jsonl` の行単位のNEW / FOLLOW_UP / DUPLICATE / ONGOING_NO_NEWS / UNCONFIRMED_SIGNAL分類。既存トピックへのリンクも表示。
+- **レポート** — `reports/**/*.md` の本文をHTMLとして表示。通常のニュース重複排除には使用しません。
+- **ガイド** — `okf/**/*.md` と人間向け台帳要約を表示。
+
+`main` の対象ファイルへ変更が入るたび、[`knowledge-browser-pages.yml`](.github/workflows/knowledge-browser-pages.yml) がカタログを再構築しGitHub Pagesにデプロイします。新規ファイルも再帰探索で自動収録されるため、手作業で一覧を書き足す必要はありません。サイトは **読み取り専用** で、正本のJSON/JSONL/Markdownは変更しません。
+
+- 初回公開時はGitHub Actionsのデプロイ完了後に上記URLが有効になります。
+- カタログには現在のsharded topic / runと公開レポート・ガイドだけを取り込みます。過去の`archive/`および`state/llm-news-seen.jsonl`は閲覧カタログに含めず、既存のdedupe処理にも介入しません。
+- 手元で生成するには `python -m pip install -r tools/requirements-site.txt` の後に `python tools/build_site_catalog.py --output site/catalog.json` を実行します。生成物`site/catalog.json`は公開時に作られるビルド成果物です。
+
 ## Files
 
 | Path | Role |
