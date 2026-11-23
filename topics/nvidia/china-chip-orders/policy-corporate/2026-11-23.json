@@ -1,0 +1,36 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "nvidia/china-chip-orders/policy-corporate/2026-11-23",
+  "canonical_title": "Nvidia China customers cancel or defer AI-chip orders",
+  "aliases": [
+    "Nvidia China cancelled orders",
+    "Huang exit China GPU demand"
+  ],
+  "organizations": [
+    "Nvidia"
+  ],
+  "products": [
+    "AI GPUs"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-23T23:27:49+09:00",
+  "last_seen_jst": "2026-11-23T23:27:49+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only on a concrete new official action or independently verified operational change.",
+  "known_facts": [
+    "Reuters 2026-11-23 11:03 UTC reports Chinese customers cancelling or hesitating on Nvidia orders after Jensen Huang's departure, based on industry sources and procurement documents.",
+    "China and Hong Kong customer revenue rose from $2.97 billion in October 2025 quarter to $11.05 billion in October 2026 quarter; this is historical context, not a newly reported quarterly result."
+  ],
+  "reinclude_only_if": [
+    "Official bank control requirements or documented incident impact",
+    "New verified business impact, formal regulatory action or operational change"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/how-nvidias-billion-dollar-turnaround-china-is-threatened-by-huangs-exit-2026-11-23/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.86,
+  "notes": "Reuters report published after 12:00 JST; midday full text not available."
+}
