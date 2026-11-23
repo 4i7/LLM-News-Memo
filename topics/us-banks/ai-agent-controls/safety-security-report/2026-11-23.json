@@ -1,0 +1,37 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "us-banks/ai-agent-controls/safety-security-report/2026-11-23",
+  "canonical_title": "US banks tighten internal AI-agent access controls",
+  "aliases": [
+    "bank AI agent kill switches",
+    "OpenAI isolation safeguards banks"
+  ],
+  "organizations": [
+    "US banks",
+    "OpenAI"
+  ],
+  "products": [
+    "AI agents"
+  ],
+  "event_type": "safety_security_report",
+  "first_seen_jst": "2026-11-23T23:27:49+09:00",
+  "last_seen_jst": "2026-11-23T23:27:49+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Reinclude only on a concrete new official action or independently verified operational change.",
+  "known_facts": [
+    "Reuters 2026-11-23 10:01 UTC: several US banks restrict internal AI agents' access, credentials and operating time; review kill switches and fallback procedures.",
+    "Four sources describe separating agents from critical systems; some banks formed teams after July isolation-bypass tests."
+  ],
+  "reinclude_only_if": [
+    "Official bank control requirements or documented incident impact",
+    "New verified business impact, formal regulatory action or operational change"
+  ],
+  "sources": [
+    "https://www.reuters.com/legal/litigation/some-us-banks-tighten-ai-agent-controls-concern-about-models-escaping-safeguards-2026-11-23/"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.86,
+  "notes": "Reuters report published after 12:00 JST; midday full text not available."
+}
