@@ -1,0 +1,42 @@
+{
+  "record_type": "topic",
+  "schema_version": 2,
+  "topic_key": "eu/sovereign-tech-equity-fund/policy-corporate/2026-11-25",
+  "canonical_title": "European Commission proposes €50 billion sovereign tech equity fund",
+  "aliases": [
+    "Sovereign Tech Equity Fund",
+    "Quantum Act",
+    "EU €50 billion tech fund"
+  ],
+  "organizations": [
+    "European Commission",
+    "European Union"
+  ],
+  "products": [
+    "Sovereign Tech Equity Fund",
+    "Quantum Act"
+  ],
+  "event_type": "policy_corporate",
+  "first_seen_jst": "2026-11-25T23:30:14+09:00",
+  "last_seen_jst": "2026-11-25T23:30:14+09:00",
+  "last_report": "LLM Night Lite",
+  "coverage_status": "covered",
+  "treatment": "Repeat only on concrete legislative or financing progress.",
+  "known_facts": [
+    "Reuters reported the Commission proposal on November 25; syndicated publication 14:50 IST (18:20 JST).",
+    "Target €50 billion; draft Quantum Act remains subject to legislative negotiations.",
+    "Earlier FT-sourced report described AI and quantum investment; allocation not verified."
+  ],
+  "reinclude_only_if": [
+    "Official text or allocation details",
+    "Legislative adoption",
+    "Actual fund capitalization"
+  ],
+  "sources": [
+    "https://www.reuters.com/world/china/europe-plans-50-billion-sovereign-tech-equity-fund-boost-quantum-technology-2026-11-25/",
+    "https://www.livemint.com/technology/europe-plans-50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology-11795598456890.html"
+  ],
+  "seed_basis": "scheduled_run",
+  "confidence": 0.9,
+  "notes": "Repository search returned no matches; midday full text unavailable."
+}
