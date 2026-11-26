@@ -5,24 +5,32 @@
   "canonical_title": "US Commerce Department requires export licenses for advanced AI chips to third-country data centers",
   "aliases": [
     "remote computing AI chip rule",
-    "Singapore Malaysia Thailand Indonesia Brazil export licenses"
+    "Singapore Malaysia Thailand Indonesia Brazil export licenses",
+    "GLM-5.5 Kimi K4 compute delays",
+    "Nvidia Southeast Asia server shipment pause"
   ],
   "organizations": [
     "US Commerce Department",
-    "NVIDIA"
+    "NVIDIA",
+    "Z.AI",
+    "Moonshot AI"
   ],
   "products": [
-    "advanced AI chips"
+    "advanced AI chips",
+    "GLM-5.5",
+    "Kimi K4"
   ],
   "event_type": "policy_corporate",
   "first_seen_jst": "2026-11-16T22:46:00+09:00",
-  "last_seen_jst": "2026-11-16T22:46:00+09:00",
+  "last_seen_jst": "2026-11-26T23:28:11+09:00",
   "last_report": "LLM Night Lite",
   "coverage_status": "covered",
   "treatment": "New binding rule, distinct from November 13 regional scrutiny. Follow up only for official text, effective date, exemptions or enforcement changes.",
   "known_facts": [
     "Reuters November 16 13:46 UTC reports a new US rule requiring export license applications for advanced AI chips in Singapore, Thailand, Malaysia, Indonesia and Brazil.",
-    "Commerce Department aims to prevent circumvention through remote computing in third-country data centers."
+    "Commerce Department aims to prevent circumvention through remote computing in third-country data centers.",
+    "Nov 26 Reuters 07:19 UTC: anonymous sources say GLM-5.5 may slip into Q1 2027 or later; Moonshot major release cycles could double if overseas compute is lost. Anti-distillation measures are also cited. No official revised launch dates.",
+    "Nov 26 Reuters 05:09 UTC citing FT: Nvidia reportedly directed partners to pause server shipments to four Southeast Asian countries; duration and official company confirmation unknown. Rule effective Nov 19."
   ],
   "reinclude_only_if": [
     "Official rule text or implementation date changes",
@@ -30,7 +38,9 @@
     "Material enforcement or practical impact"
   ],
   "sources": [
-    "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/"
+    "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
+    "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+    "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/"
   ],
   "seed_basis": "scheduled_run",
   "confidence": 0.93,
